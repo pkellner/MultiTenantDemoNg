@@ -12,8 +12,8 @@ function bundle (bundler) {
             gutil.log(e.message);
         })
         .pipe(source('app.js'))
-        .pipe(gulp.dest('./dist'));
-        //.pipe(browserSync.stream());
+        .pipe(gulp.dest('./dist'))
+        .pipe(browserSync.stream());
 }
 
 gulp.task('watch', function () {
