@@ -11,3 +11,17 @@ browserify
 
 add --save tells npm to include the package dependencies inside packages.json (--save-dev and --save-optional will let you save the dependencies under devDepenencies and optionalDependencies).
 
+start building one tenant:
+
+create directory angu and put in index.js
+
+create gulp file in root (gulpfile.js)
+
+
+Add Angular and ui-router
+npm install angular  angular-ui-router --save
+
+add watchify and browser-sync
+npm install angular  watchify browser-sync --save
+
+
