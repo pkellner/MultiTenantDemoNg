@@ -1,30 +1,28 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-function AboutController ($scope) {
-   console.log('aboutcontroller');
+function AuthorController ($scope) {
+   console.log('authorcontroller');
 }
 
-AboutController.$inject = ['$scope'];
+AuthorController.$inject = ['$scope'];
 
-module.exports = AboutController;
+module.exports = AuthorController;
 },{}],2:[function(require,module,exports){
 'use strict';
 
 module.exports = require('angular')
-    .module('about', [])
-    .controller('AboutController', require('./controller'))
+    .module('author', [])
+    .controller('AuthorController', require('./controller'))
     .config(require('./states'))
     .name;
-},{"./controller":1,"./states":3,"angular":11}],3:[function(require,module,exports){
+},{"./controller":1,"./states":3,"angular":14}],3:[function(require,module,exports){
 'use strict';
 
 var exports = module.exports = function ($stateProvider) {
-    $stateProvider.state('about', {
-        url: '/about',
-        //parent: 'base',
-        template: '<b>ABOUT stat.js',
-        controller: 'AboutController',
-        controllerAs: 'about'
-
+    $stateProvider.state('author', {
+        url: '/author',
+        template: '<b>AUTHOR stat.js',
+        controller: 'AuthorController',
+        controllerAs: 'author'
     });
 };
 exports.$inject = ['$stateProvider'];
@@ -47,7 +45,7 @@ module.exports = require('angular')
     .controller('HomeController', require('./controller'))
     .config(require('./states'))
     .name;
-},{"./controller":4,"./states":6,"angular":11}],6:[function(require,module,exports){
+},{"./controller":4,"./states":6,"angular":14}],6:[function(require,module,exports){
 'use strict';
 
 var exports = module.exports = function ($stateProvider) {
@@ -69,7 +67,8 @@ module.exports = require('angular')
     .module('AngularUApp', [
         require('angular-ui-router'),
         require('./home'),
-        require('./about')
+        require('./speaker'),
+        require('./author')
     ])
     .config(enableHtml5Mode)
     .name;
@@ -80,9 +79,38 @@ function enableHtml5Mode($locationProvider) {
     $locationProvider.html5Mode(true);
 }
 
-},{"./about":2,"./home":5,"angular":11,"angular-ui-router":9}],8:[function(require,module,exports){
+},{"./author":2,"./home":5,"./speaker":9,"angular":14,"angular-ui-router":12}],8:[function(require,module,exports){
+function SpeakerController ($scope) {
+   console.log('speakercontroller');
+}
+
+SpeakerController.$inject = ['$scope'];
+
+module.exports = SpeakerController;
+},{}],9:[function(require,module,exports){
+'use strict';
+
+module.exports = require('angular')
+    .module('speaker', [])
+    .controller('SpeakerController', require('./controller'))
+    .config(require('./states'))
+    .name;
+},{"./controller":8,"./states":10,"angular":14}],10:[function(require,module,exports){
+'use strict';
+
+var exports = module.exports = function ($stateProvider) {
+    $stateProvider.state('speaker', {
+        url: '/speaker',
+        template: '<b>SPEAKER stat.js',
+        controller: 'SpeakerController',
+        controllerAs: 'speaker'
+    });
+};
+exports.$inject = ['$stateProvider'];
+
+},{}],11:[function(require,module,exports){
 require('./src');
-},{"./src":7}],9:[function(require,module,exports){
+},{"./src":7}],12:[function(require,module,exports){
 /**
  * State-based routing for AngularJS
  * @version v0.2.15
@@ -4453,7 +4481,7 @@ angular.module('ui.router.state')
   .filter('isState', $IsStateFilter)
   .filter('includedByState', $IncludedByStateFilter);
 })(window, window.angular);
-},{}],10:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 /**
  * @license AngularJS v1.5.0-beta.2
  * (c) 2010-2015 Google, Inc. http://angularjs.org
@@ -33854,8 +33882,8 @@ $provide.value("$locale", {
 })(window, document);
 
 !window.angular.$$csp().noInlineStyle && window.angular.element(document.head).prepend('<style type="text/css">@charset "UTF-8";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>');
-},{}],11:[function(require,module,exports){
+},{}],14:[function(require,module,exports){
 require('./angular');
 module.exports = angular;
 
-},{"./angular":10}]},{},[8]);
+},{"./angular":13}]},{},[11]);

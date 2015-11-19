@@ -4,7 +4,8 @@ module.exports = require('angular')
     .module('AngularUApp', [
         require('angular-ui-router'),
         require('./home'),
-        require('./about')
+        require('./speaker'),
+        require('./author')
     ])
     .config(enableHtml5Mode)
     .name;
