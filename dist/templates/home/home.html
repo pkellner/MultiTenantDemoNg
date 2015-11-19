@@ -1,7 +1,46 @@
 <!-- uiView:  -->
 
-<div ui-view="" ui-view-name="entry-view" ><!-- uiView: header -->
-    <div ui-view="header" >
+<div ui-view="" ui-view-name="entry-view"><!-- uiView: header -->
+    <div ui-view="header">
+
+
+        <nav class="nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <nav-toggle ng-click="nav.toggle()">
+                            <button class="nav--toggle icon-nav">
+
+
+                                <a href="/ng"> <span class="icon-burger"></span></a>
+
+
+                            </button>
+                        </nav-toggle>
+                        <page-nav open="nav.isOpen" class="ng-isolate-scope">
+                            <ul class="nav--list" ng-class="{'open': pages.open}">
+
+                                <li>
+                                    <a href="/ng/Videos">HOME</a>
+                                </li>
+
+                                <li>
+                                    <a href="/ng/Videos">Speakers</a>
+                                </li>
+
+                                <li>
+                                    <a href="/ng/Videos">Pluralsight Authors</a>
+                                </li>
+
+
+                            </ul>
+                        </page-nav>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
 
         <div class="body-bag ng-scope">
             <section class="hero" style="">
