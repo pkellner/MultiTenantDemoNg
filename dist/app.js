@@ -50,7 +50,7 @@ module.exports = require('angular')
 
 var exports = module.exports = function ($stateProvider) {
     $stateProvider.state('home', {
-        url: '/xxx',
+        url: '/',
         //parent: 'base',
         templateUrl: '/templates/home/home.html',
         controller: 'HomeController',
@@ -99,8 +99,8 @@ module.exports = require('angular')
 
 var exports = module.exports = function ($stateProvider) {
     $stateProvider.state('speaker', {
-        //url: '/speaker',
-        url: '/',
+        url: '/speaker',
+        //url: '/',
         templateUrl: '/templates/speaker/speaker.html',
         //template: '<b>SPEAKER stat.js',
         controller: 'SpeakerController',
