@@ -2,7 +2,8 @@
 
 var exports = module.exports = function ($stateProvider) {
     $stateProvider.state('home', {
-        url: '/',
+        url: '/home',
+        //parent: 'base',
         template: '<b>HOME stat.js',
         controller: 'HomeController',
         controllerAs: 'home'

@@ -2,7 +2,8 @@
 
 var exports = module.exports = function ($stateProvider) {
     $stateProvider.state('about', {
-        url: '/',
+        url: '/about',
+        //parent: 'base',
         template: '<b>ABOUT stat.js',
         controller: 'AboutController',
         controllerAs: 'about'

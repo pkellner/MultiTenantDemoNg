@@ -11,5 +11,6 @@ module.exports = require('angular')
 
 enableHtml5Mode.$inject = ['$locationProvider'];
 function enableHtml5Mode($locationProvider) {
+    console.log('enableHtml5Mode');
     $locationProvider.html5Mode(true);
 }

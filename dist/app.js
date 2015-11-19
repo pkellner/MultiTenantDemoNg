@@ -19,7 +19,8 @@ module.exports = require('angular')
 
 var exports = module.exports = function ($stateProvider) {
     $stateProvider.state('about', {
-        url: '/',
+        url: '/about',
+        //parent: 'base',
         template: '<b>ABOUT stat.js',
         controller: 'AboutController',
         controllerAs: 'about'
@@ -51,7 +52,8 @@ module.exports = require('angular')
 
 var exports = module.exports = function ($stateProvider) {
     $stateProvider.state('home', {
-        url: '/',
+        url: '/home',
+        //parent: 'base',
         template: '<b>HOME stat.js',
         controller: 'HomeController',
         controllerAs: 'home'
@@ -74,6 +76,7 @@ module.exports = require('angular')
 
 enableHtml5Mode.$inject = ['$locationProvider'];
 function enableHtml5Mode($locationProvider) {
+    console.log('enableHtml5Mode');
     $locationProvider.html5Mode(true);
 }
 
