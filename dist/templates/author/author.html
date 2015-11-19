@@ -1,0 +1,467 @@
+
+
+<!-- uiView:  --><div ui-view="" ui-view-name="entry-view" class="ng-scope"><!-- uiView: header --><div ui-view="header" class="ng-scope"><main-nav class="ng-scope ng-isolate-scope"><nav class="nav">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <nav-toggle ng-click="nav.toggle()"><button class="nav--toggle icon-nav">
+                    <span class="icon-burger"></span>
+                </button>
+                </nav-toggle>
+                <page-nav open="nav.isOpen" class="ng-isolate-scope"><ul class="nav--list" ng-class="{'open': pages.open}">
+                    <state-nav-item state="home" class="ng-isolate-scope"><li ng-class="{active: link.active}">
+                        <a ui-sref="home" href="/ng/">
+                            <ng-transclude>
+                                <span class="icon-home ng-scope"></span><span class="sr-only ng-scope">Home</span>
+                            </ng-transclude>
+                        </a>
+                    </li></state-nav-item>
+                    <!-- ngIf: pages.show('speakers') --><state-nav-item state="speakers" ng-if="pages.show('speakers')" class="ng-scope ng-isolate-scope"><li ng-class="{active: link.active}">
+                    <a ui-sref="speakers" href="/ng/speaker">
+                        <ng-transclude><span class="ng-scope">
+    Speakers
+  </span></ng-transclude>
+                    </a>
+                </li></state-nav-item><!-- end ngIf: pages.show('speakers') -->
+                    <!-- ngIf: pages.show('sessions') --><state-nav-item state="sessions" ng-if="pages.show('sessions')" class="ng-scope ng-isolate-scope"><li ng-class="{active: link.active}">
+                    <a ui-sref="sessions" href="/ng/session">
+                        <ng-transclude><span class="ng-scope">
+    Sessions
+  </span></ng-transclude>
+                    </a>
+                </li></state-nav-item><!-- end ngIf: pages.show('sessions') -->
+                    <!-- ngIf: pages.show('overview') --><state-nav-item state="overview" ng-if="pages.show('overview')" class="ng-scope ng-isolate-scope"><li ng-class="{active: link.active}">
+                    <a ui-sref="overview" href="/ng/overview">
+                        <ng-transclude><span class="ng-scope">
+    Agenda
+  </span></ng-transclude>
+                    </a>
+                </li></state-nav-item><!-- end ngIf: pages.show('overview') -->
+                    <!-- ngIf: pages.show('pricing') -->
+                    <!-- ngIf: pages.show('fun') --><state-nav-item state="fun" ng-if="pages.show('fun')" class="ng-scope ng-isolate-scope"><li ng-class="{active: link.active}">
+                    <a ui-sref="fun" href="/ng/fun">
+                        <ng-transclude><span class="ng-scope">
+    Fun
+  </span></ng-transclude>
+                    </a>
+                </li></state-nav-item><!-- end ngIf: pages.show('fun') -->
+                    <li ng-controller="NavController as more" class="hidden-xs ng-scope">
+                        <a href="#" class="nav--more" ng-click="more.toggle()">More</a>
+                        <!-- toggle 'open' class for to open/close nav dropdown -->
+                        <div class="nav--drop open ng-hide" ng-show="more.isOpen">
+                            <ul class="nav--drop--list">
+                                <li><a href="Videos">Videos</a></li>
+                                <li><a href="/News">News</a></li>
+                                <li><a href="/Angu/CommunityEvent">Community Event 6/23</a></li>
+                                <li><a href="pluralsight">Pluralsight Courses</a></li>
+
+                                <!--<li><a href="">Sponsors</a></li>-->
+                                <!--<li><a href="">About AngularU</a></li>-->
+                            </ul>
+                            <div class="social alt">
+                                <h4>Follow us on: </h4>
+                                <ul>
+                                    <li><a href="http://twitter.com/angularu" target="_blank" class="icon-twitter"></a></li>
+                                    <li><a href="https://www.facebook.com/angularu" target="_blank" class="icon-fb"></a></li>
+                                    <li><a href="https://plus.google.com/b/100446488804563546766/" target="_blank" class="icon-gplus"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <!--<li class="visible-xs">-->
+                    <!--<a href="/angu/purchasetickets">Buy Ticket</a>-->
+                    <!--</li>-->
+                    <li class="visible-xs">
+                        <a href="/ng/Videos">Videos</a>
+                    </li>
+                    <!--<li class="visible-xs">-->
+                    <!--<a href="/angu/CommunityEvent">Community Event June 23</a>-->
+                    <!--</li>-->
+                    <li class="visible-xs">
+                        <a href="pluralsight">Pluralsight Courses</a>
+                    </li>
+                    <!-- ngIf: pages.hotelBookingUrl --><li ng-if="pages.hotelBookingUrl" class="visible-xs ng-scope">
+                    <a ng-href="https://angularu.com/angu/hotels" href="https://angularu.com/angu/hotels">Book a hotel room</a>
+                </li><!-- end ngIf: pages.hotelBookingUrl -->
+
+
+                </ul>
+                </page-nav>
+            </div>
+            <div class="col-md-7">
+                <ticket-signup><div class="ping-tickets">
+
+
+                    <a ng-hide="ticket.purchaseUrl.length == 0" ng-href="" class="btn btn-primary ng-hide">
+                        Buy Ticket
+                    </a>
+                    <!-- ngIf: ticket.hotelBookingUrl -->
+                </div>
+                </ticket-signup>
+                <user-nav class="ng-isolate-scope"><div class="nav--user" ng-class="{'open': userNav.isOpen}" ng-click="userNav.toggle()">
+                    <button class="nav--user--toggle icon-user"></button>
+                    <a class="nav--user--name ng-binding ng-hide" ng-show="userNav.username"></a>
+                    <a class="nav--user--name" href="#" ng-hide="userNav.username">login</a>
+                    <ul class="nav--list nav--user--list" ng-class="{'open': userNav.isOpen}">
+                        <li ng-hide="userNav.username">
+                            <a href="/Account/Login">Login</a>
+                        </li>
+                        <li ng-hide="userNav.username">
+                            <a href="/Register/ForgotPassword">Forgot Password</a>
+                        </li>
+                        <li ng-show="userNav.username" class="ng-hide">
+                            <a href="/Register/ForgotPassword">Reset Password</a>
+                        </li>
+                        <li>
+                            <a href="/Angu/CallForPapers">Call For Speakers</a>
+                        </li>
+                        <li ng-show="userNav.username" class="ng-hide">
+                            <a href="/Account/Logout">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+                </user-nav>
+            </div>
+        </div>
+    </div>
+</nav>
+</main-nav>
+    <div class="body-bag ng-scope">
+        <section class="hero" style="">
+            <h1 class="hero--heading"><span class="brand--logo angular"></span>Angular U</h1>
+            <!--<span ng-click="googleMap()" class="hero&#45;&#45;extra">June 22 to 25 2015 - Hyatt Regency, San&nbsp;Francisco Airport</span>-->
+        </section>
+    </div>
+</div>
+    <!-- uiView:  --><div ui-view="" autoscroll="" class="ng-scope"><!--The sponsors include {{sponsors.foo}}-->
+
+        <div id="videos" class="container ng-scope">
+            <div class="separator">
+                <span class="separator--icon icon-code"></span>
+            </div>
+
+            <h1 class="type--lead">Pluralsight Courses</h1>
+
+            <div class="persona--container">
+
+
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <td valign="top" width="150" colspan="2">Course Author</td>
+
+
+                        <td valign="top" width="200">Plurasight Course(s)</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <!-- ngRepeat: author in sponsors.pluralsightAuthors --><tr ng-repeat="author in sponsors.pluralsightAuthors" class="ng-scope">
+
+                        <td valign="top" width="100">
+                            <img ng-src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20131216053752-14842.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff" src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20131216053752-14842.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff">
+                        </td>
+
+                        <td valign="top"><a class="type--color ng-binding" href="speaker/2015sf/dan-wahlin-14842" target="_blank">Dan Wahlin</a></td>
+
+
+                        <td valign="top"><a class="type--color" href="https://www.shareasale.com/r.cfm?u=1015006&amp;b=611266&amp;m=53701&amp;afftrack=&amp;urllink=www%2Epluralsight%2Ecom%2Fauthor%2FDan%2DWahlin" target="_blank">Courses</a></td>
+
+                    </tr><!-- end ngRepeat: author in sponsors.pluralsightAuthors --><tr ng-repeat="author in sponsors.pluralsightAuthors" class="ng-scope">
+
+                        <td valign="top" width="100">
+                            <img ng-src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150218195858-31707.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff" src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150218195858-31707.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff">
+                        </td>
+
+                        <td valign="top"><a class="type--color ng-binding" href="speaker/2015sf/john-papa-31707" target="_blank">John Papa</a></td>
+
+
+                        <td valign="top"><a class="type--color" href="https://www.shareasale.com/r.cfm?u=1015006&amp;b=611266&amp;m=53701&amp;afftrack=&amp;urllink=www%2Epluralsight%2Ecom%2Fauthor%2FJohn%2DPapa" target="_blank">Courses</a></td>
+
+                    </tr><!-- end ngRepeat: author in sponsors.pluralsightAuthors --><tr ng-repeat="author in sponsors.pluralsightAuthors" class="ng-scope">
+
+                        <td valign="top" width="100">
+                            <img ng-src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20131213212414-1124.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff" src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20131213212414-1124.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff">
+                        </td>
+
+                        <td valign="top"><a class="type--color ng-binding" href="speaker/2015sf/douglas-crockford-1124" target="_blank">Douglas Crockford</a></td>
+
+
+                        <td valign="top"><a class="type--color" href="https://www.shareasale.com/r.cfm?u=1015006&amp;b=611266&amp;m=53701&amp;afftrack=&amp;urllink=www%2Epluralsight%2Ecom%2Fauthor%2FDouglas%2DCrockford" target="_blank">Courses</a></td>
+
+                    </tr><!-- end ngRepeat: author in sponsors.pluralsightAuthors --><tr ng-repeat="author in sponsors.pluralsightAuthors" class="ng-scope">
+
+                        <td valign="top" width="100">
+                            <img ng-src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150218182751-31682.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff" src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150218182751-31682.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff">
+                        </td>
+
+                        <td valign="top"><a class="type--color ng-binding" href="speaker/2015sf/misko-hevery-31682" target="_blank">Misko Hevery</a></td>
+
+
+                        <td valign="top"><a class="type--color" href="https://www.shareasale.com/r.cfm?u=1015006&amp;b=611266&amp;m=53701&amp;afftrack=&amp;urllink=www%2Epluralsight%2Ecom%2Fauthor%2FMisko%2DHevery" target="_blank">Courses</a></td>
+
+                    </tr><!-- end ngRepeat: author in sponsors.pluralsightAuthors --><tr ng-repeat="author in sponsors.pluralsightAuthors" class="ng-scope">
+
+                        <td valign="top" width="100">
+                            <img ng-src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150211122105-2000.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff" src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150211122105-2000.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff">
+                        </td>
+
+                        <td valign="top"><a class="type--color ng-binding" href="speaker/2015sf/ward-bell-2000" target="_blank">Ward Bell</a></td>
+
+
+                        <td valign="top"><a class="type--color" href="https://www.shareasale.com/r.cfm?u=1015006&amp;b=611266&amp;m=53701&amp;afftrack=&amp;urllink=www%2Epluralsight%2Ecom%2Fauthor%2FWard%2DBell" target="_blank">Courses</a></td>
+
+                    </tr><!-- end ngRepeat: author in sponsors.pluralsightAuthors --><tr ng-repeat="author in sponsors.pluralsightAuthors" class="ng-scope">
+
+                        <td valign="top" width="100">
+                            <img ng-src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150217204923-31688.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff" src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150217204923-31688.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff">
+                        </td>
+
+                        <td valign="top"><a class="type--color ng-binding" href="speaker/2015sf/andrew-connell-31688" target="_blank">Andrew Connell</a></td>
+
+
+                        <td valign="top"><a class="type--color" href="https://www.shareasale.com/r.cfm?u=1015006&amp;b=611266&amp;m=53701&amp;afftrack=&amp;urllink=www%2Epluralsight%2Ecom%2Fauthor%2FAndrew%2DConnell" target="_blank">Courses</a></td>
+
+                    </tr><!-- end ngRepeat: author in sponsors.pluralsightAuthors --><tr ng-repeat="author in sponsors.pluralsightAuthors" class="ng-scope">
+
+                        <td valign="top" width="100">
+                            <img ng-src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150304005103-31783.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff" src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150304005103-31783.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff">
+                        </td>
+
+                        <td valign="top"><a class="type--color ng-binding" href="speaker/2015sf/joe-eames-31783" target="_blank">Joe Eames</a></td>
+
+
+                        <td valign="top"><a class="type--color" href="https://www.shareasale.com/r.cfm?u=1015006&amp;b=611266&amp;m=53701&amp;afftrack=&amp;urllink=www%2Epluralsight%2Ecom%2Fauthor%2FJoe%2DEames" target="_blank">Courses</a></td>
+
+                    </tr><!-- end ngRepeat: author in sponsors.pluralsightAuthors --><tr ng-repeat="author in sponsors.pluralsightAuthors" class="ng-scope">
+
+                        <td valign="top" width="100">
+                            <img ng-src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150226041255-653.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff" src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150226041255-653.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff">
+                        </td>
+
+                        <td valign="top"><a class="type--color ng-binding" href="speaker/2015sf/deborah-kurata-653" target="_blank">Deborah Kurata</a></td>
+
+
+                        <td valign="top"><a class="type--color" href="https://www.shareasale.com/r.cfm?u=1015006&amp;b=611266&amp;m=53701&amp;afftrack=&amp;urllink=www%2Epluralsight%2Ecom%2Fauthor%2FDeborah%2DKurata" target="_blank">Courses</a></td>
+
+                    </tr><!-- end ngRepeat: author in sponsors.pluralsightAuthors --><tr ng-repeat="author in sponsors.pluralsightAuthors" class="ng-scope">
+
+                        <td valign="top" width="100">
+                            <img ng-src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150217212410-31685.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff" src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150217212410-31685.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff">
+                        </td>
+
+                        <td valign="top"><a class="type--color ng-binding" href="speaker/2015sf/lukas-ruebbelke-31685" target="_blank">Lukas Ruebbelke</a></td>
+
+
+                        <td valign="top"><a class="type--color" href="https://www.shareasale.com/r.cfm?u=1015006&amp;b=611266&amp;m=53701&amp;afftrack=&amp;urllink=www%2Epluralsight%2Ecom%2Fauthor%2FLukas%2DRuebbelke" target="_blank">Courses</a></td>
+
+                    </tr><!-- end ngRepeat: author in sponsors.pluralsightAuthors --><tr ng-repeat="author in sponsors.pluralsightAuthors" class="ng-scope">
+
+                        <td valign="top" width="100">
+                            <img ng-src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/903.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff" src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/903.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff">
+                        </td>
+
+                        <td valign="top"><a class="type--color ng-binding" href="pluralsight" target="_blank">Peter Kellner</a></td>
+
+
+                        <td valign="top"><a class="type--color" href="https://www.shareasale.com/r.cfm?u=1015006&amp;b=611266&amp;m=53701&amp;afftrack=&amp;urllink=www%2Epluralsight%2Ecom%2Fauthor%2FPeter%2DKellner" target="_blank">Courses</a></td>
+
+                    </tr><!-- end ngRepeat: author in sponsors.pluralsightAuthors --><tr ng-repeat="author in sponsors.pluralsightAuthors" class="ng-scope">
+
+                        <td valign="top" width="100">
+                            <img ng-src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150406163122-6220.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff" src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150406163122-6220.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff">
+                        </td>
+
+                        <td valign="top"><a class="type--color ng-binding" href="speaker/2015sf/justin-schwartzenberger-6220" target="_blank">Justin Schwartzenberger</a></td>
+
+
+                        <td valign="top"><a class="type--color" href="https://www.shareasale.com/r.cfm?u=1015006&amp;b=611266&amp;m=53701&amp;afftrack=&amp;urllink=www%2Epluralsight%2Ecom%2Fauthor%2FJustin%2DSchwarty" target="_blank">Courses</a></td>
+
+                    </tr><!-- end ngRepeat: author in sponsors.pluralsightAuthors --><tr ng-repeat="author in sponsors.pluralsightAuthors" class="ng-scope">
+
+                        <td valign="top" width="100">
+                            <img ng-src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150306071301-31799.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff" src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150306071301-31799.jpg?format=jpg&amp;height=50&amp;width=50&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff">
+                        </td>
+
+                        <td valign="top"><a class="type--color ng-binding" href="speaker/2015sf/kyle-simpson-31799" target="_blank">Kyle Simpson</a></td>
+
+
+                        <td valign="top"><a class="type--color" href="https://www.shareasale.com/r.cfm?u=1015006&amp;b=611266&amp;m=53701&amp;afftrack=&amp;urllink=www%2Epluralsight%2Ecom%2Fauthor%2FKyle%2DSimpson" target="_blank">Courses</a></td>
+
+                    </tr><!-- end ngRepeat: author in sponsors.pluralsightAuthors -->
+                    </tbody>
+                </table>
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <!-- uiView: footer --><div ui-view="footer" class="ng-scope"><div id="sponsors" class="nav--section container ng-scope">
+        <div class="separator">
+            <span class="separator--icon icon-heart"></span>
+        </div>
+
+
+        <h2 class="type--lead">Premiere Sponsor</h2>
+        <ul class="sponsor--list">
+            <li class="sponsor sponsor--premiere">
+                <a href="http://rangle.io/" target="_blank"><img class="sponsor--img" ng-src="https://angularu.com/content/ng/angu/images/rangleio-logo-rgb.jpg" alt="Rangle.io" src="https://angularu.com/content/ng/angu/images/rangleio-logo-rgb.jpg"></a>
+            </li>
+            <!--<li class="sponsor sponsor&#45;&#45;premiere">-->
+            <!--<a ng-href="http://go.rangle.io/women?utm_campaign=Women%27s%20Initiative%20AngularU%20Contest&utm_medium=web&utm_source=AngularU%20Website%20News" target="_blank"><img class="sponsor&#45;&#45;img"-->
+            <!--ng-src="https://angularu.com/miscpages/AU-contest-au-ad.jpg"-->
+            <!--alt="Rangle.io Woman who code contest"></a>-->
+            <!--</li>-->
+        </ul>
+
+
+
+        <h2 class="type--lead">Gold Sponsors</h2>
+        <ul class="sponsor--list">
+            <li class="sponsor sponsor--gold">
+                <a ng-href="http://form.io/" target="_blank" href="http://form.io/"><img class="sponsor--img" ng-src="https://angularu.com/content/ng/angu/images/formio-logo-full.png" alt="formio" src="https://angularu.com/content/ng/angu/images/formio-logo-full.png"></a>
+            </li>
+            <li class="sponsor sponsor--gold">
+                <a ng-href="http://orcsweb.com/" target="_blank" href="http://orcsweb.com/"><img class="sponsor--img" ng-src="https://angularu.com/content/ng/angu/images/orcsweb.png" alt="Orcsweb" src="https://angularu.com/content/ng/angu/images/orcsweb.png"></a>
+            </li>
+
+            <li class="sponsor sponsor--gold">
+                <a ng-href="https://microsoft.com" target="_blank" href="https://microsoft.com"><img class="sponsor--img" ng-src="https://angularu.com/content/ng/angu/images/mslogo.png" alt="Microsoft" src="https://angularu.com/content/ng/angu/images/mslogo.png"></a>
+            </li>
+
+        </ul>
+
+        <h2 class="type--lead">Silver Sponsors</h2>
+        <ul class="sponsor--list">
+            <li class="sponsor sponsor--silver">
+                <a ng-href="http://pluralsight.com/" target="_blank" href="http://pluralsight.com/"><img class="sponsor--img" ng-src="https://angularu.com/content/ng/angu/images/pluralsight-141-90.png" alt="Puralsight" src="https://angularu.com/content/ng/angu/images/pluralsight-141-90.png"></a>
+            </li>
+
+            <li class="sponsor sponsor--silver">
+                <a ng-href="https://developers.braintreepayments.com" target="_blank" href="https://developers.braintreepayments.com"><img class="sponsor--img" ng-src="https://angularu.com/content/ng/angu/images/Braintree_Master_Logo_Crop.png" alt="Braintree PayPal" src="https://angularu.com/content/ng/angu/images/Braintree_Master_Logo_Crop.png"></a>
+            </li>
+
+
+
+
+        </ul>
+
+
+
+        <h2 class="type--lead">Media Partners</h2>
+        <ul class="sponsor--list">
+            <li class="sponsor sponsor--silver">
+                <a ng-href="https://www.airpair.com/angularjs " target="_blank" href="https://www.airpair.com/angularjs"><img class="sponsor--img" ng-src="https://angularu.com/sponsorimage/20140724233256-877.jpg?format=jpg&amp;width=250" alt="AirPair" src="https://angularu.com/sponsorimage/20140724233256-877.jpg?format=jpg&amp;width=250"></a>
+            </li>
+        </ul>
+
+        <!--<ul class="sponsor&#45;&#45;list">-->
+        <!--<li class="sponsor sponsor&#45;&#45;gold">-->
+        <!--<a ng-href="#"><img class="sponsor&#45;&#45;img" src="http://placekitten.com/g/300" alt=""></a>-->
+        <!--</li>-->
+        <!--<li class="sponsor sponsor&#45;&#45;gold">-->
+        <!--<a ng-href="#"><img class="sponsor&#45;&#45;img" src="http://placekitten.com/g/300" alt=""></a>-->
+        <!--</li>-->
+        <!--</ul>-->
+
+        <!--<ul class="sponsor&#45;&#45;list">-->
+        <!--<li class="sponsor sponsor&#45;&#45;silver">-->
+        <!--<a ng-href="#"><img class="sponsor&#45;&#45;img" src="http://placekitten.com/g/300" alt=""></a>-->
+        <!--</li>-->
+        <!--<li class="sponsor sponsor&#45;&#45;silver">-->
+        <!--<a ng-href="#"><img class="sponsor&#45;&#45;img" src="http://placekitten.com/g/300" alt=""></a>-->
+        <!--</li>-->
+        <!--<li class="sponsor sponsor&#45;&#45;silver">-->
+        <!--<a ng-href="#"><img class="sponsor&#45;&#45;img" src="http://placekitten.com/g/300" alt=""></a>-->
+        <!--</li>-->
+        <!--<li class="sponsor sponsor&#45;&#45;silver">-->
+        <!--<a ng-href="#"><img class="sponsor&#45;&#45;img" src="http://placekitten.com/g/300" alt=""></a>-->
+        <!--</li>-->
+        <!--<li class="sponsor sponsor&#45;&#45;silver">-->
+        <!--<a ng-href="#"><img class="sponsor&#45;&#45;img" src="http://placekitten.com/g/300" alt=""></a>-->
+        <!--</li>-->
+        <!--</ul>-->
+
+        <div class="text-center">
+            <a ng-href="mailto:sponsor@angularu.com" class="btn btn-primary btn-lg" href="mailto:sponsor@angularu.com">Become a sponsor</a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+        <footer class="footer ng-scope">
+            <div class="footer--top">
+
+                <div class="container">
+                    <div class="row">
+                        <!--<div class="col-md-7">-->
+                        <!--<div class="ping-tickets">-->
+                        <!--<label for="pingMeEmail2">Ping me when tickets go on sale:</label>-->
+                        <!--<div class="input-group">-->
+                        <!--<input type="text" class="form-control" id="pingMeEmail2" class="input-" ng-model="pingMeEmailAddress" name="pingMeEmail" placeholder="My Email">-->
+                        <!--<span class="input-group-btn">-->
+                        <!--<button ng-click="$scope.anguPingMe" class="btn btn-primary" type="button">OK</button>-->
+                        <!--</span>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <div class="col-md-12 footer--contact">
+                            <a ng-href="https://angularu.com/about/Privacy" href="https://angularu.com/about/Privacy">Privacy</a>
+                            <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                            <a ng-href="https://angularu.com/about/CodeOfConduct" href="https://angularu.com/about/CodeOfConduct">Code of Conduct</a>
+                            <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                            <a ng-href="mailto:service2015@angularu.com" href="mailto:service2015@angularu.com">Contact us</a>
+                            <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                            <div class="social alt">
+                                <h4>Follow us on:</h4>
+                                <ul>
+                                    <li><a ng-href="http://twitter.com/angularu" target="_blank" class="icon-twitter" href="http://twitter.com/angularu"></a></li>
+                                    <li><a ng-href="https://www.facebook.com/angularu" target="_blank" class="icon-fb" href="https://www.facebook.com/angularu"></a></li>
+                                    <li><a ng-href="https://plus.google.com/u/0/communities/100721362580915494668" target="_blank" class="icon-gplus" href="https://plus.google.com/u/0/communities/100721362580915494668"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sponsors">
+
+                <div class="container">
+                    <section class="sponsor--box ng-hide" ng-show="(vm.sponsors | filter: {sponsorSupportLevel: 'Platinum'}).length &gt; 0">
+                        <h3 class="uppercase">Platinum</h3>
+                        <div class="sponsor--links">
+                            <!-- ngRepeat: sponsor in vm.sponsors | filter: {sponsorSupportLevel: 'Platinum'} -->
+                        </div>
+                    </section>
+
+                    <section class="sponsor--box ng-hide" ng-show="(vm.sponsors | filter: {sponsorSupportLevel: 'Gold'}).length &gt; 0">
+                        <h3 class="uppercase">Gold</h3>
+                        <div class="sponsor--links">
+                            <!-- ngRepeat: sponsor in vm.sponsors | filter: {sponsorSupportLevel: 'Gold'} -->
+                        </div>
+                    </section>
+
+                    <section class="sponsor--box ng-hide" ng-show="(vm.sponsors | filter: {sponsorSupportLevel: 'Silver'}).length &gt; 0">
+                        <h3 class="uppercase">Silver</h3>
+                        <div class="sponsor--links">
+                            <!-- ngRepeat: sponsor in vm.sponsors | filter: {sponsorSupportLevel: 'Silver'} -->
+                        </div>
+                    </section>
+
+
+
+
+
+
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+

@@ -20,7 +20,7 @@ module.exports = require('angular')
 var exports = module.exports = function ($stateProvider) {
     $stateProvider.state('author', {
         url: '/author',
-        template: '<b>AUTHOR stat.js',
+        templateUrl: '/templates/author/author.html',
         controller: 'AuthorController',
         controllerAs: 'author'
     });
@@ -50,12 +50,11 @@ module.exports = require('angular')
 
 var exports = module.exports = function ($stateProvider) {
     $stateProvider.state('home', {
-        url: '/home',
+        url: '/xxx',
         //parent: 'base',
-        template: '<b>HOME stat.js',
+        templateUrl: '/templates/home/home.html',
         controller: 'HomeController',
         controllerAs: 'home'
-
     });
 };
 exports.$inject = ['$stateProvider'];
@@ -100,8 +99,10 @@ module.exports = require('angular')
 
 var exports = module.exports = function ($stateProvider) {
     $stateProvider.state('speaker', {
-        url: '/speaker',
-        template: '<b>SPEAKER stat.js',
+        //url: '/speaker',
+        url: '/',
+        templateUrl: '/templates/speaker/speaker.html',
+        //template: '<b>SPEAKER stat.js',
         controller: 'SpeakerController',
         controllerAs: 'speaker'
     });

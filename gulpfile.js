@@ -34,3 +34,7 @@ gulp.task('js', function () {
     return bundle(browserify('./angu/index.js'));
 });
 
+gulp.task('copyfiles', function () {
+    gulp.src('angu/src/**/*.html')
+        .pipe(gulp.dest('dist/templates/'));
+});

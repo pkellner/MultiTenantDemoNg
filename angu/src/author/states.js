@@ -3,7 +3,7 @@
 var exports = module.exports = function ($stateProvider) {
     $stateProvider.state('author', {
         url: '/author',
-        template: '<b>AUTHOR stat.js',
+        templateUrl: '/templates/author/author.html',
         controller: 'AuthorController',
         controllerAs: 'author'
     });

@@ -2,12 +2,11 @@
 
 var exports = module.exports = function ($stateProvider) {
     $stateProvider.state('home', {
-        url: '/home',
+        url: '/xxx',
         //parent: 'base',
-        template: '<b>HOME stat.js',
+        templateUrl: '/templates/home/home.html',
         controller: 'HomeController',
         controllerAs: 'home'
-
     });
 };
 exports.$inject = ['$stateProvider'];
