@@ -3,6 +3,7 @@
 module.exports = require('angular')
     .module('AngularUApp', [
         require('angular-ui-router'),
+        require('../../base'),
         require('./home'),
         require('./speaker'),
         require('./author')

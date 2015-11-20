@@ -14,7 +14,7 @@ module.exports = require('angular')
     .controller('AuthorController', require('./controller'))
     .config(require('./states'))
     .name;
-},{"./controller":1,"./states":3,"angular":14}],3:[function(require,module,exports){
+},{"./controller":1,"./states":3,"angular":15}],3:[function(require,module,exports){
 'use strict';
 
 var exports = module.exports = function ($stateProvider) {
@@ -32,6 +32,13 @@ exports.$inject = ['$stateProvider'];
 
 function HomeController ($scope) {
    console.log('homecontroller');
+
+   $scope.presenters = [{
+
+   },{
+
+   }];
+
 }
 
 HomeController.$inject = ['$scope'];
@@ -44,8 +51,11 @@ module.exports = require('angular')
     .module('home', [])
     .controller('HomeController', require('./controller'))
     .config(require('./states'))
+    //.service('Speaker',function(){
+    //    console.log('speaker...');
+    //})
     .name;
-},{"./controller":4,"./states":6,"angular":14}],6:[function(require,module,exports){
+},{"./controller":4,"./states":6,"angular":15}],6:[function(require,module,exports){
 'use strict';
 
 var exports = module.exports = function ($stateProvider) {
@@ -54,10 +64,26 @@ var exports = module.exports = function ($stateProvider) {
         //parent: 'base',
         templateUrl: '/templates/home/home.html',
         controller: 'HomeController',
-        controllerAs: 'home'
+        controllerAs: 'home',
+        resolve: {
+            speakers: getSpeakers
+        }
     });
 };
 exports.$inject = ['$stateProvider'];
+
+function getSpeakers (Speaker) {
+    //return Speaker.fetchAll();
+    return [{name: 'peter'}];
+}
+getSpeakers.$inject = ['Speaker'];
+
+function getSpeakers () {
+    //return Speaker.fetchAll();
+    console.log('getSpeakers');
+    return [{name: 'peter'}];
+}
+
 
 },{}],7:[function(require,module,exports){
 'use strict';
@@ -65,6 +91,7 @@ exports.$inject = ['$stateProvider'];
 module.exports = require('angular')
     .module('AngularUApp', [
         require('angular-ui-router'),
+        require('../../base'),
         require('./home'),
         require('./speaker'),
         require('./author')
@@ -78,7 +105,7 @@ function enableHtml5Mode($locationProvider) {
     $locationProvider.html5Mode(true);
 }
 
-},{"./author":2,"./home":5,"./speaker":9,"angular":14,"angular-ui-router":12}],8:[function(require,module,exports){
+},{"../../base":12,"./author":2,"./home":5,"./speaker":9,"angular":15,"angular-ui-router":13}],8:[function(require,module,exports){
 function SpeakerController ($scope) {
    console.log('speakercontroller');
 }
@@ -94,7 +121,7 @@ module.exports = require('angular')
     .controller('SpeakerController', require('./controller'))
     .config(require('./states'))
     .name;
-},{"./controller":8,"./states":10,"angular":14}],10:[function(require,module,exports){
+},{"./controller":8,"./states":10,"angular":15}],10:[function(require,module,exports){
 'use strict';
 
 var exports = module.exports = function ($stateProvider) {
@@ -112,6 +139,18 @@ exports.$inject = ['$stateProvider'];
 },{}],11:[function(require,module,exports){
 require('./src');
 },{"./src":7}],12:[function(require,module,exports){
+'use strict';
+var angular = require('angular');
+
+//var speaker = require('./speaker');
+
+module.exports = angular.module('multiTenantBase', [
+   //speaker
+]).service('Speaker',function(){
+    console.log('speakerzzz');
+})
+    .name;
+},{"angular":15}],13:[function(require,module,exports){
 /**
  * State-based routing for AngularJS
  * @version v0.2.15
@@ -4482,7 +4521,7 @@ angular.module('ui.router.state')
   .filter('isState', $IsStateFilter)
   .filter('includedByState', $IncludedByStateFilter);
 })(window, window.angular);
-},{}],13:[function(require,module,exports){
+},{}],14:[function(require,module,exports){
 /**
  * @license AngularJS v1.5.0-beta.2
  * (c) 2010-2015 Google, Inc. http://angularjs.org
@@ -33883,8 +33922,8 @@ $provide.value("$locale", {
 })(window, document);
 
 !window.angular.$$csp().noInlineStyle && window.angular.element(document.head).prepend('<style type="text/css">@charset "UTF-8";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>');
-},{}],14:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 require('./angular');
 module.exports = angular;
 
-},{"./angular":13}]},{},[11]);
+},{"./angular":14}]},{},[11]);

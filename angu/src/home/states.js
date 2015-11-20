@@ -6,7 +6,23 @@ var exports = module.exports = function ($stateProvider) {
         //parent: 'base',
         templateUrl: '/templates/home/home.html',
         controller: 'HomeController',
-        controllerAs: 'home'
+        controllerAs: 'home',
+        resolve: {
+            speakers: getSpeakers
+        }
     });
 };
 exports.$inject = ['$stateProvider'];
+
+function getSpeakers (Speaker) {
+    //return Speaker.fetchAll();
+    return [{name: 'peter'}];
+}
+getSpeakers.$inject = ['Speaker'];
+
+function getSpeakers () {
+    //return Speaker.fetchAll();
+    console.log('getSpeakers');
+    return [{name: 'peter'}];
+}
+
