@@ -1,22 +1,14 @@
 'use strict';
-//var angular = require('angular');
 
-//var speaker = require('./speaker');
-
-module.exports = angular.module('multiTenantBase', [
-    //speaker
-]).service('Speaker', SpeakerService, '$http', '$q')
+module.exports = angular.module('multiTenantBase', [])
+    .service('Speaker', SpeakerService, '$http', '$q')
     .name;
 
 function SpeakerService($http, $q) {
     console.log('speakerzzz');
     this.fetchAll = function () {
-        console.log('fetchAll');
-
         var defer = $q.defer();
         $http.get('/rest/speaker').success(function (data) {
-            //$http.get('/speakers.json').success(function(data){
-            console.log('rest speaker success');
             defer.resolve(data);
         }).error(function (data) {
             console.log('rest speaker error');
@@ -25,7 +17,6 @@ function SpeakerService($http, $q) {
     }
 }
 
-// is this correct? $inject did not show up on intelisense
 SpeakerService.$inject = ['$http', '$q'];
 
 
