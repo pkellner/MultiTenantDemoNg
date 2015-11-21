@@ -1,4 +1,942 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+module.exports=[
+  {
+    "id": 32414,
+    "firstName": "Andreas",
+    "lastName": "Argelius",
+    "speakerUrl": "andreas-argelius-32414",
+    "imageUrl": "",
+    "webSite": "http://argeli.us/",
+    "bio": "Andreas Argelius is a developer based in Japan where he works on Monaca, a platform for hybrid app development. He is also a core developer on Onsen UI, an Angular based mobile app framework. In addition to studying Japanese, Andreas loves JavaScript and is passionate about making hybrid app development faster and better. Enjoys beer and good food.\n\n",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4782,
+        "title": "Angular + Cordova + Monaca = Killer mobile app development",
+        "sessionUrl": "angular-cordova-monaca-killer-mobile-app-development",
+        "desriptionShort": "An hybrid app is a mobile app built using technologies we all love: HTML, CSS and JavaScript. This talk will present some awesome tools that help in composing, debugging and publishing hybrid apps.",
+        "description": "Hybrid apps are mobile apps built using technologies we all love: HTML, CSS and JavaScript. They can be deployed on several different platforms while still sharing most of the code base. In this talk some awesome tools for building, packaging and publishing your hybrid apps will be presented. We will also look into efficient ways of debugging your code on actual mobile devices and how to create a performant and beautiful user interfaces with AngularJS and reusable UI components.",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 30649,
+    "firstName": "Peter",
+    "lastName": "Bacon Darwin",
+    "speakerUrl": "peter-bacon-darwin-30649",
+    "imageUrl": "",
+    "webSite": "www.bacondarwin.com",
+    "bio": "Pete is now the development lead on the 1.x branch of AngularJS, having spent the last few years working on the AngularJS team. He works remotely, living in London and spends a large proportion of his time looking after his kids, when he is not on a hangout to Mountain View.",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4719,
+        "title": "Nifty SHAs of Code (or how get your stuff into Angular)",
+        "sessionUrl": "nifty-shas-of-code-or-how-get-your-stuff-into-angular",
+        "desriptionShort": "Pete takes you step by step through how to create actionable issue reports,\nand how you (yes you!) can submit PRs with commits, docs and tests that are likely\nto be merged sooner.",
+        "description": "<p>There are almost 400 developers who have contributed significant code to the Angular 1\ncodebase.  You could be one too!</p>\n\n<p>In this talk Pete takes you step by step through how to create actionable issue reports,\nand how you (yes you!) can submit PRs with commits, docs and tests that are likely\nto be merged sooner.</p>",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 2000,
+    "firstName": "Ward",
+    "lastName": "Bell",
+    "speakerUrl": "ward-bell-2000",
+    "imageUrl": "",
+    "webSite": "www.neverindoubtnet.blogspot.com/",
+    "bio": "Ward is VP of Technology at IdeaBlade, a consulting and product company, makers of BreezeJS and Breeze#. He's a Microsoft MVP, client app aficionado, AngularJS junkie, and snappy dresser.",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 3683,
+        "title": "Get MEAN! MongoDb + express + angular + node",
+        "sessionUrl": "get-mean-mongodb-express-angular-node",
+        "desriptionShort": "Discover these four technologies and how they combine in a web app written entirely in JavaScript. This is an orientation, made tangible through exploration of “Zza”, an online pizza parlor app.",
+        "description": "Discover these four technologies and how they combine in a web app written entirely in JavaScript. This is an orientation, made tangible through exploration of “Zza”, an online pizza parlor app.<p>“Zza” is available on github for later study at your leisure.</p>\n",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 30676,
+    "firstName": "Demian",
+    "lastName": "Borba",
+    "speakerUrl": "demian-borba-30676",
+    "imageUrl": "",
+    "webSite": "http://demian.io",
+    "bio": "With more than 15 years of experience with technology, interactive media, design, business and training, Demian is an Adobe Community Professional and former instructor at UC San Diego, where he taught Design and Programming classes. Before joining Braintree/PayPal, Demian worked at BlackBerry as a Developer Evangelist, traveling the world engaging with developers and startups. He also ran Action Creations, an interactive agency based in San Diego with clients including Oakley, 20th Century Fox, World Tour of Surfing, Nike, Callaway Golf and more. He won one of the biggest and most important developer contests in the world, the AT&T® Mobile App Hackathon, at CES in Las Vegas. More recently, Demian has created 2 training programs: Phonegap Bootcamp and Angular Bootcamp, delivered to hundreds of developers so far.",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4775,
+        "title": "Making money with Phonegap and Angular apps",
+        "sessionUrl": "making-money-with-phonegap-and-angular-apps",
+        "desriptionShort": "Learn how to configure your computer to create apps for iOS and Android with Cordova. Then we will use Material Design for the UI and will integrate payments to your app, all at once!",
+        "description": "It is great to see so many web frameworks and libs arriving everyday, but it’s important to remember that money is the fuel for every company. How about creating iOS and Android apps using HTML, JS and CSS? How about using Angular and Angular-Material to create amazing UI? And on top of all that, how about integrating different payment methods to your app? In this talk, we will go over all the steps involved in configuring your environment (Mac or Windows), developing/debugging/deploying with Cordova, using AngularJS and providing payments to your users. All at once!",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 32802,
+    "firstName": "Terence",
+    "lastName": "Carroll",
+    "speakerUrl": "terence-carroll-32802",
+    "imageUrl": "",
+    "webSite": "http://fortisdigital.com/",
+    "bio": "Terence Carroll is a Software Engineer that strives to build beautiful things but limited by his \"programmer art\". He is fascinated watching designers making pretty things. Past work includes tiny startups and giant enterprises, and he built technology acquired by Expedia. Smart enough to realize teamwork is the foundation of success. Lucky enough to work with talented friends. Loves AngularJS, Ionic Framework, C#, iOS, and Android. Misses C/C++.",
+    "allowHtml": true,
+    "sessions": [
+      {
+        "id": 4787,
+        "title": "Building Mobile Apps with Ionic Framework",
+        "sessionUrl": "building-mobile-apps-with-ionic-framework",
+        "desriptionShort": "Hands-on introduction to mobile development using the Ionic Framework. Built with Sass and optimized for AngularJS, Ionic is a free and open source library for building highly interactive mobile apps.",
+        "description": "<p>Hands-on introduction to mobile development using the Ionic Framework. Built with Sass and optimized for AngularJS, Ionic is a free and open source library for building highly interactive mobile apps.</p>\n<p>Create, build, and publish a cross-platform mobile app for the Apple App Store and the Google Play Store. Learn how to set up a mobile development environment, plan and design your app, build the UI, add logic, test, and deploy to the app stores.</p>\n<p>A solid understanding of JavaScript and familiarity with the AngularJS framework is recommended. No previous mobile development experience is required, though knowledge of basic HTML, CSS, and JavaScript is necessary, including some comfort with the command line.</p>\n<p>Workshop Outline:</p>\n<ul>\n\t<li>Native vs Hybrid Apps</li>\n\t<li>Introduction to Ionic</li>\n\t<li>UI Components</li>\n\t<li>Ionic CLI</li>\n\t<li>Setup Mobile Development Toolchain</li>\n\t<li>AngularJS + Ionic = Superpowers</li>\n\t<li>Build Faster with Ionic Services</li>\n\t<li>Design with Cross-Platform Continuity</li>\n\t<li>Adding Icons and Splash Screens</li>\n\t<li>Setup Backend API services</li>\n\t<li>Connecting to APIs</li>\n\t<li>Testing with Ionic</li>\n\t<li>Deploying to App Stores</li>\n\t<li>Hands-On: Build Starter App</li>\n\t<li>Hands-On: Build Realtime Chat App</li>\n\t<li>Hands-On: Build Advanced App</li>\n\t<li>Practical Advice for Mobile Development</li>\n\t<li>Questions & Answers</li>\n</ul>\n",
+        "tenantName": "ANGU",
+        "keyNote": false
+      },
+      {
+        "id": 4788,
+        "title": "Building Mobile Apps with Ionic Framework (Repeat)",
+        "sessionUrl": "building-mobile-apps-with-ionic-framework-repeat",
+        "desriptionShort": "Hands-on introduction to mobile development using the Ionic Framework. Built with Sass and optimized for AngularJS, Ionic is a free and open source library for building highly interactive mobile apps.",
+        "description": "<p>Hands-on introduction to mobile development using the Ionic Framework. Built with Sass and optimized for AngularJS, Ionic is a free and open source library for building highly interactive mobile apps.</p>\n<p>Create, build, and publish a cross-platform mobile app for the Apple App Store and the Google Play Store. Learn how to set up a mobile development environment, plan and design your app, build the UI, add logic, test, and deploy to the app stores.</p>\n<p>A solid understanding of JavaScript and familiarity with the AngularJS framework is recommended. No previous mobile development experience is required, though knowledge of basic HTML, CSS, and JavaScript is necessary, including some comfort with the command line.</p>\n<p>Workshop Outline:</p>\n<ul>\n\t<li>Native vs Hybrid Apps</li>\n\t<li>Introduction to Ionic</li>\n\t<li>UI Components</li>\n\t<li>Ionic CLI</li>\n\t<li>Setup Mobile Development Toolchain</li>\n\t<li>AngularJS + Ionic = Superpowers</li>\n\t<li>Build Faster with Ionic Services</li>\n\t<li>Design with Cross-Platform Continuity</li>\n\t<li>Adding Icons and Splash Screens</li>\n\t<li>Setup Backend API services</li>\n\t<li>Connecting to APIs</li>\n\t<li>Testing with Ionic</li>\n\t<li>Deploying to App Stores</li>\n\t<li>Hands-On: Build Starter App</li>\n\t<li>Hands-On: Build Realtime Chat App</li>\n\t<li>Hands-On: Build Advanced App</li>\n\t<li>Practical Advice for Mobile Development</li>\n\t<li>Questions & Answers</li>\n</ul>\n",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 4087,
+    "firstName": "Doris",
+    "lastName": "Chen",
+    "speakerUrl": "doris-chen-4087",
+    "imageUrl": "",
+    "webSite": "blogs.msdn.com/dorischen/",
+    "bio": "Dr. Doris Chen is a Senior Technology Evangelist at Microsoft specialized in web technologies (HTML5, jQuery, JavaScript, Windows 8,and Java) with over 15 years of experience in the software industry. She speaks to numerous international conferences and user groups including HTML5 Dev Conference, O’Reilly Fluent, OSCON, WebVisions, and JavaOne. Doris received her Ph.D. from the University of California at Los Angeles (UCLA) in computer engineering, specializing in medical informatics. ",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4781,
+        "title": "Angular: Go Mobile!",
+        "sessionUrl": "angular-go-mobile",
+        "desriptionShort": "How could you develop a cross platform mobile app?  In the session, a “To Do” app using Angular will be explored and then it will be demonstrated step by step on how to turn it into a mobile app, with access to native device capabilities.",
+        "description": "How could you develop a mobile app across iOS, Android or windows devices?  We’ll show how Apache Cordova opens the world of mobile app development to web developers. In the session, a “To Do” app using Angular will be explored and then it will be demonstrated step by step on how to turn it into a mobile app, with access to native device capabilities. Along the way, you'll also learn what kind of apps are best-suited for the hybrid architecture and when to make the switch from web app to mobile app.",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 32148,
+    "firstName": "Jeanie",
+    "lastName": "Chung",
+    "speakerUrl": "jeanie-chung-32148",
+    "imageUrl": "",
+    "webSite": "http://jeaniechung.com",
+    "bio": "Jeanie is an engineer that always looks forward to building her next project. Her passions lie with public health, social justice, and diversity in tech. She's also really into Legos, hacking IKEA furniture, and Choco Tacos.",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4777,
+        "title": "Foundation for Apps: Integrating AngularJS with Responsive Web Apps",
+        "sessionUrl": "foundation-for-apps-integrating-angularjs-with-responsive-web-apps",
+        "desriptionShort": "Get to know the newest member of the Foundation family: Foundation for Apps. This presentation will give an overview of this framework for responsive web apps.",
+        "description": "This presentation will talk about ZURB's recent addition to the Foundation family: Foundation for Apps. Foundation for Apps harnesses the power of AngularJS to create easy-to-use components for AngularJS developers, but also users that might not have in-depth knowledge of AngularJS or JavaScript. In addition to a brief summary of Foundation for Apps, we'll take a look at how we've integrated AngularJS into the framework, examples of some of the custom directives built for Foundation for Apps, and some of the lessons learned throughout the process. ",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 31688,
+    "firstName": "Andrew",
+    "lastName": "Connell",
+    "speakerUrl": "andrew-connell-31688",
+    "imageUrl": "",
+    "webSite": "http://www.andrewconnell.com",
+    "bio": "Andrew Connell is an independent consultant that enjoys development, writing & teaching with a focus on Azure, Office 365 & client side development. He is an ten-time recipient of Microsoft’s Most Valuable Professional (MVP) award & has contributed to numerous books articles and projects over the years. You can learn from Andrew as when he teaches hands-on courses through Critical Path Training (www.CriticalPathTraining.com) or through one of the many on-demand classes he has published though Pluralsight (www.Pluralsight.com). Andrew has spoken at conferences and community events in the North America, Europe & Australia. You can find Andrew on his blog (www.andrewconnell.com), follow him on Twitter @andrewconnell or subscribe to his podcast (www.MicrosoftCloudShow.com). ",
+    "allowHtml": true,
+    "sessions": [
+      {
+        "id": 4720,
+        "title": "Building Office 365 SPAs with Angular and CORS",
+        "sessionUrl": "building-office-365-spas-with-angular-and-cors",
+        "desriptionShort": "Learn how to utilize enterprise data (mail, contacts, calendar & files) from Office 365 in AngularJS apps. In this session we will look at how we can exploit this in a custom single page app (SPA) using AngularJS.",
+        "description": "Microsoft recently announced support for CORS in some of their APIs in Office 365 and more coming soon. What this means for developers is that you can create fully client-side solutions that authenticate securely with Azure AD and access data in SharePoint sites using the REST API or files in a user's OneDrive folder. In this session we will look at how we can exploit this in a custom single page app (SPA) using AngularJS.",
+        "tenantName": "ANGU",
+        "keyNote": false
+      },
+      {
+        "id": 4748,
+        "title": "Build Secure Enterprise Angular Apps That Leverage Various Microsoft Tech",
+        "sessionUrl": "build-secure-enterprise-angular-apps-that-leverage-various-microsoft-tech",
+        "desriptionShort": "Build Secure Enterprise Angular Apps That Leverage Various Microsoft Tech. You don’t have to have any experience with Office 365 APIs or Azure AD to participate in this workshop… you’ll learn how to do all of it!",
+        "description": "<p>Are you building Angular apps for enterprise customers? You likely need to talk to secured services, you need to lock down parts of your app and you need to maintain good application structure to name a few things. In this workshop we’ll build an enterprise Angular app from start to finish in TypeScript and secure sections of the app using Microsoft’s Azure Active Directory. Well see how we can access a user’s mailbox to use their email, contacts and calendar that resides in Office 365. We’ll store files within the user’s OneDrive files. You’ll see how to store collaborative data within lists in Office 365. We’ll do all this using WebStorm, but you can use any text editor. You don’t have to have any experience with Office 365 APIs or Azure AD to participate in this workshop… you’ll learn how to do all of it!</p>\n\n<p>Pre-Requirements: To participate in building the application demonstrated in the workshop, you will need an Office 365 tenant as well as a Microsoft Azure subscription to build this application… you can create trials for these quickly, but you should do it ahead of time.</p>",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 32182,
+    "firstName": "Justin",
+    "lastName": "Couto",
+    "speakerUrl": "justin-couto-32182",
+    "imageUrl": "",
+    "webSite": "https://www.SoCreate.it",
+    "bio": "Justin Couto is the founder and CEO of SoCreate, a new startup that is working on bringing screenwriting to everyone.  SoCreate is Justin’s third software company which is being funded off the success of his prior two companies.  In the early days, Justin cut his teeth pioneering an e-commerce and content management suite which he and his partners later sold.  After that Justin moved into Social Software development where he built apps that were used by organizations like Microsoft, Lexmark, and the March of Dimes.  Justin is also an avid volunteer and spends his time as the President of the Central Coast Code Camp, as the Group Leader of the Central Coast Code Group, and as a member of the Founder Circle of the Center of Innovation and Entrepreneurship at Cal Poly San Luis Obispo.  Justin takes most pride in being a husband and new father to his baby girl. ",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4780,
+        "title": "AngularJS Application Instances on Demand",
+        "sessionUrl": "angularjs-application-instances-on-demand",
+        "desriptionShort": "Is it possible to build one AngularJS code base and spawn multiple instances of it on a single page? Heck yeah it is! This session covers how to add/remove apps in the DOM, cleanup on tear down, and the concept of tomb-stoning with data persistence.",
+        "description": "<p>Single page apps and frameworks like AngularJS get us thinking about web application UX in more of a desktop app like approach. Concepts like multiple apps and tools on a single page can be imagined and architected without the use of iframes or plugins.</p>\n\n<p>The session will begin by taking a look at a case study in which a new UX concept design led to the need to create one AngularJS app code base and the ability to spawn multiple instances of it on a single page.</p>\n\n<p>To learn how to pull that off, we will walk through how to add and remove instances of AngularJS applications in the DOM on demand using the bootstrap method and discuss strategies around application cleanup during tear down. Then we will cover performance considerations and explore the concept of tombstoning an app as well as dive into ways to persist and restore application state as we spin up and wind down app instances.</p>",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 1124,
+    "firstName": "Douglas",
+    "lastName": "Crockford",
+    "speakerUrl": "douglas-crockford-1124",
+    "imageUrl": "",
+    "webSite": "http://crockford.com",
+    "bio": "Douglas Crockford is a product of our public education system. A registered voter, he owns his own car. He has developed office automation systems. He did research in games and music at Atari. He was Director of Technology at Lucasfilm. He was Director of New Media at Paramount. He was the founder and CEO of Electric Communities/Communities.com. He was founder and CTO of State Software, where he discovered JSON. He is the author of JavaScript: The Good Parts.",
+    "allowHtml": true,
+    "sessions": [
+      {
+        "id": 4726,
+        "title": "Upgrading the Web",
+        "sessionUrl": "upgrading-the-web",
+        "desriptionShort": "This talk suggests a way forward, taking inspiration from our successful transition from NTSC to HDTV. There is a way forward to a web that is safer, easier, and as good as we desire.",
+        "description": "<p>The web was originally imagined to be a simple distributed document retrieval system. It is now being used for applications that go far beyond the system's original capabilities and intentions. We have found ways to make it work, but they are difficult and far too fragile. Many times companies have offered to replace the web with superior proprietary systems, but we rejected them. We have been adding features to the web, but this does little to correct the deep underlying deficiencies, increasing instead of reducing its complexity.</p>\n\n<p>This talk suggests a way forward, taking inspiration from our successful transition from NTSC to HDTV. There is a way forward to a web that is safer, easier, and as good as we desire. </p>\n",
+        "tenantName": "ANGU",
+        "keyNote": true
+      }
+    ],
+    "keyNoteSpeaker": true
+  },
+  {
+    "id": 32038,
+    "firstName": "Rob",
+    "lastName": "Dodson",
+    "speakerUrl": "rob-dodson-32038",
+    "imageUrl": "",
+    "webSite": "http://robdodson.me/",
+    "bio": "Rob Dodson is a developer advocate at Google where he focuses on Polymer and Web Components. In previous roles he’s helped craft design systems for massive enterprise companies, user interfaces for console titles, and even built the occasional enchanted princess game. These days his mission is to fight for a better web and to help developers build great experiences.",
+    "allowHtml": true,
+    "sessions": [
+      {
+        "id": 4770,
+        "title": "Componentize your app with Polymer Elements",
+        "sessionUrl": "componentize-your-app-with-polymer-elements",
+        "desriptionShort": "Harness the power of web standards to build components that can stand the test of time. In this session we'll look at the current Web Component ecosystem, and I'll show you how to start to integrate these tools into your projects.",
+        "description": "Building components that can stand the test of time is tough! Frameworks change, new fads emerge, and often we're left with an aging codebase that needs to be rewritten if we want to stay current. Polymer and Web Components aim to change this cycle by building on new platform primitives which will allow us to finally create interoperable components that work in an environment. In this session we'll look at the current Web Component ecosystem, and I'll show you how to start to integrate these tools into your projects.",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 30482,
+    "firstName": "Ben",
+    "lastName": "Drucker",
+    "speakerUrl": "ben-drucker-30482",
+    "imageUrl": "",
+    "webSite": "http://www.bendrucker.me",
+    "bio": "Ben is a JavaScript developer and an active participant in the open source Node, Angular, and Browserify communities. He's currently working on Valet.io and building applications to help nonprofits raise more money at their events.\n\nBen maintains a number of popular open source projects, including Knex.js, Bookshelf.js, karma-browserify, and MockFirebase, along with more than a dozen open source Angular modules. ",
+    "allowHtml": true,
+    "sessions": [
+      {
+        "id": 4737,
+        "title": "Realtime Angular with Firebase",
+        "sessionUrl": "realtime-angular-with-firebase",
+        "desriptionShort": "Firebase is a realtime database with clients for modern platforms and frameworks, including Angular. We'll cover Firebase basics and build a realtime application with AngularFire, the Firebase bindings for AngularJS. ",
+        "description": "Angular gives you structure to build your applications. But what about your data? Firebase is a realtime database with clients for modern platforms and frameworks, including Angular. With Firebase, servers are 100% optional—you can define authentication rules, manage users, and sync data without any server-side code. \n\nWe'll cover Firebase basics and build a realtime application with AngularFire, the Firebase bindings for AngularJS. ",
+        "tenantName": "ANGU",
+        "keyNote": false
+      },
+      {
+        "id": 4759,
+        "title": "Reusable Angular Components with Browserify",
+        "sessionUrl": "reusable-angular-components-with-browserify",
+        "desriptionShort": "Tired of managing script tags as your projects grow? Enter Browserify, a build tool that lets you bundle Node-style modules and packages from npm. We'll talk about organizing existing applications as well as how to publish open source packages.",
+        "description": "Tired of managing script tags and losing your sanity as your projects grow? Enter Browserify, a build tool that lets you write your code as Node modules and create a single bundle for the browser. Pair it with over 100,000 packages on npm and you get an incredibly powerful toolkit for assembling your Angular applications. We'll talk about organizing existing applications using Browserify, as well as how to publish open source packages that can be downloaded using npm or Bower. Ben will share his workflow and insights developed while maintaining 20 (and counting) open source Angular packages. ",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 31783,
+    "firstName": "Joe",
+    "lastName": "Eames",
+    "speakerUrl": "joe-eames-31783",
+    "imageUrl": "",
+    "webSite": "https://www.linkedin.com/in/joeeames",
+    "bio": "Joe is a full time author for Pluralsight. he has always had a strong interest in education, and has worked both full and part time as a technical teacher for over ten years. He is a frequent blogger and speaker, organizer of ng-conf, and is a panelist on the JavaScript Jabber and Adventures in Angular podcasts.\n",
+    "allowHtml": true,
+    "sessions": [
+      {
+        "id": 4742,
+        "title": "Directives in Angular: 1 + 2 = WIN",
+        "sessionUrl": "directives-in-angular-1-2-win",
+        "desriptionShort": "In this talk I will discuss some of the deeper, darker secrets of directives in Angular 1, and show how components in Angular 2 are really just a refinement of what we have in Angular 1.  Get on the path to Angular 2 and hear the best way to do that from Joe.",
+        "description": "Directives in Angular 1 are commonly known to be one of the most complex pieces of Angular. But there is some hidden beauty and order in directives that can not only make it easy to learn directives, but will also set you on the path to learning Angular 2. In this talk I will discuss some of the deeper, darker secrets of directives in Angular 1, and show how components in Angular 2 are really just a refinement of what we have in Angular 1, while becoming much easier to learn.",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 31690,
+    "firstName": "David",
+    "lastName": "East",
+    "speakerUrl": "david-east-31690",
+    "imageUrl": "",
+    "webSite": "https://firebase.com/",
+    "bio": "David East is Developer Programs Engineer at Google. He works on the Firebase team and is a member of the core Angular team. He believes you should realtime all the things.",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4721,
+        "title": "Migrating to Angular2",
+        "sessionUrl": "migrating-to-angular2",
+        "desriptionShort": "Time to make the switch to Angular2. This talk will cover all of the fundamentals of taking an Angular 1.x app and taking to an Angular2 version. It's time to start thinking in Components.",
+        "description": "Time to make the switch to Angular2. This talk will cover all of the fundamentals of taking an Angular 1.x app and taking to an Angular2 version. It's time to start thinking in Components.",
+        "tenantName": "ANGU",
+        "keyNote": false
+      },
+      {
+        "id": 4737,
+        "title": "Realtime Angular with Firebase",
+        "sessionUrl": "realtime-angular-with-firebase",
+        "desriptionShort": "Firebase is a realtime database with clients for modern platforms and frameworks, including Angular. We'll cover Firebase basics and build a realtime application with AngularFire, the Firebase bindings for AngularJS. ",
+        "description": "Angular gives you structure to build your applications. But what about your data? Firebase is a realtime database with clients for modern platforms and frameworks, including Angular. With Firebase, servers are 100% optional—you can define authentication rules, manage users, and sync data without any server-side code. \n\nWe'll cover Firebase basics and build a realtime application with AngularFire, the Firebase bindings for AngularJS. ",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 32078,
+    "firstName": "Martin",
+    "lastName": "Gontovnikas",
+    "speakerUrl": "martin-gontovnikas-32078",
+    "imageUrl": "",
+    "webSite": "http://gon.to",
+    "bio": "Martin Gontovnikas (a.k.a. Gonto) has been a tech nerd since he was 12 years old. Now, he's a web developer, trainer, speaker and writer. He currently works as a Developer Advocate at Auth0.\n\nHe's a big advocate and contributor for Open Source software. He has built Restangular, angularytics, factory_pal, angular-jwt and many more!\n\nHe (not so) frequently blogs at http://gon.to/blog/ and has spoken at JSConf, ngConf and dotJS among others.",
+    "allowHtml": true,
+    "sessions": [
+      {
+        "id": 4773,
+        "title": "A Token Walks into a SPA…",
+        "sessionUrl": "a-token-walks-into-a-spa",
+        "desriptionShort": "In this talk, we’ll learn how to add authentication to an AngularJS app with a live coding session in which we’ll go from a regular SPA to a fully secured one .  Using Cookies and Tokens can be tricky.  Learn here best practices for authentication.",
+        "description": "Everybody has been creating Single Page Apps lately. They look neat and fast. Handling authentication in an SPA can be tricky though: Cookies, Tokens, keeping the user authenticated and handling rights to access URLs and resources are some of the things we need to take care of. In this talk, we’ll learn how to add authentication to an AngularJS app with a live coding session in which we’ll go from a regular SPA to a fully secured one .",
+        "tenantName": "ANGU",
+        "keyNote": false
+      },
+      {
+        "id": 4752,
+        "title": "Make Your Angular App a Maximum Security Prison",
+        "sessionUrl": "make-your-angular-app-a-maximum-security-prison",
+        "desriptionShort": "Everybody has been creating Single Page Apps lately. They look neat and fast. Handling authentication in an SPA can be tricky though: Cookies don’t play well with CORS and APIs. In this workshop, we’ll learn more about how a token authentication system works and we’ll learn by example how to implement it in an existing AngularJS app. We’ll include tips and tricks on how to handle user’s session.",
+        "description": "<p>This is a one day workshop in which participants will get hands on experience on how to add authentication to an Angular 1 and Angular 2 apps and the different options. Topics include:</p>\n\n<strong>Theory Around Authentication</strong>\n<ul>\n  <li>How has Authentication evolved since 1990s to now</li>\n  <li>Cookie Authentication</li>\n  <li>Token authentication</li>\n</ul>\n\n\n<strong>Hands On Exercises</strong>\n<ul>\n  <li>Creating our Login / Signup API endpoint in NodeJS</li>\n  <li>Creating our Login / Signup views on AngularJS and calling the API</li>\n  <li>Getting and displaying user information</li>\n  <li>Restriccing access to routes on the API</li>\n  <li>Restricting access to routes on the Angular app</li>\n  <li>Logging the user out</li>\n  <li>Implementing OAuth with Social Providers</li>\n</ul>\n\n<strong>Angular 2 Sneak Peak</strong>\n<p>Sneak peak of how to implement Login, Signup and Access Restrictions with Angular 2 Developer Preview</p>\n\n<p>Afterwards, participants will have a complete Angular 1 and 2 with Authentication implemented and have full confidence on how to approach it from start to finish.</p>",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 31684,
+    "firstName": "Brad",
+    "lastName": "Green",
+    "speakerUrl": "brad-green-31684",
+    "imageUrl": "",
+    "webSite": "https://angularjs.org/",
+    "bio": "Brad Green works at Google as an engineering manager. In addition to the AngularJS project, Brad also manages Google's sales tools applications development. Prior to Google, Brad worked on the early mobile web at AvantGo, founded and sold startups, and spent a few hard years toiling as a caterer. Brad's first job out of school was as lackey to Steve Jobs at NeXT Computer writing demo software and designing his slide presentations. Brad lives in Mountain View, CA with his wife and two children.",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4722,
+        "title": "Angular 2 Roadmap Update",
+        "sessionUrl": "angular-2-roadmap-update",
+        "desriptionShort": "In this keynote, the Angular team leaders give us an update on where we are and where we are headed with Angular 2. It will also include an extended Q&A period.",
+        "description": "The Angular team at Google (lead by Brad, Igor and Misko) have been hard at work bring out the new version of AngularJS known as Angular 2.  In this session these team leaders bring us up to date on the latest changes and future plans. It will also include an extended Q&A period.",
+        "tenantName": "ANGU",
+        "keyNote": true
+      }
+    ],
+    "keyNoteSpeaker": true
+  },
+  {
+    "id": 31682,
+    "firstName": "Misko",
+    "lastName": "Hevery",
+    "speakerUrl": "misko-hevery-31682",
+    "imageUrl": "",
+    "webSite": "http://misko.hevery.com/",
+    "bio": "Miško Hevery is the creator of AngularJS framework. He has passion for making complex things simple. He currently works at Google, but has previously worked at Adobe, Sun Microsystems, Intel, and Xerox, where he became an expert in building web applications in web related technologies such as Java, JavaScript, Flex and ActionScript.",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4722,
+        "title": "Angular 2 Roadmap Update",
+        "sessionUrl": "angular-2-roadmap-update",
+        "desriptionShort": "In this keynote, the Angular team leaders give us an update on where we are and where we are headed with Angular 2. It will also include an extended Q&A period.",
+        "description": "The Angular team at Google (lead by Brad, Igor and Misko) have been hard at work bring out the new version of AngularJS known as Angular 2.  In this session these team leaders bring us up to date on the latest changes and future plans. It will also include an extended Q&A period.",
+        "tenantName": "ANGU",
+        "keyNote": true
+      }
+    ],
+    "keyNoteSpeaker": true
+  },
+  {
+    "id": 31791,
+    "firstName": "Tomomi",
+    "lastName": "Imura",
+    "speakerUrl": "tomomi-imura-31791",
+    "imageUrl": "",
+    "webSite": "http://pubnub.com",
+    "bio": "Tomomi (@girlie_mac) is an avid open web advocate and front-end UX engineer, who has been in active in the mobile-space since before it was cool. She is currently working as a developer evangelist at PubNub in San Francisco, and mostly providing use cases and ideas with the data stream APIs by writing demos and technical articles.",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4755,
+        "title": "Dominating Shadow DOM",
+        "sessionUrl": "dominating-shadow-dom",
+        "desriptionShort": "Tomomi Imura will be teaching us a lot of the goodness around web components. Tomomi will be talking about how to encapsulate web, hide data in them and style them.  See how complex functionality can now be part of your solution.",
+        "description": "Divs, nested divs and more nested divs… A pretty web UI with nasty markups is a big turn-off. Now with a new set of new W3C web platform primitives called Web Components, we can encapsulate UI and complex functionalities, just like packing data and functions into a single component, and restrict the access in object-oriented programming.\nThe web components don’t add ugly children in your DOM tree, in fact, they are separated from the tree. The DOM-related methods like getElementById() doesn’t give you an access inside!\n\nSo, how can you use the encapsulated components and also obtain the access inside and style them?",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 653,
+    "firstName": "Deborah",
+    "lastName": "Kurata",
+    "speakerUrl": "deborah-kurata-653",
+    "imageUrl": "",
+    "webSite": "http://blogs.msmvps.com/deborahk/",
+    "bio": "Deborah Kurata is an independent consultant, developer, and mentor focusing on Windows and Web technologies. She has authored several technical books and speaks at user groups and conferences. She is a Pluralsight author and has published several courses including \"AngularJS Line of Business Applications\" and \"AngularJS: What's New in 1.3\".",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4717,
+        "title": "Angular 2 Forms ",
+        "sessionUrl": "angular-2-forms",
+        "desriptionShort": "Get a sneak peek of forms in Angular 2. This session will look at the different techniques available for building forms in Angular 2. We will also compare Angular 1.x forms to Angular 2.",
+        "description": "Get a sneak peek of forms in Angular 2. This session will look at the different techniques available for building forms in Angular 2. We will also compare Angular 1.x forms to Angular 2.",
+        "tenantName": "ANGU",
+        "keyNote": false
+      },
+      {
+        "id": 4749,
+        "title": "Angular Line of Business Applications Hands On",
+        "sessionUrl": "angular-line-of-business-applications-hands-on",
+        "desriptionShort": "In this workshop, you'll learn how to access data, route to multiple pages, build data entry forms, and perform client-side validation with Angular 1.x.  Bring your laptop!",
+        "description": "This workshop will take you step by step through the process of building a line of business application with Angular 1.x. You'll learn how to access data, route to multiple pages, build data entry forms, and perform client-side validation.\n\n<br>\n<p>\n<b>BRING YOUR LAPTOP!</b> This is a hands on course!\n</p>",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 225,
+    "firstName": "Jerry",
+    "lastName": "Kurata",
+    "speakerUrl": "jerry-kurata-225",
+    "imageUrl": "",
+    "webSite": "www.insteptech.com",
+    "bio": "Jerry Kurata is a consultant specializing in full stack web and mobile solutions.  He has worked with a wide range of clients including Microsoft, Novartis, and numerous medium to small businesses. He is currently deeply involved in developing AngularJS based solutions.",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4749,
+        "title": "Angular Line of Business Applications Hands On",
+        "sessionUrl": "angular-line-of-business-applications-hands-on",
+        "desriptionShort": "In this workshop, you'll learn how to access data, route to multiple pages, build data entry forms, and perform client-side validation with Angular 1.x.  Bring your laptop!",
+        "description": "This workshop will take you step by step through the process of building a line of business application with Angular 1.x. You'll learn how to access data, route to multiple pages, build data entry forms, and perform client-side validation.\n\n<br>\n<p>\n<b>BRING YOUR LAPTOP!</b> This is a hands on course!\n</p>",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 18686,
+    "firstName": "Joonas",
+    "lastName": "Lehtinen",
+    "speakerUrl": "joonas-lehtinen-18686",
+    "imageUrl": "",
+    "webSite": "http://vaadin.com/",
+    "bio": "Dr. Joonas Lehtinen is the founder of Vaadin project, a Java-based framework for building awesome web UI easily in Java. He is the founder and CEO of the company behind the Vaadin framework and leads a team of 80 engineers who are mostly working in European timezones. While not in a hangout to 10 time zones away from Vaadin's Silicon Valley offices, Joonas keeps failing in getting rid of his Finnish accent.",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4758,
+        "title": "Vaadin Components for AngularJS",
+        "sessionUrl": "vaadin-components-for-angularjs",
+        "desriptionShort": "While Vaadin has traditionally been a Java Web framework, we are now releasing Vaadin UI components as a free Polymer-based web components library with a direct support for AngularJS.",
+        "description": "<p>While Vaadin has traditionally been a Java Web framework, we are now releasing Vaadin UI components as a free Polymer-based web components library with a direct support for AngularJS. </p>\n\n<p>In this session you will get an introduction to Vaadin Components and their features. During the session we will show how to build an application from scratch with AngularJS using these components. Furthermore, the SCSS based theme system and lazy loading REST bindings are demonstrated.</p>",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 8830,
+    "firstName": "John",
+    "lastName": "Lindquist",
+    "speakerUrl": "john-lindquist-8830",
+    "imageUrl": "",
+    "webSite": "http://egghead.io",
+    "bio": "John has spent the majority of his career developing Rich Web Applications. Before working with JetBrains, he was a Technical Architect at Roundarch leading large teams in building the latest and greatest in web apps for the Air Force, HBO, and Bloomberg. He even did a stint working on \"League of Legends\".\n\nJohn now spends his time delivering high-quality video tutorials at egghead.io.",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4757,
+        "title": "Angular 2 Speed Run",
+        "sessionUrl": "angular-2-speed-run",
+        "desriptionShort": "John will start from Scratch and build as much of a Board Game Store as possible using Angular 2. He'll talk through his design decisions and strategies for getting started quickly. All of the code from the session will be available on github after the presentation.",
+        "description": "John will start from Scratch and build as much of a Board Game Store as possible using Angular 2. He'll talk through his design decisions and strategies for getting started quickly. All of the code from the session will be available on github after the presentation.",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 31683,
+    "firstName": "Igor",
+    "lastName": "Minar",
+    "speakerUrl": "igor-minar-31683",
+    "imageUrl": "",
+    "webSite": "https://angularjs.org/",
+    "bio": "Igor is a software engineer at Google. He is the lead of the AngularJS, practitioner of test driven development, open source enthusiast, hacker.  Igor is also a software developer, originally from Slovakia, who likes to mess around with web, Java and Ruby.         ",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4722,
+        "title": "Angular 2 Roadmap Update",
+        "sessionUrl": "angular-2-roadmap-update",
+        "desriptionShort": "In this keynote, the Angular team leaders give us an update on where we are and where we are headed with Angular 2. It will also include an extended Q&A period.",
+        "description": "The Angular team at Google (lead by Brad, Igor and Misko) have been hard at work bring out the new version of AngularJS known as Angular 2.  In this session these team leaders bring us up to date on the latest changes and future plans. It will also include an extended Q&A period.",
+        "tenantName": "ANGU",
+        "keyNote": true
+      }
+    ],
+    "keyNoteSpeaker": true
+  },
+  {
+    "id": 31800,
+    "firstName": "Scott",
+    "lastName": "Moss",
+    "speakerUrl": "scott-moss-31800",
+    "imageUrl": "",
+    "webSite": "https://twitter.com/scotups",
+    "bio": "Scott is an a Sr. Frontend engineer at Udacity where he uses angular everyday. Before Udacity, Scott built and taught curriculum surrounding topics like angular, node, and mobile, to hundreds of engineers at Hack Reactor. He has years of building smooth and beautiful UI's both on web and mobile. Most of his time is spent iterating on better and more effective ways to educate engineers on new and modern tech. He's also a father and a gym bum.              ",
+    "allowHtml": true,
+    "sessions": [
+      {
+        "id": 4744,
+        "title": "ES6 Workshop",
+        "sessionUrl": "es6-workshop",
+        "desriptionShort": "This is a one day ES6 + Angular workshop. Participants will get hands on experience by recreating google keep, a simple note taking app, using angular 1.x and ES6. There will be emphasis on how to use ES6 with angular so some prior Angular experience is necessary. You don't need any experience with ES6.",
+        "description": "<p>This is a one day ES6 + Angular workshop. Participants will get hands on experience by recreating google keep, a simple note taking app, using angular 1.x and ES6. There will be emphasis on how to use ES6 with angular so some prior Angular experience is necessary. You don't need any experience with ES6. Topics covered include:</p>\n\n<ul>\n<li>modules</li>\n<li>let</li>\n<li>class</li>\n<li>arrow functions</li>\n<li>destructuring</li>\n<li>rest and spread</li>\n</ul>\n<h2>Build systems with babel, webpack, and gulp</h2>\n<ul>\n<li>Discuss the different ways to use ES6 today</li>\n<li>Intro into transpilers</li>\n<li>Build our build system with webpack, Gulp, and Babel</li>\n<li>Setup an awesome dev env to make everything easy for us</li>\n</ul>\n<h2>Angular app organization with ES6 modules</h2>\n<ul>\n<li>How to use angular's module system together with ES6 module's system</li>\n<li>Naming conventions</li>\n<li>Creating angular parts outside of angular</li>\n</ul>\n<h2>Angular Controllers and Services</h2>\n<ul>\n<li>Using the new <code>class</code> as a controller or Service</li>\n<li>Sub-classing</li>\n</ul>\n<h2>Angular Directives</h2>\n<ul>\n<li>Define directives outside of angular that import their own dependencies including css and templates</li>\n<li>Using directives as components</li>\n</ul>\n<h2>Creating test with ES6</h2>\n<ul>\n<li>write our test in ES6</li>\n<li>Testing our ES6 code outside of angular</li>\n</ul>\n\n\n<p>\nAfterwards, participants will have a complete Angular app built with ES6 and have full confidence on how to approach it from start to finish. </p>",
+        "tenantName": "ANGU",
+        "keyNote": false
+      },
+      {
+        "id": 4785,
+        "title": "ES6 Workshop (Repeat Of Wednesday Class)",
+        "sessionUrl": "es6-workshop-repeat-of-wednesday-class",
+        "desriptionShort": "This is a one day ES6 + Angular workshop. Participants will get hands on experience by recreating google keep, a simple note taking app, using angular 1.x and ES6. There will be emphasis on how to use ES6 with angular so some prior Angular experience is necessary. You don't need any experience with ES6.",
+        "description": "<p>ng6 is a one day ES6 + Angular workshop. Participants will get hands on experience by recreating google keep, a simple note taking app, using angular 1.x and ES6. There will be emphasis on how to use ES6 with angular so some prior Angular experience is necessary. You don't need any experience with ES6. Topics covered include:</p>\n\n<ul>\n<li>modules</li>\n<li>let</li>\n<li>class</li>\n<li>arrow functions</li>\n<li>destructuring</li>\n<li>rest and spread</li>\n</ul>\n<h2>Build systems with babel, webpack, and gulp</h2>\n<ul>\n<li>Discuss the different ways to use ES6 today</li>\n<li>Intro into transpilers</li>\n<li>Build our build system with webpack, Gulp, and Babel</li>\n<li>Setup an awesome dev env to make everything easy for us</li>\n</ul>\n<h2>Angular app organization with ES6 modules</h2>\n<ul>\n<li>How to use angular's module system together with ES6 module's system</li>\n<li>Naming conventions</li>\n<li>Creating angular parts outside of angular</li>\n</ul>\n<h2>Angular Controllers and Services</h2>\n<ul>\n<li>Using the new <code>class</code> as a controller or Service</li>\n<li>Sub-classing</li>\n</ul>\n<h2>Angular Directives</h2>\n<ul>\n<li>Define directives outside of angular that import their own dependencies including css and templates</li>\n<li>Using directives as components</li>\n</ul>\n<h2>Creating test with ES6</h2>\n<ul>\n<li>write our test in ES6</li>\n<li>Testing our ES6 code outside of angular</li>\n</ul>\n\n\n<p>\nAfterwards, participants will have a complete Angular app built with ES6 and have full confidence on how to approach it from start to finish. </p>",
+        "tenantName": "ANGU",
+        "keyNote": false
+      },
+      {
+        "id": 4786,
+        "title": "ng6 Why You Should Use ES6 with Angular Today",
+        "sessionUrl": "ng6-why-you-should-use-es6-with-angular-today",
+        "desriptionShort": "Walkthrough of all the build tools, workflows, plugins, and modules for building a proper es6 angular 1.3x app today. Talk about pros and cons about different techniques and best practices.",
+        "description": "Walkthrough of all the build tools, workflows, plugins, and modules for building a proper es6 angular 1.3x app today. Talk about pros and cons about different techniques and best practices.",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 31707,
+    "firstName": "John",
+    "lastName": "Papa",
+    "speakerUrl": "john-papa-31707",
+    "imageUrl": "",
+    "webSite": "http://www.johnpapa.net/",
+    "bio": "John Papa is a Google Developer Expert, Microsoft Regional Director and MVP, and author of 100+ articles and 10 books, and is a former technology Evangelist for Microsoft client teams. He specializes in professional application development with technologies including HTML5, JavaScript, CSS, Angular, Gulp, Knockout, C#, and ASP.NET. He can often be found speaking around the world at keynotes and sessions for conferences such as ngConf, Build, MIX, PDC, TechEd, VSLive and AngleBrackets. John is a co-host of the popular Adventures in Angular podcast and formerly was the host of the show Silverlight TV on Channel 9 and hosted many events including the MIXer and Open Source Fest at major conferences. He currently enjoys authoring courses for Pluralsight. You can always find John at johnpapa.net or on twitter at @john_papa.",
+    "allowHtml": true,
+    "sessions": [
+      {
+        "id": 3711,
+        "title": "Dan and John Bringing Their View On The Latest In Angular",
+        "sessionUrl": "dan-and-john-bringing-their-view-on-the-latest-in-angular",
+        "desriptionShort": "Both Dan Wahlin and John Papa are probably the most respected communities authorities an Angular.  Both are accomplished speakers and writers and will be sharing with us their perspectives on Angular current and Angular future.  Expect to get some great insight from these two awesome leaders.",
+        "description": "Both Dan Wahlin and John Papa are probably the most respected communities authorities an Angular.  Both are accomplished speakers and writers and will be sharing with us their perspectives on Angular current and Angular future.  Expect to get some great insight from these two awesome leaders.",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 34080,
+    "firstName": "Paul ",
+    "lastName": "Pardi",
+    "speakerUrl": "paul--pardi-34080",
+    "imageUrl": "",
+    "webSite": "http://microsoft.com",
+    "bio": "Paul Pardi developed his first program when he was 12 on an Atari 400 and has been developing software ever since. A Senior Content Publishing Manager focused on developer content at Microsoft Learning,  Paul has worked at Microsoft for 15 years, with a break to teach college for a couple of years. Earlier in his career at Microsoft, he  worked on the Windows team on Internet Explorer, the Windows UI, and Windows help content, and he also managed the team that was responsible for app promotion in the first version of the Windows Store in Windows 8. Paul recently worked on a MOOC course on TypeScript getting the opportunity to work with Anders Hejlsberg, the creator of the TypeScript language.",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4750,
+        "title": "TypeScript Fundamentals",
+        "sessionUrl": "typescript-fundamentals",
+        "desriptionShort": "Learn the TypeScript Fundamentals.  Typescript is a way for large teams to work better together.  Learn why the Angular team is building Angular 2 with the help of TypeScript.",
+        "description": "Learn TypeScript from the ground floor.  Typescript is a way for large teams to work better together.  Learn why the Angular team is building Angular 2 with the help of TypeScript. In this course, we'll be covering the very basics of the TypeScript including: Introduction to the TypeScript language, Setting up your environment to work with TypeScript, Understanding basic types, Functions in TypeScript, TypeScript classes (basics, constructors and inheritance, and properties), Interfaces in TypeScript, Generics in TypeScript. Bring your laptop as this will be a workshop-style session. ",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 31679,
+    "firstName": "Sara",
+    "lastName": "Robinson",
+    "speakerUrl": "sara-robinson-31679",
+    "imageUrl": "",
+    "webSite": "https://sarajrobinson.com",
+    "bio": "Sara is a Developer Advocate on the Firebase team at Google, where she helps with developer relations through online content, outreach and events. She has a bachelor’s degree in Business and International Studies from Brandeis University. Before Firebase, she worked as an analyst at Sandbox Industries, a venture firm and startup foundry. She's passionate about learning to code, running, and finding the best ice cream in SF.",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4718,
+        "title": "Build Awesome Apps with Firebase & Angular",
+        "sessionUrl": "build-awesome-apps-with-firebase-angular",
+        "desriptionShort": "Learn how to add a realtime backend to your Angular app with Firebase in just a few lines of code. Sara will demonstrate how to get started with Firebase and AngularFire, Firebase's official binding for Angular.",
+        "description": "Firebase is a platform that lest you store and sync data instantly, authenticate users, and easily deploy your web app. Learn how you can use Firebase to add a backend to your Angular app in minutes. Sara will demonstrate how to get started with Firebase and AngularFire, Firebase's official binding for Angular. At the end she'll risk it all by live coding and deploying an app with Firebase and Angular!\n",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 31685,
+    "firstName": "Lukas",
+    "lastName": "Ruebbelke",
+    "speakerUrl": "lukas-ruebbelke-31685",
+    "imageUrl": "",
+    "webSite": "http://onehungrymind.com/",
+    "bio": "Developer. Hacker. Community backer. Author and blogger. Console logger. Author of AngularJS in Action for Manning Publications. Building awesome things and changing lives at Udacity.",
+    "allowHtml": true,
+    "sessions": [
+      {
+        "id": 4728,
+        "title": "Crazy Fast Prototyping with AngularJS",
+        "sessionUrl": "crazy-fast-prototyping-with-angularjs",
+        "desriptionShort": "We are able to build better things faster than ever before. We are going to explore some practical tools for quickly building out non-trivial prototypes to start the valuable customer feedback loop as fast as possible. ",
+        "description": "There has never been a greater time to be a web developer. With the rise of the modern browser and then the rise of modern JavaScript frameworks, we are able to build better things faster than ever before. We are going to explore some practical tools for quickly building out non-trivial prototypes to start the valuable customer feedback loop as fast as possible. ",
+        "tenantName": "ANGU",
+        "keyNote": false
+      },
+      {
+        "id": 4752,
+        "title": "Make Your Angular App a Maximum Security Prison",
+        "sessionUrl": "make-your-angular-app-a-maximum-security-prison",
+        "desriptionShort": "Everybody has been creating Single Page Apps lately. They look neat and fast. Handling authentication in an SPA can be tricky though: Cookies don’t play well with CORS and APIs. In this workshop, we’ll learn more about how a token authentication system works and we’ll learn by example how to implement it in an existing AngularJS app. We’ll include tips and tricks on how to handle user’s session.",
+        "description": "<p>This is a one day workshop in which participants will get hands on experience on how to add authentication to an Angular 1 and Angular 2 apps and the different options. Topics include:</p>\n\n<strong>Theory Around Authentication</strong>\n<ul>\n  <li>How has Authentication evolved since 1990s to now</li>\n  <li>Cookie Authentication</li>\n  <li>Token authentication</li>\n</ul>\n\n\n<strong>Hands On Exercises</strong>\n<ul>\n  <li>Creating our Login / Signup API endpoint in NodeJS</li>\n  <li>Creating our Login / Signup views on AngularJS and calling the API</li>\n  <li>Getting and displaying user information</li>\n  <li>Restriccing access to routes on the API</li>\n  <li>Restricting access to routes on the Angular app</li>\n  <li>Logging the user out</li>\n  <li>Implementing OAuth with Social Providers</li>\n</ul>\n\n<strong>Angular 2 Sneak Peak</strong>\n<p>Sneak peak of how to implement Login, Signup and Access Restrictions with Angular 2 Developer Preview</p>\n\n<p>Afterwards, participants will have a complete Angular 1 and 2 with Authentication implemented and have full confidence on how to approach it from start to finish.</p>",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 6220,
+    "firstName": "Justin",
+    "lastName": "Schwartzenberger",
+    "speakerUrl": "justin-schwartzenberger-6220",
+    "imageUrl": "",
+    "webSite": "www.socreate.it",
+    "bio": "Justin Schwartzenberger is a Lead Engineer at SoCreate, currently working on the future of screenplay writing software. Justin cut his teeth on C and C++ before getting into the web development game, jumping on the LAMP stack to create numerous web projects with PHP/MySQL. As C# came to life he moved his attention to ASP.NET and MS SQL. Once ASP.NET MVC surfaced it was \"game on\" and Justin's complete devotion to web development was sealed. With the current wave of new technologies and frameworks for both the front and back end of the web stack, Justin is excited to help champion the future of the web. For all of his passion towards development, Justin's biggest professional joy comes from empowering and educating others. He is a Pluralsight author and his course Using TypeScript for Large AngularJS Applications has helped many front end web developers get started with this highly popular combination.",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4780,
+        "title": "AngularJS Application Instances on Demand",
+        "sessionUrl": "angularjs-application-instances-on-demand",
+        "desriptionShort": "Is it possible to build one AngularJS code base and spawn multiple instances of it on a single page? Heck yeah it is! This session covers how to add/remove apps in the DOM, cleanup on tear down, and the concept of tomb-stoning with data persistence.",
+        "description": "<p>Single page apps and frameworks like AngularJS get us thinking about web application UX in more of a desktop app like approach. Concepts like multiple apps and tools on a single page can be imagined and architected without the use of iframes or plugins.</p>\n\n<p>The session will begin by taking a look at a case study in which a new UX concept design led to the need to create one AngularJS app code base and the ability to spawn multiple instances of it on a single page.</p>\n\n<p>To learn how to pull that off, we will walk through how to add and remove instances of AngularJS applications in the DOM on demand using the bootstrap method and discuss strategies around application cleanup during tear down. Then we will cover performance considerations and explore the concept of tombstoning an app as well as dive into ways to persist and restore application state as we spin up and wind down app instances.</p>",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 31799,
+    "firstName": "Kyle",
+    "lastName": "Simpson",
+    "speakerUrl": "kyle-simpson-31799",
+    "imageUrl": "",
+    "webSite": "http://getify.me",
+    "bio": "Kyle Simpson is an Open Web Evangelist from Austin, TX, who's passionate about all things JavaScript. He's an author, workshop trainer, tech speaker, and OSS contributor/leader.",
+    "allowHtml": true,
+    "sessions": [
+      {
+        "id": 4745,
+        "title": "Advanced JavaScript: Foundations",
+        "sessionUrl": "advanced-javascript-foundations",
+        "desriptionShort": "This course will deeply cover core mechanisms of JS, from scope to closures to object prototypes. In this first day of our intensive course, we will dive deep into core mechanisms of the JS language, probably more than you ever have before. Our goal is to not merely understand what these things do, but how and why.",
+        "description": "<p>In this first day of our intensive course, we will dive deep into core mechanisms of the JS language, probably more than you ever have before. Our goal is to not merely understand what these things do, but how and why.</p>\n\n<p>We will cover:</p>\n\n<ul>\n  <li>nested Lexical Scope </li>\n\n  <li>hoisting </li>\n\n  <li>closures </li>\n\n  <li>modules </li>\n\n  <li>'this' keyword </li>\n\n  <li>common oo patterns </li>\n\n  <li>object prototypes </li>\n\n  <li>delegation vs inheritance </li>\n</ul>\n\n<p>The content of this course tracks roughly to the two &quot;You Don't Know JS&quot; books, &quot;Scope &amp; Closures&quot; and &quot;this &amp; Object Prototypes&quot;. </p>",
+        "tenantName": "ANGU",
+        "keyNote": false
+      },
+      {
+        "id": 4747,
+        "title": "Advanced JavaScript: Rethinking Async",
+        "sessionUrl": "advanced-javascript-rethinking-async",
+        "desriptionShort": "Rethink async from the ground up. First see what's fatally wrong with callbacks, then layer on generators and promises, and finally explore abstractions like sequences, reactive observables, and CSP channels.",
+        "description": "<p>In this second day of our intensive course, we will dive deeply into the topic of asynchrony. First, we'll look at callbacks and see why they are functional but insufficient for managing async flow control in our complex modern applications. We'll identify the two major problems that make up &quot;callback hell&quot; (no, nothing to do with nesting/indentation!). </p>\n\n<p>Then, to clean up this mess, we'll look at two different ES6 mechanisms which each solve a different aspect of callback hell: generators and promises. We'll see that generators are about solving sync-looking async, while promises are about restoring trust to our continuations. And then we'll see how to compose promises with generators for solid async. </p>\n\n<p>After gaining a firm grasp over these reinvented async methodologies, then we'll look some at higher-order async patterns, and learn ways of identifying when and where to apply them: </p>\n\n<ul>\n<li>iterable sequences</li>\n<li>streams (reactive)</li>\n<li>CSP (channel-based concurrency)</li>\n<li>etc.</li>\n</ul>\n\n<p>To wrangle all these different async abstractions, we'll practice the exercises with the &quot;asynquence&quot; library. </p>\n\n<p>Prerequistes: Day 1 &quot;Advanced JavaScript&quot; course, and/or 2-3 years of solid core JS experience.</p>",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 6548,
+    "firstName": "Steve",
+    "lastName": "Souders",
+    "speakerUrl": "steve-souders-6548",
+    "imageUrl": "",
+    "webSite": "http://stevesouders.com/",
+    "bio": "<p>Steve works at <a href=\"http://speedcurve.com/\">SpeedCurve</a> on the interplay between performance and design. He previously served as Google's Head Performance Engineer, Chief Performance Yahoo!, and Chief Performance Officer at <a href=\"http://www.fastly.com/\">Fastly</a>. Steve has pioneered much of the work in the world of web performance. He is the author of <a href=\"http://www.amazon.com/gp/product/0596529309?ie=UTF8&amp;tag=stevsoud-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0596529309\">High Performance Web Sites</a> and <a href=\"http://www.amazon.com/gp/product/0596522304?ie=UTF8&amp;tag=stevsoud-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0596522304\">Even Faster Web Sites</a>. He is the creator of many performance tools and services including <a href=\"http://developer.yahoo.com/yslow/\">YSlow</a>, <a href=\"http://httparchive.org/\">the HTTP Archive</a>, <a href=\"http://stevesouders.com/episodes/\">Episodes</a>, <a href=\"http://stevesouders.com/controljs/\">ControlJS</a>, and <a href=\"http://www.browserscope.org/\">Browserscope</a>. Steve taught CS193H: High Performance Web Sites at <a href=\"http://www.stanford.edu/\">Stanford</a> and serves as co-chair of <a href=\"http://velocityconf.com/\">Velocity</a>, the web performance and operations conference from O'Reilly.</p>\n",
+    "allowHtml": true,
+    "sessions": [
+      {
+        "id": 4774,
+        "title": "Design+Performance",
+        "sessionUrl": "designperformance",
+        "desriptionShort": "In this presentation, Steve Souders, former Chief Performance Yahoo! and Google Head Performance Engineer, explains how promoting a process that brings design and performance together at the beginning of a project helps deliver a web experience that is both fast and rich.",
+        "description": "<p>Which would you rather have: a rich design or a fast user experience? Users want both, but sometimes the interplay between design and performance feels like a fixed sum game: one side's gain is the other side's loss. Design and performance are indeed connected, but it's more like the yin and yang. They aren't opposing forces, but instead complement each other. Users want an experience that is rich and fast. The trick for designers and developers is figuring out how to do that.</p>\n\n<p>The answer is to adopt an approach that considers both design and performance from the outset. With this approach, designs are conceived by teams of designers and developers working together. Developers benefit by participating in the product definition process. Designers benefit from understanding more about how designs are implemented. There's an emphasis on early prototyping and tracking performance from the get go.</p>\n\n      <p>With new metrics that focus on what a user actually sees as the page loads, we can now bridge the technical and language gaps that have hindered the seamless creation of great user experiences. In this presentation, Steve Souders, former Chief Performance Yahoo! and Google Head Performance Engineer, explains how promoting a process that brings design and performance together at the beginning of a project helps deliver a web experience that is both fast and rich.</p>\n",
+        "tenantName": "ANGU",
+        "keyNote": true
+      }
+    ],
+    "keyNoteSpeaker": true
+  },
+  {
+    "id": 32056,
+    "firstName": "Patrick",
+    "lastName": "Stapleton",
+    "speakerUrl": "patrick-stapleton-32056",
+    "imageUrl": "",
+    "webSite": "www.gdi2290.com",
+    "bio": "Patrick, aka PatrickJS, is working on AngularClass, Ionic2, Angular2, and the Isomorphic Angular Team. Previously the CTO of Keychain Logistics where he and his team work with Angular innovation everyday, including their mobile app which is built with Ionic. He is also 2014 the Launch Hackathon Winner and created Reddit Insight which was on the front page of /r/technology and TechCrunch. He has been contributing to Angular since the beginning and remains very active throughout its progression. He is also the author of numerous Angular modules. When he isn't dreaming about the future of web applications he likes to eat sushi, boba, pizza, and talk about why isomorphism is the bees knees.",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4771,
+        "title": "Angular 2 Server Rendering",
+        "sessionUrl": "angular-2-server-rendering",
+        "desriptionShort": "Angular2 was built from the ground up to potentially run anywhere, including your web server. In this talk, we will go through the implications of this design and demonstrate the power of rendering your Angular2 app on the server.",
+        "description": "Unlike Angular 1.x, Angular2 is not tightly coupled to the DOM. In fact, Angular2 was built from the ground up to potentially run anywhere, including your web server. In this talk, we will go through the implications of this design and demonstrate the power of rendering your Angular2 app on the server.",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 34045,
+    "firstName": "Yuri",
+    "lastName": "Takheyev",
+    "speakerUrl": "yuri-takheyev-34045",
+    "imageUrl": "",
+    "webSite": "http://rangle.io",
+    "bio": "Yuri Takhteyev is the CTO of Rangle.io, a JavaScript consulting firm based out of Toronto, a former faculty member at the university of Toronto, and a published author whose scholarly interests focus on open source and global software culture.",
+    "allowHtml": true,
+    "sessions": [
+      {
+        "id": 4789,
+        "title": "HackStack.js: AngularJS Applications Broken APIs Delivered Late",
+        "sessionUrl": "hackstackjs-angularjs-applications-broken-apis-delivered-late",
+        "desriptionShort": "Yuri Takhteyev, the CTO at Rangle.io, will talk about building Angular apps that work with broken APIs delivered late.",
+        "description": "Nearly all AngularJS applications run into back-end APIs that are unfinished, late or  broken, as well as subject to frequent revision. The best approach to take is to make sure the front-end team can work independently from the back-end team as needed, allowing them to develop and validate in as frictionless a manner as possible. Yuri Takhteyev (the CTO at Rangle.io) will discuss and demonstrate how to move ahead using HackStack.js, a new open source library for solving these challenges.",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 32162,
+    "firstName": "Travis",
+    "lastName": "Tidwell",
+    "speakerUrl": "travis-tidwell-32162",
+    "imageUrl": "",
+    "webSite": "https://form.io",
+    "bio": "Travis Tidwell has been developing advanced enterprise software solutions for over 15 years ranging from Embedded GPS navigation products to Open Source web solutions. In 2008, he co-founded a Software development shop called Alethia where he developed and founded the popular Open Source multimedia solution called MediaFront (http://mediafront.org). The exposure from this project landed him the role of VP of Technology for AllPlayers.com, where he leads teams of developers in addition to being a key development contributor to the PaaS solution which serves as an online registration platform. Travis's Open Source contributions have provided him significant notoriety where he has accrued an impressive following within GitHub, YouTube, and Drupal communities. He is typically found giving presentations on Open Source technologies at camps and conferences across the nation.",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4778,
+        "title": "The M.E.A.N stack and the rise of the machines",
+        "sessionUrl": "the-mean-stack-and-the-rise-of-the-machines",
+        "desriptionShort": "There is a radical paradigm shift in web development to build what are called API first applications where JavaScript has risen to the forefront to usher in a new new web application development stack known as the M.E.A.N stack. Let's learn about it!",
+        "description": "The web is dramatically evolving. With the latest trend of the Internet of Things, there is a radical paradigm shift occurring in the web development community. Web applications are no longer being built to cater to human interaction, but now must adapt to be able to handle machine-to-machine communications. This new requirement has placed a dramatic emphasis on API interfaces and has even ushered in a new development methodology called API first development.\n\nAs a result, JavaScript has risen to the forefront as the ideal language due to its ability to perform under the high concurrency and event-driven I/O required by the multitude of devices being integrated onto the web. This rise in relevancy for JavaScript has, in turn, created a number of technologies that span the entire web application stack to provide the ideal platform to build the next generation of Web 3.0 applications. This web application stack is commonly referred to as the M.E.A.N stack and is more than just another web application framework. It is an answer to the glaring problem of web applications needing to support high concurrency requests from a multitude of devices, and serves as the ideal platform for what is being called Web 3.0.\n\nThis presentation will walk you through all the latest trends within Web Development and provide an in-depth introduction to the M.E.A.N architecture. In addition, we will walk through how to build a next generation, API-first, web application that is built for the future. ",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 31704,
+    "firstName": "Jonathan",
+    "lastName": "Turner",
+    "speakerUrl": "jonathan-turner-31704",
+    "imageUrl": "",
+    "webSite": "https://twitter.com/jntrnr",
+    "bio": "Jonathan Turner is the Program Manager for the TypeScript project and part of the TypeScript design team. Prior to joining Microsoft, he studied programming language and compiler design at the University of Colorado at Boulder. A long-time fan of programming languages, he's contributed to other projects including Clang, Chapel, and ChaiScript.",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4725,
+        "title": "TypeScript and Angular 2.0",
+        "sessionUrl": "typescript-and-angular-20",
+        "desriptionShort": "One of the best aids to good craftsmen is the tools they use. In this session, we'll be looking at upcoming features of TypeScript and related tools and how these features help you get the most out of your Angular 2.0 development.\n",
+        "description": "One of the best aids to good craftsmen is the tools they use. In this session, we'll be looking at upcoming features of TypeScript and related tools and how these features help you get the most out of your Angular 2.0 development.\n",
+        "tenantName": "ANGU",
+        "keyNote": true
+      }
+    ],
+    "keyNoteSpeaker": true
+  },
+  {
+    "id": 14842,
+    "firstName": "Dan",
+    "lastName": "Wahlin",
+    "speakerUrl": "dan-wahlin-14842",
+    "imageUrl": "",
+    "webSite": "http://www.TheWahlinGroup.com",
+    "bio": "Dan Wahlin founded The Wahlin Group (http://www.TheWahlinGroup.com) which provides consulting and training services on Web technologies such as JavaScript, AngularJS and other SPA frameworks, jQuery, HTML5, Node.js, C#, ASP.NET MVC, Web API, and SharePoint. He’s also one of the top video course authors at Pluralsight.com and has published several courses covering a range of technologies. Dan speaks at conferences and user groups around the world and has written several books on Web technologies.  Dan blogs at http://weblogs.asp.net/dwahlin, runs the Web Weekly newsletter, and writes columns for various technical magazines. Follow Dan on Twitter @DanWahlin.\n",
+    "allowHtml": true,
+    "sessions": [
+      {
+        "id": 3711,
+        "title": "Dan and John Bringing Their View On The Latest In Angular",
+        "sessionUrl": "dan-and-john-bringing-their-view-on-the-latest-in-angular",
+        "desriptionShort": "Both Dan Wahlin and John Papa are probably the most respected communities authorities an Angular.  Both are accomplished speakers and writers and will be sharing with us their perspectives on Angular current and Angular future.  Expect to get some great insight from these two awesome leaders.",
+        "description": "Both Dan Wahlin and John Papa are probably the most respected communities authorities an Angular.  Both are accomplished speakers and writers and will be sharing with us their perspectives on Angular current and Angular future.  Expect to get some great insight from these two awesome leaders.",
+        "tenantName": "ANGU",
+        "keyNote": false
+      },
+      {
+        "id": 4751,
+        "title": "Angular Apps in 0 to 60",
+        "sessionUrl": "angular-apps-in-0-to-60",
+        "desriptionShort": "Single Page Apps (SPAs) focus on delivering enhanced user experiences with significant client-side interactions using JavaScript, HTML5 and CSS. Angular does all of the heavy lifting for you to pave the road towards building a SPA. This workshop explores the core pieces that help you build end-to-end SPA solutions using Angular including code structure and modularity, using data binding and MV*, abstracted remote data calls, page navigation and routing, rich data features, and responsive design.",
+        "description": "<p><i>Special Notice: This workshop is 8AM to 3PM</i></p>\n\n<p>Single Page Apps (SPAs) focus on delivering enhanced user experiences with significant client-side interactions using JavaScript, HTML5 and CSS. Angular does all of the heavy lifting for you to pave the road towards building a SPA. This workshop explores the core pieces that help you build end-to-end SPA solutions using Angular including code structure and modularity, using data binding and MV*, abstracted remote data calls, page navigation and routing, rich data features, and responsive design. Throughout the workshop, you’ll learn how to build robust SPA applications with Angular. You’ll see several focused demos and full-featured apps that will help you learn and understand the role of key Angular components such as modules, controllers, factories, directives, and more. </p>\n\n<p>The workshop will also discuss new features coming in Angular 2.0 and the role that TypeScript will play. </p>\n\n<p>This workshop covers: </p>\n\n<ul>\n   <li>SPA fundamentals </li>\n\n <li>Importance of Separation of Concerns (SoC) </li> \n\n <li>JavaScript patterns for creating organized code </li> \n\n <li>Key components of AngularJS </li>\n\n <li>How directives can be used </li>\n\n <li>The role of views, controllers, and $scope </li> \n\n <li>Managing remote data calls using services</li>\n\n <li>The role of modules and how they can be used </li>\n\n <li>Routing and page navigation </li> \n\n <li>Data binding </li> \n\n <li>Navigating and app lifecycle </li> \n\n <li>Debugging tips</li> \n\n <li>Preparing for Angular 2.0</li> \n\n <li>TypeScript fundamentals</li>\n</ul>",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 32051,
+    "firstName": "Jeff",
+    "lastName": "Whelpley",
+    "speakerUrl": "jeff-whelpley-32051",
+    "imageUrl": "",
+    "webSite": "http://gethuman.com",
+    "bio": "Jeff is the Chief Architect at GetHuman and co-organizer of the extremely popular Angular Boston meetup. He recently gave a talks at ng-conf 2015 on Angular 1.x server rendering and ng-vegas 2015 on Angular 2. More recently he has been working on bringing server rendering to Angular 2.",
+    "allowHtml": false,
+    "sessions": [
+      {
+        "id": 4771,
+        "title": "Angular 2 Server Rendering",
+        "sessionUrl": "angular-2-server-rendering",
+        "desriptionShort": "Angular2 was built from the ground up to potentially run anywhere, including your web server. In this talk, we will go through the implications of this design and demonstrate the power of rendering your Angular2 app on the server.",
+        "description": "Unlike Angular 1.x, Angular2 is not tightly coupled to the DOM. In fact, Angular2 was built from the ground up to potentially run anywhere, including your web server. In this talk, we will go through the implications of this design and demonstrate the power of rendering your Angular2 app on the server.",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  },
+  {
+    "id": 11388,
+    "firstName": "Aysegul",
+    "lastName": "Yonet",
+    "speakerUrl": "aysegul-yonet-11388",
+    "imageUrl": "",
+    "webSite": "github.com/yonet",
+    "bio": "Aysegul Yonet is CTO of AnnieCannons, Inc and a Software Engineer focusing on data visualization and analytics. Aysegul hosts Women Who Code and Girl Develop It JavaScript Meetups in San Francisco. She also teaches workshops for D3.js, AngularJS, and MEAN stack.",
+    "allowHtml": true,
+    "sessions": [
+      {
+        "id": 4756,
+        "title": "Creating d3 Components with Angular2 and TypeScript",
+        "sessionUrl": "creating-d3-components-with-angular2-and-typescript",
+        "desriptionShort": "By creating d3 components in Angular you gain even more declarative API. Angular allows you to construct your own declarative DSL so you can easily reason about visualizations you create.",
+        "description": "By creating d3 components in Angular you gain even more declarative API. Angular allows you to construct your own declarative DSL so you can easily reason about visualizations you create.",
+        "tenantName": "ANGU",
+        "keyNote": false
+      }
+    ],
+    "keyNoteSpeaker": false
+  }
+]
+},{}],2:[function(require,module,exports){
 function AuthorController ($scope) {
    console.log('authorcontroller');
 }
@@ -6,7 +944,7 @@ function AuthorController ($scope) {
 AuthorController.$inject = ['$scope'];
 
 module.exports = AuthorController;
-},{}],2:[function(require,module,exports){
+},{}],3:[function(require,module,exports){
 'use strict';
 
 module.exports = require('angular')
@@ -14,7 +952,7 @@ module.exports = require('angular')
     .controller('AuthorController', require('./controller'))
     .config(require('./states'))
     .name;
-},{"./controller":1,"./states":3,"angular":15}],3:[function(require,module,exports){
+},{"./controller":2,"./states":4,"angular":17}],4:[function(require,module,exports){
 'use strict';
 
 var exports = module.exports = function ($stateProvider) {
@@ -27,7 +965,7 @@ var exports = module.exports = function ($stateProvider) {
 };
 exports.$inject = ['$stateProvider'];
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 'use strict';
 
 function HomeController ($scope,speakers) {
@@ -47,7 +985,7 @@ function HomeController ($scope,speakers) {
 HomeController.$inject = ['$scope','speakers'];
 
 module.exports = HomeController;
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 'use strict';
 
 module.exports = require('angular')
@@ -58,7 +996,7 @@ module.exports = require('angular')
     //    console.log('speaker...');
     //})
     .name;
-},{"./controller":4,"./states":6,"angular":15}],6:[function(require,module,exports){
+},{"./controller":5,"./states":7,"angular":17}],7:[function(require,module,exports){
 'use strict';
 
 var exports = module.exports = function ($stateProvider) {
@@ -79,7 +1017,7 @@ function getSpeakers (Speaker) {
     return Speaker.fetchAll();
 }
 getSpeakers.$inject = ['Speaker'];
-},{}],7:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 'use strict';
 
 module.exports = require('angular')
@@ -93,13 +1031,62 @@ module.exports = require('angular')
     .config(enableHtml5Mode)
     .name;
 
+require('angular-mocks');
+
+var app = require('angular').module('AngularUApp');
+app.requires.push('ngMockE2E');
+app.run(provideMocks);
+
+
+
 enableHtml5Mode.$inject = ['$locationProvider'];
 function enableHtml5Mode($locationProvider) {
     console.log('enableHtml5Mode');
     $locationProvider.html5Mode(true);
 }
 
-},{"../../base":12,"./author":2,"./home":5,"./speaker":9,"angular":15,"angular-ui-router":13}],8:[function(require,module,exports){
+function provideMocks($httpBackend){
+
+
+    //var speakers = require('./data/speakers.json');
+    //var sessions = require('./data/sessions.json');
+
+    //http://jsfiddle.net/joshdmiller/egmpe/
+    //$httpBackend.whenPOST('/phones').respond(function(method, url, data, headers){
+    //    console.log('Received these data:', method, url, data, headers);
+    //    phones.push(angular.fromJson(data));
+    //    return [200, {}, {}];
+    //});
+
+
+    $httpBackend.whenGET('/rest/speaker').respond(function(method,url,data) {
+        console.log("Getting speakers");
+
+        var speakers = require('../mock/data/speakers.json');
+
+        //var speakers = [
+        //    {
+        //        "id": 12591,
+        //        "firstName": "Tobiah",
+        //        "lastName": "Zarlez",
+        //        "speakerUrl": "tobiah-zarlez-12591",
+        //        "imageUrl": "",
+        //        "webSite": "http://www.tobiahmarks.com/",
+        //        "bio": "Hi, I’m Tobiah. I’m an independent game developer from the SF Bay Area.\n\nRight after college, I started a company called “Yobonja” with a couple of friends. We made dozens of games, and eventually had a hit with “Blast Monkeys”. We were the number one app on Android for 6+ months. I stopped tracking downloads in 2012 after we passed 12 million, and people still play it and its sequel today.\n\nIn 2013 I started working for Microsoft as a Game Evangelist. My job is to talk to developers, teach them what I know, and help them make better games and successful companies succeed.",
+        //        "allowHtml": false
+        //    }
+        //];
+
+        return [200, speakers, {}];
+    });
+
+    // Pass any requests for the files
+    $httpBackend.whenGET(/templates/).passThrough();
+}
+
+provideMocks.$inject = ['$httpBackend'];
+
+},{"../../base":13,"../mock/data/speakers.json":1,"./author":3,"./home":6,"./speaker":10,"angular":17,"angular-mocks":14,"angular-ui-router":15}],9:[function(require,module,exports){
 function SpeakerController ($scope) {
    console.log('speakercontroller');
 }
@@ -107,7 +1094,7 @@ function SpeakerController ($scope) {
 SpeakerController.$inject = ['$scope'];
 
 module.exports = SpeakerController;
-},{}],9:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 'use strict';
 
 module.exports = require('angular')
@@ -115,7 +1102,7 @@ module.exports = require('angular')
     .controller('SpeakerController', require('./controller'))
     .config(require('./states'))
     .name;
-},{"./controller":8,"./states":10,"angular":15}],10:[function(require,module,exports){
+},{"./controller":9,"./states":11,"angular":17}],11:[function(require,module,exports){
 'use strict';
 
 var exports = module.exports = function ($stateProvider) {
@@ -130,104 +1117,109 @@ var exports = module.exports = function ($stateProvider) {
 };
 exports.$inject = ['$stateProvider'];
 
-},{}],11:[function(require,module,exports){
+},{}],12:[function(require,module,exports){
 require('./src');
 //require('./mock');
-},{"./src":7}],12:[function(require,module,exports){
+},{"./src":8}],13:[function(require,module,exports){
 'use strict';
-var angular = require('angular');
+//var angular = require('angular');
 
 //var speaker = require('./speaker');
 
 module.exports = angular.module('multiTenantBase', [
     //speaker
-]).service('Speaker',SpeakerService,'$http')
+]).service('Speaker', SpeakerService, '$http', '$q')
     .name;
 
-function SpeakerService($http) {
-
+function SpeakerService($http, $q) {
     console.log('speakerzzz');
-
     this.fetchAll = function () {
         console.log('fetchAll');
 
-        debugger;
-
-        //$http({
-        //    method: 'GET',
-        //    url: '/rest/speaker'
-        //}).then(function successCallback(response) {
-        //
-        //    debugger;
-        //    return response.data;
-        //
-        //}, function errorCallback(response) {
-        //
-        //    debugger;
-        //    // called asynchronously if an error occurs
-        //    // or server returns response with an error status.
-        //});
-
-
-        var speakers = [
-            {
-                "id": 32051,
-                "firstName": "Jeff",
-                "lastName": "Whelpley",
-                "speakerUrl": "jeff-whelpley-32051",
-                "imageUrl": "",
-                "webSite": "http://gethuman.com",
-                "bio": "Jeff is the Chief Architect at GetHuman and co-organizer of the extremely popular Angular Boston meetup. He recently gave a talks at ng-conf 2015 on Angular 1.x server rendering and ng-vegas 2015 on Angular 2. More recently he has been working on bringing server rendering to Angular 2.",
-                "allowHtml": false,
-                "sessions": [
-                    {
-                        "id": 4771,
-                        "title": "Angular 2 Server Rendering",
-                        "sessionUrl": "angular-2-server-rendering",
-                        "desriptionShort": "Angular2 was built from the ground up to potentially run anywhere, including your web server. In this talk, we will go through the implications of this design and demonstrate the power of rendering your Angular2 app on the server.",
-                        "description": "Unlike Angular 1.x, Angular2 is not tightly coupled to the DOM. In fact, Angular2 was built from the ground up to potentially run anywhere, including your web server. In this talk, we will go through the implications of this design and demonstrate the power of rendering your Angular2 app on the server.",
-                        "tenantName": "ANGU",
-                        "keyNote": false
-                    }
-                ],
-                "keyNoteSpeaker": false
-            },
-            {
-                "id": 11388,
-                "firstName": "Aysegul",
-                "lastName": "Yonet",
-                "speakerUrl": "aysegul-yonet-11388",
-                "imageUrl": "",
-                "webSite": "github.com/yonet",
-                "bio": "Aysegul Yonet is CTO of AnnieCannons, Inc and a Software Engineer focusing on data visualization and analytics. Aysegul hosts Women Who Code and Girl Develop It JavaScript Meetups in San Francisco. She also teaches workshops for D3.js, AngularJS, and MEAN stack.",
-                "allowHtml": true,
-                "sessions": [
-                    {
-                        "id": 4756,
-                        "title": "Creating d3 Components with Angular2 and TypeScript",
-                        "sessionUrl": "creating-d3-components-with-angular2-and-typescript",
-                        "desriptionShort": "By creating d3 components in Angular you gain even more declarative API. Angular allows you to construct your own declarative DSL so you can easily reason about visualizations you create.",
-                        "description": "By creating d3 components in Angular you gain even more declarative API. Angular allows you to construct your own declarative DSL so you can easily reason about visualizations you create.",
-                        "tenantName": "ANGU",
-                        "keyNote": false
-                    }
-                ],
-                "keyNoteSpeaker": false
-            }
-        ];
-        var i = 0;
-        for (i = 0; i < speakers.length; i++) {
-            speakers[i].speakerImageUrl = "https://www.siliconvalley-codecamp.com/attendeeimage/" +
-                speakers[i].id + ".jpg?format=jpg&amp;height=190&amp;width=290&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff";
-        }
-        return speakers;
-
+        var defer = $q.defer();
+        $http.get('/rest/speaker').success(function (data) {
+            //$http.get('/speakers.json').success(function(data){
+            console.log('rest speaker success');
+            defer.resolve(data);
+        }).error(function (data) {
+            console.log('rest speaker error');
+        });
+        return defer.promise;
     }
-
 }
 
 // is this correct? $inject did not show up on intelisense
-SpeakerService.$inject = ['$http'];
+SpeakerService.$inject = ['$http', '$q'];
+
+
+//$http({
+//    method: 'GET',
+//    url: '/rest/speaker'
+//}).then(function successCallback(response) {
+//
+//    debugger;
+//    return response.data;
+//
+//}, function errorCallback(response) {
+//
+//    debugger;
+//    // called asynchronously if an error occurs
+//    // or server returns response with an error status.
+//});
+
+
+//var speakers = [
+//    {
+//        "id": 32051,
+//        "firstName": "Jeff",
+//        "lastName": "Whelpley",
+//        "speakerUrl": "jeff-whelpley-32051",
+//        "imageUrl": "",
+//        "webSite": "http://gethuman.com",
+//        "bio": "Jeff is the Chief Architect at GetHuman and co-organizer of the extremely popular Angular Boston meetup. He recently gave a talks at ng-conf 2015 on Angular 1.x server rendering and ng-vegas 2015 on Angular 2. More recently he has been working on bringing server rendering to Angular 2.",
+//        "allowHtml": false,
+//        "sessions": [
+//            {
+//                "id": 4771,
+//                "title": "Angular 2 Server Rendering",
+//                "sessionUrl": "angular-2-server-rendering",
+//                "desriptionShort": "Angular2 was built from the ground up to potentially run anywhere, including your web server. In this talk, we will go through the implications of this design and demonstrate the power of rendering your Angular2 app on the server.",
+//                "description": "Unlike Angular 1.x, Angular2 is not tightly coupled to the DOM. In fact, Angular2 was built from the ground up to potentially run anywhere, including your web server. In this talk, we will go through the implications of this design and demonstrate the power of rendering your Angular2 app on the server.",
+//                "tenantName": "ANGU",
+//                "keyNote": false
+//            }
+//        ],
+//        "keyNoteSpeaker": false
+//    },
+//    {
+//        "id": 11388,
+//        "firstName": "Aysegul",
+//        "lastName": "Yonet",
+//        "speakerUrl": "aysegul-yonet-11388",
+//        "imageUrl": "",
+//        "webSite": "github.com/yonet",
+//        "bio": "Aysegul Yonet is CTO of AnnieCannons, Inc and a Software Engineer focusing on data visualization and analytics. Aysegul hosts Women Who Code and Girl Develop It JavaScript Meetups in San Francisco. She also teaches workshops for D3.js, AngularJS, and MEAN stack.",
+//        "allowHtml": true,
+//        "sessions": [
+//            {
+//                "id": 4756,
+//                "title": "Creating d3 Components with Angular2 and TypeScript",
+//                "sessionUrl": "creating-d3-components-with-angular2-and-typescript",
+//                "desriptionShort": "By creating d3 components in Angular you gain even more declarative API. Angular allows you to construct your own declarative DSL so you can easily reason about visualizations you create.",
+//                "description": "By creating d3 components in Angular you gain even more declarative API. Angular allows you to construct your own declarative DSL so you can easily reason about visualizations you create.",
+//                "tenantName": "ANGU",
+//                "keyNote": false
+//            }
+//        ],
+//        "keyNoteSpeaker": false
+//    }
+//];
+//var i = 0;
+//for (i = 0; i < speakers.length; i++) {
+//    speakers[i].speakerImageUrl = "https://www.siliconvalley-codecamp.com/attendeeimage/" +
+//        speakers[i].id + ".jpg?format=jpg&amp;height=190&amp;width=290&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff";
+//}
+//return speakers;
 
 
 
@@ -236,7 +1228,2481 @@ SpeakerService.$inject = ['$http'];
 
 
 
-},{"angular":15}],13:[function(require,module,exports){
+
+},{}],14:[function(require,module,exports){
+/**
+ * @license AngularJS v1.4.8
+ * (c) 2010-2015 Google, Inc. http://angularjs.org
+ * License: MIT
+ */
+(function(window, angular, undefined) {
+
+'use strict';
+
+/**
+ * @ngdoc object
+ * @name angular.mock
+ * @description
+ *
+ * Namespace from 'angular-mocks.js' which contains testing related code.
+ */
+angular.mock = {};
+
+/**
+ * ! This is a private undocumented service !
+ *
+ * @name $browser
+ *
+ * @description
+ * This service is a mock implementation of {@link ng.$browser}. It provides fake
+ * implementation for commonly used browser apis that are hard to test, e.g. setTimeout, xhr,
+ * cookies, etc...
+ *
+ * The api of this service is the same as that of the real {@link ng.$browser $browser}, except
+ * that there are several helper methods available which can be used in tests.
+ */
+angular.mock.$BrowserProvider = function() {
+  this.$get = function() {
+    return new angular.mock.$Browser();
+  };
+};
+
+angular.mock.$Browser = function() {
+  var self = this;
+
+  this.isMock = true;
+  self.$$url = "http://server/";
+  self.$$lastUrl = self.$$url; // used by url polling fn
+  self.pollFns = [];
+
+  // TODO(vojta): remove this temporary api
+  self.$$completeOutstandingRequest = angular.noop;
+  self.$$incOutstandingRequestCount = angular.noop;
+
+
+  // register url polling fn
+
+  self.onUrlChange = function(listener) {
+    self.pollFns.push(
+      function() {
+        if (self.$$lastUrl !== self.$$url || self.$$state !== self.$$lastState) {
+          self.$$lastUrl = self.$$url;
+          self.$$lastState = self.$$state;
+          listener(self.$$url, self.$$state);
+        }
+      }
+    );
+
+    return listener;
+  };
+
+  self.$$applicationDestroyed = angular.noop;
+  self.$$checkUrlChange = angular.noop;
+
+  self.deferredFns = [];
+  self.deferredNextId = 0;
+
+  self.defer = function(fn, delay) {
+    delay = delay || 0;
+    self.deferredFns.push({time:(self.defer.now + delay), fn:fn, id: self.deferredNextId});
+    self.deferredFns.sort(function(a, b) { return a.time - b.time;});
+    return self.deferredNextId++;
+  };
+
+
+  /**
+   * @name $browser#defer.now
+   *
+   * @description
+   * Current milliseconds mock time.
+   */
+  self.defer.now = 0;
+
+
+  self.defer.cancel = function(deferId) {
+    var fnIndex;
+
+    angular.forEach(self.deferredFns, function(fn, index) {
+      if (fn.id === deferId) fnIndex = index;
+    });
+
+    if (angular.isDefined(fnIndex)) {
+      self.deferredFns.splice(fnIndex, 1);
+      return true;
+    }
+
+    return false;
+  };
+
+
+  /**
+   * @name $browser#defer.flush
+   *
+   * @description
+   * Flushes all pending requests and executes the defer callbacks.
+   *
+   * @param {number=} number of milliseconds to flush. See {@link #defer.now}
+   */
+  self.defer.flush = function(delay) {
+    if (angular.isDefined(delay)) {
+      self.defer.now += delay;
+    } else {
+      if (self.deferredFns.length) {
+        self.defer.now = self.deferredFns[self.deferredFns.length - 1].time;
+      } else {
+        throw new Error('No deferred tasks to be flushed');
+      }
+    }
+
+    while (self.deferredFns.length && self.deferredFns[0].time <= self.defer.now) {
+      self.deferredFns.shift().fn();
+    }
+  };
+
+  self.$$baseHref = '/';
+  self.baseHref = function() {
+    return this.$$baseHref;
+  };
+};
+angular.mock.$Browser.prototype = {
+
+/**
+  * @name $browser#poll
+  *
+  * @description
+  * run all fns in pollFns
+  */
+  poll: function poll() {
+    angular.forEach(this.pollFns, function(pollFn) {
+      pollFn();
+    });
+  },
+
+  url: function(url, replace, state) {
+    if (angular.isUndefined(state)) {
+      state = null;
+    }
+    if (url) {
+      this.$$url = url;
+      // Native pushState serializes & copies the object; simulate it.
+      this.$$state = angular.copy(state);
+      return this;
+    }
+
+    return this.$$url;
+  },
+
+  state: function() {
+    return this.$$state;
+  },
+
+  notifyWhenNoOutstandingRequests: function(fn) {
+    fn();
+  }
+};
+
+
+/**
+ * @ngdoc provider
+ * @name $exceptionHandlerProvider
+ *
+ * @description
+ * Configures the mock implementation of {@link ng.$exceptionHandler} to rethrow or to log errors
+ * passed to the `$exceptionHandler`.
+ */
+
+/**
+ * @ngdoc service
+ * @name $exceptionHandler
+ *
+ * @description
+ * Mock implementation of {@link ng.$exceptionHandler} that rethrows or logs errors passed
+ * to it. See {@link ngMock.$exceptionHandlerProvider $exceptionHandlerProvider} for configuration
+ * information.
+ *
+ *
+ * ```js
+ *   describe('$exceptionHandlerProvider', function() {
+ *
+ *     it('should capture log messages and exceptions', function() {
+ *
+ *       module(function($exceptionHandlerProvider) {
+ *         $exceptionHandlerProvider.mode('log');
+ *       });
+ *
+ *       inject(function($log, $exceptionHandler, $timeout) {
+ *         $timeout(function() { $log.log(1); });
+ *         $timeout(function() { $log.log(2); throw 'banana peel'; });
+ *         $timeout(function() { $log.log(3); });
+ *         expect($exceptionHandler.errors).toEqual([]);
+ *         expect($log.assertEmpty());
+ *         $timeout.flush();
+ *         expect($exceptionHandler.errors).toEqual(['banana peel']);
+ *         expect($log.log.logs).toEqual([[1], [2], [3]]);
+ *       });
+ *     });
+ *   });
+ * ```
+ */
+
+angular.mock.$ExceptionHandlerProvider = function() {
+  var handler;
+
+  /**
+   * @ngdoc method
+   * @name $exceptionHandlerProvider#mode
+   *
+   * @description
+   * Sets the logging mode.
+   *
+   * @param {string} mode Mode of operation, defaults to `rethrow`.
+   *
+   *   - `log`: Sometimes it is desirable to test that an error is thrown, for this case the `log`
+   *            mode stores an array of errors in `$exceptionHandler.errors`, to allow later
+   *            assertion of them. See {@link ngMock.$log#assertEmpty assertEmpty()} and
+   *            {@link ngMock.$log#reset reset()}
+   *   - `rethrow`: If any errors are passed to the handler in tests, it typically means that there
+   *                is a bug in the application or test, so this mock will make these tests fail.
+   *                For any implementations that expect exceptions to be thrown, the `rethrow` mode
+   *                will also maintain a log of thrown errors.
+   */
+  this.mode = function(mode) {
+
+    switch (mode) {
+      case 'log':
+      case 'rethrow':
+        var errors = [];
+        handler = function(e) {
+          if (arguments.length == 1) {
+            errors.push(e);
+          } else {
+            errors.push([].slice.call(arguments, 0));
+          }
+          if (mode === "rethrow") {
+            throw e;
+          }
+        };
+        handler.errors = errors;
+        break;
+      default:
+        throw new Error("Unknown mode '" + mode + "', only 'log'/'rethrow' modes are allowed!");
+    }
+  };
+
+  this.$get = function() {
+    return handler;
+  };
+
+  this.mode('rethrow');
+};
+
+
+/**
+ * @ngdoc service
+ * @name $log
+ *
+ * @description
+ * Mock implementation of {@link ng.$log} that gathers all logged messages in arrays
+ * (one array per logging level). These arrays are exposed as `logs` property of each of the
+ * level-specific log function, e.g. for level `error` the array is exposed as `$log.error.logs`.
+ *
+ */
+angular.mock.$LogProvider = function() {
+  var debug = true;
+
+  function concat(array1, array2, index) {
+    return array1.concat(Array.prototype.slice.call(array2, index));
+  }
+
+  this.debugEnabled = function(flag) {
+    if (angular.isDefined(flag)) {
+      debug = flag;
+      return this;
+    } else {
+      return debug;
+    }
+  };
+
+  this.$get = function() {
+    var $log = {
+      log: function() { $log.log.logs.push(concat([], arguments, 0)); },
+      warn: function() { $log.warn.logs.push(concat([], arguments, 0)); },
+      info: function() { $log.info.logs.push(concat([], arguments, 0)); },
+      error: function() { $log.error.logs.push(concat([], arguments, 0)); },
+      debug: function() {
+        if (debug) {
+          $log.debug.logs.push(concat([], arguments, 0));
+        }
+      }
+    };
+
+    /**
+     * @ngdoc method
+     * @name $log#reset
+     *
+     * @description
+     * Reset all of the logging arrays to empty.
+     */
+    $log.reset = function() {
+      /**
+       * @ngdoc property
+       * @name $log#log.logs
+       *
+       * @description
+       * Array of messages logged using {@link ng.$log#log `log()`}.
+       *
+       * @example
+       * ```js
+       * $log.log('Some Log');
+       * var first = $log.log.logs.unshift();
+       * ```
+       */
+      $log.log.logs = [];
+      /**
+       * @ngdoc property
+       * @name $log#info.logs
+       *
+       * @description
+       * Array of messages logged using {@link ng.$log#info `info()`}.
+       *
+       * @example
+       * ```js
+       * $log.info('Some Info');
+       * var first = $log.info.logs.unshift();
+       * ```
+       */
+      $log.info.logs = [];
+      /**
+       * @ngdoc property
+       * @name $log#warn.logs
+       *
+       * @description
+       * Array of messages logged using {@link ng.$log#warn `warn()`}.
+       *
+       * @example
+       * ```js
+       * $log.warn('Some Warning');
+       * var first = $log.warn.logs.unshift();
+       * ```
+       */
+      $log.warn.logs = [];
+      /**
+       * @ngdoc property
+       * @name $log#error.logs
+       *
+       * @description
+       * Array of messages logged using {@link ng.$log#error `error()`}.
+       *
+       * @example
+       * ```js
+       * $log.error('Some Error');
+       * var first = $log.error.logs.unshift();
+       * ```
+       */
+      $log.error.logs = [];
+        /**
+       * @ngdoc property
+       * @name $log#debug.logs
+       *
+       * @description
+       * Array of messages logged using {@link ng.$log#debug `debug()`}.
+       *
+       * @example
+       * ```js
+       * $log.debug('Some Error');
+       * var first = $log.debug.logs.unshift();
+       * ```
+       */
+      $log.debug.logs = [];
+    };
+
+    /**
+     * @ngdoc method
+     * @name $log#assertEmpty
+     *
+     * @description
+     * Assert that all of the logging methods have no logged messages. If any messages are present,
+     * an exception is thrown.
+     */
+    $log.assertEmpty = function() {
+      var errors = [];
+      angular.forEach(['error', 'warn', 'info', 'log', 'debug'], function(logLevel) {
+        angular.forEach($log[logLevel].logs, function(log) {
+          angular.forEach(log, function(logItem) {
+            errors.push('MOCK $log (' + logLevel + '): ' + String(logItem) + '\n' +
+                        (logItem.stack || ''));
+          });
+        });
+      });
+      if (errors.length) {
+        errors.unshift("Expected $log to be empty! Either a message was logged unexpectedly, or " +
+          "an expected log message was not checked and removed:");
+        errors.push('');
+        throw new Error(errors.join('\n---------\n'));
+      }
+    };
+
+    $log.reset();
+    return $log;
+  };
+};
+
+
+/**
+ * @ngdoc service
+ * @name $interval
+ *
+ * @description
+ * Mock implementation of the $interval service.
+ *
+ * Use {@link ngMock.$interval#flush `$interval.flush(millis)`} to
+ * move forward by `millis` milliseconds and trigger any functions scheduled to run in that
+ * time.
+ *
+ * @param {function()} fn A function that should be called repeatedly.
+ * @param {number} delay Number of milliseconds between each function call.
+ * @param {number=} [count=0] Number of times to repeat. If not set, or 0, will repeat
+ *   indefinitely.
+ * @param {boolean=} [invokeApply=true] If set to `false` skips model dirty checking, otherwise
+ *   will invoke `fn` within the {@link ng.$rootScope.Scope#$apply $apply} block.
+ * @param {...*=} Pass additional parameters to the executed function.
+ * @returns {promise} A promise which will be notified on each iteration.
+ */
+angular.mock.$IntervalProvider = function() {
+  this.$get = ['$browser', '$rootScope', '$q', '$$q',
+       function($browser,   $rootScope,   $q,   $$q) {
+    var repeatFns = [],
+        nextRepeatId = 0,
+        now = 0;
+
+    var $interval = function(fn, delay, count, invokeApply) {
+      var hasParams = arguments.length > 4,
+          args = hasParams ? Array.prototype.slice.call(arguments, 4) : [],
+          iteration = 0,
+          skipApply = (angular.isDefined(invokeApply) && !invokeApply),
+          deferred = (skipApply ? $$q : $q).defer(),
+          promise = deferred.promise;
+
+      count = (angular.isDefined(count)) ? count : 0;
+      promise.then(null, null, (!hasParams) ? fn : function() {
+        fn.apply(null, args);
+      });
+
+      promise.$$intervalId = nextRepeatId;
+
+      function tick() {
+        deferred.notify(iteration++);
+
+        if (count > 0 && iteration >= count) {
+          var fnIndex;
+          deferred.resolve(iteration);
+
+          angular.forEach(repeatFns, function(fn, index) {
+            if (fn.id === promise.$$intervalId) fnIndex = index;
+          });
+
+          if (angular.isDefined(fnIndex)) {
+            repeatFns.splice(fnIndex, 1);
+          }
+        }
+
+        if (skipApply) {
+          $browser.defer.flush();
+        } else {
+          $rootScope.$apply();
+        }
+      }
+
+      repeatFns.push({
+        nextTime:(now + delay),
+        delay: delay,
+        fn: tick,
+        id: nextRepeatId,
+        deferred: deferred
+      });
+      repeatFns.sort(function(a, b) { return a.nextTime - b.nextTime;});
+
+      nextRepeatId++;
+      return promise;
+    };
+    /**
+     * @ngdoc method
+     * @name $interval#cancel
+     *
+     * @description
+     * Cancels a task associated with the `promise`.
+     *
+     * @param {promise} promise A promise from calling the `$interval` function.
+     * @returns {boolean} Returns `true` if the task was successfully cancelled.
+     */
+    $interval.cancel = function(promise) {
+      if (!promise) return false;
+      var fnIndex;
+
+      angular.forEach(repeatFns, function(fn, index) {
+        if (fn.id === promise.$$intervalId) fnIndex = index;
+      });
+
+      if (angular.isDefined(fnIndex)) {
+        repeatFns[fnIndex].deferred.reject('canceled');
+        repeatFns.splice(fnIndex, 1);
+        return true;
+      }
+
+      return false;
+    };
+
+    /**
+     * @ngdoc method
+     * @name $interval#flush
+     * @description
+     *
+     * Runs interval tasks scheduled to be run in the next `millis` milliseconds.
+     *
+     * @param {number=} millis maximum timeout amount to flush up until.
+     *
+     * @return {number} The amount of time moved forward.
+     */
+    $interval.flush = function(millis) {
+      now += millis;
+      while (repeatFns.length && repeatFns[0].nextTime <= now) {
+        var task = repeatFns[0];
+        task.fn();
+        task.nextTime += task.delay;
+        repeatFns.sort(function(a, b) { return a.nextTime - b.nextTime;});
+      }
+      return millis;
+    };
+
+    return $interval;
+  }];
+};
+
+
+/* jshint -W101 */
+/* The R_ISO8061_STR regex is never going to fit into the 100 char limit!
+ * This directive should go inside the anonymous function but a bug in JSHint means that it would
+ * not be enacted early enough to prevent the warning.
+ */
+var R_ISO8061_STR = /^(\d{4})-?(\d\d)-?(\d\d)(?:T(\d\d)(?:\:?(\d\d)(?:\:?(\d\d)(?:\.(\d{3}))?)?)?(Z|([+-])(\d\d):?(\d\d)))?$/;
+
+function jsonStringToDate(string) {
+  var match;
+  if (match = string.match(R_ISO8061_STR)) {
+    var date = new Date(0),
+        tzHour = 0,
+        tzMin  = 0;
+    if (match[9]) {
+      tzHour = toInt(match[9] + match[10]);
+      tzMin = toInt(match[9] + match[11]);
+    }
+    date.setUTCFullYear(toInt(match[1]), toInt(match[2]) - 1, toInt(match[3]));
+    date.setUTCHours(toInt(match[4] || 0) - tzHour,
+                     toInt(match[5] || 0) - tzMin,
+                     toInt(match[6] || 0),
+                     toInt(match[7] || 0));
+    return date;
+  }
+  return string;
+}
+
+function toInt(str) {
+  return parseInt(str, 10);
+}
+
+function padNumber(num, digits, trim) {
+  var neg = '';
+  if (num < 0) {
+    neg =  '-';
+    num = -num;
+  }
+  num = '' + num;
+  while (num.length < digits) num = '0' + num;
+  if (trim) {
+    num = num.substr(num.length - digits);
+  }
+  return neg + num;
+}
+
+
+/**
+ * @ngdoc type
+ * @name angular.mock.TzDate
+ * @description
+ *
+ * *NOTE*: this is not an injectable instance, just a globally available mock class of `Date`.
+ *
+ * Mock of the Date type which has its timezone specified via constructor arg.
+ *
+ * The main purpose is to create Date-like instances with timezone fixed to the specified timezone
+ * offset, so that we can test code that depends on local timezone settings without dependency on
+ * the time zone settings of the machine where the code is running.
+ *
+ * @param {number} offset Offset of the *desired* timezone in hours (fractions will be honored)
+ * @param {(number|string)} timestamp Timestamp representing the desired time in *UTC*
+ *
+ * @example
+ * !!!! WARNING !!!!!
+ * This is not a complete Date object so only methods that were implemented can be called safely.
+ * To make matters worse, TzDate instances inherit stuff from Date via a prototype.
+ *
+ * We do our best to intercept calls to "unimplemented" methods, but since the list of methods is
+ * incomplete we might be missing some non-standard methods. This can result in errors like:
+ * "Date.prototype.foo called on incompatible Object".
+ *
+ * ```js
+ * var newYearInBratislava = new TzDate(-1, '2009-12-31T23:00:00Z');
+ * newYearInBratislava.getTimezoneOffset() => -60;
+ * newYearInBratislava.getFullYear() => 2010;
+ * newYearInBratislava.getMonth() => 0;
+ * newYearInBratislava.getDate() => 1;
+ * newYearInBratislava.getHours() => 0;
+ * newYearInBratislava.getMinutes() => 0;
+ * newYearInBratislava.getSeconds() => 0;
+ * ```
+ *
+ */
+angular.mock.TzDate = function(offset, timestamp) {
+  var self = new Date(0);
+  if (angular.isString(timestamp)) {
+    var tsStr = timestamp;
+
+    self.origDate = jsonStringToDate(timestamp);
+
+    timestamp = self.origDate.getTime();
+    if (isNaN(timestamp)) {
+      throw {
+        name: "Illegal Argument",
+        message: "Arg '" + tsStr + "' passed into TzDate constructor is not a valid date string"
+      };
+    }
+  } else {
+    self.origDate = new Date(timestamp);
+  }
+
+  var localOffset = new Date(timestamp).getTimezoneOffset();
+  self.offsetDiff = localOffset * 60 * 1000 - offset * 1000 * 60 * 60;
+  self.date = new Date(timestamp + self.offsetDiff);
+
+  self.getTime = function() {
+    return self.date.getTime() - self.offsetDiff;
+  };
+
+  self.toLocaleDateString = function() {
+    return self.date.toLocaleDateString();
+  };
+
+  self.getFullYear = function() {
+    return self.date.getFullYear();
+  };
+
+  self.getMonth = function() {
+    return self.date.getMonth();
+  };
+
+  self.getDate = function() {
+    return self.date.getDate();
+  };
+
+  self.getHours = function() {
+    return self.date.getHours();
+  };
+
+  self.getMinutes = function() {
+    return self.date.getMinutes();
+  };
+
+  self.getSeconds = function() {
+    return self.date.getSeconds();
+  };
+
+  self.getMilliseconds = function() {
+    return self.date.getMilliseconds();
+  };
+
+  self.getTimezoneOffset = function() {
+    return offset * 60;
+  };
+
+  self.getUTCFullYear = function() {
+    return self.origDate.getUTCFullYear();
+  };
+
+  self.getUTCMonth = function() {
+    return self.origDate.getUTCMonth();
+  };
+
+  self.getUTCDate = function() {
+    return self.origDate.getUTCDate();
+  };
+
+  self.getUTCHours = function() {
+    return self.origDate.getUTCHours();
+  };
+
+  self.getUTCMinutes = function() {
+    return self.origDate.getUTCMinutes();
+  };
+
+  self.getUTCSeconds = function() {
+    return self.origDate.getUTCSeconds();
+  };
+
+  self.getUTCMilliseconds = function() {
+    return self.origDate.getUTCMilliseconds();
+  };
+
+  self.getDay = function() {
+    return self.date.getDay();
+  };
+
+  // provide this method only on browsers that already have it
+  if (self.toISOString) {
+    self.toISOString = function() {
+      return padNumber(self.origDate.getUTCFullYear(), 4) + '-' +
+            padNumber(self.origDate.getUTCMonth() + 1, 2) + '-' +
+            padNumber(self.origDate.getUTCDate(), 2) + 'T' +
+            padNumber(self.origDate.getUTCHours(), 2) + ':' +
+            padNumber(self.origDate.getUTCMinutes(), 2) + ':' +
+            padNumber(self.origDate.getUTCSeconds(), 2) + '.' +
+            padNumber(self.origDate.getUTCMilliseconds(), 3) + 'Z';
+    };
+  }
+
+  //hide all methods not implemented in this mock that the Date prototype exposes
+  var unimplementedMethods = ['getUTCDay',
+      'getYear', 'setDate', 'setFullYear', 'setHours', 'setMilliseconds',
+      'setMinutes', 'setMonth', 'setSeconds', 'setTime', 'setUTCDate', 'setUTCFullYear',
+      'setUTCHours', 'setUTCMilliseconds', 'setUTCMinutes', 'setUTCMonth', 'setUTCSeconds',
+      'setYear', 'toDateString', 'toGMTString', 'toJSON', 'toLocaleFormat', 'toLocaleString',
+      'toLocaleTimeString', 'toSource', 'toString', 'toTimeString', 'toUTCString', 'valueOf'];
+
+  angular.forEach(unimplementedMethods, function(methodName) {
+    self[methodName] = function() {
+      throw new Error("Method '" + methodName + "' is not implemented in the TzDate mock");
+    };
+  });
+
+  return self;
+};
+
+//make "tzDateInstance instanceof Date" return true
+angular.mock.TzDate.prototype = Date.prototype;
+/* jshint +W101 */
+
+angular.mock.animate = angular.module('ngAnimateMock', ['ng'])
+
+  .config(['$provide', function($provide) {
+
+    $provide.factory('$$forceReflow', function() {
+      function reflowFn() {
+        reflowFn.totalReflows++;
+      }
+      reflowFn.totalReflows = 0;
+      return reflowFn;
+    });
+
+    $provide.factory('$$animateAsyncRun', function() {
+      var queue = [];
+      var queueFn = function() {
+        return function(fn) {
+          queue.push(fn);
+        };
+      };
+      queueFn.flush = function() {
+        if (queue.length === 0) return false;
+
+        for (var i = 0; i < queue.length; i++) {
+          queue[i]();
+        }
+        queue = [];
+
+        return true;
+      };
+      return queueFn;
+    });
+
+    $provide.decorator('$animate', ['$delegate', '$timeout', '$browser', '$$rAF',
+                                    '$$forceReflow', '$$animateAsyncRun', '$rootScope',
+                            function($delegate,   $timeout,   $browser,   $$rAF,
+                                     $$forceReflow,   $$animateAsyncRun,  $rootScope) {
+      var animate = {
+        queue: [],
+        cancel: $delegate.cancel,
+        on: $delegate.on,
+        off: $delegate.off,
+        pin: $delegate.pin,
+        get reflows() {
+          return $$forceReflow.totalReflows;
+        },
+        enabled: $delegate.enabled,
+        flush: function() {
+          $rootScope.$digest();
+
+          var doNextRun, somethingFlushed = false;
+          do {
+            doNextRun = false;
+
+            if ($$rAF.queue.length) {
+              $$rAF.flush();
+              doNextRun = somethingFlushed = true;
+            }
+
+            if ($$animateAsyncRun.flush()) {
+              doNextRun = somethingFlushed = true;
+            }
+          } while (doNextRun);
+
+          if (!somethingFlushed) {
+            throw new Error('No pending animations ready to be closed or flushed');
+          }
+
+          $rootScope.$digest();
+        }
+      };
+
+      angular.forEach(
+        ['animate','enter','leave','move','addClass','removeClass','setClass'], function(method) {
+        animate[method] = function() {
+          animate.queue.push({
+            event: method,
+            element: arguments[0],
+            options: arguments[arguments.length - 1],
+            args: arguments
+          });
+          return $delegate[method].apply($delegate, arguments);
+        };
+      });
+
+      return animate;
+    }]);
+
+  }]);
+
+
+/**
+ * @ngdoc function
+ * @name angular.mock.dump
+ * @description
+ *
+ * *NOTE*: this is not an injectable instance, just a globally available function.
+ *
+ * Method for serializing common angular objects (scope, elements, etc..) into strings, useful for
+ * debugging.
+ *
+ * This method is also available on window, where it can be used to display objects on debug
+ * console.
+ *
+ * @param {*} object - any object to turn into string.
+ * @return {string} a serialized string of the argument
+ */
+angular.mock.dump = function(object) {
+  return serialize(object);
+
+  function serialize(object) {
+    var out;
+
+    if (angular.isElement(object)) {
+      object = angular.element(object);
+      out = angular.element('<div></div>');
+      angular.forEach(object, function(element) {
+        out.append(angular.element(element).clone());
+      });
+      out = out.html();
+    } else if (angular.isArray(object)) {
+      out = [];
+      angular.forEach(object, function(o) {
+        out.push(serialize(o));
+      });
+      out = '[ ' + out.join(', ') + ' ]';
+    } else if (angular.isObject(object)) {
+      if (angular.isFunction(object.$eval) && angular.isFunction(object.$apply)) {
+        out = serializeScope(object);
+      } else if (object instanceof Error) {
+        out = object.stack || ('' + object.name + ': ' + object.message);
+      } else {
+        // TODO(i): this prevents methods being logged,
+        // we should have a better way to serialize objects
+        out = angular.toJson(object, true);
+      }
+    } else {
+      out = String(object);
+    }
+
+    return out;
+  }
+
+  function serializeScope(scope, offset) {
+    offset = offset ||  '  ';
+    var log = [offset + 'Scope(' + scope.$id + '): {'];
+    for (var key in scope) {
+      if (Object.prototype.hasOwnProperty.call(scope, key) && !key.match(/^(\$|this)/)) {
+        log.push('  ' + key + ': ' + angular.toJson(scope[key]));
+      }
+    }
+    var child = scope.$$childHead;
+    while (child) {
+      log.push(serializeScope(child, offset + '  '));
+      child = child.$$nextSibling;
+    }
+    log.push('}');
+    return log.join('\n' + offset);
+  }
+};
+
+/**
+ * @ngdoc service
+ * @name $httpBackend
+ * @description
+ * Fake HTTP backend implementation suitable for unit testing applications that use the
+ * {@link ng.$http $http service}.
+ *
+ * *Note*: For fake HTTP backend implementation suitable for end-to-end testing or backend-less
+ * development please see {@link ngMockE2E.$httpBackend e2e $httpBackend mock}.
+ *
+ * During unit testing, we want our unit tests to run quickly and have no external dependencies so
+ * we don’t want to send [XHR](https://developer.mozilla.org/en/xmlhttprequest) or
+ * [JSONP](http://en.wikipedia.org/wiki/JSONP) requests to a real server. All we really need is
+ * to verify whether a certain request has been sent or not, or alternatively just let the
+ * application make requests, respond with pre-trained responses and assert that the end result is
+ * what we expect it to be.
+ *
+ * This mock implementation can be used to respond with static or dynamic responses via the
+ * `expect` and `when` apis and their shortcuts (`expectGET`, `whenPOST`, etc).
+ *
+ * When an Angular application needs some data from a server, it calls the $http service, which
+ * sends the request to a real server using $httpBackend service. With dependency injection, it is
+ * easy to inject $httpBackend mock (which has the same API as $httpBackend) and use it to verify
+ * the requests and respond with some testing data without sending a request to a real server.
+ *
+ * There are two ways to specify what test data should be returned as http responses by the mock
+ * backend when the code under test makes http requests:
+ *
+ * - `$httpBackend.expect` - specifies a request expectation
+ * - `$httpBackend.when` - specifies a backend definition
+ *
+ *
+ * # Request Expectations vs Backend Definitions
+ *
+ * Request expectations provide a way to make assertions about requests made by the application and
+ * to define responses for those requests. The test will fail if the expected requests are not made
+ * or they are made in the wrong order.
+ *
+ * Backend definitions allow you to define a fake backend for your application which doesn't assert
+ * if a particular request was made or not, it just returns a trained response if a request is made.
+ * The test will pass whether or not the request gets made during testing.
+ *
+ *
+ * <table class="table">
+ *   <tr><th width="220px"></th><th>Request expectations</th><th>Backend definitions</th></tr>
+ *   <tr>
+ *     <th>Syntax</th>
+ *     <td>.expect(...).respond(...)</td>
+ *     <td>.when(...).respond(...)</td>
+ *   </tr>
+ *   <tr>
+ *     <th>Typical usage</th>
+ *     <td>strict unit tests</td>
+ *     <td>loose (black-box) unit testing</td>
+ *   </tr>
+ *   <tr>
+ *     <th>Fulfills multiple requests</th>
+ *     <td>NO</td>
+ *     <td>YES</td>
+ *   </tr>
+ *   <tr>
+ *     <th>Order of requests matters</th>
+ *     <td>YES</td>
+ *     <td>NO</td>
+ *   </tr>
+ *   <tr>
+ *     <th>Request required</th>
+ *     <td>YES</td>
+ *     <td>NO</td>
+ *   </tr>
+ *   <tr>
+ *     <th>Response required</th>
+ *     <td>optional (see below)</td>
+ *     <td>YES</td>
+ *   </tr>
+ * </table>
+ *
+ * In cases where both backend definitions and request expectations are specified during unit
+ * testing, the request expectations are evaluated first.
+ *
+ * If a request expectation has no response specified, the algorithm will search your backend
+ * definitions for an appropriate response.
+ *
+ * If a request didn't match any expectation or if the expectation doesn't have the response
+ * defined, the backend definitions are evaluated in sequential order to see if any of them match
+ * the request. The response from the first matched definition is returned.
+ *
+ *
+ * # Flushing HTTP requests
+ *
+ * The $httpBackend used in production always responds to requests asynchronously. If we preserved
+ * this behavior in unit testing, we'd have to create async unit tests, which are hard to write,
+ * to follow and to maintain. But neither can the testing mock respond synchronously; that would
+ * change the execution of the code under test. For this reason, the mock $httpBackend has a
+ * `flush()` method, which allows the test to explicitly flush pending requests. This preserves
+ * the async api of the backend, while allowing the test to execute synchronously.
+ *
+ *
+ * # Unit testing with mock $httpBackend
+ * The following code shows how to setup and use the mock backend when unit testing a controller.
+ * First we create the controller under test:
+ *
+  ```js
+  // The module code
+  angular
+    .module('MyApp', [])
+    .controller('MyController', MyController);
+
+  // The controller code
+  function MyController($scope, $http) {
+    var authToken;
+
+    $http.get('/auth.py').success(function(data, status, headers) {
+      authToken = headers('A-Token');
+      $scope.user = data;
+    });
+
+    $scope.saveMessage = function(message) {
+      var headers = { 'Authorization': authToken };
+      $scope.status = 'Saving...';
+
+      $http.post('/add-msg.py', message, { headers: headers } ).success(function(response) {
+        $scope.status = '';
+      }).error(function() {
+        $scope.status = 'Failed...';
+      });
+    };
+  }
+  ```
+ *
+ * Now we setup the mock backend and create the test specs:
+ *
+  ```js
+    // testing controller
+    describe('MyController', function() {
+       var $httpBackend, $rootScope, createController, authRequestHandler;
+
+       // Set up the module
+       beforeEach(module('MyApp'));
+
+       beforeEach(inject(function($injector) {
+         // Set up the mock http service responses
+         $httpBackend = $injector.get('$httpBackend');
+         // backend definition common for all tests
+         authRequestHandler = $httpBackend.when('GET', '/auth.py')
+                                .respond({userId: 'userX'}, {'A-Token': 'xxx'});
+
+         // Get hold of a scope (i.e. the root scope)
+         $rootScope = $injector.get('$rootScope');
+         // The $controller service is used to create instances of controllers
+         var $controller = $injector.get('$controller');
+
+         createController = function() {
+           return $controller('MyController', {'$scope' : $rootScope });
+         };
+       }));
+
+
+       afterEach(function() {
+         $httpBackend.verifyNoOutstandingExpectation();
+         $httpBackend.verifyNoOutstandingRequest();
+       });
+
+
+       it('should fetch authentication token', function() {
+         $httpBackend.expectGET('/auth.py');
+         var controller = createController();
+         $httpBackend.flush();
+       });
+
+
+       it('should fail authentication', function() {
+
+         // Notice how you can change the response even after it was set
+         authRequestHandler.respond(401, '');
+
+         $httpBackend.expectGET('/auth.py');
+         var controller = createController();
+         $httpBackend.flush();
+         expect($rootScope.status).toBe('Failed...');
+       });
+
+
+       it('should send msg to server', function() {
+         var controller = createController();
+         $httpBackend.flush();
+
+         // now you don’t care about the authentication, but
+         // the controller will still send the request and
+         // $httpBackend will respond without you having to
+         // specify the expectation and response for this request
+
+         $httpBackend.expectPOST('/add-msg.py', 'message content').respond(201, '');
+         $rootScope.saveMessage('message content');
+         expect($rootScope.status).toBe('Saving...');
+         $httpBackend.flush();
+         expect($rootScope.status).toBe('');
+       });
+
+
+       it('should send auth header', function() {
+         var controller = createController();
+         $httpBackend.flush();
+
+         $httpBackend.expectPOST('/add-msg.py', undefined, function(headers) {
+           // check if the header was sent, if it wasn't the expectation won't
+           // match the request and the test will fail
+           return headers['Authorization'] == 'xxx';
+         }).respond(201, '');
+
+         $rootScope.saveMessage('whatever');
+         $httpBackend.flush();
+       });
+    });
+   ```
+ */
+angular.mock.$HttpBackendProvider = function() {
+  this.$get = ['$rootScope', '$timeout', createHttpBackendMock];
+};
+
+/**
+ * General factory function for $httpBackend mock.
+ * Returns instance for unit testing (when no arguments specified):
+ *   - passing through is disabled
+ *   - auto flushing is disabled
+ *
+ * Returns instance for e2e testing (when `$delegate` and `$browser` specified):
+ *   - passing through (delegating request to real backend) is enabled
+ *   - auto flushing is enabled
+ *
+ * @param {Object=} $delegate Real $httpBackend instance (allow passing through if specified)
+ * @param {Object=} $browser Auto-flushing enabled if specified
+ * @return {Object} Instance of $httpBackend mock
+ */
+function createHttpBackendMock($rootScope, $timeout, $delegate, $browser) {
+  var definitions = [],
+      expectations = [],
+      responses = [],
+      responsesPush = angular.bind(responses, responses.push),
+      copy = angular.copy;
+
+  function createResponse(status, data, headers, statusText) {
+    if (angular.isFunction(status)) return status;
+
+    return function() {
+      return angular.isNumber(status)
+          ? [status, data, headers, statusText]
+          : [200, status, data, headers];
+    };
+  }
+
+  // TODO(vojta): change params to: method, url, data, headers, callback
+  function $httpBackend(method, url, data, callback, headers, timeout, withCredentials) {
+    var xhr = new MockXhr(),
+        expectation = expectations[0],
+        wasExpected = false;
+
+    function prettyPrint(data) {
+      return (angular.isString(data) || angular.isFunction(data) || data instanceof RegExp)
+          ? data
+          : angular.toJson(data);
+    }
+
+    function wrapResponse(wrapped) {
+      if (!$browser && timeout) {
+        timeout.then ? timeout.then(handleTimeout) : $timeout(handleTimeout, timeout);
+      }
+
+      return handleResponse;
+
+      function handleResponse() {
+        var response = wrapped.response(method, url, data, headers);
+        xhr.$$respHeaders = response[2];
+        callback(copy(response[0]), copy(response[1]), xhr.getAllResponseHeaders(),
+                 copy(response[3] || ''));
+      }
+
+      function handleTimeout() {
+        for (var i = 0, ii = responses.length; i < ii; i++) {
+          if (responses[i] === handleResponse) {
+            responses.splice(i, 1);
+            callback(-1, undefined, '');
+            break;
+          }
+        }
+      }
+    }
+
+    if (expectation && expectation.match(method, url)) {
+      if (!expectation.matchData(data)) {
+        throw new Error('Expected ' + expectation + ' with different data\n' +
+            'EXPECTED: ' + prettyPrint(expectation.data) + '\nGOT:      ' + data);
+      }
+
+      if (!expectation.matchHeaders(headers)) {
+        throw new Error('Expected ' + expectation + ' with different headers\n' +
+                        'EXPECTED: ' + prettyPrint(expectation.headers) + '\nGOT:      ' +
+                        prettyPrint(headers));
+      }
+
+      expectations.shift();
+
+      if (expectation.response) {
+        responses.push(wrapResponse(expectation));
+        return;
+      }
+      wasExpected = true;
+    }
+
+    var i = -1, definition;
+    while ((definition = definitions[++i])) {
+      if (definition.match(method, url, data, headers || {})) {
+        if (definition.response) {
+          // if $browser specified, we do auto flush all requests
+          ($browser ? $browser.defer : responsesPush)(wrapResponse(definition));
+        } else if (definition.passThrough) {
+          $delegate(method, url, data, callback, headers, timeout, withCredentials);
+        } else throw new Error('No response defined !');
+        return;
+      }
+    }
+    throw wasExpected ?
+        new Error('No response defined !') :
+        new Error('Unexpected request: ' + method + ' ' + url + '\n' +
+                  (expectation ? 'Expected ' + expectation : 'No more request expected'));
+  }
+
+  /**
+   * @ngdoc method
+   * @name $httpBackend#when
+   * @description
+   * Creates a new backend definition.
+   *
+   * @param {string} method HTTP method.
+   * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+   *   and returns true if the url matches the current definition.
+   * @param {(string|RegExp|function(string))=} data HTTP request body or function that receives
+   *   data string and returns true if the data is as expected.
+   * @param {(Object|function(Object))=} headers HTTP headers or function that receives http header
+   *   object and returns true if the headers match the current definition.
+   * @returns {requestHandler} Returns an object with `respond` method that controls how a matched
+   *   request is handled. You can save this object for later use and invoke `respond` again in
+   *   order to change how a matched request is handled.
+   *
+   *  - respond –
+   *      `{function([status,] data[, headers, statusText])
+   *      | function(function(method, url, data, headers)}`
+   *    – The respond method takes a set of static data to be returned or a function that can
+   *    return an array containing response status (number), response data (string), response
+   *    headers (Object), and the text for the status (string). The respond method returns the
+   *    `requestHandler` object for possible overrides.
+   */
+  $httpBackend.when = function(method, url, data, headers) {
+    var definition = new MockHttpExpectation(method, url, data, headers),
+        chain = {
+          respond: function(status, data, headers, statusText) {
+            definition.passThrough = undefined;
+            definition.response = createResponse(status, data, headers, statusText);
+            return chain;
+          }
+        };
+
+    if ($browser) {
+      chain.passThrough = function() {
+        definition.response = undefined;
+        definition.passThrough = true;
+        return chain;
+      };
+    }
+
+    definitions.push(definition);
+    return chain;
+  };
+
+  /**
+   * @ngdoc method
+   * @name $httpBackend#whenGET
+   * @description
+   * Creates a new backend definition for GET requests. For more info see `when()`.
+   *
+   * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+   *   and returns true if the url matches the current definition.
+   * @param {(Object|function(Object))=} headers HTTP headers.
+   * @returns {requestHandler} Returns an object with `respond` method that controls how a matched
+   * request is handled. You can save this object for later use and invoke `respond` again in
+   * order to change how a matched request is handled.
+   */
+
+  /**
+   * @ngdoc method
+   * @name $httpBackend#whenHEAD
+   * @description
+   * Creates a new backend definition for HEAD requests. For more info see `when()`.
+   *
+   * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+   *   and returns true if the url matches the current definition.
+   * @param {(Object|function(Object))=} headers HTTP headers.
+   * @returns {requestHandler} Returns an object with `respond` method that controls how a matched
+   * request is handled. You can save this object for later use and invoke `respond` again in
+   * order to change how a matched request is handled.
+   */
+
+  /**
+   * @ngdoc method
+   * @name $httpBackend#whenDELETE
+   * @description
+   * Creates a new backend definition for DELETE requests. For more info see `when()`.
+   *
+   * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+   *   and returns true if the url matches the current definition.
+   * @param {(Object|function(Object))=} headers HTTP headers.
+   * @returns {requestHandler} Returns an object with `respond` method that controls how a matched
+   * request is handled. You can save this object for later use and invoke `respond` again in
+   * order to change how a matched request is handled.
+   */
+
+  /**
+   * @ngdoc method
+   * @name $httpBackend#whenPOST
+   * @description
+   * Creates a new backend definition for POST requests. For more info see `when()`.
+   *
+   * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+   *   and returns true if the url matches the current definition.
+   * @param {(string|RegExp|function(string))=} data HTTP request body or function that receives
+   *   data string and returns true if the data is as expected.
+   * @param {(Object|function(Object))=} headers HTTP headers.
+   * @returns {requestHandler} Returns an object with `respond` method that controls how a matched
+   * request is handled. You can save this object for later use and invoke `respond` again in
+   * order to change how a matched request is handled.
+   */
+
+  /**
+   * @ngdoc method
+   * @name $httpBackend#whenPUT
+   * @description
+   * Creates a new backend definition for PUT requests.  For more info see `when()`.
+   *
+   * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+   *   and returns true if the url matches the current definition.
+   * @param {(string|RegExp|function(string))=} data HTTP request body or function that receives
+   *   data string and returns true if the data is as expected.
+   * @param {(Object|function(Object))=} headers HTTP headers.
+   * @returns {requestHandler} Returns an object with `respond` method that controls how a matched
+   * request is handled. You can save this object for later use and invoke `respond` again in
+   * order to change how a matched request is handled.
+   */
+
+  /**
+   * @ngdoc method
+   * @name $httpBackend#whenJSONP
+   * @description
+   * Creates a new backend definition for JSONP requests. For more info see `when()`.
+   *
+   * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+   *   and returns true if the url matches the current definition.
+   * @returns {requestHandler} Returns an object with `respond` method that controls how a matched
+   * request is handled. You can save this object for later use and invoke `respond` again in
+   * order to change how a matched request is handled.
+   */
+  createShortMethods('when');
+
+
+  /**
+   * @ngdoc method
+   * @name $httpBackend#expect
+   * @description
+   * Creates a new request expectation.
+   *
+   * @param {string} method HTTP method.
+   * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+   *   and returns true if the url matches the current definition.
+   * @param {(string|RegExp|function(string)|Object)=} data HTTP request body or function that
+   *  receives data string and returns true if the data is as expected, or Object if request body
+   *  is in JSON format.
+   * @param {(Object|function(Object))=} headers HTTP headers or function that receives http header
+   *   object and returns true if the headers match the current expectation.
+   * @returns {requestHandler} Returns an object with `respond` method that controls how a matched
+   *  request is handled. You can save this object for later use and invoke `respond` again in
+   *  order to change how a matched request is handled.
+   *
+   *  - respond –
+   *    `{function([status,] data[, headers, statusText])
+   *    | function(function(method, url, data, headers)}`
+   *    – The respond method takes a set of static data to be returned or a function that can
+   *    return an array containing response status (number), response data (string), response
+   *    headers (Object), and the text for the status (string). The respond method returns the
+   *    `requestHandler` object for possible overrides.
+   */
+  $httpBackend.expect = function(method, url, data, headers) {
+    var expectation = new MockHttpExpectation(method, url, data, headers),
+        chain = {
+          respond: function(status, data, headers, statusText) {
+            expectation.response = createResponse(status, data, headers, statusText);
+            return chain;
+          }
+        };
+
+    expectations.push(expectation);
+    return chain;
+  };
+
+
+  /**
+   * @ngdoc method
+   * @name $httpBackend#expectGET
+   * @description
+   * Creates a new request expectation for GET requests. For more info see `expect()`.
+   *
+   * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+   *   and returns true if the url matches the current definition.
+   * @param {Object=} headers HTTP headers.
+   * @returns {requestHandler} Returns an object with `respond` method that controls how a matched
+   * request is handled. You can save this object for later use and invoke `respond` again in
+   * order to change how a matched request is handled. See #expect for more info.
+   */
+
+  /**
+   * @ngdoc method
+   * @name $httpBackend#expectHEAD
+   * @description
+   * Creates a new request expectation for HEAD requests. For more info see `expect()`.
+   *
+   * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+   *   and returns true if the url matches the current definition.
+   * @param {Object=} headers HTTP headers.
+   * @returns {requestHandler} Returns an object with `respond` method that controls how a matched
+   *   request is handled. You can save this object for later use and invoke `respond` again in
+   *   order to change how a matched request is handled.
+   */
+
+  /**
+   * @ngdoc method
+   * @name $httpBackend#expectDELETE
+   * @description
+   * Creates a new request expectation for DELETE requests. For more info see `expect()`.
+   *
+   * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+   *   and returns true if the url matches the current definition.
+   * @param {Object=} headers HTTP headers.
+   * @returns {requestHandler} Returns an object with `respond` method that controls how a matched
+   *   request is handled. You can save this object for later use and invoke `respond` again in
+   *   order to change how a matched request is handled.
+   */
+
+  /**
+   * @ngdoc method
+   * @name $httpBackend#expectPOST
+   * @description
+   * Creates a new request expectation for POST requests. For more info see `expect()`.
+   *
+   * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+   *   and returns true if the url matches the current definition.
+   * @param {(string|RegExp|function(string)|Object)=} data HTTP request body or function that
+   *  receives data string and returns true if the data is as expected, or Object if request body
+   *  is in JSON format.
+   * @param {Object=} headers HTTP headers.
+   * @returns {requestHandler} Returns an object with `respond` method that controls how a matched
+   *   request is handled. You can save this object for later use and invoke `respond` again in
+   *   order to change how a matched request is handled.
+   */
+
+  /**
+   * @ngdoc method
+   * @name $httpBackend#expectPUT
+   * @description
+   * Creates a new request expectation for PUT requests. For more info see `expect()`.
+   *
+   * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+   *   and returns true if the url matches the current definition.
+   * @param {(string|RegExp|function(string)|Object)=} data HTTP request body or function that
+   *  receives data string and returns true if the data is as expected, or Object if request body
+   *  is in JSON format.
+   * @param {Object=} headers HTTP headers.
+   * @returns {requestHandler} Returns an object with `respond` method that controls how a matched
+   *   request is handled. You can save this object for later use and invoke `respond` again in
+   *   order to change how a matched request is handled.
+   */
+
+  /**
+   * @ngdoc method
+   * @name $httpBackend#expectPATCH
+   * @description
+   * Creates a new request expectation for PATCH requests. For more info see `expect()`.
+   *
+   * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+   *   and returns true if the url matches the current definition.
+   * @param {(string|RegExp|function(string)|Object)=} data HTTP request body or function that
+   *  receives data string and returns true if the data is as expected, or Object if request body
+   *  is in JSON format.
+   * @param {Object=} headers HTTP headers.
+   * @returns {requestHandler} Returns an object with `respond` method that controls how a matched
+   *   request is handled. You can save this object for later use and invoke `respond` again in
+   *   order to change how a matched request is handled.
+   */
+
+  /**
+   * @ngdoc method
+   * @name $httpBackend#expectJSONP
+   * @description
+   * Creates a new request expectation for JSONP requests. For more info see `expect()`.
+   *
+   * @param {string|RegExp|function(string)} url HTTP url or function that receives an url
+   *   and returns true if the url matches the current definition.
+   * @returns {requestHandler} Returns an object with `respond` method that controls how a matched
+   *   request is handled. You can save this object for later use and invoke `respond` again in
+   *   order to change how a matched request is handled.
+   */
+  createShortMethods('expect');
+
+
+  /**
+   * @ngdoc method
+   * @name $httpBackend#flush
+   * @description
+   * Flushes all pending requests using the trained responses.
+   *
+   * @param {number=} count Number of responses to flush (in the order they arrived). If undefined,
+   *   all pending requests will be flushed. If there are no pending requests when the flush method
+   *   is called an exception is thrown (as this typically a sign of programming error).
+   */
+  $httpBackend.flush = function(count, digest) {
+    if (digest !== false) $rootScope.$digest();
+    if (!responses.length) throw new Error('No pending request to flush !');
+
+    if (angular.isDefined(count) && count !== null) {
+      while (count--) {
+        if (!responses.length) throw new Error('No more pending request to flush !');
+        responses.shift()();
+      }
+    } else {
+      while (responses.length) {
+        responses.shift()();
+      }
+    }
+    $httpBackend.verifyNoOutstandingExpectation(digest);
+  };
+
+
+  /**
+   * @ngdoc method
+   * @name $httpBackend#verifyNoOutstandingExpectation
+   * @description
+   * Verifies that all of the requests defined via the `expect` api were made. If any of the
+   * requests were not made, verifyNoOutstandingExpectation throws an exception.
+   *
+   * Typically, you would call this method following each test case that asserts requests using an
+   * "afterEach" clause.
+   *
+   * ```js
+   *   afterEach($httpBackend.verifyNoOutstandingExpectation);
+   * ```
+   */
+  $httpBackend.verifyNoOutstandingExpectation = function(digest) {
+    if (digest !== false) $rootScope.$digest();
+    if (expectations.length) {
+      throw new Error('Unsatisfied requests: ' + expectations.join(', '));
+    }
+  };
+
+
+  /**
+   * @ngdoc method
+   * @name $httpBackend#verifyNoOutstandingRequest
+   * @description
+   * Verifies that there are no outstanding requests that need to be flushed.
+   *
+   * Typically, you would call this method following each test case that asserts requests using an
+   * "afterEach" clause.
+   *
+   * ```js
+   *   afterEach($httpBackend.verifyNoOutstandingRequest);
+   * ```
+   */
+  $httpBackend.verifyNoOutstandingRequest = function() {
+    if (responses.length) {
+      throw new Error('Unflushed requests: ' + responses.length);
+    }
+  };
+
+
+  /**
+   * @ngdoc method
+   * @name $httpBackend#resetExpectations
+   * @description
+   * Resets all request expectations, but preserves all backend definitions. Typically, you would
+   * call resetExpectations during a multiple-phase test when you want to reuse the same instance of
+   * $httpBackend mock.
+   */
+  $httpBackend.resetExpectations = function() {
+    expectations.length = 0;
+    responses.length = 0;
+  };
+
+  return $httpBackend;
+
+
+  function createShortMethods(prefix) {
+    angular.forEach(['GET', 'DELETE', 'JSONP', 'HEAD'], function(method) {
+     $httpBackend[prefix + method] = function(url, headers) {
+       return $httpBackend[prefix](method, url, undefined, headers);
+     };
+    });
+
+    angular.forEach(['PUT', 'POST', 'PATCH'], function(method) {
+      $httpBackend[prefix + method] = function(url, data, headers) {
+        return $httpBackend[prefix](method, url, data, headers);
+      };
+    });
+  }
+}
+
+function MockHttpExpectation(method, url, data, headers) {
+
+  this.data = data;
+  this.headers = headers;
+
+  this.match = function(m, u, d, h) {
+    if (method != m) return false;
+    if (!this.matchUrl(u)) return false;
+    if (angular.isDefined(d) && !this.matchData(d)) return false;
+    if (angular.isDefined(h) && !this.matchHeaders(h)) return false;
+    return true;
+  };
+
+  this.matchUrl = function(u) {
+    if (!url) return true;
+    if (angular.isFunction(url.test)) return url.test(u);
+    if (angular.isFunction(url)) return url(u);
+    return url == u;
+  };
+
+  this.matchHeaders = function(h) {
+    if (angular.isUndefined(headers)) return true;
+    if (angular.isFunction(headers)) return headers(h);
+    return angular.equals(headers, h);
+  };
+
+  this.matchData = function(d) {
+    if (angular.isUndefined(data)) return true;
+    if (data && angular.isFunction(data.test)) return data.test(d);
+    if (data && angular.isFunction(data)) return data(d);
+    if (data && !angular.isString(data)) {
+      return angular.equals(angular.fromJson(angular.toJson(data)), angular.fromJson(d));
+    }
+    return data == d;
+  };
+
+  this.toString = function() {
+    return method + ' ' + url;
+  };
+}
+
+function createMockXhr() {
+  return new MockXhr();
+}
+
+function MockXhr() {
+
+  // hack for testing $http, $httpBackend
+  MockXhr.$$lastInstance = this;
+
+  this.open = function(method, url, async) {
+    this.$$method = method;
+    this.$$url = url;
+    this.$$async = async;
+    this.$$reqHeaders = {};
+    this.$$respHeaders = {};
+  };
+
+  this.send = function(data) {
+    this.$$data = data;
+  };
+
+  this.setRequestHeader = function(key, value) {
+    this.$$reqHeaders[key] = value;
+  };
+
+  this.getResponseHeader = function(name) {
+    // the lookup must be case insensitive,
+    // that's why we try two quick lookups first and full scan last
+    var header = this.$$respHeaders[name];
+    if (header) return header;
+
+    name = angular.lowercase(name);
+    header = this.$$respHeaders[name];
+    if (header) return header;
+
+    header = undefined;
+    angular.forEach(this.$$respHeaders, function(headerVal, headerName) {
+      if (!header && angular.lowercase(headerName) == name) header = headerVal;
+    });
+    return header;
+  };
+
+  this.getAllResponseHeaders = function() {
+    var lines = [];
+
+    angular.forEach(this.$$respHeaders, function(value, key) {
+      lines.push(key + ': ' + value);
+    });
+    return lines.join('\n');
+  };
+
+  this.abort = angular.noop;
+}
+
+
+/**
+ * @ngdoc service
+ * @name $timeout
+ * @description
+ *
+ * This service is just a simple decorator for {@link ng.$timeout $timeout} service
+ * that adds a "flush" and "verifyNoPendingTasks" methods.
+ */
+
+angular.mock.$TimeoutDecorator = ['$delegate', '$browser', function($delegate, $browser) {
+
+  /**
+   * @ngdoc method
+   * @name $timeout#flush
+   * @description
+   *
+   * Flushes the queue of pending tasks.
+   *
+   * @param {number=} delay maximum timeout amount to flush up until
+   */
+  $delegate.flush = function(delay) {
+    $browser.defer.flush(delay);
+  };
+
+  /**
+   * @ngdoc method
+   * @name $timeout#verifyNoPendingTasks
+   * @description
+   *
+   * Verifies that there are no pending tasks that need to be flushed.
+   */
+  $delegate.verifyNoPendingTasks = function() {
+    if ($browser.deferredFns.length) {
+      throw new Error('Deferred tasks to flush (' + $browser.deferredFns.length + '): ' +
+          formatPendingTasksAsString($browser.deferredFns));
+    }
+  };
+
+  function formatPendingTasksAsString(tasks) {
+    var result = [];
+    angular.forEach(tasks, function(task) {
+      result.push('{id: ' + task.id + ', ' + 'time: ' + task.time + '}');
+    });
+
+    return result.join(', ');
+  }
+
+  return $delegate;
+}];
+
+angular.mock.$RAFDecorator = ['$delegate', function($delegate) {
+  var rafFn = function(fn) {
+    var index = rafFn.queue.length;
+    rafFn.queue.push(fn);
+    return function() {
+      rafFn.queue.splice(index, 1);
+    };
+  };
+
+  rafFn.queue = [];
+  rafFn.supported = $delegate.supported;
+
+  rafFn.flush = function() {
+    if (rafFn.queue.length === 0) {
+      throw new Error('No rAF callbacks present');
+    }
+
+    var length = rafFn.queue.length;
+    for (var i = 0; i < length; i++) {
+      rafFn.queue[i]();
+    }
+
+    rafFn.queue = rafFn.queue.slice(i);
+  };
+
+  return rafFn;
+}];
+
+/**
+ *
+ */
+angular.mock.$RootElementProvider = function() {
+  this.$get = function() {
+    return angular.element('<div ng-app></div>');
+  };
+};
+
+/**
+ * @ngdoc service
+ * @name $controller
+ * @description
+ * A decorator for {@link ng.$controller} with additional `bindings` parameter, useful when testing
+ * controllers of directives that use {@link $compile#-bindtocontroller- `bindToController`}.
+ *
+ *
+ * ## Example
+ *
+ * ```js
+ *
+ * // Directive definition ...
+ *
+ * myMod.directive('myDirective', {
+ *   controller: 'MyDirectiveController',
+ *   bindToController: {
+ *     name: '@'
+ *   }
+ * });
+ *
+ *
+ * // Controller definition ...
+ *
+ * myMod.controller('MyDirectiveController', ['log', function($log) {
+ *   $log.info(this.name);
+ * })];
+ *
+ *
+ * // In a test ...
+ *
+ * describe('myDirectiveController', function() {
+ *   it('should write the bound name to the log', inject(function($controller, $log) {
+ *     var ctrl = $controller('MyDirectiveController', { /* no locals &#42;/ }, { name: 'Clark Kent' });
+ *     expect(ctrl.name).toEqual('Clark Kent');
+ *     expect($log.info.logs).toEqual(['Clark Kent']);
+ *   });
+ * });
+ *
+ * ```
+ *
+ * @param {Function|string} constructor If called with a function then it's considered to be the
+ *    controller constructor function. Otherwise it's considered to be a string which is used
+ *    to retrieve the controller constructor using the following steps:
+ *
+ *    * check if a controller with given name is registered via `$controllerProvider`
+ *    * check if evaluating the string on the current scope returns a constructor
+ *    * if $controllerProvider#allowGlobals, check `window[constructor]` on the global
+ *      `window` object (not recommended)
+ *
+ *    The string can use the `controller as property` syntax, where the controller instance is published
+ *    as the specified property on the `scope`; the `scope` must be injected into `locals` param for this
+ *    to work correctly.
+ *
+ * @param {Object} locals Injection locals for Controller.
+ * @param {Object=} bindings Properties to add to the controller before invoking the constructor. This is used
+ *                           to simulate the `bindToController` feature and simplify certain kinds of tests.
+ * @return {Object} Instance of given controller.
+ */
+angular.mock.$ControllerDecorator = ['$delegate', function($delegate) {
+  return function(expression, locals, later, ident) {
+    if (later && typeof later === 'object') {
+      var create = $delegate(expression, locals, true, ident);
+      angular.extend(create.instance, later);
+      return create();
+    }
+    return $delegate(expression, locals, later, ident);
+  };
+}];
+
+
+/**
+ * @ngdoc module
+ * @name ngMock
+ * @packageName angular-mocks
+ * @description
+ *
+ * # ngMock
+ *
+ * The `ngMock` module provides support to inject and mock Angular services into unit tests.
+ * In addition, ngMock also extends various core ng services such that they can be
+ * inspected and controlled in a synchronous manner within test code.
+ *
+ *
+ * <div doc-module-components="ngMock"></div>
+ *
+ */
+angular.module('ngMock', ['ng']).provider({
+  $browser: angular.mock.$BrowserProvider,
+  $exceptionHandler: angular.mock.$ExceptionHandlerProvider,
+  $log: angular.mock.$LogProvider,
+  $interval: angular.mock.$IntervalProvider,
+  $httpBackend: angular.mock.$HttpBackendProvider,
+  $rootElement: angular.mock.$RootElementProvider
+}).config(['$provide', function($provide) {
+  $provide.decorator('$timeout', angular.mock.$TimeoutDecorator);
+  $provide.decorator('$$rAF', angular.mock.$RAFDecorator);
+  $provide.decorator('$rootScope', angular.mock.$RootScopeDecorator);
+  $provide.decorator('$controller', angular.mock.$ControllerDecorator);
+}]);
+
+/**
+ * @ngdoc module
+ * @name ngMockE2E
+ * @module ngMockE2E
+ * @packageName angular-mocks
+ * @description
+ *
+ * The `ngMockE2E` is an angular module which contains mocks suitable for end-to-end testing.
+ * Currently there is only one mock present in this module -
+ * the {@link ngMockE2E.$httpBackend e2e $httpBackend} mock.
+ */
+angular.module('ngMockE2E', ['ng']).config(['$provide', function($provide) {
+  $provide.decorator('$httpBackend', angular.mock.e2e.$httpBackendDecorator);
+}]);
+
+/**
+ * @ngdoc service
+ * @name $httpBackend
+ * @module ngMockE2E
+ * @description
+ * Fake HTTP backend implementation suitable for end-to-end testing or backend-less development of
+ * applications that use the {@link ng.$http $http service}.
+ *
+ * *Note*: For fake http backend implementation suitable for unit testing please see
+ * {@link ngMock.$httpBackend unit-testing $httpBackend mock}.
+ *
+ * This implementation can be used to respond with static or dynamic responses via the `when` api
+ * and its shortcuts (`whenGET`, `whenPOST`, etc) and optionally pass through requests to the
+ * real $httpBackend for specific requests (e.g. to interact with certain remote apis or to fetch
+ * templates from a webserver).
+ *
+ * As opposed to unit-testing, in an end-to-end testing scenario or in scenario when an application
+ * is being developed with the real backend api replaced with a mock, it is often desirable for
+ * certain category of requests to bypass the mock and issue a real http request (e.g. to fetch
+ * templates or static files from the webserver). To configure the backend with this behavior
+ * use the `passThrough` request handler of `when` instead of `respond`.
+ *
+ * Additionally, we don't want to manually have to flush mocked out requests like we do during unit
+ * testing. For this reason the e2e $httpBackend flushes mocked out requests
+ * automatically, closely simulating the behavior of the XMLHttpRequest object.
+ *
+ * To setup the application to run with this http backend, you have to create a module that depends
+ * on the `ngMockE2E` and your application modules and defines the fake backend:
+ *
+ * ```js
+ *   myAppDev = angular.module('myAppDev', ['myApp', 'ngMockE2E']);
+ *   myAppDev.run(function($httpBackend) {
+ *     phones = [{name: 'phone1'}, {name: 'phone2'}];
+ *
+ *     // returns the current list of phones
+ *     $httpBackend.whenGET('/phones').respond(phones);
+ *
+ *     // adds a new phone to the phones array
+ *     $httpBackend.whenPOST('/phones').respond(function(method, url, data) {
+ *       var phone = angular.fromJson(data);
+ *       phones.push(phone);
+ *       return [200, phone, {}];
+ *     });
+ *     $httpBackend.whenGET(/^\/templates\//).passThrough();
+ *     //...
+ *   });
+ * ```
+ *
+ * Afterwards, bootstrap your app with this new module.
+ */
+
+/**
+ * @ngdoc method
+ * @name $httpBackend#when
+ * @module ngMockE2E
+ * @description
+ * Creates a new backend definition.
+ *
+ * @param {string} method HTTP method.
+ * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+ *   and returns true if the url matches the current definition.
+ * @param {(string|RegExp)=} data HTTP request body.
+ * @param {(Object|function(Object))=} headers HTTP headers or function that receives http header
+ *   object and returns true if the headers match the current definition.
+ * @returns {requestHandler} Returns an object with `respond` and `passThrough` methods that
+ *   control how a matched request is handled. You can save this object for later use and invoke
+ *   `respond` or `passThrough` again in order to change how a matched request is handled.
+ *
+ *  - respond –
+ *    `{function([status,] data[, headers, statusText])
+ *    | function(function(method, url, data, headers)}`
+ *    – The respond method takes a set of static data to be returned or a function that can return
+ *    an array containing response status (number), response data (string), response headers
+ *    (Object), and the text for the status (string).
+ *  - passThrough – `{function()}` – Any request matching a backend definition with
+ *    `passThrough` handler will be passed through to the real backend (an XHR request will be made
+ *    to the server.)
+ *  - Both methods return the `requestHandler` object for possible overrides.
+ */
+
+/**
+ * @ngdoc method
+ * @name $httpBackend#whenGET
+ * @module ngMockE2E
+ * @description
+ * Creates a new backend definition for GET requests. For more info see `when()`.
+ *
+ * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+ *   and returns true if the url matches the current definition.
+ * @param {(Object|function(Object))=} headers HTTP headers.
+ * @returns {requestHandler} Returns an object with `respond` and `passThrough` methods that
+ *   control how a matched request is handled. You can save this object for later use and invoke
+ *   `respond` or `passThrough` again in order to change how a matched request is handled.
+ */
+
+/**
+ * @ngdoc method
+ * @name $httpBackend#whenHEAD
+ * @module ngMockE2E
+ * @description
+ * Creates a new backend definition for HEAD requests. For more info see `when()`.
+ *
+ * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+ *   and returns true if the url matches the current definition.
+ * @param {(Object|function(Object))=} headers HTTP headers.
+ * @returns {requestHandler} Returns an object with `respond` and `passThrough` methods that
+ *   control how a matched request is handled. You can save this object for later use and invoke
+ *   `respond` or `passThrough` again in order to change how a matched request is handled.
+ */
+
+/**
+ * @ngdoc method
+ * @name $httpBackend#whenDELETE
+ * @module ngMockE2E
+ * @description
+ * Creates a new backend definition for DELETE requests. For more info see `when()`.
+ *
+ * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+ *   and returns true if the url matches the current definition.
+ * @param {(Object|function(Object))=} headers HTTP headers.
+ * @returns {requestHandler} Returns an object with `respond` and `passThrough` methods that
+ *   control how a matched request is handled. You can save this object for later use and invoke
+ *   `respond` or `passThrough` again in order to change how a matched request is handled.
+ */
+
+/**
+ * @ngdoc method
+ * @name $httpBackend#whenPOST
+ * @module ngMockE2E
+ * @description
+ * Creates a new backend definition for POST requests. For more info see `when()`.
+ *
+ * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+ *   and returns true if the url matches the current definition.
+ * @param {(string|RegExp)=} data HTTP request body.
+ * @param {(Object|function(Object))=} headers HTTP headers.
+ * @returns {requestHandler} Returns an object with `respond` and `passThrough` methods that
+ *   control how a matched request is handled. You can save this object for later use and invoke
+ *   `respond` or `passThrough` again in order to change how a matched request is handled.
+ */
+
+/**
+ * @ngdoc method
+ * @name $httpBackend#whenPUT
+ * @module ngMockE2E
+ * @description
+ * Creates a new backend definition for PUT requests.  For more info see `when()`.
+ *
+ * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+ *   and returns true if the url matches the current definition.
+ * @param {(string|RegExp)=} data HTTP request body.
+ * @param {(Object|function(Object))=} headers HTTP headers.
+ * @returns {requestHandler} Returns an object with `respond` and `passThrough` methods that
+ *   control how a matched request is handled. You can save this object for later use and invoke
+ *   `respond` or `passThrough` again in order to change how a matched request is handled.
+ */
+
+/**
+ * @ngdoc method
+ * @name $httpBackend#whenPATCH
+ * @module ngMockE2E
+ * @description
+ * Creates a new backend definition for PATCH requests.  For more info see `when()`.
+ *
+ * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+ *   and returns true if the url matches the current definition.
+ * @param {(string|RegExp)=} data HTTP request body.
+ * @param {(Object|function(Object))=} headers HTTP headers.
+ * @returns {requestHandler} Returns an object with `respond` and `passThrough` methods that
+ *   control how a matched request is handled. You can save this object for later use and invoke
+ *   `respond` or `passThrough` again in order to change how a matched request is handled.
+ */
+
+/**
+ * @ngdoc method
+ * @name $httpBackend#whenJSONP
+ * @module ngMockE2E
+ * @description
+ * Creates a new backend definition for JSONP requests. For more info see `when()`.
+ *
+ * @param {string|RegExp|function(string)} url HTTP url or function that receives a url
+ *   and returns true if the url matches the current definition.
+ * @returns {requestHandler} Returns an object with `respond` and `passThrough` methods that
+ *   control how a matched request is handled. You can save this object for later use and invoke
+ *   `respond` or `passThrough` again in order to change how a matched request is handled.
+ */
+angular.mock.e2e = {};
+angular.mock.e2e.$httpBackendDecorator =
+  ['$rootScope', '$timeout', '$delegate', '$browser', createHttpBackendMock];
+
+
+/**
+ * @ngdoc type
+ * @name $rootScope.Scope
+ * @module ngMock
+ * @description
+ * {@link ng.$rootScope.Scope Scope} type decorated with helper methods useful for testing. These
+ * methods are automatically available on any {@link ng.$rootScope.Scope Scope} instance when
+ * `ngMock` module is loaded.
+ *
+ * In addition to all the regular `Scope` methods, the following helper methods are available:
+ */
+angular.mock.$RootScopeDecorator = ['$delegate', function($delegate) {
+
+  var $rootScopePrototype = Object.getPrototypeOf($delegate);
+
+  $rootScopePrototype.$countChildScopes = countChildScopes;
+  $rootScopePrototype.$countWatchers = countWatchers;
+
+  return $delegate;
+
+  // ------------------------------------------------------------------------------------------ //
+
+  /**
+   * @ngdoc method
+   * @name $rootScope.Scope#$countChildScopes
+   * @module ngMock
+   * @description
+   * Counts all the direct and indirect child scopes of the current scope.
+   *
+   * The current scope is excluded from the count. The count includes all isolate child scopes.
+   *
+   * @returns {number} Total number of child scopes.
+   */
+  function countChildScopes() {
+    // jshint validthis: true
+    var count = 0; // exclude the current scope
+    var pendingChildHeads = [this.$$childHead];
+    var currentScope;
+
+    while (pendingChildHeads.length) {
+      currentScope = pendingChildHeads.shift();
+
+      while (currentScope) {
+        count += 1;
+        pendingChildHeads.push(currentScope.$$childHead);
+        currentScope = currentScope.$$nextSibling;
+      }
+    }
+
+    return count;
+  }
+
+
+  /**
+   * @ngdoc method
+   * @name $rootScope.Scope#$countWatchers
+   * @module ngMock
+   * @description
+   * Counts all the watchers of direct and indirect child scopes of the current scope.
+   *
+   * The watchers of the current scope are included in the count and so are all the watchers of
+   * isolate child scopes.
+   *
+   * @returns {number} Total number of watchers.
+   */
+  function countWatchers() {
+    // jshint validthis: true
+    var count = this.$$watchers ? this.$$watchers.length : 0; // include the current scope
+    var pendingChildHeads = [this.$$childHead];
+    var currentScope;
+
+    while (pendingChildHeads.length) {
+      currentScope = pendingChildHeads.shift();
+
+      while (currentScope) {
+        count += currentScope.$$watchers ? currentScope.$$watchers.length : 0;
+        pendingChildHeads.push(currentScope.$$childHead);
+        currentScope = currentScope.$$nextSibling;
+      }
+    }
+
+    return count;
+  }
+}];
+
+
+if (window.jasmine || window.mocha) {
+
+  var currentSpec = null,
+      annotatedFunctions = [],
+      isSpecRunning = function() {
+        return !!currentSpec;
+      };
+
+  angular.mock.$$annotate = angular.injector.$$annotate;
+  angular.injector.$$annotate = function(fn) {
+    if (typeof fn === 'function' && !fn.$inject) {
+      annotatedFunctions.push(fn);
+    }
+    return angular.mock.$$annotate.apply(this, arguments);
+  };
+
+
+  (window.beforeEach || window.setup)(function() {
+    annotatedFunctions = [];
+    currentSpec = this;
+  });
+
+  (window.afterEach || window.teardown)(function() {
+    var injector = currentSpec.$injector;
+
+    annotatedFunctions.forEach(function(fn) {
+      delete fn.$inject;
+    });
+
+    angular.forEach(currentSpec.$modules, function(module) {
+      if (module && module.$$hashKey) {
+        module.$$hashKey = undefined;
+      }
+    });
+
+    currentSpec.$injector = null;
+    currentSpec.$modules = null;
+    currentSpec = null;
+
+    if (injector) {
+      injector.get('$rootElement').off();
+    }
+
+    // clean up jquery's fragment cache
+    angular.forEach(angular.element.fragments, function(val, key) {
+      delete angular.element.fragments[key];
+    });
+
+    MockXhr.$$lastInstance = null;
+
+    angular.forEach(angular.callbacks, function(val, key) {
+      delete angular.callbacks[key];
+    });
+    angular.callbacks.counter = 0;
+  });
+
+  /**
+   * @ngdoc function
+   * @name angular.mock.module
+   * @description
+   *
+   * *NOTE*: This function is also published on window for easy access.<br>
+   * *NOTE*: This function is declared ONLY WHEN running tests with jasmine or mocha
+   *
+   * This function registers a module configuration code. It collects the configuration information
+   * which will be used when the injector is created by {@link angular.mock.inject inject}.
+   *
+   * See {@link angular.mock.inject inject} for usage example
+   *
+   * @param {...(string|Function|Object)} fns any number of modules which are represented as string
+   *        aliases or as anonymous module initialization functions. The modules are used to
+   *        configure the injector. The 'ng' and 'ngMock' modules are automatically loaded. If an
+   *        object literal is passed each key-value pair will be registered on the module via
+   *        {@link auto.$provide $provide}.value, the key being the string name (or token) to associate
+   *        with the value on the injector.
+   */
+  window.module = angular.mock.module = function() {
+    var moduleFns = Array.prototype.slice.call(arguments, 0);
+    return isSpecRunning() ? workFn() : workFn;
+    /////////////////////
+    function workFn() {
+      if (currentSpec.$injector) {
+        throw new Error('Injector already created, can not register a module!');
+      } else {
+        var modules = currentSpec.$modules || (currentSpec.$modules = []);
+        angular.forEach(moduleFns, function(module) {
+          if (angular.isObject(module) && !angular.isArray(module)) {
+            modules.push(function($provide) {
+              angular.forEach(module, function(value, key) {
+                $provide.value(key, value);
+              });
+            });
+          } else {
+            modules.push(module);
+          }
+        });
+      }
+    }
+  };
+
+  /**
+   * @ngdoc function
+   * @name angular.mock.inject
+   * @description
+   *
+   * *NOTE*: This function is also published on window for easy access.<br>
+   * *NOTE*: This function is declared ONLY WHEN running tests with jasmine or mocha
+   *
+   * The inject function wraps a function into an injectable function. The inject() creates new
+   * instance of {@link auto.$injector $injector} per test, which is then used for
+   * resolving references.
+   *
+   *
+   * ## Resolving References (Underscore Wrapping)
+   * Often, we would like to inject a reference once, in a `beforeEach()` block and reuse this
+   * in multiple `it()` clauses. To be able to do this we must assign the reference to a variable
+   * that is declared in the scope of the `describe()` block. Since we would, most likely, want
+   * the variable to have the same name of the reference we have a problem, since the parameter
+   * to the `inject()` function would hide the outer variable.
+   *
+   * To help with this, the injected parameters can, optionally, be enclosed with underscores.
+   * These are ignored by the injector when the reference name is resolved.
+   *
+   * For example, the parameter `_myService_` would be resolved as the reference `myService`.
+   * Since it is available in the function body as _myService_, we can then assign it to a variable
+   * defined in an outer scope.
+   *
+   * ```
+   * // Defined out reference variable outside
+   * var myService;
+   *
+   * // Wrap the parameter in underscores
+   * beforeEach( inject( function(_myService_){
+   *   myService = _myService_;
+   * }));
+   *
+   * // Use myService in a series of tests.
+   * it('makes use of myService', function() {
+   *   myService.doStuff();
+   * });
+   *
+   * ```
+   *
+   * See also {@link angular.mock.module angular.mock.module}
+   *
+   * ## Example
+   * Example of what a typical jasmine tests looks like with the inject method.
+   * ```js
+   *
+   *   angular.module('myApplicationModule', [])
+   *       .value('mode', 'app')
+   *       .value('version', 'v1.0.1');
+   *
+   *
+   *   describe('MyApp', function() {
+   *
+   *     // You need to load modules that you want to test,
+   *     // it loads only the "ng" module by default.
+   *     beforeEach(module('myApplicationModule'));
+   *
+   *
+   *     // inject() is used to inject arguments of all given functions
+   *     it('should provide a version', inject(function(mode, version) {
+   *       expect(version).toEqual('v1.0.1');
+   *       expect(mode).toEqual('app');
+   *     }));
+   *
+   *
+   *     // The inject and module method can also be used inside of the it or beforeEach
+   *     it('should override a version and test the new version is injected', function() {
+   *       // module() takes functions or strings (module aliases)
+   *       module(function($provide) {
+   *         $provide.value('version', 'overridden'); // override version here
+   *       });
+   *
+   *       inject(function(version) {
+   *         expect(version).toEqual('overridden');
+   *       });
+   *     });
+   *   });
+   *
+   * ```
+   *
+   * @param {...Function} fns any number of functions which will be injected using the injector.
+   */
+
+
+
+  var ErrorAddingDeclarationLocationStack = function(e, errorForStack) {
+    this.message = e.message;
+    this.name = e.name;
+    if (e.line) this.line = e.line;
+    if (e.sourceId) this.sourceId = e.sourceId;
+    if (e.stack && errorForStack)
+      this.stack = e.stack + '\n' + errorForStack.stack;
+    if (e.stackArray) this.stackArray = e.stackArray;
+  };
+  ErrorAddingDeclarationLocationStack.prototype.toString = Error.prototype.toString;
+
+  window.inject = angular.mock.inject = function() {
+    var blockFns = Array.prototype.slice.call(arguments, 0);
+    var errorForStack = new Error('Declaration Location');
+    return isSpecRunning() ? workFn.call(currentSpec) : workFn;
+    /////////////////////
+    function workFn() {
+      var modules = currentSpec.$modules || [];
+      var strictDi = !!currentSpec.$injectorStrict;
+      modules.unshift('ngMock');
+      modules.unshift('ng');
+      var injector = currentSpec.$injector;
+      if (!injector) {
+        if (strictDi) {
+          // If strictDi is enabled, annotate the providerInjector blocks
+          angular.forEach(modules, function(moduleFn) {
+            if (typeof moduleFn === "function") {
+              angular.injector.$$annotate(moduleFn);
+            }
+          });
+        }
+        injector = currentSpec.$injector = angular.injector(modules, strictDi);
+        currentSpec.$injectorStrict = strictDi;
+      }
+      for (var i = 0, ii = blockFns.length; i < ii; i++) {
+        if (currentSpec.$injectorStrict) {
+          // If the injector is strict / strictDi, and the spec wants to inject using automatic
+          // annotation, then annotate the function here.
+          injector.annotate(blockFns[i]);
+        }
+        try {
+          /* jshint -W040 *//* Jasmine explicitly provides a `this` object when calling functions */
+          injector.invoke(blockFns[i] || angular.noop, this);
+          /* jshint +W040 */
+        } catch (e) {
+          if (e.stack && errorForStack) {
+            throw new ErrorAddingDeclarationLocationStack(e, errorForStack);
+          }
+          throw e;
+        } finally {
+          errorForStack = null;
+        }
+      }
+    }
+  };
+
+
+  angular.mock.inject.strictDi = function(value) {
+    value = arguments.length ? !!value : true;
+    return isSpecRunning() ? workFn() : workFn;
+
+    function workFn() {
+      if (value !== currentSpec.$injectorStrict) {
+        if (currentSpec.$injector) {
+          throw new Error('Injector already created, can not modify strict annotations');
+        } else {
+          currentSpec.$injectorStrict = value;
+        }
+      }
+    }
+  };
+}
+
+
+})(window, window.angular);
+
+},{}],15:[function(require,module,exports){
 /**
  * State-based routing for AngularJS
  * @version v0.2.15
@@ -4607,7 +8073,7 @@ angular.module('ui.router.state')
   .filter('isState', $IsStateFilter)
   .filter('includedByState', $IncludedByStateFilter);
 })(window, window.angular);
-},{}],14:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 /**
  * @license AngularJS v1.5.0-beta.2
  * (c) 2010-2015 Google, Inc. http://angularjs.org
@@ -34008,8 +37474,8 @@ $provide.value("$locale", {
 })(window, document);
 
 !window.angular.$$csp().noInlineStyle && window.angular.element(document.head).prepend('<style type="text/css">@charset "UTF-8";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>');
-},{}],15:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 require('./angular');
 module.exports = angular;
 
-},{"./angular":14}]},{},[11]);
+},{"./angular":16}]},{},[12]);

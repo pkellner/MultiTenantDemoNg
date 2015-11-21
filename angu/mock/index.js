@@ -21,9 +21,11 @@ function provideMocks($httpBackend){
 
     $httpBackend.whenGET('/rest/speaker').respond(function(method,url,data) {
         console.log("Getting speakers");
-        debugger;
         return [200, speakers, {}];
     });
+
+    // Pass any requests for the files
+    $httpBackend.whenGET(/angu/).passThrough();
 }
 
 provideMocks.$inject = ['$httpBackend'];
