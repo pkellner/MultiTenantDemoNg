@@ -112,14 +112,18 @@
                             <div ng-repeat="speaker in home.speakers"  keynote="" image-width="290"
                                        image-height="190" image-background="ffffff">
                                 <div class="persona">
-                                    <div class="persona--img">
-                                        <img ng-src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150218181456-31683.jpg?format=jpg&amp;height=190&amp;width=290&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff" alt="Igor Minar" src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150218181456-31683.jpg?format=jpg&amp;height=190&amp;width=290&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff">
+                                    <div class="persona--imgx">
+                                        <img ng-src="{{speaker.speakerImageUrl}}?format=jpg&height=190&width=290&scale=both&mode=pad&Bgcolor=ffffff"
+                                             alt="Picture {{speaker.firstName}} {{speaker.lastName}}" />
+                                        <!--<img ng-src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150218181456-31683.jpg?format=jpg&amp;height=190&amp;width=290&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff" alt="Igor Minar" src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150218181456-31683.jpg?format=jpg&amp;height=190&amp;width=290&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff">-->
                                     </div>
                                     <h3><a  href="#">{{speaker.firstName}} {{speaker.lastName}}</a></h3>
                                     <p>
                                         {{speaker.bio}}
                                     </p>
                                 </div>
+
+
 
                                 <!--<div class="persona" >-->
 

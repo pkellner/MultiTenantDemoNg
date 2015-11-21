@@ -1,39 +1,23 @@
 'use strict';
 
+var speaker = require('./speaker');
 module.exports = angular.module('multiTenantBase', [])
-    .service('Speaker', SpeakerService, '$http', '$q')
+    .service('Speaker', require('./speaker'))
     .name;
 
-function SpeakerService($http, $q) {
-    console.log('speakerzzz');
-    this.fetchAll = function () {
-        var defer = $q.defer();
-        $http.get('/rest/speaker').success(function (data) {
-            defer.resolve(data);
-        }).error(function (data) {
-            console.log('rest speaker error');
-        });
-        return defer.promise;
-    }
-}
-
-SpeakerService.$inject = ['$http', '$q'];
-
-
-//$http({
-//    method: 'GET',
-//    url: '/rest/speaker'
-//}).then(function successCallback(response) {
-//
-//    debugger;
-//    return response.data;
-//
-//}, function errorCallback(response) {
-//
-//    debugger;
-//    // called asynchronously if an error occurs
-//    // or server returns response with an error status.
-//});
+//function SpeakerService($http, $q) {
+//    console.log('speakerzzz');
+//    this.fetchAll = function () {
+//        var defer = $q.defer();
+//        $http.get('/rest/speaker').success(function (data) {
+//            defer.resolve(data);
+//        }).error(function (data) {
+//            console.log('rest speaker error');
+//        });
+//        return defer.promise;
+//    }
+//}
+//SpeakerService.$inject = ['$http', '$q'];
 
 
 //var speakers = [

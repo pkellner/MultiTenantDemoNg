@@ -952,7 +952,7 @@ module.exports = require('angular')
     .controller('AuthorController', require('./controller'))
     .config(require('./states'))
     .name;
-},{"./controller":2,"./states":4,"angular":17}],4:[function(require,module,exports){
+},{"./controller":2,"./states":4,"angular":18}],4:[function(require,module,exports){
 'use strict';
 
 var exports = module.exports = function ($stateProvider) {
@@ -996,7 +996,7 @@ module.exports = require('angular')
     //    console.log('speaker...');
     //})
     .name;
-},{"./controller":5,"./states":7,"angular":17}],7:[function(require,module,exports){
+},{"./controller":5,"./states":7,"angular":18}],7:[function(require,module,exports){
 'use strict';
 
 var exports = module.exports = function ($stateProvider) {
@@ -1086,7 +1086,7 @@ function provideMocks($httpBackend){
 
 provideMocks.$inject = ['$httpBackend'];
 
-},{"../../base":13,"../mock/data/speakers.json":1,"./author":3,"./home":6,"./speaker":10,"angular":17,"angular-mocks":14,"angular-ui-router":15}],9:[function(require,module,exports){
+},{"../../base":13,"../mock/data/speakers.json":1,"./author":3,"./home":6,"./speaker":10,"angular":18,"angular-mocks":15,"angular-ui-router":16}],9:[function(require,module,exports){
 function SpeakerController ($scope) {
    console.log('speakercontroller');
 }
@@ -1102,7 +1102,7 @@ module.exports = require('angular')
     .controller('SpeakerController', require('./controller'))
     .config(require('./states'))
     .name;
-},{"./controller":9,"./states":11,"angular":17}],11:[function(require,module,exports){
+},{"./controller":9,"./states":11,"angular":18}],11:[function(require,module,exports){
 'use strict';
 
 var exports = module.exports = function ($stateProvider) {
@@ -1123,40 +1123,24 @@ require('./src');
 },{"./src":8}],13:[function(require,module,exports){
 'use strict';
 
+var speaker = require('./speaker');
 module.exports = angular.module('multiTenantBase', [])
-    .service('Speaker', SpeakerService, '$http', '$q')
+    .service('Speaker', require('./speaker'))
     .name;
 
-function SpeakerService($http, $q) {
-    console.log('speakerzzz');
-    this.fetchAll = function () {
-        var defer = $q.defer();
-        $http.get('/rest/speaker').success(function (data) {
-            defer.resolve(data);
-        }).error(function (data) {
-            console.log('rest speaker error');
-        });
-        return defer.promise;
-    }
-}
-
-SpeakerService.$inject = ['$http', '$q'];
-
-
-//$http({
-//    method: 'GET',
-//    url: '/rest/speaker'
-//}).then(function successCallback(response) {
-//
-//    debugger;
-//    return response.data;
-//
-//}, function errorCallback(response) {
-//
-//    debugger;
-//    // called asynchronously if an error occurs
-//    // or server returns response with an error status.
-//});
+//function SpeakerService($http, $q) {
+//    console.log('speakerzzz');
+//    this.fetchAll = function () {
+//        var defer = $q.defer();
+//        $http.get('/rest/speaker').success(function (data) {
+//            defer.resolve(data);
+//        }).error(function (data) {
+//            console.log('rest speaker error');
+//        });
+//        return defer.promise;
+//    }
+//}
+//SpeakerService.$inject = ['$http', '$q'];
 
 
 //var speakers = [
@@ -1220,7 +1204,26 @@ SpeakerService.$inject = ['$http', '$q'];
 
 
 
-},{}],14:[function(require,module,exports){
+},{"./speaker":14}],14:[function(require,module,exports){
+function SpeakerService($http, $q) {
+    this.fetchAll = function () {
+        var defer = $q.defer();
+        $http.get('/rest/speaker').success(function (speakers) {
+            for (i = 0; i < speakers.length; i++) {
+                speakers[i].speakerImageUrl = "https://www.siliconvalley-codecamp.com/attendeeimage/" +
+                    speakers[i].id + ".jpg";
+            }
+            defer.resolve(speakers);
+        }).error(function (speakers) {
+            console.log('rest speaker error');
+        });
+        return defer.promise;
+    }
+}
+SpeakerService.$inject = ['$http', '$q'];
+
+module.exports = SpeakerService;
+},{}],15:[function(require,module,exports){
 /**
  * @license AngularJS v1.4.8
  * (c) 2010-2015 Google, Inc. http://angularjs.org
@@ -3693,7 +3696,7 @@ if (window.jasmine || window.mocha) {
 
 })(window, window.angular);
 
-},{}],15:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 /**
  * State-based routing for AngularJS
  * @version v0.2.15
@@ -8064,7 +8067,7 @@ angular.module('ui.router.state')
   .filter('isState', $IsStateFilter)
   .filter('includedByState', $IncludedByStateFilter);
 })(window, window.angular);
-},{}],16:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 /**
  * @license AngularJS v1.5.0-beta.2
  * (c) 2010-2015 Google, Inc. http://angularjs.org
@@ -37465,8 +37468,8 @@ $provide.value("$locale", {
 })(window, document);
 
 !window.angular.$$csp().noInlineStyle && window.angular.element(document.head).prepend('<style type="text/css">@charset "UTF-8";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>');
-},{}],17:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 require('./angular');
 module.exports = angular;
 
-},{"./angular":16}]},{},[12]);
+},{"./angular":17}]},{},[12]);
