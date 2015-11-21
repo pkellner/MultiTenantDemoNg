@@ -1,16 +1,19 @@
 'use strict';
 
-function HomeController ($scope) {
+function HomeController ($scope,speakers) {
+
+
+
    console.log('homecontroller');
 
-   $scope.presenters = [{
+   this.speakers = speakers;
 
-   },{
 
-   }];
+
+   //console.log('speakers.length: ' + $scope.speakers.length);
 
 }
 
-HomeController.$inject = ['$scope'];
+HomeController.$inject = ['$scope','speakers'];
 
 module.exports = HomeController;

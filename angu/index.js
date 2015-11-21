@@ -1,1 +1,2 @@
 require('./src');
+//require('./mock');

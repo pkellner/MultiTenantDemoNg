@@ -37,4 +37,7 @@ gulp.task('js', function () {
 gulp.task('copyfiles', function () {
     gulp.src('angu/src/**/*.html')
         .pipe(gulp.dest('dist/templates/'));
+
+    //gulp.src('angu/mock/data/**/*.json')
+    //    .pipe(gulp.dest('dist/angu/mock/data/'));
 });

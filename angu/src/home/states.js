@@ -15,14 +15,6 @@ var exports = module.exports = function ($stateProvider) {
 exports.$inject = ['$stateProvider'];
 
 function getSpeakers (Speaker) {
-    //return Speaker.fetchAll();
-    return [{name: 'peter'}];
+    return Speaker.fetchAll();
 }
 getSpeakers.$inject = ['Speaker'];
-
-function getSpeakers () {
-    //return Speaker.fetchAll();
-    console.log('getSpeakers');
-    return [{name: 'peter'}];
-}
-

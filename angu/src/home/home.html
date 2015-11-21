@@ -102,29 +102,39 @@
                     </div>
                 </div>
 
+                {{home.speakers.length}}
 
                 <div class="content--section">
                     <h2 class="type--lead">Keynote Presenters</h2>
+
+
                         <div class="persona--container">
-                            <!-- ngRepeat: presenter in presenters -->
-                            <div ng-repeat="presenter in presenters"  keynote="" image-width="190"
+                            <div ng-repeat="speaker in home.speakers"  keynote="" image-width="290"
                                        image-height="190" image-background="ffffff">
-                                <div class="persona" >
-
-                                    <div  class="persona--imgx">
-                                        <img width="190" height="190"
-                                             alt="Igor Minar"
-                                             src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150218181456-31683.jpg">
+                                <div class="persona">
+                                    <div class="persona--img">
+                                        <img ng-src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150218181456-31683.jpg?format=jpg&amp;height=190&amp;width=290&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff" alt="Igor Minar" src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150218181456-31683.jpg?format=jpg&amp;height=190&amp;width=290&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff">
                                     </div>
-                                    <h3><a href="/ng/speaker/2015sf/igor-minar-31683">Igor Minar</a></h3>
-
-                                    <p class="ng-binding">
-                                        Igor is a software engineer at Google. He is the lead of the AngularJS,
-                                        practitioner of test driven development, open source enthusiast, hacker
+                                    <h3><a  href="#">{{speaker.firstName}} {{speaker.lastName}}</a></h3>
+                                    <p>
+                                        {{speaker.bio}}
                                     </p>
                                 </div>
-                            </div><!-- end ngRepeat: presenter in presenters -->
 
+                                <!--<div class="persona" >-->
+
+                                    <!--<div  class="persona&#45;&#45;img">-->
+                                        <!--<img-->
+                                             <!--alt="{{speaker.firstName}} {{speaker.lastName}}"-->
+                                             <!--ng-src="{{speaker.speakerImageUrl}}">-->
+                                    <!--</div>-->
+                                    <!--<h3><a href="#">{{speaker.firstName}} {{speaker.lastName}}</a></h3>-->
+
+                                    <!--<p>-->
+                                       <!--{{ speaker.bio}}-->
+                                    <!--</p>-->
+                                <!--</div>-->
+                            </div>
                         </div>
                 </div>
 
