@@ -24,6 +24,7 @@ npm install angular  angular-ui-router --save
 add watchify and browser-sync
 npm install angular  watchify browser-sync --save
 npm install angular-mocks --save
+npm install angular-sanitize --save {for  <span ng-bind-html="speaker.bio"></span>}
 
 
 

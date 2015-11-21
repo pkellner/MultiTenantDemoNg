@@ -3,6 +3,7 @@
 module.exports = require('angular')
     .module('AngularUApp', [
         require('angular-ui-router'),
+        require('angular-sanitize'),
         require('../../base'),
         require('./home'),
         require('./speaker'),
@@ -10,6 +11,7 @@ module.exports = require('angular')
     ])
     .config(enableHtml5Mode)
     .name;
+
 
 require('angular-mocks');
 

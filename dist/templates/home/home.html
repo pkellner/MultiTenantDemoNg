@@ -102,14 +102,14 @@
                     </div>
                 </div>
 
-                {{home.speakers.length}}
+
 
                 <div class="content--section">
                     <h2 class="type--lead">Keynote Presenters</h2>
 
 
                         <div class="persona--container">
-                            <div ng-repeat="speaker in home.speakers"  keynote="" image-width="290"
+                            <div ng-repeat="speaker in home.speakers | filter: {keyNoteSpeaker:true} "  keynote="" image-width="290"
                                        image-height="190" image-background="ffffff">
                                 <div class="persona">
                                     <div class="persona--imgx">
@@ -119,8 +119,8 @@
                                     </div>
                                     <h3><a  href="#">{{speaker.firstName}} {{speaker.lastName}}</a></h3>
                                     <p>
-                                        {{speaker.bio}}
-                                    </p>
+                                       <span ng-bind-html="speaker.bio"></span>
+                                    </p>`
                                 </div>
 
 
