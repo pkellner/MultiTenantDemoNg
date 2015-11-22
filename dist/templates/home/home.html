@@ -119,6 +119,7 @@
                                     </div>
                                     <h3><a  href="#">{{speaker.firstName}} {{speaker.lastName}}</a></h3>
                                     <p>
+                                        <!--This works becuase of ngSanitize-->
                                        <span ng-bind-html="speaker.bio"></span>
                                     </p>`
                                 </div>

@@ -4,6 +4,37 @@ var source = require('vinyl-source-stream');
 var browserify = require('browserify');
 var watchify = require('watchify');
 var browserSync = require('browser-sync').create();
+var format = require('util').format;
+var merge = require('utils-merge');
+var argv        = require('yargs').argv;
+var chalk       = require('chalk');
+
+
+
+var tenantName = argv.tenantName;
+var mock = argv.mock;
+var production = argv.production;
+
+// default: gulp watch --tenantName angu --mock true
+
+if (!tenantName) {
+    tenantName = 'angu';
+    gutil.log('no tenantName defined with --tenantName, defaulting to', chalk.magenta('angu'));
+}
+
+if (!mock) {
+    mock = true
+    gutil.log('no mock defined with --mock, defaulting to', chalk.magenta('true'));
+}
+
+if (!production) {
+    production = false
+    gutil.log('no production defined with --production, defaulting to', chalk.magenta('false'));
+}
+
+gutil.log(format('tenantName: %s; mock: %s;  production: %s',tenantName,mock,production));
+
+
 
 function bundle (bundler) {
     return bundler
@@ -17,7 +48,12 @@ function bundle (bundler) {
 }
 
 gulp.task('watch', function () {
-    var watcher = watchify(browserify('./angu', watchify.args));
+    var baseDir = format('./%s',tenantName);
+    var combinedArgs = merge(watchify.args, { debug: true });
+    var b = browserify(baseDir,combinedArgs);
+    if (mock == true) { b.add(format('%s/mock',tenantName));}
+    var watcher = watchify(b);
+
     bundle(watcher);
     watcher.on('update', function () {
         bundle(watcher);
@@ -31,11 +67,16 @@ gulp.task('watch', function () {
 });
 
 gulp.task('js', function () {
-    return bundle(browserify('./angu/index.js'));
+    var baseDirFile = format('./%s/index.js',tenantName);
+    var b = browserify(baseDirFile,{debug: true});
+    b.add(format('./%s/mock', tenantName));
+    return b;
 });
 
 gulp.task('copyfiles', function () {
-    gulp.src('angu/src/**/*.html')
+
+    var srcHtmlDir = format('%s/src/**/*.html',tenantName);
+    gulp.src(srcHtmlDir)
         .pipe(gulp.dest('dist/templates/'));
 
     //gulp.src('angu/mock/data/**/*.json')

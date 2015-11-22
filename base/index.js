@@ -1,6 +1,5 @@
 'use strict';
 
-var speaker = require('./speaker');
 module.exports = angular.module('multiTenantBase', [])
     .service('Speaker', require('./speaker'))
     .name;
