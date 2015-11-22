@@ -1,6 +1,9 @@
 var gulp = require('gulp');
+var uglify = require('gulp-uglify');
+var rename = require('gulp-rename');
 var gutil = require('gulp-util');
 var source = require('vinyl-source-stream');
+var buffer = require('vinyl-buffer');
 var browserify = require('browserify');
 var watchify = require('watchify');
 var browserSync = require('browser-sync').create();
@@ -28,7 +31,7 @@ if (!mock) {
 }
 
 if (!production) {
-    production = false
+    production = true
     gutil.log('no production defined with --production, defaulting to', chalk.magenta('false'));
 }
 
@@ -37,14 +40,30 @@ gutil.log(format('tenantName: %s; mock: %s;  production: %s',tenantName,mock,pro
 
 
 function bundle (bundler) {
-    return bundler
-        .bundle()
-        .on('error', function (e) {
-            gutil.log(e.message);
-        })
-        .pipe(source('app.js'))
-        .pipe(gulp.dest('./dist'))
-        .pipe(browserSync.stream());
+    if (!production) {
+        return bundler
+            .bundle()
+            .on('error', function (e) {
+                gutil.log(e.message);
+            })
+            .pipe(source('app.js'))
+
+            .pipe(gulp.dest('./dist'))
+            .pipe(browserSync.stream());
+    } else {
+        return bundler
+            .bundle()
+            .on('error', function (e) {
+                gutil.log(e.message);
+            })
+            .pipe(source('app.js'))
+            .pipe(buffer())
+            .pipe(uglify())
+            .pipe(rename({
+                suffix: '.min'
+            }))
+            .pipe(gulp.dest('./dist'));
+    }
 }
 
 gulp.task('watch', function () {
