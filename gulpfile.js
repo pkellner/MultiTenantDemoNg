@@ -9,9 +9,8 @@ var watchify = require('watchify');
 var browserSync = require('browser-sync').create();
 var format = require('util').format;
 var merge = require('utils-merge');
-var argv        = require('yargs').argv;
-var chalk       = require('chalk');
-
+var argv = require('yargs').argv;
+var chalk = require('chalk');
 
 
 var tenantName = argv.tenantName;
@@ -35,11 +34,10 @@ if (!production) {
     gutil.log('no production defined with --production, defaulting to', chalk.magenta('false'));
 }
 
-gutil.log(format('tenantName: %s; mock: %s;  production: %s',tenantName,mock,production));
+gutil.log(format('tenantName: %s; mock: %s;  production: %s', tenantName, mock, production));
 
 
-
-function bundle (bundler) {
+function bundle(bundler) {
     if (!production) {
         return bundler
             .bundle()
@@ -66,38 +64,59 @@ function bundle (bundler) {
     }
 }
 
-    gulp.task('watch', function () {
-        var baseDir = format('./%s',tenantName);
-        var combinedArgs = merge(watchify.args, { debug: true });
-        var b = browserify(baseDir,combinedArgs);
-        if (mock == true) { b.add(format('%s/mock',tenantName));}
-        var watcher = watchify(b);
+gulp.task('watch', function () {
+    var baseDir = format('./%s', tenantName);
+    var combinedArgs = merge(watchify.args, {debug: true});
+    var b = browserify(baseDir, combinedArgs);
+    if (mock == true) {
+        b.add(format('%s/mock', tenantName));
+    }
+    var watcher = watchify(b);
 
+    bundle(watcher);
+    watcher.on('update', function () {
         bundle(watcher);
-        watcher.on('update', function () {
-            bundle(watcher);
-        });
-        watcher.on('log', gutil.log);
-
-        browserSync.init({
-            server: './dist',
-            logFileChanges: false
-        });
     });
+    watcher.on('log', gutil.log);
+
+    browserSync.init({
+        server: './dist',
+        logFileChanges: false
+    });
+});
 
 gulp.task('js', function () {
-    var baseDirFile = format('./%s/index.js',tenantName);
-    var b = browserify(baseDirFile,{debug: true});
+    var baseDirFile = format('./%s/index.js', tenantName);
+    var b = browserify(baseDirFile, {debug: true});
     b.add(format('./%s/mock', tenantName));
     return b;
 });
 
 gulp.task('copyfiles', function () {
 
-    var srcHtmlDir = format('%s/src/**/*.html',tenantName);
+    var srcHtmlDir = format('%s/src/**/*.html', tenantName);
     gulp.src(srcHtmlDir)
         .pipe(gulp.dest('dist/templates/'));
 
     //gulp.src('angu/mock/data/**/*.json')
     //    .pipe(gulp.dest('dist/angu/mock/data/'));
 });
+
+
+
+// need to install "superstatic" and see if this fixes route problem
+//gulp.task('serverstatic', function (done) {
+//    superstatic.server({
+//            port: 3000,
+//            config: {
+//                root: './dist',
+//                routes: {
+//                    "**": "index.html"
+//                }
+//            }
+//        })
+//        .listen(done);
+//});
+//
+//gulp.task('serve', ['watch', 'server']);
+

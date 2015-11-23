@@ -1,12 +1,12 @@
 'use strict';
 
 var exports = module.exports = function ($stateProvider) {
-    $stateProvider.state('speaker', {
-        url: '/speaker',
-        //url: '/',
-        templateUrl: '/templates/speaker/speaker.html',
-        controller: 'SpeakerController',
-        controllerAs: 'speaker',
+    $stateProvider.state('home', {
+        url: '/',
+        //parent: 'base',
+        templateUrl: '/templates/home/home.html',
+        controller: 'HomeController',
+        controllerAs: 'home',
         resolve: {
             speakers: getSpeakers
         }

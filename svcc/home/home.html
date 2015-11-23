@@ -19,19 +19,20 @@
                         </nav-toggle>
                         <page-nav open="nav.isOpen" class="ng-isolate-scope">
                             <ul class="nav--list" ng-class="{'open': pages.open}">
-                                <li>
-                                    <!--<a href="/#/home/">HOME</a>-->
-                                    <a ui-sref="home">HOME</a>
 
+                                <li>
+                                    <a href="/ng/Videos">HOME</a>
                                 </li>
 
                                 <li>
-                                    <a ui-sref="speaker">Speakers</a>
+                                    <a href="/ng/Videos">Speakers</a>
                                 </li>
 
                                 <li>
-                                    <a ui-sref="author">Pluralsight Authors</a>
+                                    <a href="/ng/Videos">Pluralsight Authors</a>
                                 </li>
+
+
                             </ul>
                         </page-nav>
                     </div>
@@ -88,6 +89,8 @@
             </section>
 
 
+
+
             <div class="container nav--section">
 
                 <div class="row row-centered">
@@ -100,44 +103,44 @@
                 </div>
 
 
+
                 <div class="content--section">
                     <h2 class="type--lead">Keynote Presenters</h2>
 
 
-                    <div class="persona--container">
-                        <div ng-repeat="speaker in home.speakers | filter: {keyNoteSpeaker:true} " keynote=""
-                             image-width="290"
-                             image-height="190" image-background="ffffff">
-                            <div class="persona">
-                                <div class="persona--imgx">
-                                    <img ng-src="{{speaker.speakerImageUrl}}?format=jpg&height=190&width=290&scale=both&mode=pad&Bgcolor=ffffff"
-                                         alt="Picture {{speaker.firstName}} {{speaker.lastName}}"/>
-                                    <!--<img ng-src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150218181456-31683.jpg?format=jpg&amp;height=190&amp;width=290&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff" alt="Igor Minar" src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150218181456-31683.jpg?format=jpg&amp;height=190&amp;width=290&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff">-->
+                        <div class="persona--container">
+                            <div ng-repeat="speaker in home.speakers | filter: {keyNoteSpeaker:true} "  keynote="" image-width="290"
+                                       image-height="190" image-background="ffffff">
+                                <div class="persona">
+                                    <div class="persona--imgx">
+                                        <img ng-src="{{speaker.speakerImageUrl}}?format=jpg&height=190&width=290&scale=both&mode=pad&Bgcolor=ffffff"
+                                             alt="Picture {{speaker.firstName}} {{speaker.lastName}}" />
+                                        <!--<img ng-src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150218181456-31683.jpg?format=jpg&amp;height=190&amp;width=290&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff" alt="Igor Minar" src="//d1n4bbuvjcnilu.cloudfront.net/attendeeimage/20150218181456-31683.jpg?format=jpg&amp;height=190&amp;width=290&amp;scale=both&amp;mode=pad&amp;Bgcolor=ffffff">-->
+                                    </div>
+                                    <h3><a  href="#">{{speaker.firstName}} {{speaker.lastName}}</a></h3>
+                                    <p>
+                                        <!--This works becuase of ngSanitize-->
+                                       <span ng-bind-html="speaker.bio"></span>
+                                    </p>`
                                 </div>
-                                <h3><a href="#">{{speaker.firstName}} {{speaker.lastName}}</a></h3>
 
-                                <p>
-                                    <!--This works becuase of ngSanitize-->
-                                    <span ng-bind-html="speaker.bio"></span>
-                                </p>`
+
+
+                                <!--<div class="persona" >-->
+
+                                    <!--<div  class="persona&#45;&#45;img">-->
+                                        <!--<img-->
+                                             <!--alt="{{speaker.firstName}} {{speaker.lastName}}"-->
+                                             <!--ng-src="{{speaker.speakerImageUrl}}">-->
+                                    <!--</div>-->
+                                    <!--<h3><a href="#">{{speaker.firstName}} {{speaker.lastName}}</a></h3>-->
+
+                                    <!--<p>-->
+                                       <!--{{ speaker.bio}}-->
+                                    <!--</p>-->
+                                <!--</div>-->
                             </div>
-
-
-                            <!--<div class="persona" >-->
-
-                            <!--<div  class="persona&#45;&#45;img">-->
-                            <!--<img-->
-                            <!--alt="{{speaker.firstName}} {{speaker.lastName}}"-->
-                            <!--ng-src="{{speaker.speakerImageUrl}}">-->
-                            <!--</div>-->
-                            <!--<h3><a href="#">{{speaker.firstName}} {{speaker.lastName}}</a></h3>-->
-
-                            <!--<p>-->
-                            <!--{{ speaker.bio}}-->
-                            <!--</p>-->
-                            <!--</div>-->
                         </div>
-                    </div>
                 </div>
 
                 <div class="content--section media" id="media">
@@ -145,9 +148,9 @@
                         <div class="videos col-sm-6">
                             <div class="video--main">
                                 <h3 class="video--main--title">
-                                  <span class="type--lead type--color ng-binding" style="font-weight: 700;font-size: 16px;">
-                                    Brad Green Talks Directives, Controllers become Components in Angular 2&nbsp;
-                                  </span>
+              <span class="type--lead type--color ng-binding" style="font-weight: 700;font-size: 16px;">
+                Brad Green Talks Directives, Controllers become Components in Angular 2&nbsp;
+              </span>
                                     <span></span>
                                     <span class="ng-binding"><a
                                             href="http://twitter.com/home?status=Check+Out+&quot;Brad+Green,+Igor+Minar+and+Misko+Havery+Talk+Angular+2&quot;+at+@AngularU+https://angularu.com/ng/session/2015sf/angular-2-roadmap-update+@bradlygreen"
@@ -206,8 +209,8 @@
                                         <span class="news-single--day">8</span>
                                     </div>
                                     <a
-                                            class="news-single--content"
-                                            href="#">
+                                       class="news-single--content"
+                                       href="#">
                                         <span class="news-single--category">News</span>
 
                                         <h3 class="news-single--title">Rangle.io's Women Who Code Contest Announced</h3>
@@ -220,8 +223,8 @@
                                         <span class="news-single--day">15</span>
                                     </div>
                                     <a
-                                            class="news-single--content"
-                                            href="#">
+                                       class="news-single--content"
+                                       href="#">
                                         <span class="news-single--category">News</span>
 
                                         <h3 class="news-single--title">Brad Green Tells Us What to Expect at Angular
@@ -235,8 +238,8 @@
                                         <span class="news-single--day">7</span>
                                     </div>
                                     <a
-                                            class="news-single--content"
-                                            href="#">
+                                       class="news-single--content"
+                                       href="#">
                                         <span class="news-single--category">News</span>
 
                                         <h3 class="news-single--title">Honored To Have Angular U On AngularJS.Org
@@ -250,8 +253,8 @@
                                         <span class="news-single--day">29</span>
                                     </div>
                                     <a
-                                            class="news-single--content"
-                                            href="#">
+                                       class="news-single--content"
+                                       href="#">
                                         <span class="news-single--category">News</span>
 
                                         <h3 class="news-single--title">Introducing the Angular U Conference - Dan
@@ -264,8 +267,8 @@
                                         <span class="news-single--day">26</span>
                                     </div>
                                     <a
-                                            class="news-single--content"
-                                            href="#">
+                                       class="news-single--content"
+                                       href="#">
                                         <span class="news-single--category">News</span>
 
                                         <h3 class="news-single--title">Why Am I so Excited about Angluar U - Peter
@@ -285,8 +288,8 @@
 
                 <div class="social center-block">
                     <h4>Don’t want to miss anything? <a
-                            class="type--color"
-                            href="#">Get
+                                                        class="type--color"
+                                                        href="#">Get
                         email alerts</a> or follow us on: </h4>
                     <ul>
                         <li><a ng-href="http://twitter.com/angularu" target="_blank" class="icon-twitter"
