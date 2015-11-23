@@ -18,7 +18,7 @@ var tenantName = argv.tenantName;
 var mock = argv.mock;
 var production = argv.production;
 
-// default: gulp watch --tenantName angu --mock true
+// default: gulp watch --tenantName angu --mock true --production false
 
 if (!tenantName) {
     tenantName = 'angu';
@@ -26,12 +26,12 @@ if (!tenantName) {
 }
 
 if (!mock) {
-    mock = true
+    mock = true;
     gutil.log('no mock defined with --mock, defaulting to', chalk.magenta('true'));
 }
 
 if (!production) {
-    production = true
+    production = false;
     gutil.log('no production defined with --production, defaulting to', chalk.magenta('false'));
 }
 
@@ -66,24 +66,24 @@ function bundle (bundler) {
     }
 }
 
-gulp.task('watch', function () {
-    var baseDir = format('./%s',tenantName);
-    var combinedArgs = merge(watchify.args, { debug: true });
-    var b = browserify(baseDir,combinedArgs);
-    if (mock == true) { b.add(format('%s/mock',tenantName));}
-    var watcher = watchify(b);
+    gulp.task('watch', function () {
+        var baseDir = format('./%s',tenantName);
+        var combinedArgs = merge(watchify.args, { debug: true });
+        var b = browserify(baseDir,combinedArgs);
+        if (mock == true) { b.add(format('%s/mock',tenantName));}
+        var watcher = watchify(b);
 
-    bundle(watcher);
-    watcher.on('update', function () {
         bundle(watcher);
-    });
-    watcher.on('log', gutil.log);
+        watcher.on('update', function () {
+            bundle(watcher);
+        });
+        watcher.on('log', gutil.log);
 
-    browserSync.init({
-        server: './dist',
-        logFileChanges: false
+        browserSync.init({
+            server: './dist',
+            logFileChanges: false
+        });
     });
-});
 
 gulp.task('js', function () {
     var baseDirFile = format('./%s/index.js',tenantName);
