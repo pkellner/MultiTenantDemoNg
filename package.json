@@ -29,6 +29,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.5.1",
     "gulp-util": "^3.0.7",
+    "lodash": "^3.10.1",
     "util": "^0.10.3",
     "utils-merge": "^1.0.0",
     "vinyl-buffer": "^1.0.0",
