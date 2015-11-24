@@ -2,10 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ffab562-682b-43b4-87bc-6c00c37c30ea" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/templates/author/author.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/templates/home/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/templates/speaker/speaker.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angu/src/author/author.html" afterPath="$PROJECT_DIR$/angu/src/author/author.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/fonts/sosa/sosa-regular-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/fonts/sosa/sosa-regular-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/fonts/sosa/sosa-regular-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/fonts/sosa/sosa-regular-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/Jonathan-Turner-190.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/Jonathan-Turner-287.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/Jonathan_Turner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/PluralsightLogoMay2015.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/Rangleio-logo-RGB.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/angularu_100x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/angularu_100x100blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/angularu_100x100bluenew.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/bg-slider-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/brad-green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/douglas-crockford.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/hero-bg-la.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/hero-golden-gate-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/hero-golden-gate-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/hero-golden-gate-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/igor-minar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/logo-angular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/logo-angular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/misko-hevery.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/page-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/pluralsight-141-90.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/registration-simulation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/social-buttons/dropbox.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/social-buttons/evernote.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/social-buttons/facebook.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/social-buttons/foursquare.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/social-buttons/github.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/social-buttons/google.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/social-buttons/instagram.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/social-buttons/linkedin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/social-buttons/microsoft.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/social-buttons/twitter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/speaker-boulton.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/speaker-leonidas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/speaker-spiekermann.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/speakers/speaker-dodds.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/speakers/speaker-gontovnikas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/speakers/speaker-smith.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/speakers/speaker-tamplin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/speakers/speaker-van-weerdenburg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/speakers/speaker-wahlin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/sponsors-wall.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/tiles/pic1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/tiles/pic10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/tiles/pic11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/tiles/pic12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/tiles/pic2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/tiles/pic3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/tiles/pic4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/tiles/pic5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/tiles/pic6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/tiles/pic7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/tiles/pic8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/images/tiles/pic9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/styles/main-local.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/styles/main-local.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/styles/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/styles/main.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/styles/sosa-font-local.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/styles/sosa-font-local.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/styles/sosa-font.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/Content/ANGU/styles/sosa-font.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/svcc/home/home.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/svcc/home/controller.js" afterPath="$PROJECT_DIR$/svcc/src/home/controller.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/svcc/home/homeraw.html" afterPath="$PROJECT_DIR$/svcc/src/home/home.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/svcc/home/index.js" afterPath="$PROJECT_DIR$/svcc/src/home/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/svcc/home/states.js" afterPath="$PROJECT_DIR$/svcc/src/home/states.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/svcc/session/controller.js" afterPath="$PROJECT_DIR$/svcc/src/speaker/controller.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/svcc/session/detail.html" afterPath="$PROJECT_DIR$/svcc/src/speaker/detail.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/svcc/session/index.js" afterPath="$PROJECT_DIR$/svcc/src/speaker/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/svcc/session/session.html" afterPath="$PROJECT_DIR$/svcc/src/session/session.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/svcc/session/states.js" afterPath="$PROJECT_DIR$/svcc/src/speaker/states.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/svcc/speaker/controller.js" afterPath="$PROJECT_DIR$/svcc/src/session/controller.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/svcc/speaker/detail.html" afterPath="$PROJECT_DIR$/svcc/src/session/detail.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/svcc/speaker/index.js" afterPath="$PROJECT_DIR$/svcc/src/session/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/svcc/speaker/speaker.html" afterPath="$PROJECT_DIR$/svcc/src/speaker/speaker.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/svcc/speaker/states.js" afterPath="$PROJECT_DIR$/svcc/src/session/states.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angu/mock/index.js" afterPath="$PROJECT_DIR$/angu/mock/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angu/src/index.js" afterPath="$PROJECT_DIR$/angu/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="ng.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,279 +109,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="author.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angu/src/author/author.html">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.75">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.53745925">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="states.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angu/src/home/states.js">
+      <file leaf-file-name="gulpfile.VERYOLD.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.VERYOLD.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="19" selection-end-column="34" />
+              <caret line="147" column="7" selection-start-line="128" selection-start-column="3" selection-end-line="147" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angu/src/home/index.js">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svcc/Content/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="states.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angu/src/author/states.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angu/src/author/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            <state vertical-scroll-proportion="-13.75">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angu/src/author/controller.js">
+        <entry file="file://$PROJECT_DIR$/svcc/src/home/controller.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="27" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="states.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svcc/src/home/states.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="speaker.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/templates/speaker/speaker.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svcc/src/speaker/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="speaker.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svcc/src/speaker/speaker.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.333333">
+              <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
               <folding>
-                <element signature="e#103#5093#0" expanded="false" />
+                <element signature="n#footer#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angu/src/home/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625">
-              <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angu/src/home/controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angu/mock/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2992021">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-              <folding>
-                <marker date="1448313075000" expanded="true" signature="409318:409371" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="409497:409541" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="409738:410783" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="409783:410034" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="409848:410020" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="410080:410357" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="410171:410343" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="410401:410773" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="410466:410759" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="410869:411003" placeholder="//..." />
-                <marker date="1448313075000" expanded="true" signature="411055:411105" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="411112:411306" placeholder="//..." />
-                <marker date="1448313075000" expanded="true" signature="411343:411422" placeholder="[...]" />
-                <marker date="1448313075000" expanded="true" signature="411371:411421" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="411516:411554" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="411658:411801" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="411830:411923" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="411951:412069" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="600909:602170" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="600981:602003" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="600991:601123" placeholder="//..." />
-                <marker date="1448313075000" expanded="true" signature="601189:601993" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="601295:601982" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="601353:601484" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="601516:601955" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="601534:601624" placeholder="//..." />
-                <marker date="1448313075000" expanded="true" signature="601679:601886" placeholder="//..." />
-                <marker date="1448313075000" expanded="true" signature="602044:602155" placeholder="[...]" />
-                <marker date="1448313075000" expanded="true" signature="602072:602154" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="602214:602344" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="602448:602752" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="755705:756104" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="755848:755939" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="756009:756093" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="756162:756188" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="756310:756437" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1215774:1216574" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1215943:1216561" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1215999:1216475" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1216095:1216193" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1216768:1216949" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1217008:1217043" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1217108:1217193" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1217276:1217384" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1217458:1217527" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1217644:1218777" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1219038:1219724" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1219185:1219712" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1219231:1219633" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1219298:1219393" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1219929:1220613" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1220135:1220174" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1220217:1220304" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1220365:1220481" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1220533:1220605" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1220723:1221795" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1225774:1226189" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1225792:1225972" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1225898:1225953" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1225991:1226172" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1226096:1226153" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1226337:1226736" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1226411:1226464" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1226505:1226719" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1226567:1226621" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1226632:1226701" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1227087:1227365" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1227173:1227351" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1227233:1227335" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1227400:1227452" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1227490:1227780" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1227557:1227766" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1227650:1227752" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1227820:1228235" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1227887:1228221" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1227970:1228085" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1228018:1228069" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1228114:1228207" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1228269:1228397" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1228411:1228611" placeholder="//..." />
-                <marker date="1448313075000" expanded="true" signature="1228663:1228696" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1228774:1229128" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1228885:1228974" placeholder="//..." />
-                <marker date="1448313075000" expanded="true" signature="1229037:1229084" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1229187:1229362" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1229444:1229614" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1262921:1263022" placeholder="[...]" />
-                <marker date="1448313075000" expanded="true" signature="1262949:1263021" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1263127:1263718" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1263244:1263362" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1263319:1263346" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1264061:1264259" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1264316:1264555" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1264935:1265183" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1285770:1286176" placeholder="[...]" />
-                <marker date="1448313075000" expanded="true" signature="1285798:1286175" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1285848:1286009" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1285884:1285996" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1286062:1286163" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1286098:1286150" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1286278:1287154" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1286293:1286421" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1286584:1287138" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1286746:1286803" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1287016:1287076" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1304191:1304369" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1304279:1304351" placeholder="[...]" />
-                <marker date="1448313075000" expanded="true" signature="1304307:1304350" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1304384:1304602" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1304405:1304492" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1304523:1304587" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1304635:1304741" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1304805:1304956" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1304887:1304941" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1306201:1306530" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1306233:1306448" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1306252:1306431" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1306306:1306411" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1306662:1307193" placeholder="[...]" />
-                <marker date="1448313075000" expanded="true" signature="1306690:1307192" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1306749:1307180" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1306788:1307167" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1306804:1307085" placeholder="//..." />
-                <marker date="1448313075000" expanded="true" signature="1312472:1313013" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1312503:1312870" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1312521:1312739" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1312574:1312720" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1312763:1312848" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1313136:1313392" placeholder="[...]" />
-                <marker date="1448313075000" expanded="true" signature="1313164:1313391" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1313257:1313380" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1313292:1313368" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1313660:1313849" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1313921:1314207" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1314585:1315013" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1314616:1314935" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1314634:1314805" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1314687:1314786" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1315136:1315218" placeholder="[...]" />
-                <marker date="1448313075000" expanded="true" signature="1315164:1315217" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1315456:1315776" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1315487:1315696" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1315505:1315680" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1315558:1315661" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1315904:1316429" placeholder="[...]" />
-                <marker date="1448313075000" expanded="true" signature="1315932:1316428" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1315989:1316417" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1316027:1316405" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1316043:1316324" placeholder="//..." />
-                <marker date="1448313075000" expanded="true" signature="1421576:1422878" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1421602:1422868" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1421729:1421850" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1422055:1422299" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1422616:1422789" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1422993:1423265" placeholder="[...]" />
-                <marker date="1448313075000" expanded="true" signature="1423021:1423264" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1423196:1423256" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1423477:1423858" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1423503:1423782" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1423644:1423769" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1423975:1424236" placeholder="[...]" />
-                <marker date="1448313075000" expanded="true" signature="1424003:1424235" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1424573:1424920" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1424599:1424848" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1424697:1424835" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1425041:1425381" placeholder="[...]" />
-                <marker date="1448313075000" expanded="true" signature="1425069:1425380" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1425656:1425794" placeholder="..." />
-                <marker date="1448313075000" expanded="true" signature="1425934:1425987" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1426039:1426419" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1426154:1426394" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1426207:1426268" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1426325:1426377" placeholder="{...}" />
-                <marker date="1448313075000" expanded="true" signature="1426537:1426689" placeholder="{...}" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1143" column="13" selection-start-line="1143" selection-start-column="13" selection-end-line="1143" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.25">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -311,7 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dist/app.js" />
         <option value="$PROJECT_DIR$/angu/src/about/about.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/angu/src/about/index.js" />
@@ -330,13 +237,10 @@
         <option value="$PROJECT_DIR$/angu/mock/data/sessions.json" />
         <option value="$PROJECT_DIR$/base/speaker/index.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/angu/index.js" />
         <option value="$PROJECT_DIR$/readme.txt" />
-        <option value="$PROJECT_DIR$/angu/mock/index.js" />
         <option value="$PROJECT_DIR$/angu/src/home/controller.js" />
         <option value="$PROJECT_DIR$/base/index.js" />
         <option value="$PROJECT_DIR$/angu/src/home/index.js" />
-        <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/svcc/speaker/speaker.html" />
         <option value="$PROJECT_DIR$/svcc/speaker/detail.html" />
         <option value="$PROJECT_DIR$/svcc/session/detail.html" />
@@ -344,13 +248,22 @@
         <option value="$PROJECT_DIR$/svcc/home/homeraw.html" />
         <option value="$PROJECT_DIR$/dist/Content/SVCC/styles/site-svcc-relative.css" />
         <option value="$PROJECT_DIR$/angu/src/speaker/states.js" />
-        <option value="$PROJECT_DIR$/angu/src/index.js" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/angu/src/speaker/controller.js" />
         <option value="$PROJECT_DIR$/angu/src/home/home.html" />
         <option value="$PROJECT_DIR$/angu/src/speaker/speaker.html" />
         <option value="$PROJECT_DIR$/angu/src/author/controller.js" />
         <option value="$PROJECT_DIR$/angu/src/author/author.html" />
+        <option value="$PROJECT_DIR$/dist/app.js" />
+        <option value="$PROJECT_DIR$/svcc/home/home.html" />
+        <option value="$PROJECT_DIR$/angu/index.js" />
+        <option value="$PROJECT_DIR$/svcc/index.js" />
+        <option value="$PROJECT_DIR$/svcc/src/index.js" />
+        <option value="$PROJECT_DIR$/angu/mock/index.js" />
+        <option value="$PROJECT_DIR$/angu/src/index.js" />
+        <option value="$PROJECT_DIR$/dist/templates/speaker/speaker.html" />
+        <option value="$PROJECT_DIR$/svcc/src/speaker/speaker.html" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
       </list>
     </option>
   </component>
@@ -378,8 +291,8 @@
     </gulpfiles>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="299" />
-    <option name="y" value="29" />
+    <option name="x" value="282" />
+    <option name="y" value="23" />
     <option name="width" value="1437" />
     <option name="height" value="1166" />
   </component>
@@ -390,7 +303,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -408,8 +321,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -438,6 +349,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="svcc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiTenantDemoNg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="svcc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiTenantDemoNg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="svcc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiTenantDemoNg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -456,33 +421,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="Content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="speaker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiTenantDemoNg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
+              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -500,132 +443,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="author" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiTenantDemoNg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiTenantDemoNg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiTenantDemoNg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="speaker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiTenantDemoNg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiTenantDemoNg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="author" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiTenantDemoNg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mock" />
+              <option name="myItemId" value="Content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -654,15 +479,16 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/svcc/src" />
       <recent name="$PROJECT_DIR$/dist/Content" />
       <recent name="C:\VCProject\MultiTenantDemo\MultiTenant\ng\dist\templates\home" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/svcc/Content" />
+      <recent name="$PROJECT_DIR$/angu/Content" />
       <recent name="$PROJECT_DIR$/angu/src/speaker" />
       <recent name="$PROJECT_DIR$/svcc" />
       <recent name="$PROJECT_DIR$/svcc/speaker" />
-      <recent name="C:\VCProject\MultiTenantDemo\MultiTenant\ng\svcc\mock\data" />
-      <recent name="C:\VCProject\MultiTenantDemo\MultiTenant\ng\dist\Content\ANGU\fonts\sosa" />
     </key>
   </component>
   <component name="RunManager">
@@ -729,18 +555,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="299" y="29" width="1437" height="1166" extended-state="0" />
+    <frame x="282" y="23" width="1437" height="1166" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2259887" sideWeight="0.35641026" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2259887" sideWeight="0.64358974" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2259887" sideWeight="0.19158879" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2259887" sideWeight="0.80841124" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26826417" sideWeight="0.50201005" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25714287" sideWeight="0.49798995" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3874046" sideWeight="0.49798995" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -748,7 +574,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291815" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -768,41 +594,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/angu/src/author/author.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angu/src/author/states.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angu/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angu/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -821,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,13 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.193548">
           <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.VERYOLD.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="147" column="7" selection-start-line="128" selection-start-column="3" selection-end-line="147" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -902,102 +685,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.875">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svcc/home/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svcc/speaker/speaker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.791666">
-          <caret line="11548" column="0" selection-start-line="11548" selection-start-column="0" selection-end-line="11548" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svcc/speaker/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.791666">
-          <caret line="1448" column="0" selection-start-line="1448" selection-start-column="0" selection-end-line="1448" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svcc/session/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svcc/session/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.791666">
-          <caret line="1448" column="0" selection-start-line="1448" selection-start-column="0" selection-end-line="1448" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svcc/session/session.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.791666">
-          <caret line="14029" column="0" selection-start-line="14029" selection-start-column="0" selection-end-line="14029" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svcc/home/homeraw.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.791666">
-          <caret line="1111" column="0" selection-start-line="1111" selection-start-column="0" selection-end-line="1111" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/Content/templates/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/Content/templates/author/author.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/Content/templates/speaker/speaker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/Content/SVCC/styles/site-svcc-relative.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-306.41666">
-          <caret line="6055" column="1" selection-start-line="6055" selection-start-column="1" selection-end-line="6055" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svcc/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.75">
-          <caret line="264" column="29" selection-start-line="264" selection-start-column="29" selection-end-line="264" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angu/src/speaker/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,29 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angu/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angu/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.851852">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,7 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="36" selection-start-line="0" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,7 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="28" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1067,7 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,7 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1083,9 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="27" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="27" />
-          <folding>
-            <element signature="e#103#5093#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1093,230 +754,228 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.75">
           <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angu/src/home/states.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.31914893">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="19" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angu/src/home/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.13962767">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angu/src/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angu/src/home/controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.099734046">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angu/src/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41208792">
+          <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/src/speaker/states.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/src/speaker/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1448" column="0" selection-start-line="1448" selection-start-column="0" selection-end-line="1448" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/src/speaker/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/src/session/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/src/session/states.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/src/session/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1448" column="0" selection-start-line="1448" selection-start-column="0" selection-end-line="1448" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/src/session/session.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14029" column="0" selection-start-line="14029" selection-start-column="0" selection-end-line="14029" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/src/session/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angu/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angu/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angu/mock/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/src/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1028" column="31" selection-start-line="1028" selection-start-column="31" selection-end-line="1028" selection-end-column="31" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="n#header#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/src/home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/src/home/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/src/home/states.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/templates/speaker/speaker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/src/speaker/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/src/speaker/speaker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.333333">
+          <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+          <folding>
+            <element signature="n#footer#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2992021">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <marker date="1448313075000" expanded="true" signature="409318:409371" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="409497:409541" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="409738:410783" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="409783:410034" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="409848:410020" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="410080:410357" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="410171:410343" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="410401:410773" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="410466:410759" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="410869:411003" placeholder="//..." />
-            <marker date="1448313075000" expanded="true" signature="411055:411105" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="411112:411306" placeholder="//..." />
-            <marker date="1448313075000" expanded="true" signature="411343:411422" placeholder="[...]" />
-            <marker date="1448313075000" expanded="true" signature="411371:411421" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="411516:411554" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="411658:411801" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="411830:411923" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="411951:412069" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="600909:602170" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="600981:602003" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="600991:601123" placeholder="//..." />
-            <marker date="1448313075000" expanded="true" signature="601189:601993" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="601295:601982" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="601353:601484" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="601516:601955" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="601534:601624" placeholder="//..." />
-            <marker date="1448313075000" expanded="true" signature="601679:601886" placeholder="//..." />
-            <marker date="1448313075000" expanded="true" signature="602044:602155" placeholder="[...]" />
-            <marker date="1448313075000" expanded="true" signature="602072:602154" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="602214:602344" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="602448:602752" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="755705:756104" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="755848:755939" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="756009:756093" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="756162:756188" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="756310:756437" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1215774:1216574" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1215943:1216561" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1215999:1216475" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1216095:1216193" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1216768:1216949" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1217008:1217043" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1217108:1217193" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1217276:1217384" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1217458:1217527" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1217644:1218777" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1219038:1219724" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1219185:1219712" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1219231:1219633" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1219298:1219393" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1219929:1220613" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1220135:1220174" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1220217:1220304" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1220365:1220481" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1220533:1220605" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1220723:1221795" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1225774:1226189" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1225792:1225972" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1225898:1225953" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1225991:1226172" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1226096:1226153" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1226337:1226736" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1226411:1226464" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1226505:1226719" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1226567:1226621" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1226632:1226701" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1227087:1227365" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1227173:1227351" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1227233:1227335" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1227400:1227452" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1227490:1227780" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1227557:1227766" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1227650:1227752" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1227820:1228235" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1227887:1228221" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1227970:1228085" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1228018:1228069" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1228114:1228207" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1228269:1228397" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1228411:1228611" placeholder="//..." />
-            <marker date="1448313075000" expanded="true" signature="1228663:1228696" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1228774:1229128" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1228885:1228974" placeholder="//..." />
-            <marker date="1448313075000" expanded="true" signature="1229037:1229084" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1229187:1229362" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1229444:1229614" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1262921:1263022" placeholder="[...]" />
-            <marker date="1448313075000" expanded="true" signature="1262949:1263021" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1263127:1263718" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1263244:1263362" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1263319:1263346" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1264061:1264259" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1264316:1264555" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1264935:1265183" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1285770:1286176" placeholder="[...]" />
-            <marker date="1448313075000" expanded="true" signature="1285798:1286175" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1285848:1286009" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1285884:1285996" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1286062:1286163" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1286098:1286150" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1286278:1287154" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1286293:1286421" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1286584:1287138" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1286746:1286803" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1287016:1287076" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1304191:1304369" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1304279:1304351" placeholder="[...]" />
-            <marker date="1448313075000" expanded="true" signature="1304307:1304350" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1304384:1304602" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1304405:1304492" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1304523:1304587" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1304635:1304741" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1304805:1304956" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1304887:1304941" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1306201:1306530" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1306233:1306448" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1306252:1306431" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1306306:1306411" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1306662:1307193" placeholder="[...]" />
-            <marker date="1448313075000" expanded="true" signature="1306690:1307192" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1306749:1307180" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1306788:1307167" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1306804:1307085" placeholder="//..." />
-            <marker date="1448313075000" expanded="true" signature="1312472:1313013" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1312503:1312870" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1312521:1312739" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1312574:1312720" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1312763:1312848" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1313136:1313392" placeholder="[...]" />
-            <marker date="1448313075000" expanded="true" signature="1313164:1313391" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1313257:1313380" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1313292:1313368" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1313660:1313849" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1313921:1314207" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1314585:1315013" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1314616:1314935" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1314634:1314805" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1314687:1314786" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1315136:1315218" placeholder="[...]" />
-            <marker date="1448313075000" expanded="true" signature="1315164:1315217" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1315456:1315776" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1315487:1315696" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1315505:1315680" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1315558:1315661" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1315904:1316429" placeholder="[...]" />
-            <marker date="1448313075000" expanded="true" signature="1315932:1316428" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1315989:1316417" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1316027:1316405" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1316043:1316324" placeholder="//..." />
-            <marker date="1448313075000" expanded="true" signature="1421576:1422878" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1421602:1422868" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1421729:1421850" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1422055:1422299" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1422616:1422789" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1422993:1423265" placeholder="[...]" />
-            <marker date="1448313075000" expanded="true" signature="1423021:1423264" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1423196:1423256" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1423477:1423858" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1423503:1423782" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1423644:1423769" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1423975:1424236" placeholder="[...]" />
-            <marker date="1448313075000" expanded="true" signature="1424003:1424235" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1424573:1424920" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1424599:1424848" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1424697:1424835" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1425041:1425381" placeholder="[...]" />
-            <marker date="1448313075000" expanded="true" signature="1425069:1425380" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1425656:1425794" placeholder="..." />
-            <marker date="1448313075000" expanded="true" signature="1425934:1425987" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1426039:1426419" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1426154:1426394" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1426207:1426268" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1426325:1426377" placeholder="{...}" />
-            <marker date="1448313075000" expanded="true" signature="1426537:1426689" placeholder="{...}" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1143" column="13" selection-start-line="1143" selection-start-column="13" selection-end-line="1143" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/Content/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.75">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.VERYOLD.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="147" column="7" selection-start-line="128" selection-start-column="3" selection-end-line="147" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53745925">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

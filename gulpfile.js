@@ -11,7 +11,7 @@ var format = require('util').format;
 var merge = require('utils-merge');
 var argv = require('yargs').argv;
 var chalk = require('chalk');
-
+//var htmlreplace = require('gulp-html-replace');
 
 var tenantName = argv.tenantName;
 var mock = argv.mock;
@@ -20,18 +20,18 @@ var production = argv.production;
 // default: gulp watch --tenantName angu --mock true --production false
 
 if (!tenantName) {
-    tenantName = 'angu';
-    gutil.log('no tenantName defined with --tenantName, defaulting to', chalk.magenta('angu'));
+    tenantName = 'svcc';
+    gutil.log('no tenantName defined with --tenantName, defaulting to', chalk.magenta(tenantName));
 }
 
 if (!mock) {
     mock = true;
-    gutil.log('no mock defined with --mock, defaulting to', chalk.magenta('true'));
+    gutil.log('no mock defined with --mock, defaulting to', chalk.magenta(mock));
 }
 
 if (!production) {
     production = false;
-    gutil.log('no production defined with --production, defaulting to', chalk.magenta('false'));
+    gutil.log('no production defined with --production, defaulting to', chalk.magenta(production));
 }
 
 gutil.log(format('tenantName: %s; mock: %s;  production: %s', tenantName, mock, production));
@@ -95,12 +95,28 @@ gulp.task('js', function () {
 gulp.task('copyfiles', function () {
 
     var srcHtmlDir = format('%s/src/**/*.html', tenantName);
+    gutil.log('copying from ' + srcHtmlDir);
     gulp.src(srcHtmlDir)
         .pipe(gulp.dest('dist/templates/'));
+
+    var srcContentDir = format('%s/Content/**/*',tenantName);
+    var destContentDir = format('dist/Content');
+    gutil.log('copying from ' + srcContentDir + ' to: ' + destContentDir);
+    gulp.src(srcContentDir)
+        .pipe(gulp.dest(destContentDir));
 
     //gulp.src('angu/mock/data/**/*.json')
     //    .pipe(gulp.dest('dist/angu/mock/data/'));
 });
+
+//gulp.task('index', function() {
+//    gulp.src('index.html')
+//        .pipe(htmlreplace({
+//            'css': 'styles.min.css',
+//            'js': 'js/bundle.min.js'
+//        }))
+//        .pipe(gulp.dest('build/'));
+//});
 
 
 

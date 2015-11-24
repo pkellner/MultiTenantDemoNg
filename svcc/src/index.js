@@ -6,8 +6,7 @@ module.exports = require('angular')
         require('angular-sanitize'),
         require('../../base'),
         require('./home'),
-        require('./speaker'),
-        require('./author')
+        require('./speaker')
     ])
     .config(enableHtml5Mode)
     .name;

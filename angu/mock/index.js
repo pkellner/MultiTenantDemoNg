@@ -4,7 +4,7 @@ console.log('mock\index.js');
 
 require('angular-mocks');
 
-var app = require('angular').module('AngularUApp');
+var app = require('angular').module('MTApp');
 app.requires.push('ngMockE2E');
 app.run(provideMocks);
 
