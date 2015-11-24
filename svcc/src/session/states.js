@@ -1,12 +1,12 @@
 'use strict';
 
 var exports = module.exports = function ($stateProvider) {
-    $stateProvider.state('speaker', {
-        url: '/speaker',
+    $stateProvider.state('session', {
+        url: '/session',
         //url: '/',
-        templateUrl: '/templates/speaker/speaker.html',
-        controller: 'SpeakerController',
-        controllerAs: 'speaker'
+        templateUrl: '/templates/session/session.html',
+        controller: 'SessionController',
+        controllerAs: 'session'
     });
 };
 exports.$inject = ['$stateProvider'];

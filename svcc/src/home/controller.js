@@ -1,6 +1,7 @@
 'use strict';
 
 function HomeController ($scope,speakers) {
+
    console.log('homecontroller');
    this.speakers = speakers;
 }

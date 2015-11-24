@@ -1,39 +1,3 @@
-
-
-
-<!DOCTYPE html>
-<!--[if IE 8]> <html class="ie8" lang="en"> <![endif]-->
-<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!-->
-<html lang="en">
-<!--<![endif]-->
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=1030, user-scalable=1" />
-    <title>Sessions</title>
-
-
-
-
-
-
-    <link href="/Content/Styles/site-svcc-relative.css" rel="stylesheet" />
-
-
-
-
-    <script src="//d2zy29wfit83r0.cloudfront.net/Content/JavaScript/jquery-1.10.1.min.js"></script>
-    <script src="//d2zy29wfit83r0.cloudfront.net/Content/JavaScript/jquery-migrate-1.2.1.min.js"></script>
-
-    <!--[if lt IE 9]>
-    <script src="//d2zy29wfit83r0.cloudfront.net/Content/JavaScript/html5shiv-printshiv.min.js"></script>
-    <![endif]-->
-</head>
-
-<body>
-
-
-
 <div id="wrapper">
 
     <header id="header" class="mainHeader " >
@@ -46,7 +10,7 @@
             </div>
             <div class="dateWrap">
 
-                OCTOBER 3RD & 4TH 2015<BR/>ALL ATTENDEES MUST BE REGISTERED</BR/>
+                OCTOBER 3RD & 4TH 2015
             </div>
             <div class="venueWrap">
                 <span class="name">Evergreen Valley College</span><br />
@@ -56,144 +20,26 @@
 
 
         </div>
+
+
         <div class="menuUserBar">
-
-
             <div class="userWrap">
-                <div class="loginForm">
-                    <a href="/Account/Login">LOGIN</a>
-                    |                    <a href="/Account/CreateAccount" class="colorwhite">REGISTER</a>
-                </div>
             </div>
-
             <div class="menuWrap">
                 <ul class="menuList">
-                    <li class="menuListItem registration">
-                        <a href="/Account/CreateAccount" class="menuItemLink">Registration</a>
+                    <li class="menuListItem">
+                        <a ui-sref="home" class="menuItemLink">HOME</a>
                     </li>
-
-                    <li class="menuListItem program">
-                        <a href="#" class="menuItemLink" aria-haspopup="true">Program</a>
-                        <ul class="menuSubList">
-                            <li>
-                                <a href="/Presenter/2015">Presenters</a>
-                            </li>
-
-                            <li>
-                                <a href="/Track">Tracks</a>
-                            </li>
-
-                            <li class="subAvailable">
-                                <a href="#" aria-haspopup="true">Sessions</a>
-                                <ul class="menuSubList">
-                                    <li>
-                                        <a href="/Session/2015">Sessions</a>
-                                    </li>
-
-
-                                    <li>
-                                        <a target="_blank" href="/Session/SessionOverview">Sessions Overview</a>
-                                    </li>
-                                    <li>
-                                        <a target="_blank" href="/ExtJSApps/TabletApp/">Session Planner A (Tablet-Desktop)</a>
-                                    </li>
-                                    <li>
-                                        <a target="_blank" href="/ExtJSApps/SessionSchedule/">Session Planner B</a>
-                                    </li>
-                                    <li>
-                                        <a target="_blank" href="/Session/2015/SessionMaterialLinks/" >Session Materials</a>
-                                    </li>
-                                    <li>
-                                        <a href="/Tag/9999">Session Tag Cloud</a>
-                                    </li>
-
-
-
-
-
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="/Sponsor/2015">Sponsors</a>
-                            </li>
-
-
-                            <li>
-                                <a href="/Session/Submit">Submit Session</a>
-                            </li>
-
-
-                            <li>
-                                <a href="/Meetup">Meetup</a>
-                            </li>
-                        </ul>
+                    <li class="menuListItem">
+                        <a ui-sref="speaker"  class="menuItemLink">Speakers</a>
                     </li>
-
-                    <li class="menuListItem kids">
-                        <a href="/CodeStarsSummit" class="menuItemLink">Workshops</a>
-                    </li>
-
-                    <li class="menuListItem kids">
-                        <a href="/Kids" class="menuItemLink">Kids</a>
-                    </li>
-
-
-                    <li class="menuListItem jobs">
-                        <a href="/Jobs/" class="menuItemLink">Jobs</a>
-                    </li>
-
-                    <li class="menuListItem news">
-                        <a href="/News" class="menuItemLink">News</a>
-                    </li>
-
-                    <li class="menuListItem about">
-                        <a href="/About/#" class="menuItemLink" aria-haspopup="true">About</a>
-                        <ul class="menuSubList">
-                            <li class="subAvailable">
-                                <a href="#" aria-haspopup="true">INFO</a>
-                                <ul class="menuSubList">
-                                    <li>
-                                        <a href="/About/#" aria-haspopup="true"><span></span>About Overview</a>
-                                    </li>
-                                    <li>
-                                        <a href="/Faq#">FAQ</a>
-                                    </li>
-
-                                    <li>
-                                        <a href="/ForSpeakers#">For Speakers</a>
-                                    </li>
-
-                                </ul>
-                            </li>
-
-
-
-                            <li>
-                                <a href="/PastEvents#">Past Code Camps</a>
-                            </li>
-
-
-                            <li>
-                                <a href="/VideoSvcc#">Code Camp Videos</a>
-                            </li>
-
-
-
-                            <li>
-                                <a href="/CodeCampSessionEvalList#">My Attended Session Evals</a>
-                            </li>
-                            <li>
-                                <a href="/SpreadTheWord#">Spread The Word</a>
-                            </li>
-                            <li>
-                                <a href="/Volunteering#">Volunteering</a>
-                            </li>
-                        </ul>
+                    <li class="menuListItem">
+                        <a ui-sref="session"  class="menuItemLink">Sessions</a>
                     </li>
                 </ul>
             </div>
-
         </div>
+
     </header>
     <!-- #header-->
 
@@ -13997,33 +13843,3 @@
         </div>
     </div>
 </footer>
-<!-- #footer -->
-
-<script src="//d1syjrf5lltxmn.cloudfront.net/Content/JavaScript/tinycarousel/jquery.tinycarousel.min.js"></script>
-<script src="//d1syjrf5lltxmn.cloudfront.net/Content/JavaScript/owl.carousel.min.js"></script>
-<script src="//d1syjrf5lltxmn.cloudfront.net/Content/JavaScript/cluetip/jquery.hoverIntent.min.js"></script>
-<script src="//d1syjrf5lltxmn.cloudfront.net/Content/JavaScript/cluetip/jquery.cluetip.min.js"></script>
-<script src="//d1syjrf5lltxmn.cloudfront.net/Content/JavaScript/validate/jquery.validate.min.js"></script>
-<script src="//d1syjrf5lltxmn.cloudfront.net/Content/JavaScript/validate/jquery.validate.unobtrusive.min.js"></script>
-<script src="//d1syjrf5lltxmn.cloudfront.net/Content/JavaScript/icheck.min.js"></script>
-<script src="//d1syjrf5lltxmn.cloudfront.net/Content/JavaScript/jquery.placeholder.js"></script>
-<script src="//d1syjrf5lltxmn.cloudfront.net/Content/JavaScript/jquery.selectbox-0.2.min.js"></script>
-<script src="//d1syjrf5lltxmn.cloudfront.net/Content/JavaScript/Impromptu/jquery-impromptu.min.js"></script>
-<script src="//d1syjrf5lltxmn.cloudfront.net/Content/JavaScript/tappize/tappize.min.js"></script>
-<script src="//d1syjrf5lltxmn.cloudfront.net/Content/JavaScript/main-svcc.js"></script>
-
-
-<script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-648264-3']);
-    _gaq.push(['_trackPageview']);
-
-    (function () {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-</script>
-
-</body>
-</html>

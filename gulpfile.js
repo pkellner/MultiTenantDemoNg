@@ -95,18 +95,23 @@ gulp.task('js', function () {
 gulp.task('copyfiles', function () {
 
     var srcHtmlDir = format('%s/src/**/*.html', tenantName);
-    gutil.log('copying from ' + srcHtmlDir);
+    var destHtmlDir = 'dist/templates';
+    gutil.log('copying from: ' + srcHtmlDir + ' to: ' + destHtmlDir );
     gulp.src(srcHtmlDir)
-        .pipe(gulp.dest('dist/templates/'));
+        .pipe(gulp.dest(destHtmlDir));
 
     var srcContentDir = format('%s/Content/**/*',tenantName);
     var destContentDir = format('dist/Content');
-    gutil.log('copying from ' + srcContentDir + ' to: ' + destContentDir);
+    gutil.log('copying from: ' + srcContentDir + ' to: ' + destContentDir);
     gulp.src(srcContentDir)
         .pipe(gulp.dest(destContentDir));
 
-    //gulp.src('angu/mock/data/**/*.json')
-    //    .pipe(gulp.dest('dist/angu/mock/data/'));
+    var srcIndexDir = format('%s/index.html',tenantName);
+    var destIndexDir = format('dist');
+    gutil.log('copying from: ' + srcIndexDir + ' to: ' + destIndexDir);
+    gulp.src(srcIndexDir)
+        .pipe(gulp.dest(destIndexDir));
+
 });
 
 //gulp.task('index', function() {

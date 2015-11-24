@@ -6,10 +6,12 @@ module.exports = require('angular')
         require('angular-sanitize'),
         require('../../base'),
         require('./home'),
-        require('./speaker')
+        require('./speaker'),
+        require('./session')
     ])
     .config(enableHtml5Mode)
     .name;
+
 
 enableHtml5Mode.$inject = ['$locationProvider'];
 function enableHtml5Mode($locationProvider) {

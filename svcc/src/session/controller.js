@@ -1,7 +1,7 @@
-function SpeakerController ($scope) {
-   console.log('speakercontroller');
+function SessionController ($scope) {
+   console.log('sessioncontroller');
 }
 
-SpeakerController.$inject = ['$scope'];
+SessionController.$inject = ['$scope'];
 
-module.exports = SpeakerController;
+module.exports = SessionController;

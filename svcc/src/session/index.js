@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = require('angular')
-    .module('speaker', [])
-    .controller('SpeakerController', require('./controller'))
+    .module('session', [])
+    .controller('SessionController', require('./controller'))
     .config(require('./states'))
     .name;

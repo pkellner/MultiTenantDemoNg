@@ -1,5 +1,6 @@
 'use strict';
 
+
 var exports = module.exports = function ($stateProvider) {
     $stateProvider.state('home', {
         url: '/',
@@ -17,4 +18,5 @@ exports.$inject = ['$stateProvider'];
 function getSpeakers (Speaker) {
     return Speaker.fetchAll();
 }
+
 getSpeakers.$inject = ['Speaker'];
