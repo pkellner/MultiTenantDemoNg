@@ -6,7 +6,15 @@ var exports = module.exports = function ($stateProvider) {
         //url: '/',
         templateUrl: '/templates/speaker/speaker.html',
         controller: 'SpeakerController',
-        controllerAs: 'speaker'
+        controllerAs: 'speaker',
+        resolve: {
+            speakers: getSpeakers
+        }
     });
 };
 exports.$inject = ['$stateProvider'];
+
+function getSpeakers (Speaker) {
+    return Speaker.fetchAll();
+}
+getSpeakers.$inject = ['Speaker'];
