@@ -16,7 +16,8 @@
         "bio": "Justin has been a Software Developer in the Phoenix area for 10+ years. He has presented at several conferences, code camps and user groups throughout the United States and  Europe.  Justin is passionate about sharing his knowledge to get you your end goal faster. H",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Justin James"
   },
   {
     "id": 3687,
@@ -35,7 +36,8 @@
         "bio": "Douglas Crockford is a product of our public education system. A registered voter, he owns his own car. He has developed office automation systems. He did research in games and music at Atari. He was Director of Technology at Lucasfilm. He was Director of New Media at Paramount. He was the founder and CEO of Electric Communities/Communities.com. He was founder and CTO of State Software, where he discovered JSON. He is the author of JavaScript: The Good Parts.",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Douglas Crockford"
   },
   {
     "id": 3689,
@@ -54,7 +56,8 @@
         "bio": "Kevin is a SQL Server expert, working exclusively with the product since v6.5. With over 20 years of database experience and almost 45,000 man hours of SQL Server engine experience, he holds many related certifications, is an MCT and was a SQL Server MVP from 2007 to 2012. He has been a very successful independent consultant for over 15 years. Kevin is also a very frequent speaker, having presented at countless User Groups and almost 100 SQL Saturday conferences! His passion is the relational engine, especially designing, building, analyzing and tuning high-performance database applications.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Kevin Boles"
   },
   {
     "id": 3690,
@@ -73,7 +76,8 @@
         "bio": "Ryan Riley is a Visual F# MVP and Engineer for Tachyus, a start-up using F# to profoundly revolutionize the oil & gas industry. He runs the Community for F# virtual user group and serves on the management committee for the Open Web Interface for .NET (OWIN) specification.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Ryan Riley"
   },
   {
     "id": 3692,
@@ -92,7 +96,8 @@
         "bio": "Crypto and security enthusiast Agnew Kernalinux has been using GNU/Linux for over 10 years and has been helping businesses and individuals install GNU/Linux systems on workstations and servers for the past 5 years. He also enthusiastically uses crypto tools such as OTR, Tor, and GnuPG, and enjoys showing others how to use said tools.\n\nHis customers, who dot the bay area, include piano teachers, parents of school children, a construction worker, IT professionals, graphic artists, animators, a bus dispatcher, a poetry professor, church event organizers, a carpenter, a lawyer, and a retired bodyguard.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Agnew Kernalinux"
   },
   {
     "id": 3693,
@@ -111,7 +116,8 @@
         "bio": "Steve Hoffman (a.k.a. Captain Hoff) is an angel investor, serial entrepreneur, and Captain of Founders Space.\n\nhttp://www.FoundersSpace.com\n\nHoffman is a founding member of the Academy of Television’s Interactive Media Group, was Chairman for the Producers Guild SF, and served on the Board of Governors for the New Media Council.\n",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Steven Hoffman"
   },
   {
     "id": 3694,
@@ -130,7 +136,8 @@
         "bio": "Arun Gupta is Vice President of Developer Advocacy at Couchbase. Prior to that, he led Developer Advocacy and Technical Marketing at Red Hat for JBoss Middleware. As a founding member of the Java EE team at Sun Microsystems, he spread the love for technology all around the world. At Oracle, he led a cross-functional team to drive the global launch of the Java EE 7 platform through strategy, planning, and execution of content, marketing campaigns, and program. He is a prolific blogger since 2005 and have authored ~2000 blogs on technology. Arun has extensive speaking experience in ~40 countries on myriad topics and is a JavaOne Rockstar. He also founded the Devoxx4Kids chapter in the USA and continues to promoting technology education amongst kids. An author of a best-selling book, an avid runner, a globe trotter, a Java Champion, JUG leader, he is easily accessible at @arungupta.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Arun Gupta"
   },
   {
     "id": 3695,
@@ -149,7 +156,8 @@
         "bio": "Chief Technical Officer, Architect and Developer at ISSIO Solutions leading the change in Heath Care Management that benefits the consumer through the use of innovate Web Applications. He is currently architecting a new combined PHP / JS Framework that provides object persistance across both platforms with universal cross-platform methods and event handlers. Thus all objects co-exist on both platforms.\n\nProvides deep and clear thinking both in engineering architecture and customer experience that comes from being the technical lead of multiple successful startup companies that have driven their success by quick adoption of a solution that solves pain points in customers daily lives.\n\nPreviously CTO of 4-Sight, international award winner for their on demand global pre-press image transfer products that became the defacto standard in the media industry. he was responsible for the design and implementation of the Rapido File Transfer protocol to merge multiple on-demand digital circuits globally under programatic control to maximize bandwidth in an ad-hoc manner. As used by Disney, the Olympic Games, World Cup, etc to get media content quickly from one location to another.\n\nHe has a long background in software development starting with solving mathematical puzzles to writing software to solve them for him while at school.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Yorick Phoenix"
   },
   {
     "id": 3696,
@@ -168,7 +176,8 @@
         "bio": "Douglas Crockford is a product of our public education system. A registered voter, he owns his own car. He has developed office automation systems. He did research in games and music at Atari. He was Director of Technology at Lucasfilm. He was Director of New Media at Paramount. He was the founder and CEO of Electric Communities/Communities.com. He was founder and CTO of State Software, where he discovered JSON. He is the author of JavaScript: The Good Parts.",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Douglas Crockford"
   },
   {
     "id": 3697,
@@ -187,7 +196,8 @@
         "bio": "My education includes a Bachelor’s degree in Economics from UC Santa Cruz and an MBA from CSU Fresno. My academic honors include: UCLA Alumni Scholar, UCSC Graduating Honors, CSUF Phi Kappa Phi, CSUF Beta Gamma Sigma, CSUF Dean’s List all semesters, CSUF Graduate School of Business Dean’s Medalist, CSUF Graduate School of Business Summa Cum Laude, California Business Industry Grant Outstanding Teacher, CITD Grant Recipient (two times), CIBER Grant Recipient, Microsoft Certified Master Instructor",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Todd McLeod"
   },
   {
     "id": 3698,
@@ -206,7 +216,8 @@
         "bio": "Aysegul Yonet is CTO of AnnieCannons, Inc and a Software Engineer focusing on data visualization and analytics. Aysegul hosts Women Who Code and Girl Develop It JavaScript Meetups in San Francisco. She also teaches workshops for D3.js, AngularJS, and MEAN stack.",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Aysegul Yonet"
   },
   {
     "id": 3699,
@@ -225,7 +236,8 @@
         "bio": "I am a developer focusing on scalable apps for data pipelines and machine learning on Hadoop and Spark infrastructures.  My background is in Java/Oracle/ETL from 1996 until 2011, at which point I started to focus on Hadoop, Spark and Scala. My work has been at a mix of the familiar large Internet/Systems company names and startups. ",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Stephen Boesch"
   },
   {
     "id": 3700,
@@ -244,7 +256,8 @@
         "bio": "Manoj Kumar is a Principal Software Engineer at Oracle, currently working in Oracle Social Network group. He has over 20 years of experience in the software industry working on application servers, application development frameworks and web services.\nHe has M.Tech. in Computer Science and Data Processing from IIT Kharagpur and B. Tech. in Electrical Engineering from IIT BHU, India.  \ngithub:  https://github.com/krmanoj/CodeCamp/tree/master/2014",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Manoj Kumar"
   },
   {
     "id": 3701,
@@ -263,7 +276,8 @@
         "bio": "<p>Gayle Laakmann McDowell is the founder and CEO of CareerCup.com and the author of three books:</p>\n\n<ul>\n  <li><a href=\"http://www.amazon.com/dp/098478280X\" target=\"_blank\">Cracking the Coding Interview</a> (Amazon.com's #1 best-selling interview book) </li>\n\n  <li><a href=\"http://www.amazon.com/dp/0984782818\" target=\"_blank\">Cracking the PM Interview</a> (product manager) </li>\n\n  <li><a href=\"http://www.amazon.com/dp/1118968085\" target=\"_blank\">Cracking the Tech Career</a> </li>\n</ul>\n\n<ul>She is an interview consultant, helping companies improve their interview process and coaching startups through acquisitions/<a href=\"http://en.wikipedia.org/wiki/Acqui-hiring\" target=\"_blank\">acqui-hires</a>.</ul>\n\n<p>Gayle has worked as a Software Engineer for Google, Microsoft and Apple. She holds a BSE and MSE from UPenn in Computer Science, and an MBA from the Wharton School.</p>",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Gayle Laakmann McDowell"
   },
   {
     "id": 3703,
@@ -282,7 +296,8 @@
         "bio": "<p>Gayle Laakmann McDowell is the founder and CEO of CareerCup.com and the author of three books:</p>\n\n<ul>\n  <li><a href=\"http://www.amazon.com/dp/098478280X\" target=\"_blank\">Cracking the Coding Interview</a> (Amazon.com's #1 best-selling interview book) </li>\n\n  <li><a href=\"http://www.amazon.com/dp/0984782818\" target=\"_blank\">Cracking the PM Interview</a> (product manager) </li>\n\n  <li><a href=\"http://www.amazon.com/dp/1118968085\" target=\"_blank\">Cracking the Tech Career</a> </li>\n</ul>\n\n<ul>She is an interview consultant, helping companies improve their interview process and coaching startups through acquisitions/<a href=\"http://en.wikipedia.org/wiki/Acqui-hiring\" target=\"_blank\">acqui-hires</a>.</ul>\n\n<p>Gayle has worked as a Software Engineer for Google, Microsoft and Apple. She holds a BSE and MSE from UPenn in Computer Science, and an MBA from the Wharton School.</p>",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Gayle Laakmann McDowell"
   },
   {
     "id": 3706,
@@ -301,7 +316,8 @@
         "bio": "Nodejs and JavaScript enthusiast. I work at BD Biosciences, in San Jose, CA, developing C# software for clinical diagnosis and research of blood diseases. In the dark of night, I build nodejs-based web apps for online game prototyping. I'm currently a student at the University of Illinois Springfield in their online MSCS program. My areas of interest are applying functional programming in the application domain (hence last year's session on Arrowlets), nodejs and webservices (hence this year's session :), and javascript in the browser.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Bill Enright"
   },
   {
     "id": 3707,
@@ -320,7 +336,8 @@
         "bio": "I lead.  For fun.\n\nAs an intra*preneur, I've grown businesses from break even to beyond $100M.  My teams have delivered award winning retail products; more times than many may believe.\n\nI thrive in ambiguous environments & love bringing order out of chaos, turning strategies into results.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Bernie Maloney"
   },
   {
     "id": 3708,
@@ -339,7 +356,8 @@
         "bio": "Paul Bertucci is the founder of Data by Design, LLC (www.dataxdesign.com – formerly Database Architechs), a global database consulting firm with offices in the United States and Paris, France. Former Chief Architect/Shared Services Director for Autodesk  (BI/DW/ODS, Big Data, Identity Management, SOA, Integration (EAI & ETL), MDM, Collaboration/Social, SaaS platforms, and Enterprise Architecture). Former Chief Data Architect at Symantec.\nAuthor SQL Server Unleashed book series.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Paul Bertucci"
   },
   {
     "id": 3709,
@@ -358,7 +376,8 @@
         "bio": "Mohammed Guller is a Principal Architect at Glassbeam, a machine data analytics company. He leads the development of big data and machine learning products at Glassbeam. Prior to joining Glassbeam, he dabbled with his own startup, TrustRecs.com, which provided a social-network based recommendation platform. Before that he was with IBM. Mohammed has an MBA from UC Berkeley. He is a frequent speaker at big data related conferences.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Mohammed Guller"
   },
   {
     "id": 3710,
@@ -377,7 +396,8 @@
         "bio": "Senior Software Engineer ( Frontend focus ), LAMP developer and love to explore different technologies. Currently focus on web performance, web security and frontend stack complexity analysis. \n\nI have a passion for web development and architecture: from application design, frontend prototype to database design, I have experience and enjoyed every piece of it. I'm especially picky about user experience,  performance and security in web development.\n\nSpecialties: Web development. LAMP stack (Linux, Apache, PHP, Mysql), JAVA, HTML, CSS, HTML5, CSS3, Javascript, jQuery, Backbone, React, Reflux, CoffeeScript, Stylus, SCSS, Gulp, Webpack.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Roy Yu"
   },
   {
     "id": 3712,
@@ -396,7 +416,8 @@
         "bio": "Katherine works as a Technical Evangelist for Microsoft, helping other implement their Windows/Mobile/Cloud solutions. Katherine has background in Azure mobile services and widows 8/8.1 and 10 development though specializes in game development. She does talks, videos and tutorials, about the Unity development as well as the integration of multiple hardwares in gaming. You can follow her blog at kaharri.com and follow her on twitter @katvharris",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Katherine Harris"
   },
   {
     "id": 4715,
@@ -411,11 +432,12 @@
         "firstName": "Jorg",
         "lastName": "Janke",
         "speakerUrl": "jorg-janke-4578",
-        "webSite": "https://www.accorto.com",
-        "bio": "Jorg combines business background (accounting degree, MBA) with technology experience (Java, Dart, Force.com, Oracle/DB2) for customer success.\n\nModel Driven Applications is my passion since I experienced Smalltalk - I created the first active dictionary driven business application - Compiere, the premier Open Source ERP system.\n\nUsing Dart with Salesforce Lightning Experience - http://lightningdart.com\n ",
+        "webSite": "http://www.accorto.com",
+        "bio": "Jorg combines business background (accounting degree, MBA) with technology experience (Java, Dart, Force.com, Oracle/DB2) for customer success.\n\nModel Driven Applications is my passion since I experienced Smalltalk - I created the first active dictionary driven business application - Compiere, the premier Open Source ERP system.\n\nRecently I created a complex Dart application.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Jorg Janke"
   },
   {
     "id": 4716,
@@ -434,7 +456,8 @@
         "bio": "Tom Becker is the Software Architect at BD Biosciences, which develops lab instruments, reagents and software for scientific research and clinical diagnosis. His background is in scientific programming for biotech and aerospace projects, and also multimedia, developer tools and application frameworks. ",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Tom Becker"
   },
   {
     "id": 4732,
@@ -453,7 +476,8 @@
         "bio": "Hi, I’m Tobiah. I’m an independent game developer from the SF Bay Area.\n\nRight after college, I started a company called “Yobonja” with a couple of friends. We made dozens of games, and eventually had a hit with “Blast Monkeys”. We were the number one app on Android for 6+ months. I stopped tracking downloads in 2012 after we passed 12 million, and people still play it and its sequel today.\n\nIn 2013 I started working for Microsoft as a Game Evangelist. My job is to talk to developers, teach them what I know, and help them make better games and successful companies succeed.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Tobiah Zarlez"
   },
   {
     "id": 4735,
@@ -472,7 +496,8 @@
         "bio": "Todd McLeod is tenured faculty at Fresno City College. He began teaching web programming in 2001. He is also adjunct faculty in Computer Science at California State University, Fresno.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Todd McLeod"
   },
   {
     "id": 4736,
@@ -491,7 +516,8 @@
         "bio": "I have been writing software on .NET for 10 years, mostly C#, until I fell in love with F# and functional programming. I enjoy arguing about code and how to make it better, and get very excited when discussing testing or F#. My other professional interests are applied math and machine learning. If you want to know more about me, you can check out my blog <a href=\"http://www.clear-lines.com/blog/\">here</a> or find me on Twitter as <a href=\"http://twitter.com/brandewinder\">@brandewinder</a>.",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Mathias Brandewinder"
   },
   {
     "id": 4740,
@@ -510,7 +536,8 @@
         "bio": "Manish is a Sr. Manager at Capital One, focusing on API Security. Prior to Capital One, Manish was Engineering Manager in the Streaming Platforms group at Netflix, helping build the Device Metadata APIs. In the past, he has worked with APIs and Middleware at IGN Entertainment, E*Trade, and Accenture in various engineering leadership roles. He has spoken at various conferences and meetups in an around SF Bay Area, including JavaOne, OSCON, Silicon Valley Code Camp, and APICon SF.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Manish Pandit"
   },
   {
     "id": 4741,
@@ -529,7 +556,8 @@
         "bio": "Matt has been involved in building kickass software product for over 20 years.  He has plenty of experience with rapid growth environments, in startups as well as in large, public companies.\n\nMatt has helped raise close to $50M in VC in investments as a co-founder of three start ups.\n\nMatt now leads Nearsoft, Inc, a successful software development company that helps its clients grow their software development teams with engineers in Mexico.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Matt Perez"
   },
   {
     "id": 4743,
@@ -548,7 +576,8 @@
         "bio": "Entrepreneur. Engineer. Self-taught coder. I'm really loving iOS development right now but constantly looking to learn new skills and meet new people.\n\nEveryone calls me Bellay. You should too.\n\nI'm a seasoned iOS developer, designer & strategist and a professional problem-solver. I advise a handful of start-ups too.\n\nIf you think it's expensive to hire a professional to do the job, wait until you hire an amateur. -Red Adair, Firefighter (for oil wells)",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Andrew Bellay"
   },
   {
     "id": 4753,
@@ -567,7 +596,8 @@
         "bio": "Sridhar Ramakrishnan currently leads native app team at Hotwire Inc. His background include Quality Engineering in distributed e-commerce website , leading test team in Agile environment including Web Services / API testing. Architect Test Automation framework from Web, API to Mobile Apps (iOS & Android)\n\nMaster degree in Systems/Software engineering",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Sridhar Ramakrishnan"
   },
   {
     "id": 4760,
@@ -586,7 +616,8 @@
         "bio": "Hi, I'm the founder of CloudCamp & Principal Consultant at Platform D. I help cloud, API, big data and collaborative technology companies engage with developer communities",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Dave Nielsen"
   },
   {
     "id": 4761,
@@ -605,7 +636,8 @@
         "bio": "Ryan is a principal platform engineer at Practice Fusion, helping to modernize American health care by building the nation's largest web-based electronic medical record system. Ryan has spent the last three years focusing on transitioning Practice Fusion from a monolithic ASP.net application to a modern microservices architecture built on Microsoft technologies. His passions are distributed systems, interoperability, and helping build the platforms that make developers great.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Ryan Michela"
   },
   {
     "id": 4762,
@@ -624,14 +656,15 @@
         "bio": "Unapologetic hacker and passionate advocate for the development community. My technical interests range from graph databases to cloud services, and my experience supporting and evangelizing REST APIs has given my a unique perspective on developer success. In my copious free time I’m a gamer, fantasy reader, and all around rabble-rouser",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Kirsten Hunter"
   },
   {
     "id": 4763,
     "title": "What is Python?",
     "sessionUrl": "what-is-python",
     "descriptionShort": "This is an introduction to Python, covering its background, syntax/constructs, use cases & examples. What's this programming language all about, what can you do with it, & why would Disney, LucasFilm, Yelp, LinkedIn, Dropbox, Google & YouTube use it?",
-    "description": "Python is an agile object-oriented programming language that continues to build momentum. It can do everything Java, C/C++/C#, Ruby, PHP, and Perl can do, but it's also fun & intuitive! Enjoy coding as fast as you think with a simple yet robust syntax that encourages group collaboration. It is known for several popular web frameworks, including Django (Python's equivalent to Ruby on Rails), Pyramid, and web2py. There is also Google App Engine, where Python was the first supported runtime. Users supporting Zope, Plone, Trac, and Mailman will also benefit from knowing some Python. Besides the Web, Python can do text processing (JSON, CSV, XML), databases (SQL, NoSQL), GUIs, data science/Big Data, math/numeric/scientific processing, Internet client/server systems & networking, GIS/ESRI, QA/test tools, automation frameworks, control Microsoft Office applications, and system administration tasks!\n<p></p>\nOn the education front, it's a great tool to teach programming with (especially those who have done Scratch or Tynker already) as well as a solid (first) language to learn for non-programmers and other technical staff. Finally, if Python doesn't do what you want, you can extend it in C/C++, Java, or C# (even VB.NET)! Have you noticed the huge growth in the number of jobs on Monster & Dice that list Python as a desired skill? Come find out why Google, Yahoo!, Disney, Cisco, YouTube, LinkedIn, Yelp, LucasFilm/ILM, Pixar, NASA, Ubuntu, Bank of America, and Red Hat all use Python!",
+    "description": "Python is an agile object-oriented programming language that continues to build momentum. It can do everything Java, C/C++/C#, Ruby, PHP, and Perl can do, but it's also fun & intuitive! Enjoy coding as fast as you think with a simple yet robust syntax that encourages group collaboration. It is known for several popular web frameworks, including Django (Python's equivalent to Ruby on Rails), Pyramid, and web2py. There is also Google App Engine, where Python was the first supported runtime. Users supporting Zope, Plone, Trac, and Mailman will also benefit from knowing some Python. Python can do XML/ReST/XSLT, multithreading, SQL/databases, GUIs, hardcore math/science, Internet client/server systems & networking (heard of Twisted?), GIS/ESRI, QA/test, automation frameworks, plus system administration tasks too!\n\nOn the education front, it's a great tool to teach programming with (especially those who have done Scratch or Tynker already) as well as a solid (first) language to learn for non-programmers and other technical staff. Finally, if Python doesn't do what you want, you can extend it in C/C++, Java, or C# (even VB.NET)! Have you noticed the huge growth in the number of jobs on Monster & Dice that list Python as a desired skill? Come find out why Google, Yahoo!, Disney, Cisco, YouTube, LinkedIn, Yelp, LucasFilm/ILM, Pixar, NASA, Ubuntu, Bank of America, and Red Hat all use Python!",
     "tenantName": "SVCC",
     "speakers": [
       {
@@ -643,7 +676,8 @@
         "bio": "+WESLEY CHUN, MSCS, is the author of Prentice Hall's bestselling \"Core Python\" series (corepython.com), the \"Python Fundamentals\" companion video lectures, coauthor of \"Python Web Development with Django\" (withdjango.com), and has also written for Linux Journal, CNET, and InformIT. In addition to being an engineer and Developer Advocate at Google, he also runs CyberWeb (cyberwebconsulting.com), a consultancy specializing in Python training & engineering. Wesley has over 25 years of programming, teaching, and writing experience, including more than a decade of Python. While at Yahoo!, he helped create Yahoo!Mail & Yahoo! People Search using Python. Wesley has taught at Google, Cisco, VMware, Avaya, Hitachi, UC Santa Barbara, UC Santa Cruz, & Foothill College. He's found frequently on the global conference circuit and holds degrees in Computer Science, Mathematics, and Music from the University of California. He can be reached on Twitter (@wescpy) and Google+ (google.com/+WesleyChun).",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "wesley chun"
   },
   {
     "id": 4765,
@@ -662,7 +696,8 @@
         "bio": "Chris Richardson is a developer and architect. He is a Java Champion, a JavaOne rock star and the author of POJOs in Action, which describes how to build enterprise Java applications with frameworks such as Spring and Hibernate. Chris was also the founder of the original CloudFoundry.com, an early Java PaaS for Amazon EC2. He consults with organizations to improve how they develop and deploy applications and is working on his third startup.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Chris Richardson"
   },
   {
     "id": 4766,
@@ -681,7 +716,8 @@
         "bio": "Ansel Halliburton is a startup and technology lawyer. Ansel has experience starting companies, advising startups on tricky legal issues, and litigating intellectual property and business disputes. He's also a programmer (since age 10), and helped build a database of all US patent litigation.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Ansel Halliburton"
   },
   {
     "id": 4767,
@@ -700,7 +736,8 @@
         "bio": "Basil Shikin is the VP of Engineering at AppLovin. Before AppLovin, he was the senior software engineer at DeviceAnywhere, a software engineer at gBox and Lanit-Tercom and a developer at SPb Forestry Research Instiute. ",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Basil Shikin"
   },
   {
     "id": 4768,
@@ -719,7 +756,8 @@
         "bio": "Deborah Kurata is an independent consultant, developer, and mentor focusing on Windows and Web technologies. She has authored several technical books and speaks at user groups and conferences. She is a Pluralsight author and has published several courses including \"AngularJS Line of Business Applications\" and \"AngularJS: What's New in 1.3\".",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Deborah Kurata"
   },
   {
     "id": 4769,
@@ -738,7 +776,8 @@
         "bio": "Ahmad Khan is a security engineer at IBM where he works on securing cloud services. He graduated from UT Austin in 2013 where he received a B.S. in computer science and the Information Security Professional certificate. Before transitioning to security, he spent a year working on automation and DevOps at IBM. ",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Muhammad Ahmad Khan"
   },
   {
     "id": 4772,
@@ -757,7 +796,8 @@
         "bio": "Sebastian is the SQL Stylist at sqlity.net llc (http://sqlity.net). After receiving his PhD in Computer Science at the University of Linz, Austria he spent several years at a global Fortune 50 company as software architect responsible for code quality and performance of dozens of large-scale database installations throughout the US. \nIn 2010, to fully engage in his passion for SQL Server, he founded sqlity.net. Since that time, he has been helping his clients to boost their SQL Server health and performance, enhance their T-SQL coding skills and tighten their SQL Server security. \nA sought-after educator and published author, Sebastian shares his knowledge regularly within the worldwide SQL community through his writings and public speaking engagements. Additionally he is coauthor of tSQLt, the Database Unit Testing Framework for SQL Server. tSQLt is open source and available at http://tSQLt.org.\nSebastian is currently serving as president of the Philadelphia SQL Server User Group (http://pssug.org/), a nonprofit that is dedicated to further the education of the local SQL Server community.\n",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Sebastian Meine"
   },
   {
     "id": 4776,
@@ -776,7 +816,8 @@
         "bio": "With a Bachelor in Psychology, a Master’s in IT, 2 years as a C# MVP, and graduate work in Technical Communications, Joe is able to offer a unique variety of services to InfoCraft and our customers. When not working in the office, or at home, Joe can generally be found at St. Jonah Orthodox Church, or at one of the many User Groups in which he regularly participates.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Joseph Reynolds"
   },
   {
     "id": 4783,
@@ -795,7 +836,8 @@
         "bio": "Oswald is passionate about education: a former PhD Candidate in Mathematics (ABD), with 4 Masters and 2 Bachelors degrees. Previously he worked in South America, Italy, and the French Riviera, and he traveled to 70 countries around the world. He has worked from C/C++/Java developer to CTO, and currently working at SwiftBot. He's comfortable in 4 languages and trying to learn Japanese. He's a Series Editor for Mercury Learning and working on his 17th book.\n",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Oswald Campesato"
   },
   {
     "id": 4784,
@@ -814,14 +856,15 @@
         "bio": "Coding Architect and Agilist at Guidewire Software (Foster City, CA). Formerly a Java trainer (back in the late 90's) and now running Lean Startup Experiments in distributed architectures, covering RESTful/Hypermedia APIs and scalable systems.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Ted Young"
   },
   {
     "id": 4791,
     "title": "Everything you wanted to know about Git, but were afraid to ask.",
     "sessionUrl": "everything-you-wanted-to-know-about-git-but-were-afraid-to-ask",
     "descriptionShort": "Go beyond `pull` and `push`.  Git has become a crucial tool in our day to day workflow. Understand how it works, and learn how to wield it properly.  \n\nAfter this session, you'll never be afraid of a merge conflict again.",
-    "description": "<p>Git (and GitHub) have become pillars in how we manage our code workflow, particularly when we work with large teams. Yet developers tend to be afraid of Git, and only handle but the most basic of operations. This presentation will reveal the magic of Git, and help you understand how and why operations are carried out. </p>\n\n<p>After this session, you'll never be afraid of a merge conflict again.</p>\n\nTopics covered:\n* Git under the hood\n* Git basics\n* Merging vs Rebasing\n* Conflict resolution\n* Triangular Workflow\n* Common error scenarios and how to solve them\n* Tips and Tricks\n",
+    "description": "Git (and GitHub) have become pillars in how we manage our code workflow, particularly when we work with large teams. Yet developers tend to be afraid of Git, and only handle but the most basic of operations. This presentation will reveal the magic of Git, and help you understand how and why operations are carried out. \n\nAfter this session, you'll never be afraid of a merge conflict again.\n\nTopics covered:\n* Git under the hood\n* Git basics\n* Merging vs Rebasing\n* Conflict resolution\n* Triangular Workflow\n* Common error scenarios and how to solve them\n* Tips and Tricks\n",
     "tenantName": "SVCC",
     "speakers": [
       {
@@ -831,9 +874,10 @@
         "speakerUrl": "lenny-markus-11661",
         "webSite": "http://lmarkus.github.io/",
         "bio": "I'm a problem solver at heart. I've spent the last four years at PayPal working on a variety of interesting challenges, trying to find elegant solutions that make life easier for others, and teaching developers how to better use the tools available to them.\n\nFavorite Quote: \"Perfect is the enemy of Done\"\n ",
-        "allowHtml": true
+        "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Lenny Markus"
   },
   {
     "id": 4792,
@@ -852,7 +896,8 @@
         "bio": "Rakesh Ranjan is an architect of data and analytic services in IBM Bluemix. He manages a cloud engineering team which is responsible for managed cloud service delivery and operations for IBM's  Information Management Group. His team has delivered many data services in Bluemix including IBM Analytic Warehouse service powered by IBM's flagship BLU Acceleration technology and SQLDB powered by DB2. He also teaches a graduate level software engineering program at local San Jose State University.  ",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Rakesh Ranjan"
   },
   {
     "id": 4793,
@@ -871,7 +916,8 @@
         "bio": "I am an 8th grade student programming Arduino to create solution for kids safety. I am a 1st place winner of Synopsis Santa Clara and California state science fair for my mathematics and software category project called iCAS. This is to save kids from vehicular heatstroke when left alone in a car. ",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Rashi Ranjan"
   },
   {
     "id": 4794,
@@ -890,7 +936,8 @@
         "bio": "Shadaj loves to program. He has programmed in Ruby, Python, C, Java, Javascript, and Scala—his favorite. Shadaj hosts his projects on GitHub, and has a channel on Youtube. He has presented at OSCON 2014, Scala Days (2012, 2013, 2014, 2015), and the Bay Area Scala Enthusiast group showing his Scala projects. Besides programming, he likes Math and Science. He has interned at Coursera working with technologies such as Play! Framework and Scala.js. In addition, he is also an active member of his school community and has been Student Body President. Shadaj loves spreading his love of technology and started TechTalks—a program that brings guest speakers to share their knowledge and enthusiasm with students at his school. When not doing his school work or programming, he plays the sitar, and games, some of which he created.",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Shadaj Laddad"
   },
   {
     "id": 4799,
@@ -909,7 +956,8 @@
         "bio": "David McCarter is a Microsoft MVP and a principal software engineer/architect in San Diego. He is the editor-in-chief of dotNetTips.com... a web site dedicated to helping programmers in all aspects of programming. David has written for programming magazines and has published three books (the latest is \"David McCarter's .NET Coding Standards\" available at: http://codingstandards.notlong.com). Videos & slide decks available here on DVD: https://squareup.com/market/nicheware",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "David McCarter"
   },
   {
     "id": 4800,
@@ -928,7 +976,8 @@
         "bio": "David McCarter is a Microsoft MVP and a principal software engineer/architect in San Diego. He is the editor-in-chief of dotNetTips.com... a web site dedicated to helping programmers in all aspects of programming. David has written for programming magazines and has published three books (the latest is \"David McCarter's .NET Coding Standards\" available at: http://codingstandards.notlong.com). Videos & slide decks available here on DVD: https://squareup.com/market/nicheware",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "David McCarter"
   },
   {
     "id": 4801,
@@ -944,10 +993,11 @@
         "lastName": "Tambe",
         "speakerUrl": "sumant-tambe-8503",
         "webSite": "http://cpptruths.blogspot.com",
-        "bio": "Sumant is a Principal Research Engineer at Real-Time Innovations (RTI) and a Microsoft VC++ MVP. His focus at RTI is standards-based data distribution middleware for real-time systems. He has been programming in C++ for over a decade. He likes C++ because it supports multiple paradigms. He is responsible for <a href=\"http://rticommunity.github.io/rticonnextdds-reflex/\">RefleX</a>, <a href=\"http://rticommunity.github.io/rticonnextdds-reactive\">Rx4DDS</a>, <a href=\"http://cpptruths.blogspot.com\">C++ Truths</a>, and <a href=\"http://en.wikibooks.org/wiki/More_C%2B%2B_Idioms\">More C++ Idioms</a>. Lately, he is dabbling into Reactive Stream Processing.",
+        "bio": "Sumant is a Sr. Software Research Engineer at Real-Time Innovations (RTI) and a Microsoft VC++ MVP. His focus at RTI is standards-based data distribution middleware for real-time systems. He has been programming in C++ for over a decade. He likes C++ because it supports multiple paradigms. He is responsible for <a href=\"https://github.com/rticommunity/rticonnextdds-reflex\">RefleX</a>, <a href=\"https://github.com/rticommunity/rticonnextdds-reactive\">Rx4DDS.NET</a>, <a href=\"http://cpptruths.blogspot.com\">C++ Truths</a>, and <a href=\"http://en.wikibooks.org/wiki/More_C%2B%2B_Idioms\">More C++ Idioms</a>. Lately, he is dabbling into Functional Reactive Programming.",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Sumant Tambe"
   },
   {
     "id": 4803,
@@ -966,7 +1016,8 @@
         "bio": "Ramnivas is a technologist, author, and presenter who is passionate about doing software right. He has been leading innovation in Spring Framework and Cloud Foundry since their beginning. Ramnivas has led a group in Cloud Foundry and started the Spring Cloud project. Ramnivas is the author of AspectJ in Action (1st ed, 2nd ed), the best-selling book on aspect-oriented programming that has been lauded by industry experts for its presentation of practical and innovative approach to solve real-world problems. He has at many leading industry events including JavaOne, ScalaDays, JavaPolis, No Fluff Just Stuff, SpringOne, and O'Reilly OSCON.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Ramnivas Laddad"
   },
   {
     "id": 4804,
@@ -985,7 +1036,8 @@
         "bio": "Massimo Paolini is the founder and CEO of The Spectrum Group Online, a web marketing business based in Silicon Valley. He speaks at various organizations on the power of SEO and works with several businesses around the country to increase their web presence, understand their site traffic, and improve profitability.\n\nWhen not working, he is lecturing his 10-year-old son on the value of tetherball twitter.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Massimo Paolini"
   },
   {
     "id": 4805,
@@ -1004,7 +1056,8 @@
         "bio": "Shadaj loves to program. He has programmed in Ruby, Python, C, Java, Javascript, and Scala—his favorite. Shadaj hosts his projects on GitHub, and has a channel on Youtube. He has presented at OSCON 2014, Scala Days (2012, 2013, 2014, 2015), and the Bay Area Scala Enthusiast group showing his Scala projects. Besides programming, he likes Math and Science. He has interned at Coursera working with technologies such as Play! Framework and Scala.js. In addition, he is also an active member of his school community and has been Student Body President. Shadaj loves spreading his love of technology and started TechTalks—a program that brings guest speakers to share their knowledge and enthusiasm with students at his school. When not doing his school work or programming, he plays the sitar, and games, some of which he created.",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Shadaj Laddad"
   },
   {
     "id": 4806,
@@ -1023,7 +1076,8 @@
         "bio": "I work in the Yahoo Ads and Data group as a Principal software developer. In the past I have worked for companies like Microsoft and Rackspace. I am an active member of the tech community, I have presented in various user group meetings, Code camps, other tech conferences like Microsoft TechEd, Microsoft BPM Conference, Rest-Fest, API-Craft etc.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Manoj Agarwal"
   },
   {
     "id": 4810,
@@ -1042,7 +1096,8 @@
         "bio": "Eric Courville has been with Verizon for 15 years supporting and implementing Large Enterprise Resource Planning Applications from vendors such as Oracle, Microsoft and SAP.  Specializing in application monitoring, and integrating SSO with third party applications.  Eric is Also the founder of the Northern California PowerShell User Group with locations in San Francisco and the Sacramento area.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Eric Courville"
   },
   {
     "id": 4812,
@@ -1061,7 +1116,8 @@
         "bio": "Pradeep is Senior Business Analyst at SugarCRM. By education he is an engineer in Computer Science from BITS Pilani, India. As a child Pradeep played with electric and electronics  circuits and eventually micro-processors. He is passionate contributor to enrichment programs for kids in K1-12 age group for topics including technology and personal finances.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Pradeep Bhatter"
   },
   {
     "id": 4813,
@@ -1080,7 +1136,8 @@
         "bio": "As a seasoned entrepreneur with over 24+ years of IT experience in the field of Computer Science and Engineering, I love to teach kids computer science fundamentals and mathematics. I regularly teach courses in the field of Python programming, HTML, JavaScript, and Mobile development. Since 1994, I have been living in Silicon Valley, and have worked with startups as well as large enterprises. \n\nI run my own retail software company for past 15 years, and feel its time to give back to the society. I also hold double major in the field of Computer Science from Sydney, Australia.\n",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Anoop Trivedi"
   },
   {
     "id": 4816,
@@ -1096,10 +1153,11 @@
         "lastName": "Van Gundy",
         "speakerUrl": "kevin-van-gundy-36101",
         "webSite": "kvangundy.com",
-        "bio": "Slides Located Here: https://dl.dropboxusercontent.com/u/313565755/SVCC-TablesCant.pdf\n\nKevin is a a graph enthusiast who thrives at distilling complex technical domains into clear and actionable information for executives, entrepreneurs, and  developers alike. \n\nThis will be Kevin's second time teaching at SVCC. \n\nWhen he's not building cool and interesting graph projects, he's mountain biking somewhere in the hills of the Peninsula. ",
+        "bio": "Kevin is a a graph enthusiast who thrives at distilling complex technical domains into clear and actionable information for executives, entrepreneurs, and  developers alike. \n\nThis will be Kevin's second time teaching at SVCC. \n\nWhen he's not building cool and interesting graph projects, he's mountain biking somewhere in the hills of the Peninsula. ",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Kevin Van Gundy"
   },
   {
     "id": 4817,
@@ -1118,7 +1176,8 @@
         "bio": "Jeremy Clark is an application developer and speaker with over 14 years of experience in all aspects of the development lifecycle. Through speaking and consulting, he helps developers take a \"step up\" in their skillset with a focus on making complex topics approachable to developers of all skill levels. He is a Microsoft MVP for Visual C# and has authored several courses for Pluralsight, including \"C# Interfaces\", a course aimed at giving developers a better understanding of abstraction. He lives in Southern California with 2 cats and a constantly changing stack of books to be read (both technical and fiction). For more information, visit www.jeremybytes.com.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Jeremy Clark"
   },
   {
     "id": 4819,
@@ -1137,7 +1196,8 @@
         "bio": "Mark Abramson is Founder & CEO of PrintForm Corporation. He has particular technical expertise in digital workflow, industrial printing and complex global supply chains for high-growth companies.  He's also a dad, collects antique woodworking machines and mentors on Lean Startup methods.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Mark Abramson"
   },
   {
     "id": 4820,
@@ -1156,7 +1216,8 @@
         "bio": "Claudia Galvan is a Sr Director at the Anita Borg Institute. Claudia is considered a world-wide expert in software globalization. She has been responsible for building international teams from the ground-up and the technology used in platforms in Fortune 500 companies reaching billions of users around the world.\n ",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Claudia Galvan"
   },
   {
     "id": 4822,
@@ -1175,7 +1236,8 @@
         "bio": "Software developer for over 15 years. Worked at Citrix, Google, Vmware. Currently at Box.com. Creator of the open source project TestScribe, A tool that makes it more efficient, accessible and even fun to test your code as you go. https://github.com/box/TestScribe",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Ray Yang"
   },
   {
     "id": 4824,
@@ -1194,7 +1256,8 @@
         "bio": "Ramona Maxwell | MCTS, MCPD SharePoint 2010 | MCTS, MCITP SQL Server 2008 |650-800-3995\n\n\n-- Currently on contract as the SharePoint Administrator for Gilead Sciences, Inc. providing infrastructure and operational support for GxP qualified SharePoint 2013 farms.\n\nFurther training available at Solver Companies, Inc., located in the Harbor Bay Business Park at the Oakland Airport and on site at your Bay Area company.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Ramona Maxwell"
   },
   {
     "id": 4827,
@@ -1213,7 +1276,8 @@
         "bio": "Stephen Chin is a Java Ambassador at Oracle specializing in UI technology, co-author of the Pro JavaFX Platform 2 title, and the new JavaOne Content Chair. He can be followed on twitter @steveonjava, reached via his blog: http://steveonjava.com/, and his hacking adventures can be seen on: http://nighthacking.com/",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Stephen Chin"
   },
   {
     "id": 4828,
@@ -1232,7 +1296,8 @@
         "bio": "Stephen Chin is a Java Ambassador at Oracle specializing in UI technology, co-author of the Pro JavaFX Platform 2 title, and the new JavaOne Content Chair. He can be followed on twitter @steveonjava, reached via his blog: http://steveonjava.com/, and his hacking adventures can be seen on: http://nighthacking.com/",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Stephen Chin"
   },
   {
     "id": 4829,
@@ -1251,7 +1316,8 @@
         "bio": "Unapologetic hacker and passionate advocate for the development community. My technical interests range from graph databases to cloud services, and my experience supporting and evangelizing REST APIs has given my a unique perspective on developer success. In my copious free time I’m a gamer, fantasy reader, and all around rabble-rouser",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Kirsten Hunter"
   },
   {
     "id": 4830,
@@ -1270,7 +1336,8 @@
         "bio": "Software Developer at Degreed, writer, speaker, founder of Coderbits and Favatron, lifelong learner, and tropical island junky. Currently dabbling in web security and machine learning.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Scott Smith"
   },
   {
     "id": 4831,
@@ -1289,7 +1356,8 @@
         "bio": "J.D. Duncan is a software engineer on the MySQL Cluster team at Oracle Corp.  He began his career as a Unix systems administrator, began building data-driven web applications in the late 90s, and joined MySQL AB in 2004.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "John David Duncan"
   },
   {
     "id": 4832,
@@ -1308,7 +1376,8 @@
         "bio": "Craig has a passion for community and helping other developers improve their skills. He writes the column \"Software Gardening\" in DotNet Curry Magazine and is the co-author of \"Continuous Integration in .NET\" available from Manning. Craig has been named a Microsoft MVP every year since 1996. He is a Grape City Community Influencer and works as a Senior Software Engineer for Quicken Loans.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Craig Berntson"
   },
   {
     "id": 4833,
@@ -1327,7 +1396,8 @@
         "bio": "(Ash) is Bio-Computational researcher@day working on bio-markers (publications*) & CTO@night of technology companies (patents*). His frequent code-a-thon wins have gone on to become published Apps (iOS & Android*). As a thought leader in wearable/mobile development he is an enthusiastic teacher / speaker  helping to promote the ecosystem (fashion* & technology*). But what he would really like is to get a major sponsor in all three phases of water. (Snowboarding* [solid], Surfing* [liquid] & Kiteboarding* [vapor])",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Siamak Ashrafi"
   },
   {
     "id": 4834,
@@ -1346,7 +1416,8 @@
         "bio": "Sam Bowne has been teaching computer networking and security classes at CCSF since 2000. He has given talks at CodeCamp, DEFCON, BayThreat, LayerOne, and Toorcon, and taught classes and seminars at many other schools and teaching conferences. \n\nHe has a Ph.D. and a CISSP and a lot of other certifications, and a lot of computer and cables and firewalls and stuff.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Sam Bowne"
   },
   {
     "id": 4836,
@@ -1365,7 +1436,8 @@
         "bio": "Roman has co-founded WebServiceCenter Group in early 2004 and has since been responsible for strategic management and IT.\n\nHe received a Master's Degree in \"Communications and Media Engineering\" from Offenburg University (Germany) and has established and managed a number of technology initiatives there. One of them being \"InternetServiceCenter\" - an innovative company-like software development agency within the University.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Roman Zhovtulya"
   },
   {
     "id": 4837,
@@ -1384,7 +1456,8 @@
         "bio": "Nuri Halperin consults, develops software, and teaches with passion. He designs and builds systems, websites and business applications. He's been getting things done for a variety clients small and large. He authors courses for pluralsight.com. \n\nA frequent speaker at tech events, he enjoys interacting and helping people reach that \"Aha!\" moment. \n\nNuri is the inaugural recipient of MongoDB's William Zola Outstanding Contributor Award, and is a MongoDB Master.\n\nOwner of http://plusnconsulting.com\nAuthor at Pluralsight http://www.pluralsight.com/author/nuri-halperin\n",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Nuri Halperin"
   },
   {
     "id": 4838,
@@ -1403,7 +1476,8 @@
         "bio": "Randall Degges is a Developer Evangelist at Stormpath and a prominent Pythonista.\n\nPrior to joining Stormpath, he founded and built OpenCNAM, the largest Caller ID API service in North America. He has been actively involved in Open Source for more than 10 years, and has built a variety of projects used by thousands of developers. He has also authored a book on Heroku, and frequently writes on his personal site. When he’s not coding, he lifts weights and spends time with his chihuahua, Scribbles, and his wife, Samantha.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Randall Degges"
   },
   {
     "id": 4839,
@@ -1422,7 +1496,8 @@
         "bio": "Dr. Doris Chen is a Senior Technology Evangelist at Microsoft specialized in web technologies (HTML5, jQuery, JavaScript, Windows 8,and Java) with over 15 years of experience in the software industry. She speaks to numerous international conferences and user groups including HTML5 Dev Conference, O’Reilly Fluent, OSCON, WebVisions, and JavaOne. Doris received her Ph.D. from the University of California at Los Angeles (UCLA) in computer engineering, specializing in medical informatics. ",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Doris Chen"
   },
   {
     "id": 4840,
@@ -1441,7 +1516,8 @@
         "bio": "Steve Evans has been doing DevOps since before the term DevOps was invented. He is a Pluralsight Author, six time Microsoft Most Valuable Professional (MVP), and technical Speaker at various industry events. In his spare time he manages a DevOps team at a Silicon Valley Biotech focused on improving the lives of cancer patients. For over 15 years Steve has focused on making technology better for businesses by bridging the gap between IT and Development teams.\n\nYou can follow his technical blog at http://www.LoudSteve.com or find him on twitter at @TheLoudSteve.",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Steve Evans"
   },
   {
     "id": 4841,
@@ -1460,7 +1536,8 @@
         "bio": "He is a Microsoft Certified Solutions Associate (MCSA) on Office 365, MCP in SharePoint 2007/2010. He is also a certified Data Scientist from The Johns Hopkins University (2015). \n\nHe is currently working as a SharePoint Evangelist and Transformation Architect at Altera Corporation.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Vamshideep Devershetty"
   },
   {
     "id": 4842,
@@ -1479,7 +1556,8 @@
         "bio": "I have been working in silicon valley since the early 90's with software experience designing, developing, and deploying numerous large scale enterprise applications for global corporations and start-ups.  \n\nMy breadth of knowledge and agility with software technology is exemplified in my diverse experience, which spans many levels of the software technology stack and includes accomplishments in Enterprise Portal Architecture, Large-Scale Databases, and Enterprise Systems Integration.\n\nCurrently, I am the Chief Architect at Appthority, a startup in Mobile Security, and also serve as an Adjunct Faculty member teaching Software Engineering, Cloud Computing and Cybersecurity at San Jose State University.\n",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Paul Nguyen"
   },
   {
     "id": 4843,
@@ -1498,7 +1576,8 @@
         "bio": "CTO-to-go. Advising, transforming, and taking on p/t acting and interim VP Engineering roles to untangle the knots in software development. Training and coaching teams and managers in agile to make engineering “hum”.  Co-author of the 2013 and 2014 <I>Study of Product Team Performance</I>. Co-author of the Addison-Wesley book, <a href=\"http://www.ManagingTheUnmanageable.net\"target=_blank><I>Managing the Unmanageable: Rules, Tools, and Insights for Managing Software People and Teams</I></a>, which reviewers are comparing with software development classics, <I>The Mythical Man Month</I> and <I>Peopleware</I>.",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Ron Lichty"
   },
   {
     "id": 4844,
@@ -1517,7 +1596,8 @@
         "bio": "<p>Juval Löwy is the founder of IDesign and a master software architect specializing in system and project design. Juval has mentored hundreds of architects across the globe, sharing his insights, techniques, and breakthroughs, in <a href=\"http://www.idesign.net/Training/Architect-Master-Class\">architecture</a>, <a href=\"http://www.idesign.net/Training/Project-Design-Master-Class\">project design</a>, development process, and technology. Juval is Microsoft’s Regional Director for the Silicon Valley and had participated in the Microsoft internal strategic design reviews for C#, WCF and related technologies. Juval is a frequent speaker at the major international software development <a href=\"http://www.idesign.net/Leadership/Conferences/#Juval%20Lowy\">conferences</a>. Juval published several bestsellers, and his latest book is the forthcoming 4<sup>th</sup> edition of <a href=\"http://www.amazon.com/Programming-WCF-Services-Mastering-AppFabric/dp/0596805489/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1282412680&amp;sr=1-1\">Programming WCF Services</a> (O'Reilly 2015). Juval published numerous <a href=\"http://www.idesign.net/Leadership/Articles/#Juval%20Lowy\">articles</a>, regarding almost every aspect of modern software development and architecture. Microsoft recognized Juval as a Software Legend as one of the world's top experts and industry leaders</p>",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Juval Lowy"
   },
   {
     "id": 4845,
@@ -1536,7 +1616,8 @@
         "bio": "<p>Juval Löwy is the founder of IDesign and a master software architect specializing in system and project design. Juval has mentored hundreds of architects across the globe, sharing his insights, techniques, and breakthroughs, in <a href=\"http://www.idesign.net/Training/Architect-Master-Class\">architecture</a>, <a href=\"http://www.idesign.net/Training/Project-Design-Master-Class\">project design</a>, development process, and technology. Juval is Microsoft’s Regional Director for the Silicon Valley and had participated in the Microsoft internal strategic design reviews for C#, WCF and related technologies. Juval is a frequent speaker at the major international software development <a href=\"http://www.idesign.net/Leadership/Conferences/#Juval%20Lowy\">conferences</a>. Juval published several bestsellers, and his latest book is the forthcoming 4<sup>th</sup> edition of <a href=\"http://www.amazon.com/Programming-WCF-Services-Mastering-AppFabric/dp/0596805489/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1282412680&amp;sr=1-1\">Programming WCF Services</a> (O'Reilly 2015). Juval published numerous <a href=\"http://www.idesign.net/Leadership/Articles/#Juval%20Lowy\">articles</a>, regarding almost every aspect of modern software development and architecture. Microsoft recognized Juval as a Software Legend as one of the world's top experts and industry leaders</p>",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Juval Lowy"
   },
   {
     "id": 4850,
@@ -1555,7 +1636,8 @@
         "bio": "Livi Erickson is a virtual and augmented reality evangelist at Microsoft, focusing on development for VR and AR platforms. She has built and released apps for the Oculus Rift, presented JavaScript for VR at JS Conf Budapest 2015, taught Intro to Virtual Reality Development at the University of Bremen in Bremen, Germany, and will be speaking on virtual reality inclusion at the Grace Hopper Celebration of Women in Computing this October.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Livi Erickson"
   },
   {
     "id": 4851,
@@ -1574,7 +1656,8 @@
         "bio": "Vishal is a Microsoft Azure MVP with over 16 years experience developing products using Microsoft technology stack. Have substantial experience in product deliveries using Agile and Scrum methodologies, Vishal is also a Certified Scrum Master and Certified Scrum Professional\nVishal has been actively speaking at SoCal code camp",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Vishal Saxena"
   },
   {
     "id": 4852,
@@ -1593,7 +1676,8 @@
         "bio": "Andrew is a technical evangelist for Microsoft working on development and data storage within Azure.  In a past life, he was a consultant helping customers figure out how to visualize and discover meaningful conclusions from their disparate data sets.  Outside of technology, his favorite discussion topics include: picking the next million dollar stock, the current snow conditions in Tahoe (yes, even in the summer), and finding the best coffee/food in the bay!",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Andrew Moll"
   },
   {
     "id": 4853,
@@ -1612,7 +1696,8 @@
         "bio": "Rahul runs the US branch of Q42, a tech agency based in the Netherlands. Q42 builds software for large and small businesses in web, mobile and IoT, including a \"jumpstart\" program designed to help startups and enterprises accelerate.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Rahul Choudhury"
   },
   {
     "id": 4854,
@@ -1640,7 +1725,8 @@
         "bio": "Nick is a Software Engineer Intern for Cloud Data Services at IBM in San Jose, and a student of Computer Science at University of California, Santa Cruz. Nick has been interested in computers and programming from an early age. His experience includes full stack web development and Internet of Things related application development. In addition, Nick has comprehensive experience managing and creating docker container environments, and docker based build systems. He has presented at various gatherings and demos in addition to last year’s code camp. Outside of work, Nick regularly experiments with hardware in his free time, such as setting up coordinated light structures and repurposing older hardware to operate in new creative ways. ",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Steven Chamberlin,Nicholas Vargas"
   },
   {
     "id": 4855,
@@ -1659,7 +1745,8 @@
         "bio": "As a Developer Advocate in North America, Jefferson  enjoys representing PayPal/Braintree to developers across the globe. Jeff is a Polymath Developer, and he has worked with various  technologies during his 20 year career. IoT is his newest passion, and as a specialist and researcher, he creates new IoT technology uses for the future of money.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Jeff Prestes"
   },
   {
     "id": 4856,
@@ -1678,7 +1765,8 @@
         "bio": "Justin Woo is a Developer Evangelist at PayPal and has been programming ever since he got his first IBM XT running DOS. He loves writing mobile applications (especially hybrid-HTML5 applications) and wishes everything could be done in LISP. In his spare time he enjoys tinkering around with cool hardware. He’s built a game for Autistic Children, a Robot that can be controlled remotely and even a Kinect game involving tapeworms. He graduated from Purdue University with a degree in Computer Engineering and was previously a Program Manager at Microsoft. He lives with his wife and two dogs - one of which refuses to admit that he is blind and the other that likes to pretend she's a rabbit. In his spare time he loves playing squash and board games (his favorite being Settlers of Catan). He also grew up in Singapore and so please don't mind his Singlish.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Justin Woo"
   },
   {
     "id": 4857,
@@ -1697,7 +1785,8 @@
         "bio": "Justin Woo is a Developer Evangelist at PayPal and has been programming ever since he got his first IBM XT running DOS. He loves writing mobile applications (especially hybrid-HTML5 applications) and wishes everything could be done in LISP. In his spare time he enjoys tinkering around with cool hardware. He’s built a game for Autistic Children, a Robot that can be controlled remotely and even a Kinect game involving tapeworms. He graduated from Purdue University with a degree in Computer Engineering and was previously a Program Manager at Microsoft. He lives with his wife and two dogs - one of which refuses to admit that he is blind and the other that likes to pretend she's a rabbit. In his spare time he loves playing squash and board games (his favorite being Settlers of Catan). He also grew up in Singapore and so please don't mind his Singlish.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Justin Woo"
   },
   {
     "id": 4858,
@@ -1716,7 +1805,8 @@
         "bio": "Independent developer with an interest in mobile app development, scientific computing, and highly scalable systems.  Fan of C#, F#, C++, and the Phillies.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Matt Harrington"
   },
   {
     "id": 4859,
@@ -1735,7 +1825,8 @@
         "bio": "Craig has been working in the tech industry for over 20 years. He has been at both large companies (NetApp and LinkedIn) and startups. He has programmed in many languages; FORTRAN, C, Perl and, most recently, Python. He is the author of \"Salt Essentials\".\n\nMore recently, Craig has been working as an SRE. His position at LinkedIn gave him valuable insight into the challenges with working at scale. He is applying those lessons at a startup; Matterport.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Craig Sebenik"
   },
   {
     "id": 4860,
@@ -1763,7 +1854,8 @@
         "bio": "Aditya Gupta is an twelve-year old boy who loves to play and modify Minecraft. He also has experience in many other types of programming like Scratch, Java, Greenfoot, and Android. He is the youngest speaker ever at the Community Keynote of JavaOne 2013 showing how pigs fly in using Eclipse in front of 1500+ Java developers. He builds and delivers workshops for Devoxx4Kids and excited to teach programming skills to young kids like him. He is also a Boy Scout and like to tinker with LEGOs.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Arun Gupta,Aditya Gupta"
   },
   {
     "id": 4861,
@@ -1782,7 +1874,8 @@
         "bio": "Daniel Coupal has over 20 years of experience in the software industry, with positions ranging from developer, consultant, support engineer and manager of different teams like product development, QA and tools.\nDaniel currently work at MongoDB, helping thousands of customers being successful in using MongoDB.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Daniel Coupal"
   },
   {
     "id": 4862,
@@ -1801,7 +1894,8 @@
         "bio": "Ramona Maxwell | MCTS, MCPD SharePoint 2010 | MCTS, MCITP SQL Server 2008 |650-800-3995\n\n\n-- Currently on contract as the SharePoint Administrator for Gilead Sciences, Inc. providing infrastructure and operational support for GxP qualified SharePoint 2013 farms.\n\nFurther training available at Solver Companies, Inc., located in the Harbor Bay Business Park at the Oakland Airport and on site at your Bay Area company.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Ramona Maxwell"
   },
   {
     "id": 4863,
@@ -1820,7 +1914,8 @@
         "bio": "Adwait is an Architect who has worked with companies large and small, from startups to Fortune 10. His current focus is cloud computing, especially Azure. His past experience includes enterprise and solutions architecture.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Adwait Ullal"
   },
   {
     "id": 4864,
@@ -1839,7 +1934,8 @@
         "bio": "Jae Yang is an ex-aerospace engineer who worked on FAA certified simulators for training and forensics analysis. He currently works as a software engineer. On his off time, he develops open source project to help him trade stocks. His interests include developing addons for Node.js, writing various middlewares, and developing fully distributed automated trading system.\n\nMy git repos:\nhttps://gitlord.com\n\n",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Jae Yang"
   },
   {
     "id": 4865,
@@ -1858,7 +1954,8 @@
         "bio": "Ami Levin is a Microsoft SQL Server MVP since 2006, with over 25 years of experience in development and IT. For the past 15 years, he has been consulting, teaching, writing, and speaking about SQL Server worldwide. Ami's areas of expertise are data modeling, database design, T-SQL, and performance tuning. Ami currently resides in California and works as a data tier architect for Tachyus.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Ami Levin"
   },
   {
     "id": 4866,
@@ -1877,7 +1974,8 @@
         "bio": "Kim has almost 30 yrs of experience building and shipping commercial and enterprise level software solutions from initial release to multiple release cycles.  She has worked both in the start up sector as well as large corporations.  Risk reduction is key to successful product launch and the long term viability of your company.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Kim Greenlee"
   },
   {
     "id": 4867,
@@ -1893,10 +1991,11 @@
         "lastName": "Candela",
         "speakerUrl": "luca-candela-6444",
         "webSite": "http://www.meetup.com/sfbayux/",
-        "bio": "Head of Product Management at Treasure Data. Specialized in interaction design, user research and testing. I run the best design meetup in the Bay Area, the \"UX Eye for the developer guy\"   ",
+        "bio": "I'm a designer specialized in interaction design, user research and testing, and I run the UX Eye meetup (when I find a place to host it...)\n               ",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Luca Candela"
   },
   {
     "id": 4869,
@@ -1915,7 +2014,8 @@
         "bio": "JeanCarl Bisson is a co-founder of Sleek-Geek, a edtech mobile app startup. We build classrooms tools to reduce the paperwork and increase communication in the classroom and schoolwide.\n\nJeanCarl Bisson has attended over 100 hackathons over the past six years, winning first place at hackathons hosted by Google, Microsoft, and AT&T. ",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "JeanCarl Bisson"
   },
   {
     "id": 4870,
@@ -1934,7 +2034,8 @@
         "bio": "Christine is a Technical Evangelist at Microsoft based in Mountain View, CA. She is the US evangelism lead for FIRST Robotics and is a Microsoft Certified Azure Solutions Architect. Christine started at Microsoft in 2013 and won Microsoft's Circle of Excellence award this year. Christine is known for her work running Microsoft’s International Women’s  Hackathon as well as being the US Evangelism lead for Office 365 development. \nPrior to this role, she worked as a developer on Windows Sever as well as at Tesla Motors in quality assurance and Lawrence Berkeley Labs as a network engineer. You can find Christine representing Microsoft and the color yellow at meetup groups, conferences, and STEM diversity events in the San Francisco Bay Area.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Christine  Matheney"
   },
   {
     "id": 4871,
@@ -1953,7 +2054,8 @@
         "bio": "Jeremy Clark is an application developer and speaker with over 14 years of experience in all aspects of the development lifecycle. Through speaking and consulting, he helps developers take a \"step up\" in their skillset with a focus on making complex topics approachable to developers of all skill levels. He is a Microsoft MVP for Visual C# and has authored several courses for Pluralsight, including \"C# Interfaces\", a course aimed at giving developers a better understanding of abstraction. He lives in Southern California with 2 cats and a constantly changing stack of books to be read (both technical and fiction). For more information, visit www.jeremybytes.com.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Jeremy Clark"
   },
   {
     "id": 4872,
@@ -1972,7 +2074,28 @@
         "bio": "MK is a Product Manager at Treasure Data, a Big Data Pipeline/Infrastructure company that supports more than 60B records of data from customers per day  and that's still growing fast. Treasure Data is also the lead author of open source project Fluentd, a streaming data collection tool that's used by many companies including Google, Facebook, LinkedIn, Snapchat and Apple.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "MengKe Li"
+  },
+  {
+    "id": 4874,
+    "title": "Building Open Source with Open Source",
+    "sessionUrl": "building-open-source-with-open-source",
+    "descriptionShort": "This session will explore how to use open source tools to build open source network virtualization systems from scratch, and also to build monitoring tools to provide visibility into these new virtual networks. ",
+    "description": "The founders of today’s open source distributed systems were once responsible for building the distributed systems for Amazon and Google. Since then, they have become entrepreneurs and are using their expertise to help companies build Amazon-like clouds within their own enterprises using OpenStack. \n\nHowever, the traditional network monitoring tools (such as TCPDump, Wireshark and Traceroute) that once worked with the physical networks are no longer able to provide visibility into the virtual networks. Much like a black box, there is no effective way for a network administrator to troubleshoot for dropped packets, let alone implement chargeback or showback for network services. \n\nIn order to address this problem, these architects who are now building today’s open source distributed systems have chosen open source technologies as building blocks. This session will explore how open source technologies, such as Apache Zookeeper, Cassandra and Prometheus, can be used to design distributed systems. Adam will demonstrate how to trace flows using open source technologies in OpenStack IaaS clouds.  \n\nArmed with their experience building distributed systems, these architects have leveraged their open source experience to not only build the network virtualization systems from scratch, using open source tools such as Zookeeper, Cassandra and Prometheus, they have also applied open source to build the monitoring tools to provide visibility back into these new virtual networks. ",
+    "tenantName": "SVCC",
+    "speakers": [
+      {
+        "id": 36147,
+        "firstName": "Mike",
+        "lastName": "Ford",
+        "speakerUrl": "mike-ford-36147",
+        "webSite": "www.midokura.com",
+        "bio": "Mike Ford is director of technical services and support at Midokura. He holds over 15 years of experience in the networking and cloud industry, having held positions in technical operations management, support, deployment, systems engineering and QA. Previously, Mike worked at a variety of successful startups such as Ubiquiti Networks and Cymtec Systems.",
+        "allowHtml": false
+      }
+    ],
+    "speakersNamesCsv": "Mike Ford"
   },
   {
     "id": 4875,
@@ -1991,7 +2114,8 @@
         "bio": "Educated in computer engineering and mathematics. Industry experience in education, aerospace manufacturing, and insurance. Joined Microsoft February 2012 and consider it my role to inform and inspire developers. When I'm not working, I'm hanging out with my wife and son, hiking and camping, sailing, scuba diving, or working on my house and yard. Find me at @codefoster and codefoster.com.",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Jeremy Foster"
   },
   {
     "id": 5876,
@@ -2010,7 +2134,8 @@
         "bio": "Kevin is a SQL Server expert, working exclusively with the product since v6.5. With over 20 years of database experience and almost 45,000 man hours of SQL Server engine experience, he holds many related certifications, is an MCT and was a SQL Server MVP from 2007 to 2012. He has been a very successful independent consultant for over 15 years. Kevin is also a very frequent speaker, having presented at countless User Groups and almost 100 SQL Saturday conferences! His passion is the relational engine, especially designing, building, analyzing and tuning high-performance database applications.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Kevin Boles"
   },
   {
     "id": 5877,
@@ -2029,7 +2154,8 @@
         "bio": "Sanjana has a passion for computer programming and loves to spark STEM interest in kids. She has taught HTML/CSS, Scratch, Javascript, and Tynker at various non-profit organizations in the past and held many ‘Hour of Code’ sessions to introduce younger kids to coding. Besides programming, she likes Math and Science. She is part of her school’s Science Olympiad team and also an active member of her school’s Student Council. In her free time, Sanjana enjoys swimming, reading, and Bollywood dancing. ",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Sanjana Shah"
   },
   {
     "id": 5878,
@@ -2048,7 +2174,8 @@
         "bio": "I'm a developer, technical lead and development manager, interested in software design, architecture and continuous deployment. I'm passionate about building quality software and like to write and speak about technology when I can.\n\nNorthern Ireland native now happily based in San Francisco.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Shaun Abram"
   },
   {
     "id": 5879,
@@ -2067,7 +2194,8 @@
         "bio": "Theo has been designing and implementing .NET based applications, components and frameworks since .NET 1.0. Currently, Theo works as Director Customer Success at AppDynamics, one of the leading application performance management solutions for distributed application for web and cloud. \n\nTheo’s special interests are software architecture, framework and platform design, and writing Clean Code applying craftsmanship principles.\n",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Theo Jungeblut"
   },
   {
     "id": 5880,
@@ -2086,7 +2214,8 @@
         "bio": "Theo has been designing and implementing .NET based applications, components and frameworks since .NET 1.0. Currently, Theo works as Director Customer Success at AppDynamics, one of the leading application performance management solutions for distributed application for web and cloud. \n\nTheo’s special interests are software architecture, framework and platform design, and writing Clean Code applying craftsmanship principles.\n",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Theo Jungeblut"
   },
   {
     "id": 5881,
@@ -2105,7 +2234,28 @@
         "bio": "Theo has been designing and implementing .NET based applications, components and frameworks since .NET 1.0. Currently, Theo works as Director Customer Success at AppDynamics, one of the leading application performance management solutions for distributed application for web and cloud. \n\nTheo’s special interests are software architecture, framework and platform design, and writing Clean Code applying craftsmanship principles.\n",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Theo Jungeblut"
+  },
+  {
+    "id": 5882,
+    "title": "Introduction to Python on Windows",
+    "sessionUrl": "introduction-to-python-on-windows",
+    "descriptionShort": "Welcome to Python on Windows, where anything is possible, but a couple tips and tricks can save you a lot of time and make coding fun!",
+    "description": "Are you new to Python? Are you new to Python on Windows? Have you run into difficulties in the past working with Python on Windows? \n\nI've got just the session for you. \n\nWe'll be exploring workflows, tips, tools, and techniques for getting started with Python on Windows. We'll cover installation, python packages, virtual environments, editors, VS Code and Visual Studio, development, and cloud deployment. By the end of the session you'll have all the resources required to become an expert python developer. ",
+    "tenantName": "SVCC",
+    "speakers": [
+      {
+        "id": 37321,
+        "firstName": "Tim",
+        "lastName": "Reilly",
+        "speakerUrl": "tim-reilly-37321",
+        "webSite": "http://timmyreilly.com",
+        "bio": "Tim Reilly is a Technical Evangelist at Microsoft based in the Bay Area. He loves working with Python, JavaScript, and the cloud to turn ideas into solutions. Tim has attended a dozen hackathons in the last 12 months and has experience turning ideas into hacks quickly. He received his BSCS from Seattle University in 2014 and loves playing Ultimate Frisbee. ",
+        "allowHtml": true
+      }
+    ],
+    "speakersNamesCsv": "Tim Reilly"
   },
   {
     "id": 5883,
@@ -2124,7 +2274,8 @@
         "bio": "CTO-to-go. Advising, transforming, and taking on p/t acting and interim VP Engineering roles to untangle the knots in software development. Training and coaching teams and managers in agile to make engineering “hum”.  Co-author of the 2013 and 2014 <I>Study of Product Team Performance</I>. Co-author of the Addison-Wesley book, <a href=\"http://www.ManagingTheUnmanageable.net\"target=_blank><I>Managing the Unmanageable: Rules, Tools, and Insights for Managing Software People and Teams</I></a>, which reviewers are comparing with software development classics, <I>The Mythical Man Month</I> and <I>Peopleware</I>.",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Ron Lichty"
   },
   {
     "id": 5886,
@@ -2143,7 +2294,8 @@
         "bio": "DevRel for DAQRI. Hardcore Javascript Developer. Author of Learning Three.js blog and CTO. Currently Three.js Team Lead. Loves Javascript, 3D AR, VR, WebGL and cool HTML5 stuff. 8th most active user on Github and frequent speaker at tech confs. Loves teaching motivated people who are willing to learn awesome things.\n ",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Jerome Etienne"
   },
   {
     "id": 5887,
@@ -2162,7 +2314,8 @@
         "bio": "A Microsoft Technical Evangelist who likes computer networking, server administration, among other things! Spent 15 years as a sysadmin \"jack of all trades\" overseeing Windows domains, Exchange Server, desktops and other IT systems. Now she supports platform awareness for Windows Server, Azure and related technologies.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Jennelle Crothers"
   },
   {
     "id": 5888,
@@ -2181,7 +2334,8 @@
         "bio": "Educated in computer engineering and mathematics. Industry experience in education, aerospace manufacturing, and insurance. Joined Microsoft February 2012 and consider it my role to inform and inspire developers. When I'm not working, I'm hanging out with my wife and son, hiking and camping, sailing, scuba diving, or working on my house and yard. Find me at @codefoster and codefoster.com.",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Jeremy Foster"
   },
   {
     "id": 5889,
@@ -2200,7 +2354,8 @@
         "bio": "Founder & CTO of TWiki.org, a leading enterprise collaboration platform. Trying to get more open source contributors hooked on TWiki. Inventor of Structured Wikis. Co-author of Wikis for Dummies. Speaker. Open source & enterprise collaboration advocate. Tweeting @twiki & @peterthoeny.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Peter Thoeny"
   },
   {
     "id": 5890,
@@ -2218,8 +2373,27 @@
         "webSite": "yumdom.com",
         "bio": "\t\nNima has over 15 years experience in technology as a software engineer/architect/manager/technology marketeer and entrepreneur. He has worked at Silicon Valley startups as well as large multinational corporations. He is the founder and CEO of YumDom.com.  He enormously enjoys coding, building, and creating as well as sharing and helping others.   He can be found on twitter at @nimadi.",
         "allowHtml": false
+      },
+      {
+        "id": 903,
+        "firstName": "peter",
+        "lastName": "kellner",
+        "speakerUrl": "peter-kellner-903",
+        "webSite": "peterkellner.net",
+        "bio": "Peter Kellner, a Microsoft ASP.NET MVP since 2007, is founder and president of 73rd Street Associates and a seasoned software professional specializing in high quality, scalable and extensible .Net web applications.  His experience includes building and leading engineering teams both on and off shore. When not working, Peter spends most his free time biking. ",
+        "allowHtml": false
+      },
+      {
+        "id": 823,
+        "firstName": "Kevin",
+        "lastName": "Nilson",
+        "speakerUrl": "kevin-nilson-823",
+        "webSite": "http://www.javaclimber.com",
+        "bio": "Team Lead of the Chromecast Technical Solutions Engineer team, a Java Champion and three time JavaOne Rock Star Presenter. Kevin has spoken at conferences such as JavaOne, Devoxx, JAX, O'Reilly Fluent, Silicon Valley Code Camp, JAX, HTML5DevConf, On Android, NFJS SpringOne and AjaxWorld. Kevin is the co-author of Web 2.0 Fundamentals. In the past Kevin was an adjunct professor at the College of San Mateo. Kevin holds a MS and BS in Computer Science from Southern Illinois University. Kevin is the leader of the Silicon Valley JavaScript Meetup, Silicon Valley Java User Group, Silicon Valley Google Developer Group, and Devoxx4Kids Bay Area.",
+        "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Nima Dilmaghani,peter kellner,Kevin Nilson"
   },
   {
     "id": 5891,
@@ -2238,7 +2412,8 @@
         "bio": "Steve is an independent software consultant in Silicon Valley specializing in the Microsoft product stack having retired after a 40+ year career doing semiconductor industry, with side excursions in to medical image management. Over the years he has worked with a wide range of platforms from mainframes to PCs, many of which have gone to the great scrap yard in the sky. \nCo-chair Baynet User Group's South Bay Chapter and Baynet Treasurer",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Steve Mylroie"
   },
   {
     "id": 5892,
@@ -2257,7 +2432,8 @@
         "bio": "I am a Principal Architect at Scanadu, responsible for Data Engineering and Cloud Services. Previously, I worked on security and performance issues for Covered California. Before that, I was Director,platform engineering for a healthcare analytics company in the Silicon Valley. I have over 10 years experience working with Java, J2EE technologies. I am on constant lookout for new technologies which might be useful in the healthcare industry.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Ratnakar Malla"
   },
   {
     "id": 5893,
@@ -2276,7 +2452,8 @@
         "bio": "Justin has been a Software Developer in the Phoenix area for 10+ years. He has presented at several conferences, code camps and user groups throughout the United States and  Europe.  Justin is passionate about sharing his knowledge to get you your end goal faster. H",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Justin James"
   },
   {
     "id": 5896,
@@ -2300,11 +2477,12 @@
         "firstName": "Diwakar",
         "lastName": "Cherukumilli",
         "speakerUrl": "diwakar-cherukumilli-39006",
-        "webSite": "http://www.linkedin.com/in/cherukumilli",
-        "bio": "Diwakar is a software engineer, designer and manager with more than 20 years of industry experience. His current interests are in the healthcare field and he is currently focussing on developing software products to revolutionize the way diabetes is managed by providing a HIPAA compliant cloud based solution that works for the diabetic, physicians, care givers and other interested parties.",
+        "webSite": "http://",
+        "bio": "bio coming    bio coming bio coming    bio coming    bio coming bio coming             bio coming    bio coming bio coming                                                                                                              ",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Oswald Campesato,Diwakar Cherukumilli"
   },
   {
     "id": 5897,
@@ -2323,7 +2501,8 @@
         "bio": "I have been in the software industry for 20+ years. In the past 4 years I have worked on cloud based distributed systems for Netflix and Stubhub. Most of these systems have been associated with data delivery and management. Some of the systems I have with with are: Solr, Cassandra, Zookeeper, Hadoop and StubHubs Big Data Platform. All these systems require a different approach in design,development and access patterns.  However, there are underlying patterns in each of these systems. And these patterns radically change the approach of developers and users of these systems. Without them, building and deploying distributed systems, especially at scale, becomes exceedingly problematic. I wish to share some of these design and deployment patterns as well as their  programming models with the folks at SVCC.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "John Brinnand"
   },
   {
     "id": 5898,
@@ -2342,7 +2521,8 @@
         "bio": "Hi, I'm the founder of CloudCamp & Principal Consultant at Platform D. I help cloud, API, big data and collaborative technology companies engage with developer communities",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Dave Nielsen"
   },
   {
     "id": 5900,
@@ -2361,7 +2541,8 @@
         "bio": "For over 10 years, Jessica has worked as an IT Consultant or Systems Administrator in various corporate and enterprise environments, catering to end users and IT professionals in the San Francisco Bay Area. She is currently a Systems Integration Engineer for SPK and Associates in the Bay Area. Jessica specializes in a wide variety of areas including managing social engagement via platforms such as forums, blogs, and Twitter, web content delivery, CMS web design, firewalls, DHCP, DNS, scripting, and both the Windows Client and Apple Client. She holds 3 CompTIA certifications, 4 Apple Certifications, is a 3 time Microsoft Valuable Professional for Windows Client and, as of 2013, achieved her FEMA certification from the U.S Department of Homeland Security which recognizes her leadership and influence abilities during times of crisis and emergency. In her free time she enjoys biking, shooting, and training at her local gym.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Jessica Deen"
   },
   {
     "id": 5901,
@@ -2380,7 +2561,8 @@
         "bio": "Nic is a Developer Advocate for Couchbase in the San Francisco Bay Area. He has released several native and hybrid mobile applications to iTunes and Google Play and writes about his development experiences related to making web and mobile app development easier to understand. He has experience in Unity3D, Apache Cordova, Java, NoSQL, SQL, and Node.js.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Nic Raboy"
   },
   {
     "id": 5902,
@@ -2399,7 +2581,8 @@
         "bio": "<p>My path to engineer has been a strange one. I have a CS minor, but my degree was in Asian Studies, and I spent quite a lot of time abroad. I eventually moved out to California and enrolled in grad school, with the complete expectation of doing public policy work. My passion since childhood, however, has always been video-games. At the last moment, I withdrew from enrollment in grad school and decided to see if I could make a go of it.</p>\n\n<p>I started out as an entry-level play-tester at the free to play games company, Kabam, before moving on to a technical QA Analyst role. After that, I moved on and moved up, taking QA Engineer, then Gameplay Engineer roles at KIXEYE, before moving on to a Senior Software Engineer role at FunPlus - both game companies. Now I'm at Matterport, building out some seriously futuristic tech with a team of incredibly proficient engineers.</p>\n\n<p>As somebody that entered the tech industry through a non-standard channel, I am an advocate for continued, disciplined self instruction. Having benefited from so many resources online and shared across the community, it is only fair that I try to give back.</p>",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Brian Schulman"
   },
   {
     "id": 5903,
@@ -2418,7 +2601,8 @@
         "bio": "Alan is a core contributor for the Grommet project and a proud Hewlett-Packard Enterprise employee. He is an amateur accordionist and sporadically plays Forró, a music genre that originated in Northeastern Brazil, around the bay area.\n\nHe considers himself as a full-stack Engineer with 8 years experience in the software industry. Recently, he enjoys the challenges around creating great user experiences for the Web.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Alan Souza"
   },
   {
     "id": 5904,
@@ -2437,7 +2621,8 @@
         "bio": "Samaira Mehta, an 8 year old girl created a board game that teaches programming concepts to young coders. Being a board game enthusiasts herself, she mixed the idea of board game with her coding work to create her game - \"CoderBunnyz\". She is a 2nd grader at California Distinguished Millikin Elementary. She started a “Green Club” at Millikin with a motto to promote “keep earth clean” habits in her school mates.  Besides being a founder at coderbunnyz.com, she is a songwriter, a singer, a swimmer, an ice skater and an origami enthusiast. In addition to song covers, she is composing and singing her own songs. Her debut self written motivational song “Don’t Give up!” and game song “We are the Coderbunnyz” are now available. Her mission is to get the young kids excited about coding in a fun way. She is accessible @coderbunnyz or at www.coderbunnyz.com",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Samaira mehta"
   },
   {
     "id": 5905,
@@ -2456,7 +2641,8 @@
         "bio": "Tâm is a Software Metrics Analyst at TiVo, developing collaborative tools and analyzing data to help improve software development processes.  He received a Ph.D. in Computer Architecture from UC Berkeley, and has over 20 years of experience in content management, interactive TV, and web development.   He has a passion for teaching, especially teaching computing to kids.   He developed an interest in game development as a result of finding ways to teach his own kids programming.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Tam Nguyen"
   },
   {
     "id": 5906,
@@ -2475,7 +2661,8 @@
         "bio": "I am Graduate Student at San Jose State University. My Specialization is Networking. I am also working as Research Assistant with my professor here at SJSU on topics like Mobile Cloud Infrastructure. I gave one  presentation on “MIT App inventor” tool at  ISTE Approved Short Term training Program on ”Mobile Application Development ” July 2013 at Nirma University in India.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "khushali Desai"
   },
   {
     "id": 5907,
@@ -2494,7 +2681,8 @@
         "bio": "I am twelve years old and currently in freshman year. My interests are mainly in software; I started coding at eight years old with Python and eventually learned new languages such as Java, HTML, CSS, and some C. Currently I am learning R from John Hopkins University on Coursera.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Rowan-James Tran"
   },
   {
     "id": 5908,
@@ -2513,7 +2701,8 @@
         "bio": "Gianpiero Napoli is a Senior Software Engineer at RTI (Real-Time Innovations). He has 7+ years of experience in software design, development, implementation and testing of distributed real-time systems. His focus in the last few years has been on standard-based Data Distribution middleware (DDS) and bringing Publish/Subscribe capabilities in scripting technologies such as node.js, python and lua. He is responsible for <a href=\"https://github.com/rticommunity/rticonnextdds-connector\">DDSConnector</a> and for <a href=\"https://community.rti.com/downloads/experimental/rti-prototyper-with-lua\">Prototyper with Lua </a>. ",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Gianpiero Napoli"
   },
   {
     "id": 5909,
@@ -2541,7 +2730,8 @@
         "bio": "Andrew is a technical evangelist for Microsoft working on development and data storage within Azure.  In a past life, he was a consultant helping customers figure out how to visualize and discover meaningful conclusions from their disparate data sets.  Outside of technology, his favorite discussion topics include: picking the next million dollar stock, the current snow conditions in Tahoe (yes, even in the summer), and finding the best coffee/food in the bay!",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Katherine Harris,Andrew Moll"
   },
   {
     "id": 5912,
@@ -2560,7 +2750,8 @@
         "bio": "Team Lead of the Chromecast Technical Solutions Engineer team, a Java Champion and three time JavaOne Rock Star Presenter. Kevin has spoken at conferences such as JavaOne, Devoxx, JAX, O'Reilly Fluent, Silicon Valley Code Camp, JAX, HTML5DevConf, On Android, NFJS SpringOne and AjaxWorld. Kevin is the co-author of Web 2.0 Fundamentals. In the past Kevin was an adjunct professor at the College of San Mateo. Kevin holds a MS and BS in Computer Science from Southern Illinois University. Kevin is the leader of the Silicon Valley JavaScript Meetup, Silicon Valley Java User Group, Silicon Valley Google Developer Group, and Devoxx4Kids Bay Area.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Kevin Nilson"
   },
   {
     "id": 5913,
@@ -2579,7 +2770,8 @@
         "bio": "Noah Kantrowitz is a web developer turned infrastructure automation enthusiast, and all around engineering rabble-rouser. By day he builds tools and teaches, and by night he leads the Python Software Foundation infrastructure team. He is an active member of the Chef community, and enjoys merge commits, cat pictures, and beards.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Noah Kantrowitz"
   },
   {
     "id": 5914,
@@ -2598,7 +2790,8 @@
         "bio": "Robert Harker is a gray beard Linux/UNIX systems administrator and web farm wrangler.  At Yahoo Sports he was involved in their move to agile development.  In Yahoo Sports move to a DevOps team he was from the Ops side of the house championing automation for the deployment process of new code to production.\n\nYahoo Sports used the Jenkins build automation framework to build, package, deploy and automatically test code in all three of their environments, development, test/staging and production.\n\nHis current interest is the Open Data movement of publishing public government data in a cloud repository which can be analyzed by the public with either web based portal tools or via a RESTful API passing data as json text.  He is currently working with the County of San Mateo Open Data portal, data,smcgov.org, to publish public data locked into legacy platforms on the Open Data web site.\n",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Robert Harker"
   },
   {
     "id": 5915,
@@ -2617,7 +2810,8 @@
         "bio": "Aaron Griffith has been testing and developing software for 20 years, and has worked as a Tester, Developer, and Mob Programmer. Loves Mob Programming, Teaching Kids Programming, and Star Wars.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Aaron Griffith"
   },
   {
     "id": 5916,
@@ -2636,7 +2830,8 @@
         "bio": "Prior to joining Hazelcast, Fuad worked on J2EE projects as a technology consultant in financial and telecom industries. He was an IT architect at IBM, developing J2EE based core-banking system for one of the biggest banking transformation projects in Europe. Prior to IBM, Fuad worked on various telecom companies developing J2EE and Oracle PL/SQL applications. He has attended several Mathematics Olympiad Competitions. He won three gold medals at national Maths Olympiads and a bronze medal at 42nd International Mathematical Olympiad (IMO), USA. Fuad holds a BS degree in Computer Engineering from Bogazici University, Istanbul.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Fuad Malikov"
   },
   {
     "id": 5917,
@@ -2664,7 +2859,8 @@
         "bio": "(Ash) is Bio-Computational researcher@day working on bio-markers (publications*) & CTO@night of technology companies (patents*). His frequent code-a-thon wins have gone on to become published Apps (iOS & Android*). As a thought leader in wearable/mobile development he is an enthusiastic teacher / speaker  helping to promote the ecosystem (fashion* & technology*). But what he would really like is to get a major sponsor in all three phases of water. (Snowboarding* [solid], Surfing* [liquid] & Kiteboarding* [vapor])",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Elena Philipova,Siamak Ashrafi"
   },
   {
     "id": 5918,
@@ -2683,7 +2879,8 @@
         "bio": "Neil Mackenzie is a Cloud Solution Architect at Microsoft. He has been using Microsoft Azure since PDC 2008. Neil wrote the Microsoft Windows Azure Development Cookbook (1st ed.) for Packt Publishing. He was a Microsoft MVP for Windows Azure.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Neil Mackenzie"
   },
   {
     "id": 5919,
@@ -2702,7 +2899,8 @@
         "bio": "John-Daniel Trask is the co-founder & CEO of Raygun, a software tools company based in Wellington. John-Daniel is also the winner of the New Zealand Hi-Tech Young Achiever award in 2009, and is a Microsoft MVP (most valuable professional) for the past 5 years. Passionate about business and technology, John-Daniel focuses on the growth of Raygun as it sells software globally to more than 100 countries. When not writing biographies in the third person, he can be found reading, gaming or drinking a fine whiskey.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "John-Daniel Trask"
   },
   {
     "id": 5920,
@@ -2721,7 +2919,8 @@
         "bio": "Donn advises startups and VCs in Internet technologies. Joining Facebook in 2007, he was a senior engineer on the Infrastructure team during hyper-growth of Facebook's systems and networks.  Previous to FB, Donn was a senior engineer at Google during similar architecture, deployment, scaling, and troubleshooting challenges when Google grew from a sole search engine to a portfolio of products.\nDonn wrote his book \"Enhanced IP Services for Cisco Networks\" while working full-time at Cisco Systems where he was a senior systems engineer.\nHe was awarded Internet Society's Itojun Service Award and Google's EMG Award.\nDonn has performed over 50 talks at technical conferences across Europe, Asia, US, Canada, and Mexico.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Donn Lee"
   },
   {
     "id": 5921,
@@ -2740,7 +2939,8 @@
         "bio": "Rob has 15 years of experience in software engineering, from automated trading platforms to conference management to e-commerce. For the last several years Rob has been fascinated with messaging and distributed systems and is a big believer in DDD as the driver of decomposing complexity. Rob's back ground has been primarily in C# and .NET but more recently Mono on Linux.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Robert Macdonald Smith"
   },
   {
     "id": 5922,
@@ -2768,7 +2968,8 @@
         "bio": "Aditya Gupta is an twelve-year old boy who loves to play and modify Minecraft. He also has experience in many other types of programming like Scratch, Java, Greenfoot, and Android. He is the youngest speaker ever at the Community Keynote of JavaOne 2013 showing how pigs fly in using Eclipse in front of 1500+ Java developers. He builds and delivers workshops for Devoxx4Kids and excited to teach programming skills to young kids like him. He is also a Boy Scout and like to tinker with LEGOs.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Arun Gupta,Aditya Gupta"
   },
   {
     "id": 5923,
@@ -2787,7 +2988,8 @@
         "bio": "Bill has been building apps since, well, for too long to admit. Anyone remember the IBM 1401 or 7094; Computers the size of an SUV, no disk drives, punch cards?   Still at it, recent projects include Ferry Reservations Express, a ticketing and booking system complex, AeroTunes, a Windows Phone 8.1 app for streaming music from YouTube, and StartGator, more than just a start button replacement.. Bill is head of permanent start-up Windigo Systems.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Bill Glosser"
   },
   {
     "id": 5924,
@@ -2806,7 +3008,8 @@
         "bio": "Stephen Chin is a Java Ambassador at Oracle specializing in UI technology, co-author of the Pro JavaFX Platform 2 title, and the new JavaOne Content Chair. He can be followed on twitter @steveonjava, reached via his blog: http://steveonjava.com/, and his hacking adventures can be seen on: http://nighthacking.com/",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Stephen Chin"
   },
   {
     "id": 5925,
@@ -2825,7 +3028,8 @@
         "bio": "Stephen Chin is a Java Ambassador at Oracle specializing in UI technology, co-author of the Pro JavaFX Platform 2 title, and the new JavaOne Content Chair. He can be followed on twitter @steveonjava, reached via his blog: http://steveonjava.com/, and his hacking adventures can be seen on: http://nighthacking.com/",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Stephen Chin"
   },
   {
     "id": 5926,
@@ -2844,7 +3048,8 @@
         "bio": "Stephen Chin is a Java Ambassador at Oracle specializing in UI technology, co-author of the Pro JavaFX Platform 2 title, and the new JavaOne Content Chair. He can be followed on twitter @steveonjava, reached via his blog: http://steveonjava.com/, and his hacking adventures can be seen on: http://nighthacking.com/",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Stephen Chin"
   },
   {
     "id": 5927,
@@ -2863,7 +3068,8 @@
         "bio": " I like code camp where I can experience many technologies in demo, speeches etc. I am Microsoft Certified Professional, CompTIA and IBM certified. I have MBA from Santa Clara. I have worked at Intel, IBM and other start-ups that went IPO or got acquired. I am always eager about NEXT FRONTIER in products/solutions that would change the world. Now, I work at Informatica Corp. My role is to work with my partners and help develop our  products with combined technologies for best user experience.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Sunil Sabat"
   },
   {
     "id": 5928,
@@ -2882,7 +3088,8 @@
         "bio": "Keven Wang is a Senior Member of Technical Staff at RelateIQ, where he leads the Chrome extension project, building it from zero into the fastest-growing client at RelateIQ. On this journey, Keven architected Chrome extension to enable rapid deployment and code-sharing with RelateIQ's web-app client using AngularJS. Keven has delivered 10+ features in Chrome extension in 12 months, leveraging backend infrastructure on email / calendar sync (IMAP, Google Calendar API) and push notifications (Google Cloud Messaging). Keven joined RelateIQ in 2013, prior to its acquisition by Salesforce in 2014.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Keven Wang"
   },
   {
     "id": 5929,
@@ -2901,7 +3108,8 @@
         "bio": "Nir is a professional software engineer with expertise in Java and Python and with over ten years of experience in developing server-side applications. He likes challenges and has passion for building things, playing with new technologies and learning new things.\n\nAfter graduating B.Sc. in computer science he stayed another few years in university to complete M.Sc. in Mathematics specializing in Graph theory and algorithms. Then felt that the academy-life might not be for him after all, so he joined the high-tech industry.\n\nIt took a bit over a year to understand that large corporations are not his cup of tea before he joined a small startup as the third developer, two years later that startup was bought and he moved to the Silicon Valley to help it continue to grow. Two years ago he joined Netflix and now is a member of Cloud Platform Automation team, helping his fellow engineers to deliver great \"moments of truth\" to over 60 million subscribers.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Nir Alfasi"
   },
   {
     "id": 5930,
@@ -2920,7 +3128,8 @@
         "bio": "Anthony works for the AT&T Developer Program. As a Senior Product Marketing Manager, his role is to define the roadmap and launch plans for 3rd party APIs as well as drive the adoption by developers.  Anthony is based in Palo Alto California. \n",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Anthony Fabbricino"
   },
   {
     "id": 5931,
@@ -2939,7 +3148,28 @@
         "bio": "Konstantin (Kostya) Serebryany is a Software Engineer at Google. His team develops and deploys dynamic testing tools, such as AddressSanitizer and ThreadSanitizer. Prior to joining Google in 2007, Konstantin spent 4 years at Elbrus/MCST working for Sun compiler lab and then 3 years at Intel Compiler Lab. Konstantin holds a PhD from mesi.ru and a Master from msu.ru.\n",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Kostya Serebryany"
+  },
+  {
+    "id": 5932,
+    "title": "Unravel Angular DI by writing Custom Directives & Services",
+    "sessionUrl": "unravel-angular-di-by-writing-custom-directives-services",
+    "descriptionShort": "Angular is one of the fastest growing Javascript frameworks used today.  This presentation dives deeper into the concept of Dependency Injection and how it's used to integrate Custom Services, Directives and Unit tests within the Angular Framework.",
+    "description": "Angular is one of the fastest growing Javascript frameworks used today.  The basic concepts such as data binding, routing, and expressions are well documented and can be learned thru various exercises and tutorials relatively quick. This presentation dives deeper into the concept of Dependency Injection and how it's used to integrate Custom Services, Directives and Unit tests within the framework.  We first provide an overview of Dependency Injection & Inversion of Control (IOC) in the context of design patterns and how they are  used in various languages and frameworks. We then explore the Angular Architectural framework focusing on DI.  Next we will write small app from scratch based on the Angular seed project which will include a custom Directive to handle auto complete, and a custom service.  After this session you should feel comfortable with the concept of DI and how it's implemented in Angular, and be able to build your own Directives and Services. ",
+    "tenantName": "SVCC",
+    "speakers": [
+      {
+        "id": 7175,
+        "firstName": "G. Edward",
+        "lastName": "Skudlarick",
+        "speakerUrl": "g-edward-skudlarick-7175",
+        "webSite": "http://www.code-gallery.com/",
+        "bio": "Ed has worked in a variety of positions in the Software Industry.   Ed currently works with Java, ASP NET and various dynamic languages such as JavaScript, NodeJS and Python to build early stage prototypes.",
+        "allowHtml": false
+      }
+    ],
+    "speakersNamesCsv": "G. Edward Skudlarick"
   },
   {
     "id": 5933,
@@ -2958,7 +3188,8 @@
         "bio": "As a seasoned entrepreneur with over 24+ years of IT experience in the field of Computer Science and Engineering, I love to teach kids computer science fundamentals and mathematics. I regularly teach courses in the field of Python programming, HTML, JavaScript, and Mobile development. Since 1994, I have been living in Silicon Valley, and have worked with startups as well as large enterprises. \n\nI run my own retail software company for past 15 years, and feel its time to give back to the society. I also hold double major in the field of Computer Science from Sydney, Australia.\n",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Anoop Trivedi"
   },
   {
     "id": 5935,
@@ -2977,7 +3208,8 @@
         "bio": "\nForbes Hedges, co-founder of Cloudata Inc, which provides \n1-Click HyperScale HyperConvergence Big Data Cloud True Real-time Full Automation Corp-to-Corp Services, Products and Platforms powered by Invisible Business Architecture - Anyone Anytime Anywhere in Anyway! - https://play.google.com/store/search?q=cloudata",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Forbes Hedges"
   },
   {
     "id": 5936,
@@ -2996,7 +3228,8 @@
         "bio": "I am a software consultant with Slalom Silicon Valley. I have been programming since I was 13 years old and there's nothing I enjoy more than bringing new products - mobile, web, or Machine Learning models - from my imagination into reality. My most recent interest has been in harnessing cloud technologies to create more intelligent software systems - a topic which will be the focus of my presentation.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Eugene Chuvyrov"
   },
   {
     "id": 5937,
@@ -3015,7 +3248,8 @@
         "bio": "I'm a Senior Program Manager on the .NET team at Microsoft. I'm a community champion for .NET and open source developers and a Technical Evangelist for the .NET Foundation. Follow me on twitter @BethMassi",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Beth Massi"
   },
   {
     "id": 5938,
@@ -3034,7 +3268,8 @@
         "bio": "Christine is a Technical Evangelist at Microsoft based in Mountain View, CA. She is the US evangelism lead for FIRST Robotics and is a Microsoft Certified Azure Solutions Architect. Christine started at Microsoft in 2013 and won Microsoft's Circle of Excellence award this year. Christine is known for her work running Microsoft’s International Women’s  Hackathon as well as being the US Evangelism lead for Office 365 development. \nPrior to this role, she worked as a developer on Windows Sever as well as at Tesla Motors in quality assurance and Lawrence Berkeley Labs as a network engineer. You can find Christine representing Microsoft and the color yellow at meetup groups, conferences, and STEM diversity events in the San Francisco Bay Area.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Christine  Matheney"
   },
   {
     "id": 5939,
@@ -3053,7 +3288,8 @@
         "bio": "Christine is a Technical Evangelist at Microsoft based in Mountain View, CA. She is the US evangelism lead for FIRST Robotics and is a Microsoft Certified Azure Solutions Architect. Christine started at Microsoft in 2013 and won Microsoft's Circle of Excellence award this year. Christine is known for her work running Microsoft’s International Women’s  Hackathon as well as being the US Evangelism lead for Office 365 development. \nPrior to this role, she worked as a developer on Windows Sever as well as at Tesla Motors in quality assurance and Lawrence Berkeley Labs as a network engineer. You can find Christine representing Microsoft and the color yellow at meetup groups, conferences, and STEM diversity events in the San Francisco Bay Area.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Christine  Matheney"
   },
   {
     "id": 5940,
@@ -3072,7 +3308,8 @@
         "bio": "Christine is a Technical Evangelist at Microsoft based in Mountain View, CA. She is the US evangelism lead for FIRST Robotics and is a Microsoft Certified Azure Solutions Architect. Christine started at Microsoft in 2013 and won Microsoft's Circle of Excellence award this year. Christine is known for her work running Microsoft’s International Women’s  Hackathon as well as being the US Evangelism lead for Office 365 development. \nPrior to this role, she worked as a developer on Windows Sever as well as at Tesla Motors in quality assurance and Lawrence Berkeley Labs as a network engineer. You can find Christine representing Microsoft and the color yellow at meetup groups, conferences, and STEM diversity events in the San Francisco Bay Area.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Christine  Matheney"
   },
   {
     "id": 5941,
@@ -3091,7 +3328,8 @@
         "bio": "Christine is a Technical Evangelist at Microsoft based in Mountain View, CA. She is the US evangelism lead for FIRST Robotics and is a Microsoft Certified Azure Solutions Architect. Christine started at Microsoft in 2013 and won Microsoft's Circle of Excellence award this year. Christine is known for her work running Microsoft’s International Women’s  Hackathon as well as being the US Evangelism lead for Office 365 development. \nPrior to this role, she worked as a developer on Windows Sever as well as at Tesla Motors in quality assurance and Lawrence Berkeley Labs as a network engineer. You can find Christine representing Microsoft and the color yellow at meetup groups, conferences, and STEM diversity events in the San Francisco Bay Area.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Christine  Matheney"
   },
   {
     "id": 5942,
@@ -3110,7 +3348,8 @@
         "bio": "Christine is a Technical Evangelist at Microsoft based in Mountain View, CA. She is the US evangelism lead for FIRST Robotics and is a Microsoft Certified Azure Solutions Architect. Christine started at Microsoft in 2013 and won Microsoft's Circle of Excellence award this year. Christine is known for her work running Microsoft’s International Women’s  Hackathon as well as being the US Evangelism lead for Office 365 development. \nPrior to this role, she worked as a developer on Windows Sever as well as at Tesla Motors in quality assurance and Lawrence Berkeley Labs as a network engineer. You can find Christine representing Microsoft and the color yellow at meetup groups, conferences, and STEM diversity events in the San Francisco Bay Area.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Christine  Matheney"
   },
   {
     "id": 5943,
@@ -3129,7 +3368,8 @@
         "bio": "Andrew is a technical evangelist for Microsoft working on development and data storage within Azure.  In a past life, he was a consultant helping customers figure out how to visualize and discover meaningful conclusions from their disparate data sets.  Outside of technology, his favorite discussion topics include: picking the next million dollar stock, the current snow conditions in Tahoe (yes, even in the summer), and finding the best coffee/food in the bay!",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Andrew Moll"
   },
   {
     "id": 5944,
@@ -3148,7 +3388,28 @@
         "bio": "Dr. Doris Chen is a Senior Technology Evangelist at Microsoft specialized in web technologies (HTML5, jQuery, JavaScript, Windows 8,and Java) with over 15 years of experience in the software industry. She speaks to numerous international conferences and user groups including HTML5 Dev Conference, O’Reilly Fluent, OSCON, WebVisions, and JavaOne. Doris received her Ph.D. from the University of California at Los Angeles (UCLA) in computer engineering, specializing in medical informatics. ",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Doris Chen"
+  },
+  {
+    "id": 5945,
+    "title": "10 Reasons to Use and Develop for Windows 10",
+    "sessionUrl": "10-reasons-to-use-and-develop-for-windows-10",
+    "descriptionShort": "Windows 10 is out, come find out why you should care. We'll be examining developer features as well as consumer features to help developers get the most out of this new computing experience. ",
+    "description": "Welcome to Windows 10! Tim Reilly will be giving a brief overview of the how, what, and why to use and develop for windows 10. We'll be covering the 5 best features of Windows 10 followed by 5 reasons to develop for Windows 10. If you're interested in Cortana, Ubiquitous computing, Universal Apps, Developing for Xbox and IoT and more this is the perfect place to get your feet wet and discover resources for creating amazing computing experiences. ",
+    "tenantName": "SVCC",
+    "speakers": [
+      {
+        "id": 37321,
+        "firstName": "Tim",
+        "lastName": "Reilly",
+        "speakerUrl": "tim-reilly-37321",
+        "webSite": "http://timmyreilly.com",
+        "bio": "Tim Reilly is a Technical Evangelist at Microsoft based in the Bay Area. He loves working with Python, JavaScript, and the cloud to turn ideas into solutions. Tim has attended a dozen hackathons in the last 12 months and has experience turning ideas into hacks quickly. He received his BSCS from Seattle University in 2014 and loves playing Ultimate Frisbee. ",
+        "allowHtml": true
+      }
+    ],
+    "speakersNamesCsv": "Tim Reilly"
   },
   {
     "id": 5946,
@@ -3167,14 +3428,15 @@
         "bio": "A DevOps professional with pioneering work on the world’s biggest Internet real-time event and web sites from an engineering, operations, content, and marketing perspective. My focus is on people and software development along with system design thinking for the whole life cycle: I can build, grow, and manage teams, applications, networks, and servers to work together while planning and nurturing their continuous improvement.\n\nMark first touched the Internet in 1991 when he was sponsored to do undergraduate research. After graduation and Internet withdrawal, he joined the first national commercial Internet Service Provider (before the world wide web).\n\nOne of the web masters of Netscape, cnnfn.com, and sgi.com, Mark was part of the world’s largest and earliest media and web sites. Mark progressed to Developer Relations, where he became the JavaScript and LDAP Technology Evangelist. One compliment: “Mark is an engineer who can speak” captures his ability to relate technical subjects to anyone.\n\nMark’s approach mixes software engineering disciplines with art and operations, embracing Internet architecture, real-time media, and the ability to nurture people, developers, networks, and systems to work together. His multidisciplinary practice is complimented by the term DevOps.\n\nYou can review Mark’s career and endorsements at https://www.linkedin.com/in/marklavi",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Mark Lavi"
   },
   {
     "id": 5947,
     "title": "Building your First iOS App with Swift",
     "sessionUrl": "building-your-first-ios-app-with-swift",
     "descriptionShort": "Come and learn Apple’s new programming language, Swift, while you build a mobile game.  We will develop a simple game in which you will learn how to change views, add labels, buttons, and more. By the end of the class you will be able to make you own simple game using Swift.",
-    "description": "Ever wanted to build your own app; well here is your chance! In this class you will learn how to create a simple game using Xcode, you will find out about different tools to build iOS apps, and the steps needed to publish an iOS app. You will learn how to switch between multiple screens, how to add images, and make a basic user interface. This is a great way to be introduced into the world of iOS programming, and with all of these resources, you can continue to learn and build even more apps at home. Make sure that if you have a Mac then bring it with Xcode installed and you must be willing to share your laptop with people who don’t have a Mac. \n\nInstall the following software before the workshop: https://drive.google.com/file/d/0B0IIIHVDrY1pbVdMUzE0TzQ1X0U/view?usp=sharing",
+    "description": "Ever wanted to build your own app; well here is your chance! In this class you will learn how to create a simple game using Xcode, you will find out about different tools to build iOS apps, and the steps needed to publish an iOS app. You will learn how to switch between multiple screens, how to add images, and make a basic user interface. This is a great way to be introduced into the world of iOS programming, and with all of these resources, you can continue to learn and build even more apps at home. Make sure that if you have a Mac then bring it with Xcode installed and you must be willing to share your laptop with people who don’t have a Mac. \n",
     "tenantName": "SVCC",
     "speakers": [
       {
@@ -3186,7 +3448,8 @@
         "bio": "\tParan Sonthalia is a thirteen year old iOS developer who has two iOS apps on the iOS App Store(Spikeball Attack and Pet Noises) and is working on his third app which should be out by the end of October; he has been developing apps for two years now. He likes to program in many languages including Java, HTML, CSS, Python, Javascript, and Objective-C(his favorite). He started programming when he was six years old and has continued doing so. He has been teaching other kids how to develop iOS apps and other programming languages for over a year now and they have continued programming. ",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Paran Sonthalia"
   },
   {
     "id": 5948,
@@ -3205,7 +3468,8 @@
         "bio": "Nic is a Developer Advocate for Couchbase in the San Francisco Bay Area. He has released several native and hybrid mobile applications to iTunes and Google Play and writes about his development experiences related to making web and mobile app development easier to understand. He has experience in Unity3D, Apache Cordova, Java, NoSQL, SQL, and Node.js.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Nic Raboy"
   },
   {
     "id": 5949,
@@ -3224,7 +3488,8 @@
         "bio": "Menka Gupta is Technical Lead at Intel. She enjoys designing jewelry. She loves playing with her two boys who are growing up fast. As one of the founding members of Devoxx4Kids, she enjoys helping with teaching kids.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Menka Gupta"
   },
   {
     "id": 5950,
@@ -3243,7 +3508,8 @@
         "bio": "Robin has over 25 years of experience developing complex, business-critical applications for Fortune 100 companies. As President of Nightbird Consulting, she provided training and helped companies architect and develop scalable, efficient solutions utilizing the Azure platform. She is a 6-time Microsoft MVP, and now works for Microsoft as a Sr. Content Developer for Azure Storage.\n\nRobin regularly speaks about Azure at various .NET User Groups and Code Camps and runs the San Francisco/Silicon Valley Azure meetup. She can be found on Twitter as @RobinDotNet, and you can read her articles about Azure (and other subjects) at http://robindotnet.wordpress.com.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Robin Shahan"
   },
   {
     "id": 5952,
@@ -3271,7 +3537,8 @@
         "bio": "<p>The Office of Academic Affairs oversees all instructional aspects of the College. Under the direction of the Vice President of Academic Affairs, the office works directly with the academic divisions: Business and Workforce Development, Nursing and Allied Health, Math, Science, and Engineering, Language Arts, Library and Learning Resources, and Social Sciences, Humanities, Arts, and Physical Education (SSHAPE). In addition, Evergreen Valley College models a holistic and integrated approach to providing maximum learning experiences for its students. In striving for this goal, Academic Divisions and Student Services Divisions work closely as one team.</p>",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Lena Tran,Keith Aytch"
   },
   {
     "id": 5953,
@@ -3290,7 +3557,8 @@
         "bio": "PJ Gupta is Founder of Checkbook Inc (a startup doing Digital Checks).  Previously, he worked for VISA, where he held positions including Chief Network Architect and Director of Network Security. Believes in changing the world of payments, ecommerce infrastructure. When not changing the world of payment systems PJ is finding ways to get back into flying single planes",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "PJ Gupta"
   },
   {
     "id": 5954,
@@ -3309,7 +3577,8 @@
         "bio": "Raju Shreewastava is the founder of Big data Trunk(www.BigDataTrunk.com , a Big Data Training and consulting firm with offices in the United States.Former Big data and Business Intelligence for Autodesk (BI/DW/ODS, Big Data, and Enterprise Architecture).",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Raju Shreewastava"
   },
   {
     "id": 5955,
@@ -3328,7 +3597,8 @@
         "bio": "JavaOne Rockstar Baruch Sadogursky (a.k.a JBaruch) is the Developer Advocate of JFrog, the creators of Artifactory Binary Repository, the home of Bintray, JavaOne 2011 and 2013 Duke Choice Awards winner.\n\nFor a living he hangs out with the JFrog tech leaders, writes some code around Artifactory and Bintray, and then speaks and blogs about all that. He does it repeatedly for the last dozen of years and enjoys every moment of it.\n\nBaruch is @jbaruch on twitter and mostly blogs on http://www.jfrog.com/blog/ and http://blog.bintray.com.\nHis speaker history on Lanyrd: http://lanyrd.com/profile/jbaruch/sessions/\n",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Baruch Sadogursky"
   },
   {
     "id": 5956,
@@ -3347,7 +3617,8 @@
         "bio": "I am a senior at Monta Vista High School, taking full time classes at De Anza through the Customized Learning Program. I was drawn to the idea of computer science from a young age, so last year I applied to the Girls Who Code Summer Immersion Program. Upon acceptance, I learned several concepts including robotics, graphics and animation, and data structures and algorithms through Python, Javascript, HTML, CSS, and jQuery.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Rasika Iyer"
   },
   {
     "id": 5957,
@@ -3366,7 +3637,8 @@
         "bio": "Devin Rader spends his day’s extoling the virtues of Twilio, the simple cloud telephony platform. Before that he worked at Infragistics where he focused on delivering great user experiences to developers using their controls.  As a participant in several .NET user groups and former INETA board member, Devin is an active supporter of the .NET community. He's also the co-author of multiple books including Professional Silverlight 4 and Professional ASP.NET 4. Follow Devin on twitter @devinrader",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Devin Rader"
   },
   {
     "id": 5958,
@@ -3385,7 +3657,8 @@
         "bio": "I am the founder of CodeUCan and hope to inspire kids to explore the world of coding and computers through CodeUCan programs. I am also the founder and president of the Technology Club at my high school and am part of my school's robotics team. I know how to program in HTML, CSS, Java, Python, Swift, and JavaScript.  ",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Nikita Takru"
   },
   {
     "id": 5960,
@@ -3404,7 +3677,8 @@
         "bio": "With 25 years of experience in the computer industry as a hardware/software/systems engineer and migrating to business development, at McDonnell Douglas, Sun Microsystems and veteran of Microsoft, William’s passion and serial entrepreneurial drive have tuned his evangelist and business development abilities to start and manage new companies. \n \nHe loves taking complex problems and concepts and distilling them into a simple understandable message without the drama. With several patents and industry technology standards that he developed in multimedia his interests have driven him to disruptive technology opportunities: mp3, p2p, mobile etc… \n \nWithin the last decade his efforts brought him closer to the telecoms industry, building out businesses in virtual pbx systems, voice command and recommendation engines. He is a passionate inventor with a focus on the realities of building and scaling businesses around new technologies and markets. Before moving to Samsung, he managed BlackBerry’s EMEA Developer Relations Group. Now at Samsung Research America, based out of Mt. View, he is focused on business development and building relationships with B2B developers worldwide.\n",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "William Vablais"
   },
   {
     "id": 5961,
@@ -3423,7 +3697,8 @@
         "bio": "Mike is the CTO of Levanto Financial and an open source contributor to ember-cli, ember-data and ember.js. Previously, Mike was the UI Architect of Yahoo's Ads & Data division. He organizes the popular “Modern Web UI” meetup in Silicon Valley, where experts in all of the web framework communities meet and exchange their best ideas.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Michael North"
   },
   {
     "id": 5962,
@@ -3434,15 +3709,16 @@
     "tenantName": "SVCC",
     "speakers": [
       {
-        "id": 39659,
-        "firstName": "Balamurugan",
-        "lastName": "Thinagarajan",
-        "speakerUrl": "balamurugan-thinagarajan-39659",
-        "webSite": "http://seap.samsung.com/developer",
-        "bio": "Bala Thinagarajan earned Bachelors of Engineering with a concentration in Electronics and communication from the Anna University , India. Bala has rich experience working on various telecom technologies including  Telephony user interface, VOIP, OMA-DM, OMA-DS, FOTA, FEMTO , MDM and  Enterprise Mobile Security. He is a Subject Matter Expert in the field of Enterprise Mobility. In addition,  he is a Knox and Customization evangelist at Samsung.",
-        "allowHtml": true
+        "id": 39097,
+        "firstName": "Victor     ",
+        "lastName": "Okunev        ",
+        "speakerUrl": "victor--okunev--39097",
+        "webSite": "v.okunev@samsung.com",
+        "bio": "With a successful more-than-20-year career in software development, Victor has extensive experience building enterprise solutions with the Java-based technology stack. Victor joined the devoted family of Android developers fairly early in the game, shipping his first app for the Android Donut release. As an experienced hands-on architect and educator, Victor now combines his expertise with his passion as a Samsung Developer Evangelist. Victor connects the worldwide developers community with the world of Samsung Mobile B2B APIs. When he's not traveling around the world to meet with developers, Victor bikes 50km to work in his hometown Vancouver, rain or shine. He holds a Masters Degree in Computer Science from Moscow State Institute of Radio Engineering, Electronics and Automation.",
+        "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Victor      Okunev        "
   },
   {
     "id": 5963,
@@ -3461,7 +3737,8 @@
         "bio": "Nazmul Idris a veteran technologist, former Googler, and most recently founder and CEO of TRNQL. As a multifaceted engineer, designer, and communicator, Nazmul has focused on creating amazing user experiences across platforms. These include; cloud-connected, mobile, tablet, web, and wearable devices; experiences that rely on telemetry data from personal sensors (biometric, location, environmental, input, etc) & that can leverage a wide array of interaction devices (phones, wearable computers, projectors, etc). Nazmul has also been a frequent speaker/presenter at Google I/O, led many Google workshops at IO, as well as founding and moderating the UX Design for Developer communities on G+, and Meetup.com, and creating the UX Design class on Udacity.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Nazmul Idris"
   },
   {
     "id": 5965,
@@ -3480,7 +3757,8 @@
         "bio": "<p>Steve Corona is the Principal Architect at Bigcommerce and previously was the CTO of Twitpic. He's currently writing the <a href=\"http://amzn.to/1KyzSkp\">O'Reilly Media book on nginx</a> and wrote the <a href=\"http://scalingphpbook.com/\">go-to book on Scaling PHP</a>. He currently lives in San Francisco and blogs about <a href=\"http://stevecorona.com/\">life experimentation</a>. Steve has an unhealthy obsession for tacos and is a mediocre dancer.</p>",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Steve Corona"
   },
   {
     "id": 5966,
@@ -3499,7 +3777,8 @@
         "bio": "Erik Lindeman is a Senior Program Manager in Microsoft's Bing Maps Engineering Group. With nearly 15 years of experience in the software industry, Erik's primary role on the Bing Maps Customer Advisory Team is to evangelize how developers can use the Microsoft Bing Maps Platform to create compelling web applications and solutions. ",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Erik Lindeman"
   },
   {
     "id": 5967,
@@ -3518,7 +3797,8 @@
         "bio": "Pradeep is Senior Business Analyst at SugarCRM. By education he is an engineer in Computer Science from BITS Pilani, India. As a child Pradeep played with electric and electronics  circuits and eventually micro-processors. He is passionate contributor to enrichment programs for kids in K1-12 age group for topics including technology and personal finances.",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Pradeep Bhatter"
   },
   {
     "id": 5968,
@@ -3537,7 +3817,8 @@
         "bio": "Brings a 30 year love-hate relationship with software.\n\nEarly career was working in Defense, while the last 15 years involved web development. For the last 8 years, work has focused on startups(and one Enterprise) as freelance developer, architect, consultant helping build first or second releases, usually in Rails /JS. Worked two years at Visa helping build their first consumer web application. \n\nLast year did first startup as a technical cofounder using Elixir and AngularJS.\n\nCurrent focus is on Elixir and Elm and Lean Startup.\n\n",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Doug Goldie"
   },
   {
     "id": 5969,
@@ -3556,7 +3837,8 @@
         "bio": "<p>Rex Kerr is an independent software consultant with over 20 years of professional experience focused on medical device development in C++. He has worked for multiple medical device manufacturers and has extensive experience in medial imaging, DICOM, and FDA regulated software development. </p>\n\n<p>Rex Kerr is the owner of rk-logix, inc, providing contract work, consulting, and high quality custom solutions.</p>",
         "allowHtml": true
       }
-    ]
+    ],
+    "speakersNamesCsv": "Rex Kerr"
   },
   {
     "id": 5970,
@@ -3575,14 +3857,15 @@
         "bio": "Matt is an Engineering Director and one of the leaders Couchbase development with a deep software development background. He had previously helped scale Java, Ruby on Rails and AMP web applications for large scale web deployments. He has been a contributor to the memcached project, one of the maintainers of the Java spymemcached client and a core developer on Couchbase. He is currently heading up Couchbase's efforts in helping developers be most effective with Couchbase and continues to lead the team in getting the right bits needed for Node.js, Java, .NET and PHP developers (among others).",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "Matt Ingenthron"
   },
   {
     "id": 5971,
     "title": "Exploring Google APIs with Python and JavaScript",
     "sessionUrl": "exploring-google-apis-with-python-and-javascript",
     "descriptionShort": "Want to integrate Google technologies into web+mobile apps that you build? Google has client libraries & developer tools that help you do exactly that! If you've run into roadblocks like authentication, found our APIs confusing/challenging, join us!",
-    "description": "* BRING YOUR LAPTOPS FOR LIVE CODING! *\n<p></p>\nWant to integrate Google technologies into the web+mobile apps that you build? Google has various open source libraries & developer tools that help you do exactly that. Users who have run into roadblocks like authentication or found our APIs confusing/challenging, are welcome to come and make these non-issues moving forward.\n<p></p>\nThe first half of the talk covers the Google APIs Client Library, specifically with Python, although you could use any of the other languages supported. We'll then describe the steps necessary to create projects & enable Google APIs from the Google Developers Console. Next we discuss how to create & access the needed credentials, then write code that talks to several Google APIs.\n<p></p>\nWhile you can do the same thing using JavaScript, there is another developer tool that gives you access to Google APIs but in a slightly different way. The second half of the talk covers Google Apps Script, a self-contained JavaScript environment in the Google cloud. You'll learn what Apps Script is and how it's more like using \"services\" than traditional APIs. We'll show its dev environment and create a Google Sheets spreadsheet w/code that talks to several Google APIs.\n<p></p>\nThe applications you build, whether they use the Client Library or Apps Script, can be reached by any client, browser, desktop/laptop or mobile. Come join us & learn how to leverage the power of Google technologies in the next apps you build!",
+    "description": "Want to integrate Google technologies into the web+mobile apps that you build? Google has various open source libraries & developer tools that help you do exactly that. Users who have run into roadblocks like authentication or found our APIs confusing/challenging, are welcome to come and make these non-issues moving forward.\n\nThe first half of the talk covers the Google APIs Client Library, specifically with Python, although you could use any of the other languages supported. We'll then describe the steps necessary to create projects & enable Google APIs from the Google Developers Console. Then we discuss how to create & access the needed credentials. Code demos will show you how to use this code to talk to a variety of Google APIs.\n\nWhile you do the same thing using JavaScript, there is another developer tool that gives you access to Google APIs but in a slightly different way. The second half of the talk covers Google Apps Script, a self-contained JavaScript environment in the Google cloud. You'll learn what Apps Script is and how it's more like using \"services\" than traditional APIs. We'll show you how to use its development environment and create a Google Sheets spreadsheet that talks to several Google APIs.\n\nThe applications you build, whether they use the Client Library or Apps Script are reachable by any client, browser, desktop/laptop or mobile. Come join us and learn how to leverage the power of Google technologies in the next apps you build!!",
     "tenantName": "SVCC",
     "speakers": [
       {
@@ -3594,82 +3877,27 @@
         "bio": "+WESLEY CHUN, MSCS, is the author of Prentice Hall's bestselling \"Core Python\" series (corepython.com), the \"Python Fundamentals\" companion video lectures, coauthor of \"Python Web Development with Django\" (withdjango.com), and has also written for Linux Journal, CNET, and InformIT. In addition to being an engineer and Developer Advocate at Google, he also runs CyberWeb (cyberwebconsulting.com), a consultancy specializing in Python training & engineering. Wesley has over 25 years of programming, teaching, and writing experience, including more than a decade of Python. While at Yahoo!, he helped create Yahoo!Mail & Yahoo! People Search using Python. Wesley has taught at Google, Cisco, VMware, Avaya, Hitachi, UC Santa Barbara, UC Santa Cruz, & Foothill College. He's found frequently on the global conference circuit and holds degrees in Computer Science, Mathematics, and Music from the University of California. He can be reached on Twitter (@wescpy) and Google+ (google.com/+WesleyChun).",
         "allowHtml": false
       }
-    ]
+    ],
+    "speakersNamesCsv": "wesley chun"
   },
   {
-    "id": 5973,
-    "title": "First steps with MongoDB (Repeat)",
-    "sessionUrl": "first-steps-with-mongodb-repeat",
-    "descriptionShort": "Mongo is a fast, scalable, and extremely popular database. Come learn what it is, what it ain't, and how to use it!",
-    "description": "MongoDB is an extremely popular NoSQL database that is fast and scalable. This talk will get you familiar with this unique database and arm you with the essential skills to start using Mongo to power your software applications. We’ll talk about document oriented databases. You will see some of the core strengths (and challenges!) of using MongoDB to power your application. And, of course, some hands on demos. This session is thin on power point. We'll try cover as much ground as time permits and get your familiar with the basic concepts that differentiate this technology from its competitors. Leave your SQL thinking behind and come see how things can be very different with MongoDB.",
+    "id": 5972,
+    "title": "A Session Just To Reserve Space",
+    "sessionUrl": "a-session-just-to-reserve-space",
+    "descriptionShort": "Please don't pay any attention to this. Please don't pay any attention to this. ",
+    "description": "Please don't pay any attention to this. Please don't pay any attention to this. Please don't pay any attention to this. Please don't pay any attention to this. ",
     "tenantName": "SVCC",
     "speakers": [
       {
-        "id": 19830,
-        "firstName": "Nuri",
-        "lastName": "Halperin",
-        "speakerUrl": "nuri-halperin-19830",
-        "webSite": "http://www.plusnconsulting.com/",
-        "bio": "Nuri Halperin consults, develops software, and teaches with passion. He designs and builds systems, websites and business applications. He's been getting things done for a variety clients small and large. He authors courses for pluralsight.com. \n\nA frequent speaker at tech events, he enjoys interacting and helping people reach that \"Aha!\" moment. \n\nNuri is the inaugural recipient of MongoDB's William Zola Outstanding Contributor Award, and is a MongoDB Master.\n\nOwner of http://plusnconsulting.com\nAuthor at Pluralsight http://www.pluralsight.com/author/nuri-halperin\n",
+        "id": 39635,
+        "firstName": "place",
+        "lastName": "holder",
+        "speakerUrl": "place-holder-39635",
+        "webSite": "https://www.siliconvalley-codecamp.com",
+        "bio": "This session is just meant to talk up space while we are scheduling.  Best not to register interest in it.   This session is just meant to talk up space while we are scheduling.  Best not to register interest in it.                         ",
         "allowHtml": false
       }
-    ]
-  },
-  {
-    "id": 5974,
-    "title": "Everything you wanted to know about Git, but were afraid to ask (Repeat)",
-    "sessionUrl": "everything-you-wanted-to-know-about-git-but-were-afraid-to-ask-repeat",
-    "descriptionShort": "Go beyond `pull` and `push`.  Git has become a crucial tool in our day to day workflow. Understand how it works, and learn how to wield it properly.  \n\nAfter this session, you'll never be afraid of a merge conflict again.",
-    "description": "<p>Git (and GitHub) have become pillars in how we manage our code workflow, particularly when we work with large teams. Yet developers tend to be afraid of Git, and only handle but the most basic of operations. This presentation will reveal the magic of Git, and help you understand how and why operations are carried out. </p>\n\n<p>After this session, you'll never be afraid of a merge conflict again.</p>",
-    "tenantName": "SVCC",
-    "speakers": [
-      {
-        "id": 11661,
-        "firstName": "Lenny",
-        "lastName": "Markus",
-        "speakerUrl": "lenny-markus-11661",
-        "webSite": "http://lmarkus.github.io/",
-        "bio": "I'm a problem solver at heart. I've spent the last four years at PayPal working on a variety of interesting challenges, trying to find elegant solutions that make life easier for others, and teaching developers how to better use the tools available to them.\n\nFavorite Quote: \"Perfect is the enemy of Done\"\n ",
-        "allowHtml": true
-      }
-    ]
-  },
-  {
-    "id": 5975,
-    "title": "Deploying Applications using the Docker ecosystem (Repeat)",
-    "sessionUrl": "deploying-applications-using-the-docker-ecosystem-repeat",
-    "descriptionShort": "Find out how you can use Docker and the Docker ecosystem to test, build, and deploy your Java and JavaScript-based components of your application.",
-    "description": "Find out how you can use Docker and the Docker ecosystem (Docker Registry, Docker Compose, Google Kubernertes, etc.) to test, build, and deploy your Java and JavaScript-based applications. We'll dive deep into Docker, looking at how to optimize your Docker images, as well as how to effectively use linking between containers to make deployments easier. We'll look at tools to help with building, deploying, managing, and monitoring your containers.\n",
-    "tenantName": "SVCC",
-    "speakers": [
-      {
-        "id": 1211,
-        "firstName": "Ted",
-        "lastName": "Young",
-        "speakerUrl": "ted-young-1211",
-        "webSite": "about.me/tedmyoung",
-        "bio": "Coding Architect and Agilist at Guidewire Software (Foster City, CA). Formerly a Java trainer (back in the late 90's) and now running Lean Startup Experiments in distributed architectures, covering RESTful/Hypermedia APIs and scalable systems.",
-        "allowHtml": false
-      }
-    ]
-  },
-  {
-    "id": 5976,
-    "title": "Couchbase – Develop with Agility and Less Compromises (Repeat)",
-    "sessionUrl": "couchbase---develop-with-agility-and-less-compromises-repeat",
-    "descriptionShort": "Using a (NoSQL) document oriented database shouldn't require you to compromise your data model for flexibility of data access.  To learn where document databases are going, join this session.",
-    "description": "Free yourself of compromise! Until recently the world of Document Databases and for that matter the world of NoSQL is often talked about as a great platform for flexibility and scaling, but with compromises in data access.  Couchbase Server is a multi model, general purpose database that can be used as a managed cache tier, a key-value store, and a document database based on JSON. It is designed for interactive, online applications with low latency, scale and built-in high-availability.\n\nIn this talk, Matt will tour some of the capabilities of the upcoming Couchbase Server 4.0.  In the new release, Couchbase is introducing a new query language named N1QL, which extends SQL to JSON document querying.  Java, Node.js and .NET developers (among others) can use all of this power as they build applications with RxJava, the Couchbase Ottoman ODM or just in .NET with LINQ.  \n\nCome to this session ready to read code and watch demos that will give you a sense of where Couchbase fits in with the modern applications you are building.",
-    "tenantName": "SVCC",
-    "speakers": [
-      {
-        "id": 3211,
-        "firstName": "Matt",
-        "lastName": "Ingenthron",
-        "speakerUrl": "matt-ingenthron-3211",
-        "webSite": "http://labs.northscale.com",
-        "bio": "Matt is an Engineering Director and one of the leaders Couchbase development with a deep software development background. He had previously helped scale Java, Ruby on Rails and AMP web applications for large scale web deployments. He has been a contributor to the memcached project, one of the maintainers of the Java spymemcached client and a core developer on Couchbase. He is currently heading up Couchbase's efforts in helping developers be most effective with Couchbase and continues to lead the team in getting the right bits needed for Node.js, Java, .NET and PHP developers (among others).",
-        "allowHtml": false
-      }
-    ]
+    ],
+    "speakersNamesCsv": "place holder"
   }
 ]

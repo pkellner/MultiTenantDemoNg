@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6ffab562-682b-43b4-87bc-6c00c37c30ea" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/index.js" afterPath="$PROJECT_DIR$/base/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svcc/mock/index.js" afterPath="$PROJECT_DIR$/svcc/mock/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svcc/src/session/controller.js" afterPath="$PROJECT_DIR$/svcc/src/session/controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svcc/mock/data/sessions.json" afterPath="$PROJECT_DIR$/svcc/mock/data/sessions.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svcc/src/session/session.html" afterPath="$PROJECT_DIR$/svcc/src/session/session.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svcc/src/session/states.js" afterPath="$PROJECT_DIR$/svcc/src/session/states.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svcc/src/speaker/speaker.html" afterPath="$PROJECT_DIR$/svcc/src/speaker/speaker.html" />
     </list>
     <ignored path="ng.iws" />
@@ -52,8 +49,8 @@
       <file leaf-file-name="sessions.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/svcc/mock/data/sessions.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state vertical-scroll-proportion="-10.5">
+              <caret line="3232" column="4" selection-start-line="3231" selection-start-column="5" selection-end-line="3231" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -64,16 +61,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/svcc/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -99,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="states.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="states.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/svcc/src/session/states.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18726592">
+            <state vertical-scroll-proportion="0.0">
               <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding />
             </state>
@@ -119,14 +106,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="session.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="session.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/svcc/src/session/session.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.875">
-              <caret line="62" column="62" selection-start-line="62" selection-start-column="62" selection-end-line="62" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.5212355">
+              <caret line="66" column="81" selection-start-line="66" selection-start-column="81" selection-end-line="66" selection-end-column="81" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="speaker.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svcc/src/speaker/speaker.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.875">
+              <caret line="54" column="100" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="100" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -142,7 +139,6 @@
         <option value="$PROJECT_DIR$/gulpfile.VERYOLD.js" />
         <option value="$PROJECT_DIR$/angu/src/author/states.js" />
         <option value="$PROJECT_DIR$/svcc/mock/data/speakers.json" />
-        <option value="$PROJECT_DIR$/svcc/mock/data/sessions.json" />
         <option value="$PROJECT_DIR$/angu/mock/data/speakers.json" />
         <option value="$PROJECT_DIR$/angu/mock/data/sessions.json" />
         <option value="$PROJECT_DIR$/base/speaker/index.js" />
@@ -183,13 +179,14 @@
         <option value="$PROJECT_DIR$/angu/src/speaker/speaker.html" />
         <option value="$PROJECT_DIR$/svcc/Content/fonts/HandelGothic/specimen_files/easytabs.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/svcc/src/speaker/speaker.html" />
         <option value="$PROJECT_DIR$/base/index.js" />
         <option value="$PROJECT_DIR$/svcc/src/session/controller.js" />
         <option value="$PROJECT_DIR$/svcc/mock/index.js" />
-        <option value="$PROJECT_DIR$/svcc/src/session/session.html" />
         <option value="$PROJECT_DIR$/base/session/index.js" />
         <option value="$PROJECT_DIR$/svcc/src/session/states.js" />
+        <option value="$PROJECT_DIR$/svcc/src/speaker/speaker.html" />
+        <option value="$PROJECT_DIR$/svcc/mock/data/sessions.json" />
+        <option value="$PROJECT_DIR$/svcc/src/session/session.html" />
       </list>
     </option>
   </component>
@@ -572,7 +569,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="321" y="23" width="1437" height="1166" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2259887" sideWeight="0.22316043" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2259887" sideWeight="0.77683955" order="0" side_tool="false" content_ui="combo" />
@@ -581,7 +578,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21047619" sideWeight="0.49798995" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21047619" sideWeight="0.49798995" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -855,13 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/svcc/src/speaker/speaker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.5">
-          <caret line="65" column="46" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/svcc/src/speaker/states.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -917,29 +907,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/svcc/mock/data/sessions.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/svcc/mock/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svcc/src/session/session.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.875">
-          <caret line="62" column="62" selection-start-line="62" selection-start-column="62" selection-end-line="62" selection-end-column="62" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -977,9 +949,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/svcc/src/session/states.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18726592">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/src/speaker/speaker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.875">
+          <caret line="54" column="100" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/mock/data/sessions.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.5">
+          <caret line="3232" column="4" selection-start-line="3231" selection-start-column="5" selection-end-line="3231" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/src/session/session.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5212355">
+          <caret line="66" column="81" selection-start-line="66" selection-start-column="81" selection-end-line="66" selection-end-column="81" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

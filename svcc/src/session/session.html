@@ -9,7 +9,6 @@
                 </a>
             </div>
             <div class="dateWrap">
-
                 OCTOBER 3RD & 4TH 2015
             </div>
             <div class="venueWrap">
@@ -50,7 +49,7 @@
 
 
 
-
+<!--cnt: {{session.sessions.length}}-->
 
                 <h1 class="title">Sessions</h1>
 
@@ -58,24 +57,24 @@
                     <tbody>
 
 
-                    <tr id="session_3693" class="ProfessionalSession">
+                    <tr id="session_3693" class="ProfessionalSession"  ng-repeat="session in session.sessions">
                         <td class="name">
                             <div id="AllowCheckAttend" style="display:none">False</div>
 
                             <div data-id="3693">
 
                                 <div class="currentSession">
-                                    <h3 id="sessionTitle_3693" title=" 10 Steps to Startup Funding"> 10 Steps to Startup Funding</h3>
+                                    <h3 id="sessionTitle_3693" >{{session.title}}</h3>
                                     <i>by</i>
 
-                                    <a href="/presenter/2015/steven-hoffman-6765" class="author"
-                                       speakerid="6765">Steven Hoffman</a>
-                                    <span>Interest(235)</span>
+                                    <a href="#" class="author"
+                                       speakerid="6765">{{session.speakersNamesCsv}}</a>
+
 
                                     <div>
-                                        <span>10:45 AM Sunday &nbsp;&nbsp;</span>
+                                        <!--<span>10:45 AM Sunday &nbsp;&nbsp;</span>-->
 
-                                        <span>Room: AC-162</span>
+                                        <!--<span>Room: AC-162</span>-->
                                     </div>
                                 </div>
 
