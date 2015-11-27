@@ -6,7 +6,15 @@ var exports = module.exports = function ($stateProvider) {
         //url: '/',
         templateUrl: '/templates/session/session.html',
         controller: 'SessionController',
-        controllerAs: 'session'
+        controllerAs: 'session',
+        resolve: {
+            sessions: getSessions
+        }
     });
 };
 exports.$inject = ['$stateProvider'];
+
+function getSessions (Session) {
+    return Session.fetchAll();
+}
+getSessions.$inject = ['Session'];

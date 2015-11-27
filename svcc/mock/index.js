@@ -16,6 +16,12 @@ function provideMocks($httpBackend){
         return [200, speakers, {}];
     });
 
+    $httpBackend.whenGET('/rest/session').respond(function(method,url,data) {
+        console.log("Getting sessions  ../svcc/mock/index.js");
+        var sessions = require('../mock/data/sessions.json');
+        return [200, sessions, {}];
+    });
+
     // Pass any requests for the files
     $httpBackend.whenGET(/templates/).passThrough();
 }
