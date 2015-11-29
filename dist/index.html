@@ -36,5 +36,26 @@
     <div ui-view></div>
 </div>
 
+
+<script type="text/javascript">
+    (function () {
+        'use strict';
+
+        // setting constants in this fashion so that the server can dynamically create this (index.html)
+        // with appropriate constants filled in.  usingMockDataGlobal ust be a global since angular has not
+        // been initialized when this needs to be set.
+
+        // SPECIAL: use "viewthesource" special code and get a 10 percent discount on tickets while they last!
+        //          (only a total of 10 tickets available with this code so grab one now)
+
+        var configData = {
+            isAdmin: 'False',
+            showSpeakers: 'True'
+        };
+        angular.module('MTApp').constant('configData', configData);
+    })();
+</script>
+
+
 </body>
 </html>

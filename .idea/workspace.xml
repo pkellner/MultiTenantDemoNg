@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ffab562-682b-43b4-87bc-6c00c37c30ea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angu/src/author/controller.js" afterPath="$PROJECT_DIR$/angu/src/author/controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angu/src/home/controller.js" afterPath="$PROJECT_DIR$/angu/src/home/controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angu/src/speaker/controller.js" afterPath="$PROJECT_DIR$/angu/src/speaker/controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/session/index.js" afterPath="$PROJECT_DIR$/base/session/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/speaker/index.js" afterPath="$PROJECT_DIR$/base/speaker/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svcc/mock/index.js" afterPath="$PROJECT_DIR$/svcc/mock/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svcc/index.html" afterPath="$PROJECT_DIR$/svcc/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svcc/src/home/controller.js" afterPath="$PROJECT_DIR$/svcc/src/home/controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svcc/src/session/controller.js" afterPath="$PROJECT_DIR$/svcc/src/session/controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svcc/src/session/session.html" afterPath="$PROJECT_DIR$/svcc/src/session/session.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svcc/src/speaker/controller.js" afterPath="$PROJECT_DIR$/svcc/src/speaker/controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svcc/src/speaker/speaker.html" afterPath="$PROJECT_DIR$/svcc/src/speaker/speaker.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svcc/src/home/home.html" afterPath="$PROJECT_DIR$/svcc/src/home/home.html" />
     </list>
     <ignored path="ng.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,16 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/svcc/src/session/controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="46" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/speaker/index.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,60 +57,70 @@
         </entry>
       </file>
       <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angu/src/speaker/controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="46" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angu/src/author/controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/svcc/src/home/controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state vertical-scroll-proportion="-8.333333">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angu/src/home/controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="speaker.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="speaker.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/svcc/src/speaker/speaker.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38680926">
+            <state vertical-scroll-proportion="-4.254902">
               <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/svcc/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6938776">
+              <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/session/index.js">
+        <entry file="file://$PROJECT_DIR$/svcc/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="71" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="71" />
+              <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svcc/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svcc/src/home/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.8431373">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="states.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svcc/src/home/states.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -142,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gulpfile.VERYOLD.js" />
         <option value="$PROJECT_DIR$/angu/src/author/states.js" />
         <option value="$PROJECT_DIR$/svcc/mock/data/speakers.json" />
         <option value="$PROJECT_DIR$/angu/mock/data/speakers.json" />
@@ -172,7 +163,6 @@
         <option value="$PROJECT_DIR$/dist/templates/session/session.html" />
         <option value="$PROJECT_DIR$/svcc/src/session/detail.html" />
         <option value="$PROJECT_DIR$/dist/templates/home/home.html" />
-        <option value="$PROJECT_DIR$/svcc/src/home/home.html" />
         <option value="$PROJECT_DIR$/angu/src/home/states.js" />
         <option value="$PROJECT_DIR$/svcc/src/index.js" />
         <option value="$PROJECT_DIR$/svcc/src/speaker/states.js" />
@@ -187,12 +177,14 @@
         <option value="$PROJECT_DIR$/angu/src/speaker/controller.js" />
         <option value="$PROJECT_DIR$/angu/src/home/controller.js" />
         <option value="$PROJECT_DIR$/angu/src/author/controller.js" />
-        <option value="$PROJECT_DIR$/svcc/src/home/controller.js" />
         <option value="$PROJECT_DIR$/svcc/src/session/controller.js" />
         <option value="$PROJECT_DIR$/base/speaker/index.js" />
         <option value="$PROJECT_DIR$/svcc/src/speaker/controller.js" />
         <option value="$PROJECT_DIR$/svcc/mock/index.js" />
         <option value="$PROJECT_DIR$/svcc/src/speaker/speaker.html" />
+        <option value="$PROJECT_DIR$/svcc/src/home/home.html" />
+        <option value="$PROJECT_DIR$/svcc/src/home/controller.js" />
+        <option value="$PROJECT_DIR$/svcc/index.html" />
       </list>
     </option>
   </component>
@@ -757,20 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/svcc/src/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svcc/src/home/states.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angu/src/home/states.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -877,30 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/svcc/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svcc/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svcc/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -949,14 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/svcc/src/home/controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base/session/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -991,8 +937,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/svcc/src/speaker/speaker.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38680926">
+        <state vertical-scroll-proportion="-4.254902">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/src/home/states.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/src/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8431373">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/src/home/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.333333">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svcc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6938776">
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
           <folding />
         </state>
       </provider>
