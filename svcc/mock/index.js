@@ -8,16 +8,23 @@ var app = require('angular').module('MTApp');
 app.requires.push('ngMockE2E');
 app.run(provideMocks);
 
-function provideMocks($httpBackend){
+function provideMocks($httpBackend,$sce){
 
     $httpBackend.whenGET('/rest/speaker').respond(function(method,url,data) {
-        console.log("Getting speakers");
+        console.log("Getting speakers  ../svcc/mock/index.js " + Date.now());
         var speakers = require('../mock/data/speakers.json');
+
+        speakers.map(function(speaker){
+            speaker.bio = $sce.trustAsHtml(speaker.bio);
+            speaker.speakerImageUrl = "https://www.siliconvalley-codecamp.com/attendeeimage/" +
+                speaker.id + ".jpg";
+        });
+
         return [200, speakers, {}];
     });
 
     $httpBackend.whenGET('/rest/session').respond(function(method,url,data) {
-        console.log("Getting sessions  ../svcc/mock/index.js");
+        console.log("Getting sessions  ../svcc/mock/index.js " + Date.now());
         var sessions = require('../mock/data/sessions.json');
         return [200, sessions, {}];
     });
@@ -26,7 +33,7 @@ function provideMocks($httpBackend){
     $httpBackend.whenGET(/templates/).passThrough();
 }
 
-provideMocks.$inject = ['$httpBackend'];
+provideMocks.$inject = ['$httpBackend','$sce'];
 
 
 

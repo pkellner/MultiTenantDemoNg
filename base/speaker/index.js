@@ -1,10 +1,6 @@
 function SpeakerService($http, $q) {
     this.fetchAll = function () {
-        var defer = $q.defer(); $http.get('/rest/speaker').success(function (speakers) {
-            speakers.map(function(speaker){
-                speaker.speakerImageUrl = "https://www.siliconvalley-codecamp.com/attendeeimage/" +
-                    speaker.id + ".jpg";
-            });
+        var defer = $q.defer(); $http.get('/rest/speaker',{cache: true}).success(function (speakers) {
             defer.resolve(speakers);
         })
        .error(function (speakers) {

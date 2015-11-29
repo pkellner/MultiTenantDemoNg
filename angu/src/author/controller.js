@@ -1,5 +1,5 @@
 function AuthorController($scope) {
-    console.log('authorcontroller');
+
     this.pluralsightAuthors = [
         {
             "speakerId": 14842,

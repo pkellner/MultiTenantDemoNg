@@ -1,6 +1,6 @@
 function SessionService($http, $q) {
     this.fetchAll = function () {
-        var defer = $q.defer(); $http.get('/rest/session').success(function (sessions) {
+        var defer = $q.defer(); $http.get('/rest/session',{cache: true}).success(function (sessions) {
             sessions.map(function(session){
                 //session.speakerImageUrl = "https://www.siliconvalley-codecamp.com/attendeeimage/" +
                 //    speaker.id + ".jpg";

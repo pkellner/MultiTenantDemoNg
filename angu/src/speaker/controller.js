@@ -1,5 +1,4 @@
 function SpeakerController ($scope,speakers) {
-   console.log('speakercontroller');
    this.speakers = speakers;
 }
 
